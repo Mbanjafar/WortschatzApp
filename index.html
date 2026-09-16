@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0a8891">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Wortschatz">
+  <title>Wortschatz | German Vocabulary</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-view="home">
+  <header id="hud" class="hud">
+    <div class="hud-inner">
+      <button id="openSettings" class="icon-btn" type="button" aria-label="Settings" title="Settings">Set</button>
+      <button id="hudStreak" class="hud-stat" type="button" aria-label="Day streak">
+        <span aria-hidden="true">Streak</span><strong id="streakCount">0</strong>
+      </button>
+      <button id="hudGoal" class="hud-stat goal" type="button" aria-label="Daily goal">
+        <span aria-hidden="true">Goal</span><strong id="goalText">0/30</strong>
+      </button>
+      <div class="hud-stat" aria-label="Learned words">
+        <span aria-hidden="true">Words</span><strong id="learnedCount">0/20</strong>
+      </div>
+    </div>
+  </header>
+
+  <main id="home" class="screen home-screen">
+    <nav id="lessonTabs" class="lesson-tabs" aria-label="Vocabulary sets"></nav>
+
+    <section class="lesson-hero" aria-labelledby="heroTitle">
+      <img id="heroImage" src="assets/lektion-1-memories.png" alt="Abstract vocabulary learning illustration">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p id="heroEyebrow" class="eyebrow">Wortschatz · Set 01</p>
+        <h1 id="heroTitle" lang="de" dir="ltr">Das weiß ich noch genau!</h1>
+        <p id="heroSubtitle">German vocabulary from your daily glossary</p>
+      </div>
+      <div id="heroProgress" class="hero-progress">0 of 4 sections</div>
+    </section>
+
+    <section class="path-head">
+      <div>
+        <p id="pathEyebrow" class="eyebrow">Set 1</p>
+        <h2 id="pathTitle">Learn, review, listen, and type the words from your glossary.</h2>
+      </div>
+      <button id="openCriteria" class="text-btn" type="button">Source notes</button>
+    </section>
+    <div id="learningPath" class="learning-path" role="list"></div>
+  </main>
+
+  <section id="session" class="screen session" hidden>
+    <div class="session-top">
+      <button id="quitSession" class="icon-btn quit" type="button" aria-label="Quit">×</button>
+      <div class="progress-wrap">
+        <div class="progress-track" role="progressbar" aria-label="Exercise progress"><span id="progressFill"></span></div>
+        <div id="progressText" class="progress-text">0 / 22</div>
+      </div>
+      <div id="mistakeBadge" class="mistake-badge" title="Mistakes">0</div>
+    </div>
+    <div class="session-body">
+      <div id="stage" class="stage" aria-live="polite"></div>
+    </div>
+    <div id="feedback" class="feedback" hidden aria-live="assertive"></div>
+    <footer class="session-foot">
+      <button id="primaryBtn" class="primary-btn" type="button">Check</button>
+    </footer>
+  </section>
+
+  <main id="bank" class="screen bank-screen" hidden>
+    <section class="bank-head">
+      <p id="bankEyebrow" class="eyebrow">Lektion 01</p>
+      <h1 id="bankTitle">Words in set 1</h1>
+      <p id="bankMeta" class="muted"></p>
+      <label class="search-wrap">
+        <span aria-hidden="true">⌕</span>
+        <input id="searchInput" type="search" placeholder="Search German or English" aria-label="Search words">
+      </label>
+      <div id="bankFilters" class="filter-row"></div>
+    </section>
+    <div id="wordList" class="word-list"></div>
+  </main>
+
+  <nav id="bottomNav" class="bottom-nav" aria-label="Main navigation">
+    <button class="nav-btn active" data-nav="home" type="button"><span>Learn</span></button>
+    <button class="nav-btn" data-nav="practice" type="button"><span>Review</span></button>
+    <button class="nav-btn" data-nav="bank" type="button"><span>Words</span></button>
+    <button class="nav-btn" data-nav="settings" type="button"><span>Settings</span></button>
+  </nav>
+
+  <div id="settingsModal" class="modal" hidden>
+    <div class="modal-scrim" data-close-modal></div>
+    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+      <header class="modal-head">
+        <h2 id="settingsTitle">Settings</h2>
+        <button class="icon-btn" type="button" data-close-modal aria-label="Close">×</button>
+      </header>
+      <div id="profileStats" class="stat-grid"></div>
+      <div class="setting-group">
+        <h3>Daily goal</h3>
+        <div id="goalOptions" class="pill-row"></div>
+      </div>
+      <div class="setting-group">
+        <h3>Sound</h3>
+        <label class="switch-row"><span>Auto-play new words</span><input id="autoSpeak" type="checkbox" checked></label>
+        <label class="field-row"><span>Pronunciation speed</span><select id="speechRate"><option value="0.72">Slow</option><option value="0.86" selected>Normal</option><option value="1">Fast</option></select></label>
+      </div>
+      <button id="resetProgress" class="danger-btn" type="button">Reset progress</button>
+      <p id="appCredit" class="app-credit">Wortschatz · English/German vocabulary trainer</p>
+    </section>
+  </div>
+
+  <div id="criteriaModal" class="modal" hidden>
+    <div class="modal-scrim" data-close-criteria></div>
+    <section class="modal-panel criteria-panel" role="dialog" aria-modal="true" aria-labelledby="criteriaTitle">
+      <header class="modal-head">
+        <h2 id="criteriaTitle">Source notes</h2>
+        <button class="icon-btn" type="button" data-close-criteria aria-label="Close">×</button>
+      </header>
+      <ol class="criteria-list">
+        <li><strong>Source:</strong> Every generated item comes from <span lang="de">Wortschatz.md</span>.</li>
+        <li><strong>Order:</strong> Sets preserve the same order as the Markdown glossary.</li>
+        <li><strong>Practice:</strong> The app uses translation, grammar notes, examples, cloze, listening, and typed recall.</li>
+        <li><strong>Refresh:</strong> Later sections include older words for spaced review.</li>
+      </ol>
+      <p id="criteriaNote" class="criteria-note">Source: Wortschatz.md.</p>
+    </section>
+  </div>
+
+  <canvas id="confetti" class="confetti" aria-hidden="true"></canvas>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(() => {}));
+    }
+  </script>
+</body>
+</html>
