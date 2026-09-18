@@ -9,6 +9,10 @@
   const STATE_KEY = "wortschatz-en-de-v2";
   const BASE_EXERCISES = 30;
   const REVIEW_EXERCISES = 5;
+  const INITIAL_COMPLETED = {
+    "1:l1-g1": { sessions: 1, best: 100, last: 1789714800000 },
+    "1:l1-g2": { sessions: 1, best: 100, last: 1789714800000 }
+  };
   const intervals = [0, 10 * 60e3, 24 * 60 * 60e3, 3 * 24 * 60 * 60e3, 7 * 24 * 60 * 60e3, 14 * 24 * 60 * 60e3];
 
   const $ = (selector) => document.querySelector(selector);
@@ -69,7 +73,7 @@
     goal: 30,
     daily: { date: todayKey(), xp: 0 },
     streak: { count: 0, last: "" },
-    completed: {},
+    completed: structuredClone(INITIAL_COMPLETED),
     words: {},
     currentLesson: 1,
     speech: { auto: true, rate: 0.86 }
@@ -102,7 +106,7 @@
     try {
       const saved = JSON.parse(localStorage.getItem(STATE_KEY) || "null");
       if (!saved || saved.version !== 1) return structuredClone(defaultState);
-      const completed = { ...(saved.completed || {}) };
+      const completed = { ...(saved.completed || {}), ...structuredClone(INITIAL_COMPLETED) };
       [...lessons[0].groups.map((group) => group.id), "grammar"].forEach((nodeId) => {
         if (completed[nodeId] && !completed[`1:${nodeId}`]) completed[`1:${nodeId}`] = completed[nodeId];
         delete completed[nodeId];
