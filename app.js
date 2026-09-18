@@ -54,6 +54,8 @@
     goalOptions: $("#goalOptions"),
     autoSpeak: $("#autoSpeak"),
     speechRate: $("#speechRate"),
+    shareProgress: $("#shareProgress"),
+    syncStatus: $("#syncStatus"),
     resetProgress: $("#resetProgress"),
     appCredit: $("#appCredit"),
     criteriaTitle: $("#criteriaTitle"),
@@ -74,6 +76,7 @@
   };
 
   let state = loadState();
+  importSharedProgress();
   let currentLessonId = lessons.some((entry) => entry.id === state.currentLesson) ? state.currentLesson : 1;
   setLessonData(currentLessonId);
   let currentView = "home";
@@ -119,6 +122,77 @@
 
   function saveState() {
     localStorage.setItem(STATE_KEY, JSON.stringify(state));
+  }
+
+  function encodeProgress(value) {
+    const bytes = new TextEncoder().encode(JSON.stringify(value));
+    let binary = "";
+    bytes.forEach((byte) => { binary += String.fromCharCode(byte); });
+    return btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  }
+
+  function decodeProgress(value) {
+    const padded = value.replace(/-/g, "+").replace(/_/g, "/").padEnd(Math.ceil(value.length / 4) * 4, "=");
+    const binary = atob(padded);
+    const bytes = Uint8Array.from(binary, (char) => char.charCodeAt(0));
+    return JSON.parse(new TextDecoder().decode(bytes));
+  }
+
+  function mergeProgress(incoming) {
+    if (!incoming || incoming.version !== 1) throw new Error("Unsupported progress data");
+    const completed = { ...state.completed };
+    Object.entries(incoming.completed || {}).forEach(([key, value]) => {
+      const local = completed[key] || { sessions: 0, best: 0, last: 0 };
+      completed[key] = {
+        sessions: Math.max(local.sessions || 0, value.sessions || 0),
+        best: Math.max(local.best || 0, value.best || 0),
+        last: Math.max(local.last || 0, value.last || 0)
+      };
+    });
+    const words = { ...state.words };
+    Object.entries(incoming.words || {}).forEach(([key, value]) => {
+      const local = words[key] || {};
+      words[key] = {
+        seen: Math.max(local.seen || 0, value.seen || 0),
+        correct: Math.max(local.correct || 0, value.correct || 0),
+        wrong: Math.max(local.wrong || 0, value.wrong || 0),
+        mastery: Math.max(local.mastery || 0, value.mastery || 0),
+        due: Math.max(local.due || 0, value.due || 0)
+      };
+    });
+    state = {
+      ...state,
+      xp: Math.max(state.xp || 0, incoming.xp || 0),
+      currentLesson: Math.max(state.currentLesson || 1, incoming.currentLesson || 1),
+      completed,
+      words
+    };
+    if (incoming.streak && (incoming.streak.last || "") > (state.streak.last || "")) state.streak = incoming.streak;
+    if (incoming.daily?.date === state.daily.date) state.daily.xp = Math.max(state.daily.xp || 0, incoming.daily.xp || 0);
+    saveState();
+  }
+
+  function importSharedProgress() {
+    const match = window.location.hash.match(/^#progress=(.+)$/);
+    if (!match) return;
+    try {
+      mergeProgress(decodeProgress(match[1]));
+      sessionStorage.setItem("wortschatz-imported", "1");
+    } catch (_) {
+      sessionStorage.setItem("wortschatz-imported", "error");
+    }
+    history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
+  }
+
+  async function shareProgress() {
+    const url = `${window.location.origin}${window.location.pathname}#progress=${encodeProgress(state)}`;
+    try {
+      if (navigator.share) await navigator.share({ title: "Wortschatz progress", text: "Open this link on my other device to continue.", url });
+      else await navigator.clipboard.writeText(url);
+      els.syncStatus.textContent = navigator.share ? "Progress link shared." : "Progress link copied.";
+    } catch (error) {
+      if (error?.name !== "AbortError") els.syncStatus.textContent = "Could not share the link on this device.";
+    }
   }
 
   function ensureToday() {
@@ -760,6 +834,9 @@
     els.goalOptions.querySelectorAll("[data-goal]").forEach((button) => button.addEventListener("click", () => { state.goal = Number(button.dataset.goal); saveState(); renderSettings(); updateHud(); }));
     els.autoSpeak.checked = state.speech.auto;
     els.speechRate.value = String(state.speech.rate);
+    const imported = sessionStorage.getItem("wortschatz-imported");
+    if (imported === "1") els.syncStatus.textContent = "Progress imported on this device.";
+    if (imported === "error") els.syncStatus.textContent = "That progress link could not be read.";
     void mastered;
   }
 
@@ -816,6 +893,7 @@
   els.searchInput.addEventListener("input", renderBank);
   els.autoSpeak.addEventListener("change", () => { state.speech.auto = els.autoSpeak.checked; saveState(); });
   els.speechRate.addEventListener("change", () => { state.speech.rate = Number(els.speechRate.value); saveState(); });
+  els.shareProgress.addEventListener("click", shareProgress);
   els.resetProgress.addEventListener("click", () => {
     if (!window.confirm("Reset all progress for this app?")) return;
     const speech = { ...state.speech };

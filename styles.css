@@ -1088,6 +1088,18 @@ button:focus-visible, input:focus-visible, select:focus-visible {
 }
 .setting-group { padding: 16px 0; border-top: 1px solid var(--line-strong); }
 .setting-group h3 { margin: 0 0 12px; font-size: 1rem; font-weight: 900; }
+.setting-note { margin: 0 0 12px; color: var(--muted); font-size: 0.85rem; line-height: 1.5; }
+.secondary-btn {
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid var(--ink);
+  border-radius: var(--r-lg);
+  background: var(--white);
+  color: var(--ink);
+  font-weight: 900;
+  cursor: pointer;
+}
+.secondary-btn:hover { background: var(--ink); color: var(--white); }
 .switch-row, .field-row {
   min-height: 52px;
   display: flex;

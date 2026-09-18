@@ -10,7 +10,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "ausgeben",
@@ -714,7 +714,514 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l1-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 2 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "How to read the structures",
+          "body": "The following labels are used throughout the file:",
+          "example": "Ich will nicht ausziehen.",
+          "emphasis": [
+            "nicht"
+          ]
+        },
+        {
+          "title": "Main clauses: verb in position 2",
+          "body": "In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "example": "Ich kündige hiermit den Mietvertrag.",
+          "emphasis": [
+            "kündige"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "Ich will ____ ausziehen.",
+          "options": [
+            "nicht",
+            "habe",
+            "Entscheidung",
+            "lege"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Am 25.9. ____ ich die Kündigung erhalten.",
+          "options": [
+            "habe",
+            "Entscheidung",
+            "lege",
+            "kündige"
+          ],
+          "answer": "habe",
+          "answers": [
+            "habe"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ muss noch einmal geprüft werden.",
+          "options": [
+            "Entscheidung",
+            "lege",
+            "kündige",
+            "Hiermit"
+          ],
+          "answer": "Entscheidung",
+          "answers": [
+            "Entscheidung"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ gegen die Kündigung Widerspruch ein.",
+          "options": [
+            "lege",
+            "kündige",
+            "Hiermit",
+            "September"
+          ],
+          "answer": "lege",
+          "answers": [
+            "lege"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ hiermit den Mietvertrag.",
+          "options": [
+            "kündige",
+            "Hiermit",
+            "September",
+            "nicht"
+          ],
+          "answer": "kündige",
+          "answers": [
+            "kündige"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ kündige ich den Mietvertrag.",
+          "options": [
+            "Hiermit",
+            "September",
+            "nicht",
+            "habe"
+          ],
+          "answer": "Hiermit",
+          "answers": [
+            "Hiermit"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Am 25. ____ habe ich die Kündigung erhalten.",
+          "options": [
+            "September",
+            "nicht",
+            "habe",
+            "Entscheidung"
+          ],
+          "answer": "September",
+          "answers": [
+            "September"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich | ____ | den Vertrag.",
+          "options": [
+            "kündige",
+            "habe",
+            "Entscheidung",
+            "lege"
+          ],
+          "answer": "kündige",
+          "answers": [
+            "kündige"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich will ____ ausziehen.",
+          "options": [
+            "nicht",
+            "lege",
+            "kündige",
+            "Hiermit"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Am 25.9. ____ ich die Kündigung erhalten.",
+          "options": [
+            "habe",
+            "kündige",
+            "Hiermit",
+            "September"
+          ],
+          "answer": "habe",
+          "answers": [
+            "habe"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ muss noch einmal geprüft werden.",
+          "options": [
+            "Entscheidung",
+            "Hiermit",
+            "September",
+            "nicht"
+          ],
+          "answer": "Entscheidung",
+          "answers": [
+            "Entscheidung"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ gegen die Kündigung Widerspruch ein.",
+          "options": [
+            "lege",
+            "September",
+            "nicht",
+            "habe"
+          ],
+          "answer": "lege",
+          "answers": [
+            "lege"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ hiermit den Mietvertrag.",
+          "options": [
+            "kündige",
+            "nicht",
+            "habe",
+            "Entscheidung"
+          ],
+          "answer": "kündige",
+          "answers": [
+            "kündige"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ kündige ich den Mietvertrag.",
+          "options": [
+            "Hiermit",
+            "habe",
+            "Entscheidung",
+            "lege"
+          ],
+          "answer": "Hiermit",
+          "answers": [
+            "Hiermit"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Am 25. ____ habe ich die Kündigung erhalten.",
+          "options": [
+            "September",
+            "Entscheidung",
+            "lege",
+            "kündige"
+          ],
+          "answer": "September",
+          "answers": [
+            "September"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich | ____ | den Vertrag.",
+          "options": [
+            "kündige",
+            "lege",
+            "Hiermit",
+            "September"
+          ],
+          "answer": "kündige",
+          "answers": [
+            "kündige"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich will ____ ausziehen.",
+          "options": [
+            "nicht",
+            "Hiermit",
+            "September",
+            "habe"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Am 25.9. ____ ich die Kündigung erhalten.",
+          "options": [
+            "habe",
+            "September",
+            "nicht",
+            "Entscheidung"
+          ],
+          "answer": "habe",
+          "answers": [
+            "habe"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ muss noch einmal geprüft werden.",
+          "options": [
+            "Entscheidung",
+            "nicht",
+            "habe",
+            "lege"
+          ],
+          "answer": "Entscheidung",
+          "answers": [
+            "Entscheidung"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ gegen die Kündigung Widerspruch ein.",
+          "options": [
+            "lege",
+            "habe",
+            "Entscheidung",
+            "kündige"
+          ],
+          "answer": "lege",
+          "answers": [
+            "lege"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ hiermit den Mietvertrag.",
+          "options": [
+            "kündige",
+            "Entscheidung",
+            "lege",
+            "Hiermit"
+          ],
+          "answer": "kündige",
+          "answers": [
+            "kündige"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ kündige ich den Mietvertrag.",
+          "options": [
+            "Hiermit",
+            "lege",
+            "kündige",
+            "September"
+          ],
+          "answer": "Hiermit",
+          "answers": [
+            "Hiermit"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Am 25. ____ habe ich die Kündigung erhalten.",
+          "options": [
+            "September",
+            "kündige",
+            "Hiermit",
+            "nicht"
+          ],
+          "answer": "September",
+          "answers": [
+            "September"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich | ____ | den Vertrag.",
+          "options": [
+            "kündige",
+            "September",
+            "nicht",
+            "habe"
+          ],
+          "answer": "kündige",
+          "answers": [
+            "kündige"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich will ____ ausziehen.",
+          "options": [
+            "nicht",
+            "habe",
+            "Entscheidung",
+            "lege"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Am 25.9. ____ ich die Kündigung erhalten.",
+          "options": [
+            "habe",
+            "Entscheidung",
+            "lege",
+            "kündige"
+          ],
+          "answer": "habe",
+          "answers": [
+            "habe"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ muss noch einmal geprüft werden.",
+          "options": [
+            "Entscheidung",
+            "lege",
+            "kündige",
+            "Hiermit"
+          ],
+          "answer": "Entscheidung",
+          "answers": [
+            "Entscheidung"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ gegen die Kündigung Widerspruch ein.",
+          "options": [
+            "lege",
+            "kündige",
+            "Hiermit",
+            "September"
+          ],
+          "answer": "lege",
+          "answers": [
+            "lege"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ hiermit den Mietvertrag.",
+          "options": [
+            "kündige",
+            "Hiermit",
+            "September",
+            "nicht"
+          ],
+          "answer": "kündige",
+          "answers": [
+            "kündige"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ kündige ich den Mietvertrag.",
+          "options": [
+            "Hiermit",
+            "September",
+            "nicht",
+            "habe"
+          ],
+          "answer": "Hiermit",
+          "answers": [
+            "Hiermit"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 2,
@@ -724,7 +1231,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "grillen",
@@ -1424,7 +1931,522 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l2-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Inversion after linking adverbs",
+          "body": "Adverbs such as trotzdem, deshalb, darum and außerdem can occupy position 1. The conjugated verb then comes before the subject.",
+          "example": "Trotzdem will ich nicht ausziehen.",
+          "emphasis": [
+            "Trotzdem"
+          ]
+        },
+        {
+          "title": "Subordinate clauses: verb at the end",
+          "body": "Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "example": "Ich hoffe, dass wir bald eine warme Wohnung haben.",
+          "emphasis": [
+            "dass"
+          ]
+        },
+        {
+          "title": "denn versus weil",
+          "body": "Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
+          "example": "Der Flug ist verspätet, weil es ein Gewitter gibt.",
+          "emphasis": [
+            "weil"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "____ will ich nicht ausziehen.",
+          "options": [
+            "Trotzdem",
+            "zu",
+            "um",
+            "dass"
+          ],
+          "answer": "Trotzdem",
+          "answers": [
+            "Trotzdem"
+          ],
+          "note": "Inversion after linking adverbs: Adverbs such as trotzdem, deshalb, darum and außerdem can occupy position 1. The conjugated verb then comes before the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Deshalb ist es wichtig, den Schnee ____ räumen.",
+          "options": [
+            "zu",
+            "um",
+            "dass",
+            "weil"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Inversion after linking adverbs: Adverbs such as trotzdem, deshalb, darum and außerdem can occupy position 1. The conjugated verb then comes before the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Darum bitten wir Sie ____ Mithilfe.",
+          "options": [
+            "um",
+            "dass",
+            "weil",
+            "seit"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Inversion after linking adverbs: Adverbs such as trotzdem, deshalb, darum and außerdem can occupy position 1. The conjugated verb then comes before the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Deshalb bitte ich Sie, den Antrag ____ prüfen.",
+          "options": [
+            "zu",
+            "weil",
+            "seit",
+            "Wenn"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Inversion after linking adverbs: Adverbs such as trotzdem, deshalb, darum and außerdem can occupy position 1. The conjugated verb then comes before the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich hoffe, ____ wir bald eine warme Wohnung haben.",
+          "options": [
+            "dass",
+            "seit",
+            "Wenn",
+            "denn"
+          ],
+          "answer": "dass",
+          "answers": [
+            "dass"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der Flug ist verspätet, ____ es ein Gewitter gibt.",
+          "options": [
+            "weil",
+            "Wenn",
+            "denn",
+            "nicht"
+          ],
+          "answer": "weil",
+          "answers": [
+            "weil"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Da ich ____ sieben Jahren hier lebe, beträgt die Frist sechs Monate.",
+          "options": [
+            "seit",
+            "denn",
+            "nicht",
+            "habe"
+          ],
+          "answer": "seit",
+          "answers": [
+            "seit"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ man kündigt, muss man die Frist beachten.",
+          "options": [
+            "Wenn",
+            "nicht",
+            "habe",
+            "Entscheidung"
+          ],
+          "answer": "Wenn",
+          "answers": [
+            "Wenn"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der Flug ist verspätet, ____ es ein Gewitter gibt.",
+          "options": [
+            "weil",
+            "habe",
+            "Entscheidung",
+            "lege"
+          ],
+          "answer": "weil",
+          "answers": [
+            "weil"
+          ],
+          "note": "denn versus weil: Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der Flug ist verspätet, ____ es gibt ein Gewitter.",
+          "options": [
+            "denn",
+            "Entscheidung",
+            "lege",
+            "kündige"
+          ],
+          "answer": "denn",
+          "answers": [
+            "denn"
+          ],
+          "note": "denn versus weil: Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich will ____ ausziehen.",
+          "options": [
+            "nicht",
+            "lege",
+            "kündige",
+            "Hiermit"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Am 25.9. ____ ich die Kündigung erhalten.",
+          "options": [
+            "habe",
+            "kündige",
+            "Hiermit",
+            "September"
+          ],
+          "answer": "habe",
+          "answers": [
+            "habe"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ muss noch einmal geprüft werden.",
+          "options": [
+            "Entscheidung",
+            "Hiermit",
+            "September",
+            "Trotzdem"
+          ],
+          "answer": "Entscheidung",
+          "answers": [
+            "Entscheidung"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ gegen die Kündigung Widerspruch ein.",
+          "options": [
+            "lege",
+            "September",
+            "Trotzdem",
+            "zu"
+          ],
+          "answer": "lege",
+          "answers": [
+            "lege"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ hiermit den Mietvertrag.",
+          "options": [
+            "kündige",
+            "Trotzdem",
+            "zu",
+            "um"
+          ],
+          "answer": "kündige",
+          "answers": [
+            "kündige"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ kündige ich den Mietvertrag.",
+          "options": [
+            "Hiermit",
+            "zu",
+            "um",
+            "dass"
+          ],
+          "answer": "Hiermit",
+          "answers": [
+            "Hiermit"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Am 25. ____ habe ich die Kündigung erhalten.",
+          "options": [
+            "September",
+            "um",
+            "dass",
+            "weil"
+          ],
+          "answer": "September",
+          "answers": [
+            "September"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich | ____ | den Vertrag.",
+          "options": [
+            "kündige",
+            "dass",
+            "weil",
+            "seit"
+          ],
+          "answer": "kündige",
+          "answers": [
+            "kündige"
+          ],
+          "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ will ich nicht ausziehen.",
+          "options": [
+            "Trotzdem",
+            "seit",
+            "Wenn",
+            "denn"
+          ],
+          "answer": "Trotzdem",
+          "answers": [
+            "Trotzdem"
+          ],
+          "note": "Inversion after linking adverbs: Adverbs such as trotzdem, deshalb, darum and außerdem can occupy position 1. The conjugated verb then comes before the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Deshalb ist es wichtig, den Schnee ____ räumen.",
+          "options": [
+            "zu",
+            "Wenn",
+            "denn",
+            "nicht"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Inversion after linking adverbs: Adverbs such as trotzdem, deshalb, darum and außerdem can occupy position 1. The conjugated verb then comes before the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Darum bitten wir Sie ____ Mithilfe.",
+          "options": [
+            "um",
+            "denn",
+            "nicht",
+            "habe"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Inversion after linking adverbs: Adverbs such as trotzdem, deshalb, darum and außerdem can occupy position 1. The conjugated verb then comes before the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Deshalb bitte ich Sie, den Antrag ____ prüfen.",
+          "options": [
+            "zu",
+            "nicht",
+            "habe",
+            "Entscheidung"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Inversion after linking adverbs: Adverbs such as trotzdem, deshalb, darum and außerdem can occupy position 1. The conjugated verb then comes before the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich hoffe, ____ wir bald eine warme Wohnung haben.",
+          "options": [
+            "dass",
+            "habe",
+            "Entscheidung",
+            "lege"
+          ],
+          "answer": "dass",
+          "answers": [
+            "dass"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der Flug ist verspätet, ____ es ein Gewitter gibt.",
+          "options": [
+            "weil",
+            "Entscheidung",
+            "lege",
+            "kündige"
+          ],
+          "answer": "weil",
+          "answers": [
+            "weil"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Da ich ____ sieben Jahren hier lebe, beträgt die Frist sechs Monate.",
+          "options": [
+            "seit",
+            "lege",
+            "kündige",
+            "Hiermit"
+          ],
+          "answer": "seit",
+          "answers": [
+            "seit"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ man kündigt, muss man die Frist beachten.",
+          "options": [
+            "Wenn",
+            "kündige",
+            "Hiermit",
+            "September"
+          ],
+          "answer": "Wenn",
+          "answers": [
+            "Wenn"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der Flug ist verspätet, ____ es ein Gewitter gibt.",
+          "options": [
+            "weil",
+            "Hiermit",
+            "September",
+            "Trotzdem"
+          ],
+          "answer": "weil",
+          "answers": [
+            "weil"
+          ],
+          "note": "denn versus weil: Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der Flug ist verspätet, ____ es gibt ein Gewitter.",
+          "options": [
+            "denn",
+            "September",
+            "Trotzdem",
+            "zu"
+          ],
+          "answer": "denn",
+          "answers": [
+            "denn"
+          ],
+          "note": "denn versus weil: Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich will ____ ausziehen.",
+          "options": [
+            "nicht",
+            "Trotzdem",
+            "zu",
+            "um"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Am 25.9. ____ ich die Kündigung erhalten.",
+          "options": [
+            "habe",
+            "zu",
+            "um",
+            "dass"
+          ],
+          "answer": "habe",
+          "answers": [
+            "habe"
+          ],
+          "note": "How to read the structures: The following labels are used throughout the file:",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 3,
@@ -1434,7 +2456,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "die-abreise",
@@ -2134,7 +3156,522 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l3-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "obwohl versus trotzdem",
+          "body": "obwohl introduces a subordinate clause with the verb at the end. trotzdem begins a new main clause and is followed by the conjugated verb.",
+          "example": "Obwohl Andreas wenig Zeit hatte, gab er Simon gute Tipps.",
+          "emphasis": [
+            "Obwohl"
+          ]
+        },
+        {
+          "title": "Connector map",
+          "body": "The connector determines the sentence structure that follows it.",
+          "example": "Es regnet, aber wir gehen spazieren. main clause + main clause",
+          "emphasis": [
+            "regnet"
+          ]
+        },
+        {
+          "title": "Direct questions",
+          "body": "German has two basic direct-question structures.",
+          "example": "Meinen Sie wirklich, dass die Kinder genug lernen?",
+          "emphasis": [
+            "dass"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "____ Andreas wenig Zeit hatte, gab er Simon gute Tipps.",
+          "options": [
+            "Obwohl",
+            "Trotzdem",
+            "regnet",
+            "dass"
+          ],
+          "answer": "Obwohl",
+          "answers": [
+            "Obwohl"
+          ],
+          "note": "obwohl versus trotzdem: obwohl introduces a subordinate clause with the verb at the end. trotzdem begins a new main clause and is followed by the conjugated verb.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Andreas hatte wenig Zeit. ____ gab er Simon gute Tipps.",
+          "options": [
+            "Trotzdem",
+            "regnet",
+            "obwohl",
+            "dass"
+          ],
+          "answer": "Trotzdem",
+          "answers": [
+            "Trotzdem"
+          ],
+          "note": "obwohl versus trotzdem: obwohl introduces a subordinate clause with the verb at the end. trotzdem begins a new main clause and is followed by the conjugated verb.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Es ____, aber wir gehen spazieren. main clause + main clause",
+          "options": [
+            "regnet",
+            "obwohl",
+            "dass",
+            "Lernen"
+          ],
+          "answer": "regnet",
+          "answers": [
+            "regnet"
+          ],
+          "note": "Connector map: The connector determines the sentence structure that follows it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir gehen spazieren, ____ es regnet. conjunction + ... + V1",
+          "options": [
+            "obwohl",
+            "Lernen",
+            "man",
+            "weil"
+          ],
+          "answer": "obwohl",
+          "answers": [
+            "obwohl"
+          ],
+          "note": "Connector map: The connector determines the sentence structure that follows it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Meinen Sie wirklich, ____ die Kinder genug lernen?",
+          "options": [
+            "dass",
+            "Lernen",
+            "man",
+            "weil"
+          ],
+          "answer": "dass",
+          "answers": [
+            "dass"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ die Kinder in dieser Woche genug?",
+          "options": [
+            "Lernen",
+            "man",
+            "weil",
+            "seit"
+          ],
+          "answer": "Lernen",
+          "answers": [
+            "Lernen"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Meinen Sie wirklich, ____ ...?",
+          "options": [
+            "dass",
+            "weil",
+            "seit",
+            "Wenn"
+          ],
+          "answer": "dass",
+          "answers": [
+            "dass"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Kann ____ Widerspruch einlegen?",
+          "options": [
+            "man",
+            "seit",
+            "Wenn",
+            "denn"
+          ],
+          "answer": "man",
+          "answers": [
+            "man"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich hoffe, ____ wir bald eine warme Wohnung haben.",
+          "options": [
+            "dass",
+            "Wenn",
+            "denn",
+            "Obwohl"
+          ],
+          "answer": "dass",
+          "answers": [
+            "dass"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der Flug ist verspätet, ____ es ein Gewitter gibt.",
+          "options": [
+            "weil",
+            "denn",
+            "Obwohl",
+            "Trotzdem"
+          ],
+          "answer": "weil",
+          "answers": [
+            "weil"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Da ich ____ sieben Jahren hier lebe, beträgt die Frist sechs Monate.",
+          "options": [
+            "seit",
+            "Obwohl",
+            "Trotzdem",
+            "regnet"
+          ],
+          "answer": "seit",
+          "answers": [
+            "seit"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ man kündigt, muss man die Frist beachten.",
+          "options": [
+            "Wenn",
+            "Trotzdem",
+            "regnet",
+            "obwohl"
+          ],
+          "answer": "Wenn",
+          "answers": [
+            "Wenn"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der Flug ist verspätet, ____ es ein Gewitter gibt.",
+          "options": [
+            "weil",
+            "regnet",
+            "obwohl",
+            "dass"
+          ],
+          "answer": "weil",
+          "answers": [
+            "weil"
+          ],
+          "note": "denn versus weil: Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der Flug ist verspätet, ____ es gibt ein Gewitter.",
+          "options": [
+            "denn",
+            "obwohl",
+            "dass",
+            "Lernen"
+          ],
+          "answer": "denn",
+          "answers": [
+            "denn"
+          ],
+          "note": "denn versus weil: Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Andreas wenig Zeit hatte, gab er Simon gute Tipps.",
+          "options": [
+            "Obwohl",
+            "weil",
+            "seit",
+            "Wenn"
+          ],
+          "answer": "Obwohl",
+          "answers": [
+            "Obwohl"
+          ],
+          "note": "obwohl versus trotzdem: obwohl introduces a subordinate clause with the verb at the end. trotzdem begins a new main clause and is followed by the conjugated verb.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Andreas hatte wenig Zeit. ____ gab er Simon gute Tipps.",
+          "options": [
+            "Trotzdem",
+            "man",
+            "weil",
+            "seit"
+          ],
+          "answer": "Trotzdem",
+          "answers": [
+            "Trotzdem"
+          ],
+          "note": "obwohl versus trotzdem: obwohl introduces a subordinate clause with the verb at the end. trotzdem begins a new main clause and is followed by the conjugated verb.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Es ____, aber wir gehen spazieren. main clause + main clause",
+          "options": [
+            "regnet",
+            "weil",
+            "seit",
+            "Wenn"
+          ],
+          "answer": "regnet",
+          "answers": [
+            "regnet"
+          ],
+          "note": "Connector map: The connector determines the sentence structure that follows it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir gehen spazieren, ____ es regnet. conjunction + ... + V1",
+          "options": [
+            "obwohl",
+            "denn",
+            "Trotzdem",
+            "regnet"
+          ],
+          "answer": "obwohl",
+          "answers": [
+            "obwohl"
+          ],
+          "note": "Connector map: The connector determines the sentence structure that follows it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Meinen Sie wirklich, ____ die Kinder genug lernen?",
+          "options": [
+            "dass",
+            "Wenn",
+            "denn",
+            "Obwohl"
+          ],
+          "answer": "dass",
+          "answers": [
+            "dass"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ die Kinder in dieser Woche genug?",
+          "options": [
+            "Lernen",
+            "denn",
+            "Obwohl",
+            "Trotzdem"
+          ],
+          "answer": "Lernen",
+          "answers": [
+            "Lernen"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Meinen Sie wirklich, ____ ...?",
+          "options": [
+            "dass",
+            "Obwohl",
+            "Trotzdem",
+            "regnet"
+          ],
+          "answer": "dass",
+          "answers": [
+            "dass"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Kann ____ Widerspruch einlegen?",
+          "options": [
+            "man",
+            "Trotzdem",
+            "regnet",
+            "obwohl"
+          ],
+          "answer": "man",
+          "answers": [
+            "man"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich hoffe, ____ wir bald eine warme Wohnung haben.",
+          "options": [
+            "dass",
+            "regnet",
+            "obwohl",
+            "Lernen"
+          ],
+          "answer": "dass",
+          "answers": [
+            "dass"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der Flug ist verspätet, ____ es ein Gewitter gibt.",
+          "options": [
+            "weil",
+            "obwohl",
+            "dass",
+            "Lernen"
+          ],
+          "answer": "weil",
+          "answers": [
+            "weil"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Da ich ____ sieben Jahren hier lebe, beträgt die Frist sechs Monate.",
+          "options": [
+            "seit",
+            "dass",
+            "Lernen",
+            "man"
+          ],
+          "answer": "seit",
+          "answers": [
+            "seit"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ man kündigt, muss man die Frist beachten.",
+          "options": [
+            "Wenn",
+            "Lernen",
+            "man",
+            "weil"
+          ],
+          "answer": "Wenn",
+          "answers": [
+            "Wenn"
+          ],
+          "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der Flug ist verspätet, ____ es ein Gewitter gibt.",
+          "options": [
+            "weil",
+            "man",
+            "seit",
+            "Wenn"
+          ],
+          "answer": "weil",
+          "answers": [
+            "weil"
+          ],
+          "note": "denn versus weil: Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der Flug ist verspätet, ____ es gibt ein Gewitter.",
+          "options": [
+            "denn",
+            "weil",
+            "seit",
+            "Wenn"
+          ],
+          "answer": "denn",
+          "answers": [
+            "denn"
+          ],
+          "note": "denn versus weil: Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Andreas wenig Zeit hatte, gab er Simon gute Tipps.",
+          "options": [
+            "Obwohl",
+            "regnet",
+            "dass",
+            "Lernen"
+          ],
+          "answer": "Obwohl",
+          "answers": [
+            "Obwohl"
+          ],
+          "note": "obwohl versus trotzdem: obwohl introduces a subordinate clause with the verb at the end. trotzdem begins a new main clause and is followed by the conjugated verb.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Andreas hatte wenig Zeit. ____ gab er Simon gute Tipps.",
+          "options": [
+            "Trotzdem",
+            "denn",
+            "Obwohl",
+            "regnet"
+          ],
+          "answer": "Trotzdem",
+          "answers": [
+            "Trotzdem"
+          ],
+          "note": "obwohl versus trotzdem: obwohl introduces a subordinate clause with the verb at the end. trotzdem begins a new main clause and is followed by the conjugated verb.",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 4,
@@ -2144,7 +3681,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "die-vorspeise",
@@ -2844,7 +4381,514 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l4-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 2 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Indirect questions",
+          "body": "Indirect questions use a question word or ob; the conjugated verb goes to the end.",
+          "example": "Ich weiß nicht, wie viel Miete er zahlt.",
+          "emphasis": [
+            "nicht"
+          ]
+        },
+        {
+          "title": "Relative clauses",
+          "body": "A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
+          "example": "Leute, die man nicht gut kennt, fragt man nicht nach ihrem Gehalt.",
+          "emphasis": [
+            "man"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "Ich weiß ____, wie viel Miete er zahlt.",
+          "options": [
+            "nicht",
+            "Bitte",
+            "ob",
+            "infinitive"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ teilen Sie mir mit, welcher Termin Ihnen passt.",
+          "options": [
+            "Bitte",
+            "ob",
+            "infinitive",
+            "man"
+          ],
+          "answer": "Bitte",
+          "answers": [
+            "Bitte"
+          ],
+          "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Sie fragt, ____ der Antrag geprüft wird.",
+          "options": [
+            "ob",
+            "infinitive",
+            "man",
+            "Einrichtungen"
+          ],
+          "answer": "ob",
+          "answers": [
+            "ob"
+          ],
+          "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + modal",
+          "options": [
+            "infinitive",
+            "man",
+            "Einrichtungen",
+            "Wohnung"
+          ],
+          "answer": "infinitive",
+          "answers": [
+            "infinitive"
+          ],
+          "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Leute, die ____ nicht gut kennt, fragt man nicht nach ihrem Gehalt.",
+          "options": [
+            "man",
+            "Einrichtungen",
+            "Wohnung",
+            "Leute"
+          ],
+          "answer": "man",
+          "answers": [
+            "man"
+          ],
+          "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____, die Sie genutzt haben, müssen sauber sein.",
+          "options": [
+            "Einrichtungen",
+            "Wohnung",
+            "Leute",
+            "regnet"
+          ],
+          "answer": "Einrichtungen",
+          "answers": [
+            "Einrichtungen"
+          ],
+          "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____, in der ich lebe, ist teuer.",
+          "options": [
+            "Wohnung",
+            "Leute",
+            "regnet",
+            "obwohl"
+          ],
+          "answer": "Wohnung",
+          "answers": [
+            "Wohnung"
+          ],
+          "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____, die ...",
+          "options": [
+            "Leute",
+            "regnet",
+            "obwohl",
+            "dass"
+          ],
+          "answer": "Leute",
+          "answers": [
+            "Leute"
+          ],
+          "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Es ____, aber wir gehen spazieren. main clause + main clause",
+          "options": [
+            "regnet",
+            "obwohl",
+            "dass",
+            "Lernen"
+          ],
+          "answer": "regnet",
+          "answers": [
+            "regnet"
+          ],
+          "note": "Connector map: The connector determines the sentence structure that follows it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir gehen spazieren, ____ es regnet. conjunction + ... + V1",
+          "options": [
+            "obwohl",
+            "dass",
+            "Lernen",
+            "nicht"
+          ],
+          "answer": "obwohl",
+          "answers": [
+            "obwohl"
+          ],
+          "note": "Connector map: The connector determines the sentence structure that follows it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Meinen Sie wirklich, ____ die Kinder genug lernen?",
+          "options": [
+            "dass",
+            "Lernen",
+            "nicht",
+            "Bitte"
+          ],
+          "answer": "dass",
+          "answers": [
+            "dass"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ die Kinder in dieser Woche genug?",
+          "options": [
+            "Lernen",
+            "nicht",
+            "Bitte",
+            "ob"
+          ],
+          "answer": "Lernen",
+          "answers": [
+            "Lernen"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Meinen Sie wirklich, ____ ...?",
+          "options": [
+            "dass",
+            "Bitte",
+            "ob",
+            "infinitive"
+          ],
+          "answer": "dass",
+          "answers": [
+            "dass"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Kann ____ Widerspruch einlegen?",
+          "options": [
+            "man",
+            "ob",
+            "infinitive",
+            "Einrichtungen"
+          ],
+          "answer": "man",
+          "answers": [
+            "man"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich weiß ____, wie viel Miete er zahlt.",
+          "options": [
+            "nicht",
+            "man",
+            "Einrichtungen",
+            "Wohnung"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ teilen Sie mir mit, welcher Termin Ihnen passt.",
+          "options": [
+            "Bitte",
+            "Einrichtungen",
+            "Wohnung",
+            "Leute"
+          ],
+          "answer": "Bitte",
+          "answers": [
+            "Bitte"
+          ],
+          "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Sie fragt, ____ der Antrag geprüft wird.",
+          "options": [
+            "ob",
+            "Wohnung",
+            "Leute",
+            "regnet"
+          ],
+          "answer": "ob",
+          "answers": [
+            "ob"
+          ],
+          "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + modal",
+          "options": [
+            "infinitive",
+            "Leute",
+            "regnet",
+            "obwohl"
+          ],
+          "answer": "infinitive",
+          "answers": [
+            "infinitive"
+          ],
+          "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Leute, die ____ nicht gut kennt, fragt man nicht nach ihrem Gehalt.",
+          "options": [
+            "man",
+            "regnet",
+            "obwohl",
+            "dass"
+          ],
+          "answer": "man",
+          "answers": [
+            "man"
+          ],
+          "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____, die Sie genutzt haben, müssen sauber sein.",
+          "options": [
+            "Einrichtungen",
+            "obwohl",
+            "dass",
+            "Lernen"
+          ],
+          "answer": "Einrichtungen",
+          "answers": [
+            "Einrichtungen"
+          ],
+          "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____, in der ich lebe, ist teuer.",
+          "options": [
+            "Wohnung",
+            "dass",
+            "Lernen",
+            "nicht"
+          ],
+          "answer": "Wohnung",
+          "answers": [
+            "Wohnung"
+          ],
+          "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____, die ...",
+          "options": [
+            "Leute",
+            "Lernen",
+            "nicht",
+            "Bitte"
+          ],
+          "answer": "Leute",
+          "answers": [
+            "Leute"
+          ],
+          "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Es ____, aber wir gehen spazieren. main clause + main clause",
+          "options": [
+            "regnet",
+            "nicht",
+            "Bitte",
+            "ob"
+          ],
+          "answer": "regnet",
+          "answers": [
+            "regnet"
+          ],
+          "note": "Connector map: The connector determines the sentence structure that follows it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir gehen spazieren, ____ es regnet. conjunction + ... + V1",
+          "options": [
+            "obwohl",
+            "Bitte",
+            "ob",
+            "infinitive"
+          ],
+          "answer": "obwohl",
+          "answers": [
+            "obwohl"
+          ],
+          "note": "Connector map: The connector determines the sentence structure that follows it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Meinen Sie wirklich, ____ die Kinder genug lernen?",
+          "options": [
+            "dass",
+            "ob",
+            "infinitive",
+            "man"
+          ],
+          "answer": "dass",
+          "answers": [
+            "dass"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ die Kinder in dieser Woche genug?",
+          "options": [
+            "Lernen",
+            "infinitive",
+            "man",
+            "Einrichtungen"
+          ],
+          "answer": "Lernen",
+          "answers": [
+            "Lernen"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Meinen Sie wirklich, ____ ...?",
+          "options": [
+            "dass",
+            "man",
+            "Einrichtungen",
+            "Wohnung"
+          ],
+          "answer": "dass",
+          "answers": [
+            "dass"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Kann ____ Widerspruch einlegen?",
+          "options": [
+            "man",
+            "Wohnung",
+            "Leute",
+            "regnet"
+          ],
+          "answer": "man",
+          "answers": [
+            "man"
+          ],
+          "note": "Direct questions: German has two basic direct-question structures.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich weiß ____, wie viel Miete er zahlt.",
+          "options": [
+            "nicht",
+            "Leute",
+            "regnet",
+            "obwohl"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ teilen Sie mir mit, welcher Termin Ihnen passt.",
+          "options": [
+            "Bitte",
+            "regnet",
+            "obwohl",
+            "dass"
+          ],
+          "answer": "Bitte",
+          "answers": [
+            "Bitte"
+          ],
+          "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 5,
@@ -2854,7 +4898,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "reisen",
@@ -3554,7 +5598,522 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l5-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "General statements with man and wer",
+          "body": "man means “one/people/you” in general. wer can introduce a general condition.",
+          "example": "In Deutschland spricht man normalerweise nicht über sein Gehalt.",
+          "emphasis": [
+            "man"
+          ]
+        },
+        {
+          "title": "Case overview",
+          "body": "Cases show the function of a noun phrase in a sentence.",
+          "example": "die Kündigung nominative/accusative",
+          "emphasis": [
+            "Kündigung"
+          ]
+        },
+        {
+          "title": "Causal wegen + Genitiv",
+          "body": "wegen normally takes the genitive in standard written German.",
+          "example": "wegen des Regens",
+          "emphasis": [
+            "wegen"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "In Deutschland spricht ____ normalerweise nicht über sein Gehalt.",
+          "options": [
+            "man",
+            "Wer",
+            "Kündigung",
+            "gegen"
+          ],
+          "answer": "man",
+          "answers": [
+            "man"
+          ],
+          "note": "General statements with man and wer: man means “one/people/you” in general. wer can introduce a general condition.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ mit einem Flugzeug reist, muss einchecken.",
+          "options": [
+            "Wer",
+            "Man",
+            "Kündigung",
+            "gegen"
+          ],
+          "answer": "Wer",
+          "answers": [
+            "Wer"
+          ],
+          "note": "General statements with man and wer: man means “one/people/you” in general. wer can introduce a general condition.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ spricht, man muss, man kann, man ist",
+          "options": [
+            "man",
+            "gegen",
+            "wegen",
+            "nicht"
+          ],
+          "answer": "man",
+          "answers": [
+            "man"
+          ],
+          "note": "General statements with man and wer: man means “one/people/you” in general. wer can introduce a general condition.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ sollte seinen Vermieter informieren.",
+          "options": [
+            "Man",
+            "wegen",
+            "nicht",
+            "Bitte"
+          ],
+          "answer": "Man",
+          "answers": [
+            "Man"
+          ],
+          "note": "General statements with man and wer: man means “one/people/you” in general. wer can introduce a general condition.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ nominative/accusative",
+          "options": [
+            "Kündigung",
+            "wegen",
+            "nicht",
+            "Bitte"
+          ],
+          "answer": "Kündigung",
+          "answers": [
+            "Kündigung"
+          ],
+          "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "der ____ widersprechen dative",
+          "options": [
+            "Kündigung",
+            "nicht",
+            "Bitte",
+            "ob"
+          ],
+          "answer": "Kündigung",
+          "answers": [
+            "Kündigung"
+          ],
+          "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ die Kündigung accusative after gegen",
+          "options": [
+            "gegen",
+            "Bitte",
+            "ob",
+            "infinitive"
+          ],
+          "answer": "gegen",
+          "answers": [
+            "gegen"
+          ],
+          "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ der Kündigung genitive after wegen",
+          "options": [
+            "wegen",
+            "ob",
+            "infinitive",
+            "Einrichtungen"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ des Regens",
+          "options": [
+            "wegen",
+            "infinitive",
+            "Einrichtungen",
+            "Wohnung"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ des starken Nebels",
+          "options": [
+            "wegen",
+            "Einrichtungen",
+            "Wohnung",
+            "Leute"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ einer technischen Kontrolle",
+          "options": [
+            "wegen",
+            "Wohnung",
+            "Leute",
+            "man"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ der Kinder",
+          "options": [
+            "wegen",
+            "Leute",
+            "man",
+            "Wer"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich weiß ____, wie viel Miete er zahlt.",
+          "options": [
+            "nicht",
+            "man",
+            "Wer",
+            "Man"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ teilen Sie mir mit, welcher Termin Ihnen passt.",
+          "options": [
+            "Bitte",
+            "Wer",
+            "Man",
+            "Kündigung"
+          ],
+          "answer": "Bitte",
+          "answers": [
+            "Bitte"
+          ],
+          "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Sie fragt, ____ der Antrag geprüft wird.",
+          "options": [
+            "ob",
+            "Man",
+            "Kündigung",
+            "gegen"
+          ],
+          "answer": "ob",
+          "answers": [
+            "ob"
+          ],
+          "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + modal",
+          "options": [
+            "infinitive",
+            "Kündigung",
+            "gegen",
+            "wegen"
+          ],
+          "answer": "infinitive",
+          "answers": [
+            "infinitive"
+          ],
+          "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Leute, die ____ nicht gut kennt, fragt man nicht nach ihrem Gehalt.",
+          "options": [
+            "man",
+            "Bitte",
+            "ob",
+            "infinitive"
+          ],
+          "answer": "man",
+          "answers": [
+            "man"
+          ],
+          "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____, die Sie genutzt haben, müssen sauber sein.",
+          "options": [
+            "Einrichtungen",
+            "wegen",
+            "nicht",
+            "Bitte"
+          ],
+          "answer": "Einrichtungen",
+          "answers": [
+            "Einrichtungen"
+          ],
+          "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____, in der ich lebe, ist teuer.",
+          "options": [
+            "Wohnung",
+            "nicht",
+            "Bitte",
+            "ob"
+          ],
+          "answer": "Wohnung",
+          "answers": [
+            "Wohnung"
+          ],
+          "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____, die ...",
+          "options": [
+            "Leute",
+            "Bitte",
+            "ob",
+            "infinitive"
+          ],
+          "answer": "Leute",
+          "answers": [
+            "Leute"
+          ],
+          "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "In Deutschland spricht ____ normalerweise nicht über sein Gehalt.",
+          "options": [
+            "man",
+            "Wohnung",
+            "Leute",
+            "Wer"
+          ],
+          "answer": "man",
+          "answers": [
+            "man"
+          ],
+          "note": "General statements with man and wer: man means “one/people/you” in general. wer can introduce a general condition.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ mit einem Flugzeug reist, muss einchecken.",
+          "options": [
+            "Wer",
+            "Einrichtungen",
+            "Wohnung",
+            "Leute"
+          ],
+          "answer": "Wer",
+          "answers": [
+            "Wer"
+          ],
+          "note": "General statements with man and wer: man means “one/people/you” in general. wer can introduce a general condition.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ spricht, man muss, man kann, man ist",
+          "options": [
+            "man",
+            "Wer",
+            "Kündigung",
+            "gegen"
+          ],
+          "answer": "man",
+          "answers": [
+            "man"
+          ],
+          "note": "General statements with man and wer: man means “one/people/you” in general. wer can introduce a general condition.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ sollte seinen Vermieter informieren.",
+          "options": [
+            "Man",
+            "Kündigung",
+            "gegen",
+            "wegen"
+          ],
+          "answer": "Man",
+          "answers": [
+            "Man"
+          ],
+          "note": "General statements with man and wer: man means “one/people/you” in general. wer can introduce a general condition.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ nominative/accusative",
+          "options": [
+            "Kündigung",
+            "man",
+            "Wer",
+            "Man"
+          ],
+          "answer": "Kündigung",
+          "answers": [
+            "Kündigung"
+          ],
+          "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "der ____ widersprechen dative",
+          "options": [
+            "Kündigung",
+            "Wer",
+            "Man",
+            "gegen"
+          ],
+          "answer": "Kündigung",
+          "answers": [
+            "Kündigung"
+          ],
+          "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ die Kündigung accusative after gegen",
+          "options": [
+            "gegen",
+            "Man",
+            "Kündigung",
+            "wegen"
+          ],
+          "answer": "gegen",
+          "answers": [
+            "gegen"
+          ],
+          "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ der Kündigung genitive after wegen",
+          "options": [
+            "wegen",
+            "Kündigung",
+            "gegen",
+            "nicht"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ des Regens",
+          "options": [
+            "wegen",
+            "gegen",
+            "nicht",
+            "Bitte"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ des starken Nebels",
+          "options": [
+            "wegen",
+            "nicht",
+            "Bitte",
+            "ob"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 6,
@@ -3564,7 +6123,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "verteilen",
@@ -4264,7 +6823,522 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l6-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Genitive possession",
+          "body": "The genitive expresses possession or a close relationship. Masculine and neuter nouns usually add -s or -es.",
+          "example": "die Reisetasche meiner Frau",
+          "emphasis": [
+            "Reisetasche"
+          ]
+        },
+        {
+          "title": "Dative verbs and expressions",
+          "body": "Some verbs take a dative object rather than an accusative object.",
+          "example": "Das Haus gehört der Vermieterin.",
+          "emphasis": [
+            "Haus"
+          ]
+        },
+        {
+          "title": "A dative person and an accusative thing",
+          "body": "With many verbs, the recipient is dative and the thing is accusative.",
+          "example": "Simon erzählt Andreas eine Geschichte.",
+          "emphasis": [
+            "Simon"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "die ____ meiner Frau",
+          "options": [
+            "Reisetasche",
+            "Passagiere",
+            "schönste",
+            "Haus"
+          ],
+          "answer": "Reisetasche",
+          "answers": [
+            "Reisetasche"
+          ],
+          "note": "Genitive possession: The genitive expresses possession or a close relationship. Masculine and neuter nouns usually add -s or -es.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ des Fluges",
+          "options": [
+            "Passagiere",
+            "schönste",
+            "Haus",
+            "Dieser"
+          ],
+          "answer": "Passagiere",
+          "answers": [
+            "Passagiere"
+          ],
+          "note": "Genitive possession: The genitive expresses possession or a close relationship. Masculine and neuter nouns usually add -s or -es.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ Zeit des Jahres",
+          "options": [
+            "schönste",
+            "Haus",
+            "Dieser",
+            "Termin"
+          ],
+          "answer": "schönste",
+          "answers": [
+            "schönste"
+          ],
+          "note": "Genitive possession: The genitive expresses possession or a close relationship. Masculine and neuter nouns usually add -s or -es.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "der ____ Tag des Sommers",
+          "options": [
+            "schönste",
+            "Dieser",
+            "Termin",
+            "zu"
+          ],
+          "answer": "schönste",
+          "answers": [
+            "schönste"
+          ],
+          "note": "Genitive possession: The genitive expresses possession or a close relationship. Masculine and neuter nouns usually add -s or -es.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Das ____ gehört der Vermieterin.",
+          "options": [
+            "Haus",
+            "Termin",
+            "zu",
+            "Simon"
+          ],
+          "answer": "Haus",
+          "answers": [
+            "Haus"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Kündigung widerspreche ich.",
+          "options": [
+            "Dieser",
+            "zu",
+            "Simon",
+            "Bitte"
+          ],
+          "answer": "Dieser",
+          "answers": [
+            "Dieser"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der ____ passt mir.",
+          "options": [
+            "Termin",
+            "Simon",
+            "Bitte",
+            "an"
+          ],
+          "answer": "Termin",
+          "answers": [
+            "Termin"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich stimme Ihnen ____.",
+          "options": [
+            "zu",
+            "Bitte",
+            "an",
+            "Rechtsanwältin"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ erzählt Andreas eine Geschichte.",
+          "options": [
+            "Simon",
+            "an",
+            "Rechtsanwältin",
+            "Kündigung"
+          ],
+          "answer": "Simon",
+          "answers": [
+            "Simon"
+          ],
+          "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ geben Sie mir die Schlüssel zurück.",
+          "options": [
+            "Bitte",
+            "Rechtsanwältin",
+            "Kündigung",
+            "gegen"
+          ],
+          "answer": "Bitte",
+          "answers": [
+            "Bitte"
+          ],
+          "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich biete Ihnen einen Termin ____.",
+          "options": [
+            "an",
+            "Kündigung",
+            "gegen",
+            "wegen"
+          ],
+          "answer": "an",
+          "answers": [
+            "an"
+          ],
+          "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ gibt den Mietern Tipps.",
+          "options": [
+            "Rechtsanwältin",
+            "gegen",
+            "wegen",
+            "Reisetasche"
+          ],
+          "answer": "Rechtsanwältin",
+          "answers": [
+            "Rechtsanwältin"
+          ],
+          "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ nominative/accusative",
+          "options": [
+            "Kündigung",
+            "wegen",
+            "Reisetasche",
+            "Passagiere"
+          ],
+          "answer": "Kündigung",
+          "answers": [
+            "Kündigung"
+          ],
+          "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "der ____ widersprechen dative",
+          "options": [
+            "Kündigung",
+            "Reisetasche",
+            "Passagiere",
+            "schönste"
+          ],
+          "answer": "Kündigung",
+          "answers": [
+            "Kündigung"
+          ],
+          "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ die Kündigung accusative after gegen",
+          "options": [
+            "gegen",
+            "Passagiere",
+            "schönste",
+            "Haus"
+          ],
+          "answer": "gegen",
+          "answers": [
+            "gegen"
+          ],
+          "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ der Kündigung genitive after wegen",
+          "options": [
+            "wegen",
+            "schönste",
+            "Haus",
+            "Dieser"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ des Regens",
+          "options": [
+            "wegen",
+            "Haus",
+            "Dieser",
+            "Termin"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ des starken Nebels",
+          "options": [
+            "wegen",
+            "Dieser",
+            "Termin",
+            "zu"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ einer technischen Kontrolle",
+          "options": [
+            "wegen",
+            "Termin",
+            "zu",
+            "Simon"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ der Kinder",
+          "options": [
+            "wegen",
+            "zu",
+            "Simon",
+            "Bitte"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ meiner Frau",
+          "options": [
+            "Reisetasche",
+            "Bitte",
+            "an",
+            "Rechtsanwältin"
+          ],
+          "answer": "Reisetasche",
+          "answers": [
+            "Reisetasche"
+          ],
+          "note": "Genitive possession: The genitive expresses possession or a close relationship. Masculine and neuter nouns usually add -s or -es.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ des Fluges",
+          "options": [
+            "Passagiere",
+            "an",
+            "Rechtsanwältin",
+            "Kündigung"
+          ],
+          "answer": "Passagiere",
+          "answers": [
+            "Passagiere"
+          ],
+          "note": "Genitive possession: The genitive expresses possession or a close relationship. Masculine and neuter nouns usually add -s or -es.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ Zeit des Jahres",
+          "options": [
+            "schönste",
+            "Rechtsanwältin",
+            "Kündigung",
+            "gegen"
+          ],
+          "answer": "schönste",
+          "answers": [
+            "schönste"
+          ],
+          "note": "Genitive possession: The genitive expresses possession or a close relationship. Masculine and neuter nouns usually add -s or -es.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "der ____ Tag des Sommers",
+          "options": [
+            "schönste",
+            "Kündigung",
+            "gegen",
+            "wegen"
+          ],
+          "answer": "schönste",
+          "answers": [
+            "schönste"
+          ],
+          "note": "Genitive possession: The genitive expresses possession or a close relationship. Masculine and neuter nouns usually add -s or -es.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Das ____ gehört der Vermieterin.",
+          "options": [
+            "Haus",
+            "gegen",
+            "wegen",
+            "Reisetasche"
+          ],
+          "answer": "Haus",
+          "answers": [
+            "Haus"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Kündigung widerspreche ich.",
+          "options": [
+            "Dieser",
+            "wegen",
+            "Reisetasche",
+            "Passagiere"
+          ],
+          "answer": "Dieser",
+          "answers": [
+            "Dieser"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der ____ passt mir.",
+          "options": [
+            "Termin",
+            "Reisetasche",
+            "Passagiere",
+            "schönste"
+          ],
+          "answer": "Termin",
+          "answers": [
+            "Termin"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich stimme Ihnen ____.",
+          "options": [
+            "zu",
+            "Passagiere",
+            "schönste",
+            "Haus"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ erzählt Andreas eine Geschichte.",
+          "options": [
+            "Simon",
+            "schönste",
+            "Haus",
+            "Dieser"
+          ],
+          "answer": "Simon",
+          "answers": [
+            "Simon"
+          ],
+          "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ geben Sie mir die Schlüssel zurück.",
+          "options": [
+            "Bitte",
+            "Haus",
+            "Dieser",
+            "Termin"
+          ],
+          "answer": "Bitte",
+          "answers": [
+            "Bitte"
+          ],
+          "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 7,
@@ -4274,7 +7348,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "die-durchsage",
@@ -4974,7 +8048,514 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l7-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 2 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Verbs with fixed prepositions",
+          "body": "The preposition determines the case.",
+          "example": "von + Dativ erzählen: Simon erzählt Andreas von seinem Freund.",
+          "emphasis": [
+            "Dativ"
+          ]
+        },
+        {
+          "title": "Common preposition patterns",
+          "body": "Some prepositions can take accusative or dative depending on movement versus location. In the examples:",
+          "example": "aus + Dativ: aus hygienischen Gründen, aus beruflichen Gründen, aus gesundheitlichen Gründen",
+          "emphasis": [
+            "Dativ"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "von + ____ erzählen: Simon erzählt Andreas von seinem Freund.",
+          "options": [
+            "Dativ",
+            "nicht",
+            "gegen",
+            "Haus"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Verbs with fixed prepositions: The preposition determines the case.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "mit + Dativ einverstanden sein: Ich bin mit der Entscheidung ____ einverstanden.",
+          "options": [
+            "nicht",
+            "gegen",
+            "Haus",
+            "Dieser"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "Verbs with fixed prepositions: The preposition determines the case.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + Akkusativ Widerspruch einlegen: Sie legt gegen die Kündigung Widerspruch ein.",
+          "options": [
+            "gegen",
+            "Haus",
+            "Dieser",
+            "Termin"
+          ],
+          "answer": "gegen",
+          "answers": [
+            "gegen"
+          ],
+          "note": "Verbs with fixed prepositions: The preposition determines the case.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + Akkusativ klagen: Der Mieter klagt gegen den Vermieter.",
+          "options": [
+            "gegen",
+            "Dieser",
+            "Termin",
+            "zu"
+          ],
+          "answer": "gegen",
+          "answers": [
+            "gegen"
+          ],
+          "note": "Verbs with fixed prepositions: The preposition determines the case.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "aus + ____: aus hygienischen Gründen, aus beruflichen Gründen, aus gesundheitlichen Gründen",
+          "options": [
+            "Dativ",
+            "Termin",
+            "zu",
+            "Simon"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Common preposition patterns: Some prepositions can take accusative or dative depending on movement versus location. In the examples:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "mit + ____: mit dem Leiter, mit einer Rechnung",
+          "options": [
+            "Dativ",
+            "zu",
+            "Simon",
+            "Bitte"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Common preposition patterns: Some prepositions can take accusative or dative depending on movement versus location. In the examples:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "von + ____: von der Airline, vom Arbeitgeber (vom = von dem)",
+          "options": [
+            "Dativ",
+            "Simon",
+            "Bitte",
+            "an"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Common preposition patterns: Some prepositions can take accusative or dative depending on movement versus location. In the examples:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "bei + ____: beim Amt, beim Elternabend (beim = bei dem)",
+          "options": [
+            "Dativ",
+            "Bitte",
+            "an",
+            "Rechtsanwältin"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Common preposition patterns: Some prepositions can take accusative or dative depending on movement versus location. In the examples:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Das ____ gehört der Vermieterin.",
+          "options": [
+            "Haus",
+            "an",
+            "Rechtsanwältin",
+            "Dativ"
+          ],
+          "answer": "Haus",
+          "answers": [
+            "Haus"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Kündigung widerspreche ich.",
+          "options": [
+            "Dieser",
+            "Rechtsanwältin",
+            "Dativ",
+            "nicht"
+          ],
+          "answer": "Dieser",
+          "answers": [
+            "Dieser"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der ____ passt mir.",
+          "options": [
+            "Termin",
+            "Dativ",
+            "nicht",
+            "gegen"
+          ],
+          "answer": "Termin",
+          "answers": [
+            "Termin"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich stimme Ihnen ____.",
+          "options": [
+            "zu",
+            "nicht",
+            "gegen",
+            "Haus"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ erzählt Andreas eine Geschichte.",
+          "options": [
+            "Simon",
+            "gegen",
+            "Haus",
+            "Dieser"
+          ],
+          "answer": "Simon",
+          "answers": [
+            "Simon"
+          ],
+          "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ geben Sie mir die Schlüssel zurück.",
+          "options": [
+            "Bitte",
+            "Haus",
+            "Dieser",
+            "Termin"
+          ],
+          "answer": "Bitte",
+          "answers": [
+            "Bitte"
+          ],
+          "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich biete Ihnen einen Termin ____.",
+          "options": [
+            "an",
+            "Dieser",
+            "Termin",
+            "zu"
+          ],
+          "answer": "an",
+          "answers": [
+            "an"
+          ],
+          "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ gibt den Mietern Tipps.",
+          "options": [
+            "Rechtsanwältin",
+            "Termin",
+            "zu",
+            "Simon"
+          ],
+          "answer": "Rechtsanwältin",
+          "answers": [
+            "Rechtsanwältin"
+          ],
+          "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "von + ____ erzählen: Simon erzählt Andreas von seinem Freund.",
+          "options": [
+            "Dativ",
+            "Simon",
+            "Bitte",
+            "an"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Verbs with fixed prepositions: The preposition determines the case.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "mit + Dativ einverstanden sein: Ich bin mit der Entscheidung ____ einverstanden.",
+          "options": [
+            "nicht",
+            "Bitte",
+            "an",
+            "Rechtsanwältin"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "Verbs with fixed prepositions: The preposition determines the case.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + Akkusativ Widerspruch einlegen: Sie legt gegen die Kündigung Widerspruch ein.",
+          "options": [
+            "gegen",
+            "an",
+            "Rechtsanwältin",
+            "Dativ"
+          ],
+          "answer": "gegen",
+          "answers": [
+            "gegen"
+          ],
+          "note": "Verbs with fixed prepositions: The preposition determines the case.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + Akkusativ klagen: Der Mieter klagt gegen den Vermieter.",
+          "options": [
+            "gegen",
+            "Rechtsanwältin",
+            "Dativ",
+            "nicht"
+          ],
+          "answer": "gegen",
+          "answers": [
+            "gegen"
+          ],
+          "note": "Verbs with fixed prepositions: The preposition determines the case.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "aus + ____: aus hygienischen Gründen, aus beruflichen Gründen, aus gesundheitlichen Gründen",
+          "options": [
+            "Dativ",
+            "nicht",
+            "gegen",
+            "Haus"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Common preposition patterns: Some prepositions can take accusative or dative depending on movement versus location. In the examples:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "mit + ____: mit dem Leiter, mit einer Rechnung",
+          "options": [
+            "Dativ",
+            "gegen",
+            "Haus",
+            "Dieser"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Common preposition patterns: Some prepositions can take accusative or dative depending on movement versus location. In the examples:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "von + ____: von der Airline, vom Arbeitgeber (vom = von dem)",
+          "options": [
+            "Dativ",
+            "Haus",
+            "Dieser",
+            "Termin"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Common preposition patterns: Some prepositions can take accusative or dative depending on movement versus location. In the examples:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "bei + ____: beim Amt, beim Elternabend (beim = bei dem)",
+          "options": [
+            "Dativ",
+            "Dieser",
+            "Termin",
+            "zu"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Common preposition patterns: Some prepositions can take accusative or dative depending on movement versus location. In the examples:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Das ____ gehört der Vermieterin.",
+          "options": [
+            "Haus",
+            "Termin",
+            "zu",
+            "Simon"
+          ],
+          "answer": "Haus",
+          "answers": [
+            "Haus"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Kündigung widerspreche ich.",
+          "options": [
+            "Dieser",
+            "zu",
+            "Simon",
+            "Bitte"
+          ],
+          "answer": "Dieser",
+          "answers": [
+            "Dieser"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der ____ passt mir.",
+          "options": [
+            "Termin",
+            "Simon",
+            "Bitte",
+            "an"
+          ],
+          "answer": "Termin",
+          "answers": [
+            "Termin"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich stimme Ihnen ____.",
+          "options": [
+            "zu",
+            "Bitte",
+            "an",
+            "Rechtsanwältin"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ erzählt Andreas eine Geschichte.",
+          "options": [
+            "Simon",
+            "an",
+            "Rechtsanwältin",
+            "Dativ"
+          ],
+          "answer": "Simon",
+          "answers": [
+            "Simon"
+          ],
+          "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ geben Sie mir die Schlüssel zurück.",
+          "options": [
+            "Bitte",
+            "Rechtsanwältin",
+            "Dativ",
+            "nicht"
+          ],
+          "answer": "Bitte",
+          "answers": [
+            "Bitte"
+          ],
+          "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 8,
@@ -4984,7 +8565,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "ploetzlich",
@@ -5684,7 +9265,522 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l8-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Paired conjunctions",
+          "body": "These conjunctions connect equivalent words, phrases, or clauses.",
+          "example": "weder … noch: Speisen dürfen weder zubereitet noch gegessen werden.",
+          "emphasis": [
+            "weder"
+          ]
+        },
+        {
+          "title": "zu + Infinitiv",
+          "body": "An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
+          "example": "Es ist wichtig, den Schnee zu räumen.",
+          "emphasis": [
+            "zu"
+          ]
+        },
+        {
+          "title": "Purpose with um … zu",
+          "body": "um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
+          "example": "Main clause Purpose clause",
+          "emphasis": [
+            "Purpose"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "____ … noch: Speisen dürfen weder zubereitet noch gegessen werden.",
+          "options": [
+            "weder",
+            "als",
+            "nicht",
+            "entweder"
+          ],
+          "answer": "weder",
+          "answers": [
+            "weder"
+          ],
+          "note": "Paired conjunctions: These conjunctions connect equivalent words, phrases, or clauses.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "sowohl … ____ auch: Man kann sowohl essen als auch Schlitten ausleihen.",
+          "options": [
+            "als",
+            "nicht",
+            "entweder",
+            "zu"
+          ],
+          "answer": "als",
+          "answers": [
+            "als"
+          ],
+          "note": "Paired conjunctions: These conjunctions connect equivalent words, phrases, or clauses.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "zwar …, aber …: Die Rodelbahn ist zwar lang, aber ____ steil.",
+          "options": [
+            "nicht",
+            "entweder",
+            "zu",
+            "habe"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "Paired conjunctions: These conjunctions connect equivalent words, phrases, or clauses.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ … oder …: Sie hatte entweder einen Schutzengel oder einfach Glück.",
+          "options": [
+            "entweder",
+            "zu",
+            "habe",
+            "Purpose"
+          ],
+          "answer": "entweder",
+          "answers": [
+            "entweder"
+          ],
+          "note": "Paired conjunctions: These conjunctions connect equivalent words, phrases, or clauses.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Es ist wichtig, den Schnee ____ räumen.",
+          "options": [
+            "zu",
+            "habe",
+            "Purpose",
+            "um"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich habe keine Zeit, dreimal am Tag Schnee ____ fegen.",
+          "options": [
+            "zu",
+            "Purpose",
+            "um",
+            "Dativ"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Mieter sind verpflichtet, den Gehweg ____ streuen.",
+          "options": [
+            "zu",
+            "um",
+            "Dativ",
+            "gegen"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ keine Lust, so früh aufzustehen.",
+          "options": [
+            "habe",
+            "Dativ",
+            "gegen",
+            "weder"
+          ],
+          "answer": "habe",
+          "answers": [
+            "habe"
+          ],
+          "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Main clause ____ clause",
+          "options": [
+            "Purpose",
+            "gegen",
+            "weder",
+            "als"
+          ],
+          "answer": "Purpose",
+          "answers": [
+            "Purpose"
+          ],
+          "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir nutzen die Klassenkasse, ____ den Ausflug zu bezahlen.",
+          "options": [
+            "um",
+            "weder",
+            "als",
+            "nicht"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir treffen uns ____ 7:30 Uhr, um pünktlich loszufahren.",
+          "options": [
+            "um",
+            "als",
+            "nicht",
+            "entweder"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Was machen Sie mit den Kindern, ____ ihnen das zu vermitteln?",
+          "options": [
+            "um",
+            "nicht",
+            "entweder",
+            "zu"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "von + ____ erzählen: Simon erzählt Andreas von seinem Freund.",
+          "options": [
+            "Dativ",
+            "entweder",
+            "zu",
+            "habe"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Verbs with fixed prepositions: The preposition determines the case.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "mit + Dativ einverstanden sein: Ich bin mit der Entscheidung ____ einverstanden.",
+          "options": [
+            "nicht",
+            "habe",
+            "Purpose",
+            "um"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "Verbs with fixed prepositions: The preposition determines the case.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + Akkusativ Widerspruch einlegen: Sie legt gegen die Kündigung Widerspruch ein.",
+          "options": [
+            "gegen",
+            "habe",
+            "Purpose",
+            "um"
+          ],
+          "answer": "gegen",
+          "answers": [
+            "gegen"
+          ],
+          "note": "Verbs with fixed prepositions: The preposition determines the case.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + Akkusativ klagen: Der Mieter klagt gegen den Vermieter.",
+          "options": [
+            "gegen",
+            "Purpose",
+            "um",
+            "Dativ"
+          ],
+          "answer": "gegen",
+          "answers": [
+            "gegen"
+          ],
+          "note": "Verbs with fixed prepositions: The preposition determines the case.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "aus + ____: aus hygienischen Gründen, aus beruflichen Gründen, aus gesundheitlichen Gründen",
+          "options": [
+            "Dativ",
+            "um",
+            "gegen",
+            "weder"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Common preposition patterns: Some prepositions can take accusative or dative depending on movement versus location. In the examples:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "mit + ____: mit dem Leiter, mit einer Rechnung",
+          "options": [
+            "Dativ",
+            "gegen",
+            "weder",
+            "als"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Common preposition patterns: Some prepositions can take accusative or dative depending on movement versus location. In the examples:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "von + ____: von der Airline, vom Arbeitgeber (vom = von dem)",
+          "options": [
+            "Dativ",
+            "weder",
+            "als",
+            "nicht"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Common preposition patterns: Some prepositions can take accusative or dative depending on movement versus location. In the examples:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "bei + ____: beim Amt, beim Elternabend (beim = bei dem)",
+          "options": [
+            "Dativ",
+            "als",
+            "nicht",
+            "entweder"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Common preposition patterns: Some prepositions can take accusative or dative depending on movement versus location. In the examples:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ … noch: Speisen dürfen weder zubereitet noch gegessen werden.",
+          "options": [
+            "weder",
+            "entweder",
+            "zu",
+            "habe"
+          ],
+          "answer": "weder",
+          "answers": [
+            "weder"
+          ],
+          "note": "Paired conjunctions: These conjunctions connect equivalent words, phrases, or clauses.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "sowohl … ____ auch: Man kann sowohl essen als auch Schlitten ausleihen.",
+          "options": [
+            "als",
+            "zu",
+            "habe",
+            "Purpose"
+          ],
+          "answer": "als",
+          "answers": [
+            "als"
+          ],
+          "note": "Paired conjunctions: These conjunctions connect equivalent words, phrases, or clauses.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "zwar …, aber …: Die Rodelbahn ist zwar lang, aber ____ steil.",
+          "options": [
+            "nicht",
+            "habe",
+            "Purpose",
+            "um"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "Paired conjunctions: These conjunctions connect equivalent words, phrases, or clauses.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ … oder …: Sie hatte entweder einen Schutzengel oder einfach Glück.",
+          "options": [
+            "entweder",
+            "Purpose",
+            "um",
+            "Dativ"
+          ],
+          "answer": "entweder",
+          "answers": [
+            "entweder"
+          ],
+          "note": "Paired conjunctions: These conjunctions connect equivalent words, phrases, or clauses.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Es ist wichtig, den Schnee ____ räumen.",
+          "options": [
+            "zu",
+            "um",
+            "Dativ",
+            "gegen"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich habe keine Zeit, dreimal am Tag Schnee ____ fegen.",
+          "options": [
+            "zu",
+            "Dativ",
+            "gegen",
+            "weder"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Mieter sind verpflichtet, den Gehweg ____ streuen.",
+          "options": [
+            "zu",
+            "gegen",
+            "weder",
+            "als"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ keine Lust, so früh aufzustehen.",
+          "options": [
+            "habe",
+            "weder",
+            "als",
+            "nicht"
+          ],
+          "answer": "habe",
+          "answers": [
+            "habe"
+          ],
+          "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Main clause ____ clause",
+          "options": [
+            "Purpose",
+            "als",
+            "nicht",
+            "entweder"
+          ],
+          "answer": "Purpose",
+          "answers": [
+            "Purpose"
+          ],
+          "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir nutzen die Klassenkasse, ____ den Ausflug zu bezahlen.",
+          "options": [
+            "um",
+            "nicht",
+            "entweder",
+            "zu"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 9,
@@ -5694,7 +9790,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "keine-angst-haben",
@@ -6394,7 +10490,522 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l9-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "ohne … zu + Infinitiv",
+          "body": "ohne … zu means “without doing something.” As with um … zu, the understood subject of the infinitive clause is normally the same as the subject of the main clause.",
+          "example": "Wir können leben, ohne unsere Umwelt zu schädigen.",
+          "emphasis": [
+            "ohne"
+          ]
+        },
+        {
+          "title": "anstatt … zu + Infinitiv",
+          "body": "anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
+          "example": "Anstatt uns nur hilflos zu fühlen, sollten wir unseren Alltag verändern.",
+          "emphasis": [
+            "Anstatt"
+          ]
+        },
+        {
+          "title": "Verbs followed by an infinitive clause",
+          "body": "Common controlling patterns:",
+          "example": "bitten, etwas zu tun: Ich bitte Sie, den Antrag zu prüfen.",
+          "emphasis": [
+            "zu"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "Wir können leben, ____ unsere Umwelt zu schädigen.",
+          "options": [
+            "ohne",
+            "Anstatt",
+            "anstatt",
+            "zu"
+          ],
+          "answer": "ohne",
+          "answers": [
+            "ohne"
+          ],
+          "note": "ohne … zu + Infinitiv: ohne … zu means “without doing something.” As with um … zu, the understood subject of the infinitive clause is normally the same as the subject of the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir geben Ihnen den Wochenplan, ____ zu sehr ins Detail zu gehen.",
+          "options": [
+            "ohne",
+            "anstatt",
+            "zu",
+            "an"
+          ],
+          "answer": "ohne",
+          "answers": [
+            "ohne"
+          ],
+          "note": "ohne … zu + Infinitiv: ohne … zu means “without doing something.” As with um … zu, the understood subject of the infinitive clause is normally the same as the subject of the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Man kann Wasser verbrauchen, ____ es zu sehr zu verschmutzen.",
+          "options": [
+            "ohne",
+            "zu",
+            "an",
+            "habe"
+          ],
+          "answer": "ohne",
+          "answers": [
+            "ohne"
+          ],
+          "note": "ohne … zu + Infinitiv: ohne … zu means “without doing something.” As with um … zu, the understood subject of the infinitive clause is normally the same as the subject of the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ die Umwelt zu schädigen",
+          "options": [
+            "ohne",
+            "an",
+            "habe",
+            "Purpose"
+          ],
+          "answer": "ohne",
+          "answers": [
+            "ohne"
+          ],
+          "note": "ohne … zu + Infinitiv: ohne … zu means “without doing something.” As with um … zu, the understood subject of the infinitive clause is normally the same as the subject of the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ uns nur hilflos zu fühlen, sollten wir unseren Alltag verändern.",
+          "options": [
+            "Anstatt",
+            "Purpose",
+            "um",
+            "ohne"
+          ],
+          "answer": "Anstatt",
+          "answers": [
+            "Anstatt"
+          ],
+          "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ uns nur hilflos zu fühlen",
+          "options": [
+            "anstatt",
+            "um",
+            "ohne",
+            "zu"
+          ],
+          "answer": "anstatt",
+          "answers": [
+            "anstatt"
+          ],
+          "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "[____ uns nur hilflos zu fühlen], sollten wir unseren Alltag verändern.",
+          "options": [
+            "Anstatt",
+            "ohne",
+            "zu",
+            "an"
+          ],
+          "answer": "Anstatt",
+          "answers": [
+            "Anstatt"
+          ],
+          "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ dass die Politik handelt, müssen die Bürger alles selbst machen.",
+          "options": [
+            "Anstatt",
+            "zu",
+            "an",
+            "habe"
+          ],
+          "answer": "Anstatt",
+          "answers": [
+            "Anstatt"
+          ],
+          "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "bitten, etwas ____ tun: Ich bitte Sie, den Antrag zu prüfen.",
+          "options": [
+            "zu",
+            "Anstatt",
+            "anstatt",
+            "an"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Verbs followed by an infinitive clause: Common controlling patterns:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "versprechen, etwas ____ tun: Sie hat versprochen, einen Handwerker anzurufen.",
+          "options": [
+            "zu",
+            "anstatt",
+            "an",
+            "habe"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Verbs followed by an infinitive clause: Common controlling patterns:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "daran denken, etwas ____ tun: Denk daran, den Gehweg zu streuen.",
+          "options": [
+            "zu",
+            "an",
+            "habe",
+            "Purpose"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Verbs followed by an infinitive clause: Common controlling patterns:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "anfangen, etwas zu tun: Es fängt ____ zu schneien.",
+          "options": [
+            "an",
+            "habe",
+            "Purpose",
+            "um"
+          ],
+          "answer": "an",
+          "answers": [
+            "an"
+          ],
+          "note": "Verbs followed by an infinitive clause: Common controlling patterns:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Es ist wichtig, den Schnee ____ räumen.",
+          "options": [
+            "zu",
+            "Purpose",
+            "um",
+            "ohne"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich habe keine Zeit, dreimal am Tag Schnee ____ fegen.",
+          "options": [
+            "zu",
+            "um",
+            "ohne",
+            "Anstatt"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Mieter sind verpflichtet, den Gehweg ____ streuen.",
+          "options": [
+            "zu",
+            "ohne",
+            "Anstatt",
+            "anstatt"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ keine Lust, so früh aufzustehen.",
+          "options": [
+            "habe",
+            "Anstatt",
+            "anstatt",
+            "zu"
+          ],
+          "answer": "habe",
+          "answers": [
+            "habe"
+          ],
+          "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Main clause ____ clause",
+          "options": [
+            "Purpose",
+            "anstatt",
+            "zu",
+            "an"
+          ],
+          "answer": "Purpose",
+          "answers": [
+            "Purpose"
+          ],
+          "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir nutzen die Klassenkasse, ____ den Ausflug zu bezahlen.",
+          "options": [
+            "um",
+            "zu",
+            "an",
+            "habe"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir treffen uns ____ 7:30 Uhr, um pünktlich loszufahren.",
+          "options": [
+            "um",
+            "an",
+            "habe",
+            "Purpose"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Was machen Sie mit den Kindern, ____ ihnen das zu vermitteln?",
+          "options": [
+            "um",
+            "habe",
+            "Purpose",
+            "ohne"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir können leben, ____ unsere Umwelt zu schädigen.",
+          "options": [
+            "ohne",
+            "um",
+            "Anstatt",
+            "anstatt"
+          ],
+          "answer": "ohne",
+          "answers": [
+            "ohne"
+          ],
+          "note": "ohne … zu + Infinitiv: ohne … zu means “without doing something.” As with um … zu, the understood subject of the infinitive clause is normally the same as the subject of the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir geben Ihnen den Wochenplan, ____ zu sehr ins Detail zu gehen.",
+          "options": [
+            "ohne",
+            "Anstatt",
+            "anstatt",
+            "zu"
+          ],
+          "answer": "ohne",
+          "answers": [
+            "ohne"
+          ],
+          "note": "ohne … zu + Infinitiv: ohne … zu means “without doing something.” As with um … zu, the understood subject of the infinitive clause is normally the same as the subject of the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Man kann Wasser verbrauchen, ____ es zu sehr zu verschmutzen.",
+          "options": [
+            "ohne",
+            "anstatt",
+            "zu",
+            "an"
+          ],
+          "answer": "ohne",
+          "answers": [
+            "ohne"
+          ],
+          "note": "ohne … zu + Infinitiv: ohne … zu means “without doing something.” As with um … zu, the understood subject of the infinitive clause is normally the same as the subject of the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ die Umwelt zu schädigen",
+          "options": [
+            "ohne",
+            "zu",
+            "an",
+            "habe"
+          ],
+          "answer": "ohne",
+          "answers": [
+            "ohne"
+          ],
+          "note": "ohne … zu + Infinitiv: ohne … zu means “without doing something.” As with um … zu, the understood subject of the infinitive clause is normally the same as the subject of the main clause.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ uns nur hilflos zu fühlen, sollten wir unseren Alltag verändern.",
+          "options": [
+            "Anstatt",
+            "ohne",
+            "zu",
+            "an"
+          ],
+          "answer": "Anstatt",
+          "answers": [
+            "Anstatt"
+          ],
+          "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ uns nur hilflos zu fühlen",
+          "options": [
+            "anstatt",
+            "zu",
+            "an",
+            "habe"
+          ],
+          "answer": "anstatt",
+          "answers": [
+            "anstatt"
+          ],
+          "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "[____ uns nur hilflos zu fühlen], sollten wir unseren Alltag verändern.",
+          "options": [
+            "Anstatt",
+            "an",
+            "habe",
+            "Purpose"
+          ],
+          "answer": "Anstatt",
+          "answers": [
+            "Anstatt"
+          ],
+          "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ dass die Politik handelt, müssen die Bürger alles selbst machen.",
+          "options": [
+            "Anstatt",
+            "habe",
+            "Purpose",
+            "um"
+          ],
+          "answer": "Anstatt",
+          "answers": [
+            "Anstatt"
+          ],
+          "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "bitten, etwas ____ tun: Ich bitte Sie, den Antrag zu prüfen.",
+          "options": [
+            "zu",
+            "ohne",
+            "Anstatt",
+            "anstatt"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Verbs followed by an infinitive clause: Common controlling patterns:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "versprechen, etwas ____ tun: Sie hat versprochen, einen Handwerker anzurufen.",
+          "options": [
+            "zu",
+            "Anstatt",
+            "anstatt",
+            "an"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Verbs followed by an infinitive clause: Common controlling patterns:",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 10,
@@ -6404,7 +11015,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "daran-denken",
@@ -7104,7 +11715,522 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l10-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Modal verbs without zu",
+          "body": "After a modal verb, the second verb is an infinitive without zu and goes to the end.",
+          "example": "Man muss die Frist beachten.",
+          "emphasis": [
+            "Man"
+          ]
+        },
+        {
+          "title": "lassen + Infinitiv",
+          "body": "lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "example": "Ich lasse die Heizung reparieren.",
+          "emphasis": [
+            "lasse"
+          ]
+        },
+        {
+          "title": "Separable verbs",
+          "body": "The prefix separates in a main clause and joins the participle in the perfect.",
+          "example": "ausziehen: Ich ziehe aus. / Ich bin ausgezogen.",
+          "emphasis": [
+            "ausziehen"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "____ muss die Frist beachten.",
+          "options": [
+            "Man",
+            "kann",
+            "Simon",
+            "lasse"
+          ],
+          "answer": "Man",
+          "answers": [
+            "Man"
+          ],
+          "note": "Modal verbs without zu: After a modal verb, the second verb is an infinitive without zu and goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Sie ____ Widerspruch einlegen.",
+          "options": [
+            "kann",
+            "Simon",
+            "lasse",
+            "lassen"
+          ],
+          "answer": "kann",
+          "answers": [
+            "kann"
+          ],
+          "note": "Modal verbs without zu: After a modal verb, the second verb is an infinitive without zu and goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ will einen Rechtsanwalt anrufen.",
+          "options": [
+            "Simon",
+            "lasse",
+            "lassen",
+            "Mieterin"
+          ],
+          "answer": "Simon",
+          "answers": [
+            "Simon"
+          ],
+          "note": "Modal verbs without zu: After a modal verb, the second verb is an infinitive without zu and goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ darf hier nicht rauchen.",
+          "options": [
+            "Man",
+            "lassen",
+            "Mieterin",
+            "arranger"
+          ],
+          "answer": "Man",
+          "answers": [
+            "Man"
+          ],
+          "note": "Modal verbs without zu: After a modal verb, the second verb is an infinitive without zu and goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ die Heizung reparieren.",
+          "options": [
+            "lasse",
+            "Mieterin",
+            "arranger",
+            "ausziehen"
+          ],
+          "answer": "lasse",
+          "answers": [
+            "lasse"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich bitte Sie, die Heizung reparieren zu ____.",
+          "options": [
+            "lassen",
+            "arranger",
+            "ausziehen",
+            "um"
+          ],
+          "answer": "lassen",
+          "answers": [
+            "lassen"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ lässt die Heizung reparieren.",
+          "options": [
+            "Mieterin",
+            "ausziehen",
+            "um",
+            "zurückgeben"
+          ],
+          "answer": "Mieterin",
+          "answers": [
+            "Mieterin"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ action by a tradesperson",
+          "options": [
+            "arranger",
+            "um",
+            "zurückgeben",
+            "mitteilen"
+          ],
+          "answer": "arranger",
+          "answers": [
+            "arranger"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____: Ich ziehe aus. / Ich bin ausgezogen.",
+          "options": [
+            "ausziehen",
+            "zurückgeben",
+            "mitteilen",
+            "Anstatt"
+          ],
+          "answer": "ausziehen",
+          "answers": [
+            "ausziehen"
+          ],
+          "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "umziehen: Ich ziehe nach Stuttgart ____. / Ich bin umgezogen.",
+          "options": [
+            "um",
+            "mitteilen",
+            "Anstatt",
+            "anstatt"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____: Ich gebe den Schlüssel zurück. / Ich habe ihn zurückgegeben.",
+          "options": [
+            "zurückgeben",
+            "Anstatt",
+            "anstatt",
+            "zu"
+          ],
+          "answer": "zurückgeben",
+          "answers": [
+            "zurückgeben"
+          ],
+          "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____: Ich teile Ihnen den Termin mit. / Ich habe ihn mitgeteilt.",
+          "options": [
+            "mitteilen",
+            "anstatt",
+            "zu",
+            "an"
+          ],
+          "answer": "mitteilen",
+          "answers": [
+            "mitteilen"
+          ],
+          "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ uns nur hilflos zu fühlen, sollten wir unseren Alltag verändern.",
+          "options": [
+            "Anstatt",
+            "an",
+            "Man",
+            "kann"
+          ],
+          "answer": "Anstatt",
+          "answers": [
+            "Anstatt"
+          ],
+          "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ uns nur hilflos zu fühlen",
+          "options": [
+            "anstatt",
+            "Man",
+            "kann",
+            "Simon"
+          ],
+          "answer": "anstatt",
+          "answers": [
+            "anstatt"
+          ],
+          "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "[____ uns nur hilflos zu fühlen], sollten wir unseren Alltag verändern.",
+          "options": [
+            "Anstatt",
+            "kann",
+            "Simon",
+            "lasse"
+          ],
+          "answer": "Anstatt",
+          "answers": [
+            "Anstatt"
+          ],
+          "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ dass die Politik handelt, müssen die Bürger alles selbst machen.",
+          "options": [
+            "Anstatt",
+            "Simon",
+            "lasse",
+            "lassen"
+          ],
+          "answer": "Anstatt",
+          "answers": [
+            "Anstatt"
+          ],
+          "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "bitten, etwas ____ tun: Ich bitte Sie, den Antrag zu prüfen.",
+          "options": [
+            "zu",
+            "Simon",
+            "lasse",
+            "lassen"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Verbs followed by an infinitive clause: Common controlling patterns:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "versprechen, etwas ____ tun: Sie hat versprochen, einen Handwerker anzurufen.",
+          "options": [
+            "zu",
+            "lasse",
+            "lassen",
+            "Mieterin"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Verbs followed by an infinitive clause: Common controlling patterns:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "daran denken, etwas ____ tun: Denk daran, den Gehweg zu streuen.",
+          "options": [
+            "zu",
+            "lassen",
+            "Mieterin",
+            "arranger"
+          ],
+          "answer": "zu",
+          "answers": [
+            "zu"
+          ],
+          "note": "Verbs followed by an infinitive clause: Common controlling patterns:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "anfangen, etwas zu tun: Es fängt ____ zu schneien.",
+          "options": [
+            "an",
+            "Mieterin",
+            "arranger",
+            "ausziehen"
+          ],
+          "answer": "an",
+          "answers": [
+            "an"
+          ],
+          "note": "Verbs followed by an infinitive clause: Common controlling patterns:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ muss die Frist beachten.",
+          "options": [
+            "Man",
+            "ausziehen",
+            "um",
+            "zurückgeben"
+          ],
+          "answer": "Man",
+          "answers": [
+            "Man"
+          ],
+          "note": "Modal verbs without zu: After a modal verb, the second verb is an infinitive without zu and goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Sie ____ Widerspruch einlegen.",
+          "options": [
+            "kann",
+            "um",
+            "zurückgeben",
+            "mitteilen"
+          ],
+          "answer": "kann",
+          "answers": [
+            "kann"
+          ],
+          "note": "Modal verbs without zu: After a modal verb, the second verb is an infinitive without zu and goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ will einen Rechtsanwalt anrufen.",
+          "options": [
+            "Simon",
+            "zurückgeben",
+            "mitteilen",
+            "Anstatt"
+          ],
+          "answer": "Simon",
+          "answers": [
+            "Simon"
+          ],
+          "note": "Modal verbs without zu: After a modal verb, the second verb is an infinitive without zu and goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ darf hier nicht rauchen.",
+          "options": [
+            "Man",
+            "mitteilen",
+            "Anstatt",
+            "anstatt"
+          ],
+          "answer": "Man",
+          "answers": [
+            "Man"
+          ],
+          "note": "Modal verbs without zu: After a modal verb, the second verb is an infinitive without zu and goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ die Heizung reparieren.",
+          "options": [
+            "lasse",
+            "Anstatt",
+            "anstatt",
+            "zu"
+          ],
+          "answer": "lasse",
+          "answers": [
+            "lasse"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich bitte Sie, die Heizung reparieren zu ____.",
+          "options": [
+            "lassen",
+            "anstatt",
+            "zu",
+            "an"
+          ],
+          "answer": "lassen",
+          "answers": [
+            "lassen"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ lässt die Heizung reparieren.",
+          "options": [
+            "Mieterin",
+            "zu",
+            "an",
+            "Man"
+          ],
+          "answer": "Mieterin",
+          "answers": [
+            "Mieterin"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ action by a tradesperson",
+          "options": [
+            "arranger",
+            "an",
+            "Man",
+            "kann"
+          ],
+          "answer": "arranger",
+          "answers": [
+            "arranger"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____: Ich ziehe aus. / Ich bin ausgezogen.",
+          "options": [
+            "ausziehen",
+            "Man",
+            "kann",
+            "Simon"
+          ],
+          "answer": "ausziehen",
+          "answers": [
+            "ausziehen"
+          ],
+          "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "umziehen: Ich ziehe nach Stuttgart ____. / Ich bin umgezogen.",
+          "options": [
+            "um",
+            "kann",
+            "Simon",
+            "lasse"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 11,
@@ -7114,7 +12240,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "anfangen-etwas-zu-tun",
@@ -7814,7 +12940,514 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l11-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 2 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Inseparable verbs",
+          "body": "Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
+          "example": "besprechen → hat besprochen",
+          "emphasis": [
+            "besprechen"
+          ]
+        },
+        {
+          "title": "Perfect tense",
+          "body": "The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
+          "example": "Die Mannschaft hat fünf Tore geschossen.",
+          "emphasis": [
+            "Mannschaft"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "____ → hat besprochen",
+          "options": [
+            "besprechen",
+            "erkennen",
+            "versprechen",
+            "enthalten"
+          ],
+          "answer": "besprechen",
+          "answers": [
+            "besprechen"
+          ],
+          "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → hat erkannt",
+          "options": [
+            "erkennen",
+            "versprechen",
+            "enthalten",
+            "Mannschaft"
+          ],
+          "answer": "erkennen",
+          "answers": [
+            "erkennen"
+          ],
+          "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → hat versprochen",
+          "options": [
+            "versprechen",
+            "enthalten",
+            "Mannschaft",
+            "Airline"
+          ],
+          "answer": "versprechen",
+          "answers": [
+            "versprechen"
+          ],
+          "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → hat enthalten",
+          "options": [
+            "enthalten",
+            "Mannschaft",
+            "Airline",
+            "sind"
+          ],
+          "answer": "enthalten",
+          "answers": [
+            "enthalten"
+          ],
+          "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ hat fünf Tore geschossen.",
+          "options": [
+            "Mannschaft",
+            "Airline",
+            "sind",
+            "eingetroffen"
+          ],
+          "answer": "Mannschaft",
+          "answers": [
+            "Mannschaft"
+          ],
+          "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ hat Gutscheine verteilt.",
+          "options": [
+            "Airline",
+            "sind",
+            "eingetroffen",
+            "lasse"
+          ],
+          "answer": "Airline",
+          "answers": [
+            "Airline"
+          ],
+          "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ nach Stuttgart umgezogen.",
+          "options": [
+            "sind",
+            "eingetroffen",
+            "lasse",
+            "lassen"
+          ],
+          "answer": "sind",
+          "answers": [
+            "sind"
+          ],
+          "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "ist ____",
+          "options": [
+            "eingetroffen",
+            "lasse",
+            "lassen",
+            "Mieterin"
+          ],
+          "answer": "eingetroffen",
+          "answers": [
+            "eingetroffen"
+          ],
+          "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ die Heizung reparieren.",
+          "options": [
+            "lasse",
+            "lassen",
+            "Mieterin",
+            "arranger"
+          ],
+          "answer": "lasse",
+          "answers": [
+            "lasse"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich bitte Sie, die Heizung reparieren zu ____.",
+          "options": [
+            "lassen",
+            "Mieterin",
+            "arranger",
+            "ausziehen"
+          ],
+          "answer": "lassen",
+          "answers": [
+            "lassen"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ lässt die Heizung reparieren.",
+          "options": [
+            "Mieterin",
+            "arranger",
+            "ausziehen",
+            "um"
+          ],
+          "answer": "Mieterin",
+          "answers": [
+            "Mieterin"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ action by a tradesperson",
+          "options": [
+            "arranger",
+            "ausziehen",
+            "um",
+            "zurückgeben"
+          ],
+          "answer": "arranger",
+          "answers": [
+            "arranger"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____: Ich ziehe aus. / Ich bin ausgezogen.",
+          "options": [
+            "ausziehen",
+            "um",
+            "zurückgeben",
+            "mitteilen"
+          ],
+          "answer": "ausziehen",
+          "answers": [
+            "ausziehen"
+          ],
+          "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "umziehen: Ich ziehe nach Stuttgart ____. / Ich bin umgezogen.",
+          "options": [
+            "um",
+            "zurückgeben",
+            "mitteilen",
+            "besprechen"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____: Ich gebe den Schlüssel zurück. / Ich habe ihn zurückgegeben.",
+          "options": [
+            "zurückgeben",
+            "mitteilen",
+            "besprechen",
+            "erkennen"
+          ],
+          "answer": "zurückgeben",
+          "answers": [
+            "zurückgeben"
+          ],
+          "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____: Ich teile Ihnen den Termin mit. / Ich habe ihn mitgeteilt.",
+          "options": [
+            "mitteilen",
+            "besprechen",
+            "erkennen",
+            "versprechen"
+          ],
+          "answer": "mitteilen",
+          "answers": [
+            "mitteilen"
+          ],
+          "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → hat besprochen",
+          "options": [
+            "besprechen",
+            "versprechen",
+            "enthalten",
+            "Mannschaft"
+          ],
+          "answer": "besprechen",
+          "answers": [
+            "besprechen"
+          ],
+          "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → hat erkannt",
+          "options": [
+            "erkennen",
+            "enthalten",
+            "Mannschaft",
+            "Airline"
+          ],
+          "answer": "erkennen",
+          "answers": [
+            "erkennen"
+          ],
+          "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → hat versprochen",
+          "options": [
+            "versprechen",
+            "Mannschaft",
+            "Airline",
+            "sind"
+          ],
+          "answer": "versprechen",
+          "answers": [
+            "versprechen"
+          ],
+          "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → hat enthalten",
+          "options": [
+            "enthalten",
+            "Airline",
+            "sind",
+            "eingetroffen"
+          ],
+          "answer": "enthalten",
+          "answers": [
+            "enthalten"
+          ],
+          "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ hat fünf Tore geschossen.",
+          "options": [
+            "Mannschaft",
+            "sind",
+            "eingetroffen",
+            "lasse"
+          ],
+          "answer": "Mannschaft",
+          "answers": [
+            "Mannschaft"
+          ],
+          "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ hat Gutscheine verteilt.",
+          "options": [
+            "Airline",
+            "eingetroffen",
+            "lasse",
+            "lassen"
+          ],
+          "answer": "Airline",
+          "answers": [
+            "Airline"
+          ],
+          "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ nach Stuttgart umgezogen.",
+          "options": [
+            "sind",
+            "lasse",
+            "lassen",
+            "Mieterin"
+          ],
+          "answer": "sind",
+          "answers": [
+            "sind"
+          ],
+          "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "ist ____",
+          "options": [
+            "eingetroffen",
+            "lassen",
+            "Mieterin",
+            "arranger"
+          ],
+          "answer": "eingetroffen",
+          "answers": [
+            "eingetroffen"
+          ],
+          "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ die Heizung reparieren.",
+          "options": [
+            "lasse",
+            "Mieterin",
+            "arranger",
+            "ausziehen"
+          ],
+          "answer": "lasse",
+          "answers": [
+            "lasse"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich bitte Sie, die Heizung reparieren zu ____.",
+          "options": [
+            "lassen",
+            "arranger",
+            "ausziehen",
+            "um"
+          ],
+          "answer": "lassen",
+          "answers": [
+            "lassen"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ lässt die Heizung reparieren.",
+          "options": [
+            "Mieterin",
+            "ausziehen",
+            "um",
+            "zurückgeben"
+          ],
+          "answer": "Mieterin",
+          "answers": [
+            "Mieterin"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ action by a tradesperson",
+          "options": [
+            "arranger",
+            "um",
+            "zurückgeben",
+            "mitteilen"
+          ],
+          "answer": "arranger",
+          "answers": [
+            "arranger"
+          ],
+          "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____: Ich ziehe aus. / Ich bin ausgezogen.",
+          "options": [
+            "ausziehen",
+            "zurückgeben",
+            "mitteilen",
+            "besprechen"
+          ],
+          "answer": "ausziehen",
+          "answers": [
+            "ausziehen"
+          ],
+          "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "umziehen: Ich ziehe nach Stuttgart ____. / Ich bin umgezogen.",
+          "options": [
+            "um",
+            "mitteilen",
+            "besprechen",
+            "erkennen"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 12,
@@ -7824,7 +13457,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "die-erkaeltung",
@@ -8524,7 +14157,522 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l12-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "seit + Dativ with the present tense",
+          "body": "German uses the present tense for a situation that started in the past and still continues.",
+          "example": "Ich lebe seit sieben Jahren in dieser Wohnung.",
+          "emphasis": [
+            "seit"
+          ]
+        },
+        {
+          "title": "Process passive: werden + Partizip II",
+          "body": "The process passive focuses on an action rather than the person performing it.",
+          "example": "Der Antrag wird abgelehnt.",
+          "emphasis": [
+            "Antrag"
+          ]
+        },
+        {
+          "title": "State passive and result adjectives",
+          "body": "sein + Partizip II/adjective describes a state or result.",
+          "example": "Das Rauchen ist untersagt.",
+          "emphasis": [
+            "Rauchen"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "Ich lebe ____ sieben Jahren in dieser Wohnung.",
+          "options": [
+            "seit",
+            "Antrag",
+            "Eine",
+            "werden"
+          ],
+          "answer": "seit",
+          "answers": [
+            "seit"
+          ],
+          "note": "seit + Dativ with the present tense: German uses the present tense for a situation that started in the past and still continues.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Montag bin ich krank.",
+          "options": [
+            "Seit",
+            "Eine",
+            "werden",
+            "Rauchen"
+          ],
+          "answer": "Seit",
+          "answers": [
+            "Seit"
+          ],
+          "note": "seit + Dativ with the present tense: German uses the present tense for a situation that started in the past and still continues.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der ____ wird abgelehnt.",
+          "options": [
+            "Antrag",
+            "Eine",
+            "werden",
+            "Rauchen"
+          ],
+          "answer": "Antrag",
+          "answers": [
+            "Antrag"
+          ],
+          "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ neue Entscheidung wird getroffen.",
+          "options": [
+            "Eine",
+            "werden",
+            "Rauchen",
+            "nicht"
+          ],
+          "answer": "Eine",
+          "answers": [
+            "Eine"
+          ],
+          "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Bonbons ____ ins Publikum geworfen.",
+          "options": [
+            "werden",
+            "Rauchen",
+            "nicht",
+            "Grillen"
+          ],
+          "answer": "werden",
+          "answers": [
+            "werden"
+          ],
+          "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Entscheidung muss noch einmal geprüft ____.",
+          "options": [
+            "werden",
+            "nicht",
+            "Grillen",
+            "Gehweg"
+          ],
+          "answer": "werden",
+          "answers": [
+            "werden"
+          ],
+          "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Das ____ ist untersagt.",
+          "options": [
+            "Rauchen",
+            "Grillen",
+            "Gehweg",
+            "besprechen"
+          ],
+          "answer": "Rauchen",
+          "answers": [
+            "Rauchen"
+          ],
+          "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Tiere sind ____ gestattet.",
+          "options": [
+            "nicht",
+            "Gehweg",
+            "besprechen",
+            "erkennen"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ ist nur auf bestimmten Plätzen erlaubt.",
+          "options": [
+            "Grillen",
+            "besprechen",
+            "erkennen",
+            "versprechen"
+          ],
+          "answer": "Grillen",
+          "answers": [
+            "Grillen"
+          ],
+          "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der ____ muss bis 7 Uhr geräumt sein.",
+          "options": [
+            "Gehweg",
+            "erkennen",
+            "versprechen",
+            "enthalten"
+          ],
+          "answer": "Gehweg",
+          "answers": [
+            "Gehweg"
+          ],
+          "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → hat besprochen",
+          "options": [
+            "besprechen",
+            "versprechen",
+            "enthalten",
+            "Mannschaft"
+          ],
+          "answer": "besprechen",
+          "answers": [
+            "besprechen"
+          ],
+          "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → hat erkannt",
+          "options": [
+            "erkennen",
+            "enthalten",
+            "Mannschaft",
+            "Airline"
+          ],
+          "answer": "erkennen",
+          "answers": [
+            "erkennen"
+          ],
+          "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → hat versprochen",
+          "options": [
+            "versprechen",
+            "Mannschaft",
+            "Airline",
+            "sind"
+          ],
+          "answer": "versprechen",
+          "answers": [
+            "versprechen"
+          ],
+          "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → hat enthalten",
+          "options": [
+            "enthalten",
+            "Airline",
+            "sind",
+            "eingetroffen"
+          ],
+          "answer": "enthalten",
+          "answers": [
+            "enthalten"
+          ],
+          "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ hat fünf Tore geschossen.",
+          "options": [
+            "Mannschaft",
+            "sind",
+            "eingetroffen",
+            "seit"
+          ],
+          "answer": "Mannschaft",
+          "answers": [
+            "Mannschaft"
+          ],
+          "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ hat Gutscheine verteilt.",
+          "options": [
+            "Airline",
+            "eingetroffen",
+            "seit",
+            "Seit"
+          ],
+          "answer": "Airline",
+          "answers": [
+            "Airline"
+          ],
+          "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ nach Stuttgart umgezogen.",
+          "options": [
+            "sind",
+            "seit",
+            "Seit",
+            "Antrag"
+          ],
+          "answer": "sind",
+          "answers": [
+            "sind"
+          ],
+          "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "ist ____",
+          "options": [
+            "eingetroffen",
+            "Seit",
+            "Antrag",
+            "Eine"
+          ],
+          "answer": "eingetroffen",
+          "answers": [
+            "eingetroffen"
+          ],
+          "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich lebe ____ sieben Jahren in dieser Wohnung.",
+          "options": [
+            "seit",
+            "Rauchen",
+            "nicht",
+            "Grillen"
+          ],
+          "answer": "seit",
+          "answers": [
+            "seit"
+          ],
+          "note": "seit + Dativ with the present tense: German uses the present tense for a situation that started in the past and still continues.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Montag bin ich krank.",
+          "options": [
+            "Seit",
+            "nicht",
+            "Grillen",
+            "Gehweg"
+          ],
+          "answer": "Seit",
+          "answers": [
+            "Seit"
+          ],
+          "note": "seit + Dativ with the present tense: German uses the present tense for a situation that started in the past and still continues.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der ____ wird abgelehnt.",
+          "options": [
+            "Antrag",
+            "Rauchen",
+            "nicht",
+            "Grillen"
+          ],
+          "answer": "Antrag",
+          "answers": [
+            "Antrag"
+          ],
+          "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ neue Entscheidung wird getroffen.",
+          "options": [
+            "Eine",
+            "nicht",
+            "Grillen",
+            "Gehweg"
+          ],
+          "answer": "Eine",
+          "answers": [
+            "Eine"
+          ],
+          "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Bonbons ____ ins Publikum geworfen.",
+          "options": [
+            "werden",
+            "Grillen",
+            "Gehweg",
+            "besprechen"
+          ],
+          "answer": "werden",
+          "answers": [
+            "werden"
+          ],
+          "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Entscheidung muss noch einmal geprüft ____.",
+          "options": [
+            "werden",
+            "Gehweg",
+            "besprechen",
+            "erkennen"
+          ],
+          "answer": "werden",
+          "answers": [
+            "werden"
+          ],
+          "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Das ____ ist untersagt.",
+          "options": [
+            "Rauchen",
+            "besprechen",
+            "erkennen",
+            "versprechen"
+          ],
+          "answer": "Rauchen",
+          "answers": [
+            "Rauchen"
+          ],
+          "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Tiere sind ____ gestattet.",
+          "options": [
+            "nicht",
+            "erkennen",
+            "versprechen",
+            "enthalten"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ ist nur auf bestimmten Plätzen erlaubt.",
+          "options": [
+            "Grillen",
+            "versprechen",
+            "enthalten",
+            "Mannschaft"
+          ],
+          "answer": "Grillen",
+          "answers": [
+            "Grillen"
+          ],
+          "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der ____ muss bis 7 Uhr geräumt sein.",
+          "options": [
+            "Gehweg",
+            "enthalten",
+            "Mannschaft",
+            "Airline"
+          ],
+          "answer": "Gehweg",
+          "answers": [
+            "Gehweg"
+          ],
+          "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → hat besprochen",
+          "options": [
+            "besprechen",
+            "Mannschaft",
+            "Airline",
+            "sind"
+          ],
+          "answer": "besprechen",
+          "answers": [
+            "besprechen"
+          ],
+          "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → hat erkannt",
+          "options": [
+            "erkennen",
+            "Airline",
+            "sind",
+            "eingetroffen"
+          ],
+          "answer": "erkennen",
+          "answers": [
+            "erkennen"
+          ],
+          "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 13,
@@ -8534,7 +14682,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "gradangaben-muede",
@@ -9246,7 +15394,522 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l13-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Reflexive verbs",
+          "body": "The reflexive pronoun changes with the subject.",
+          "example": "Ich verkleide mich.",
+          "emphasis": [
+            "verkleide"
+          ]
+        },
+        {
+          "title": "Formal requests and the Sie imperative",
+          "body": "For a formal imperative, use the infinitive form followed by Sie.",
+          "example": "Denken Sie bitte daran.",
+          "emphasis": [
+            "Sie"
+          ]
+        },
+        {
+          "title": "Infinitive instructions in schedules and notices",
+          "body": "Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
+          "example": "Bitte pünktlich an der Schule sein.",
+          "emphasis": [
+            "Bitte"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ mich.",
+          "options": [
+            "verkleide",
+            "ärgerst",
+            "Fluggäste",
+            "hält"
+          ],
+          "answer": "verkleide",
+          "answers": [
+            "verkleide"
+          ],
+          "note": "Reflexive verbs: The reflexive pronoun changes with the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Du ____ dich.",
+          "options": [
+            "ärgerst",
+            "Fluggäste",
+            "hält",
+            "Sie"
+          ],
+          "answer": "ärgerst",
+          "answers": [
+            "ärgerst"
+          ],
+          "note": "Reflexive verbs: The reflexive pronoun changes with the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ beruhigen sich.",
+          "options": [
+            "Fluggäste",
+            "hält",
+            "Sie",
+            "Bitte"
+          ],
+          "answer": "Fluggäste",
+          "answers": [
+            "Fluggäste"
+          ],
+          "note": "Reflexive verbs: The reflexive pronoun changes with the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Sie ____ sich an die Regeln.",
+          "options": [
+            "hält",
+            "Sie",
+            "Bitte",
+            "Seien"
+          ],
+          "answer": "hält",
+          "answers": [
+            "hält"
+          ],
+          "note": "Reflexive verbs: The reflexive pronoun changes with the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Denken ____ bitte daran.",
+          "options": [
+            "Sie",
+            "Bitte",
+            "Seien",
+            "Warme"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Nehmen ____ Rücksicht auf andere Gäste.",
+          "options": [
+            "Sie",
+            "Seien",
+            "Warme",
+            "Nehmen"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Geben ____ die Schlüssel zurück.",
+          "options": [
+            "Sie",
+            "Warme",
+            "Nehmen",
+            "Antrag"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Bestätigen ____ den Termin schriftlich.",
+          "options": [
+            "Sie",
+            "Nehmen",
+            "Antrag",
+            "Eine"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ pünktlich an der Schule sein.",
+          "options": [
+            "Bitte",
+            "Antrag",
+            "Eine",
+            "werden"
+          ],
+          "answer": "Bitte",
+          "answers": [
+            "Bitte"
+          ],
+          "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "= ____ Sie bitte pünktlich an der Schule.",
+          "options": [
+            "Seien",
+            "Eine",
+            "werden",
+            "Rauchen"
+          ],
+          "answer": "Seien",
+          "answers": [
+            "Seien"
+          ],
+          "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Kleidung und Picknick mitnehmen.",
+          "options": [
+            "Warme",
+            "werden",
+            "Rauchen",
+            "nicht"
+          ],
+          "answer": "Warme",
+          "answers": [
+            "Warme"
+          ],
+          "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "= ____ Sie warme Kleidung und ein Picknick mit.",
+          "options": [
+            "Nehmen",
+            "Rauchen",
+            "nicht",
+            "Grillen"
+          ],
+          "answer": "Nehmen",
+          "answers": [
+            "Nehmen"
+          ],
+          "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der ____ wird abgelehnt.",
+          "options": [
+            "Antrag",
+            "nicht",
+            "Grillen",
+            "Gehweg"
+          ],
+          "answer": "Antrag",
+          "answers": [
+            "Antrag"
+          ],
+          "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ neue Entscheidung wird getroffen.",
+          "options": [
+            "Eine",
+            "Grillen",
+            "Gehweg",
+            "verkleide"
+          ],
+          "answer": "Eine",
+          "answers": [
+            "Eine"
+          ],
+          "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Bonbons ____ ins Publikum geworfen.",
+          "options": [
+            "werden",
+            "Gehweg",
+            "verkleide",
+            "ärgerst"
+          ],
+          "answer": "werden",
+          "answers": [
+            "werden"
+          ],
+          "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Entscheidung muss noch einmal geprüft ____.",
+          "options": [
+            "werden",
+            "verkleide",
+            "ärgerst",
+            "Fluggäste"
+          ],
+          "answer": "werden",
+          "answers": [
+            "werden"
+          ],
+          "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Das ____ ist untersagt.",
+          "options": [
+            "Rauchen",
+            "ärgerst",
+            "Fluggäste",
+            "hält"
+          ],
+          "answer": "Rauchen",
+          "answers": [
+            "Rauchen"
+          ],
+          "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Tiere sind ____ gestattet.",
+          "options": [
+            "nicht",
+            "Fluggäste",
+            "hält",
+            "Sie"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ ist nur auf bestimmten Plätzen erlaubt.",
+          "options": [
+            "Grillen",
+            "hält",
+            "Sie",
+            "Bitte"
+          ],
+          "answer": "Grillen",
+          "answers": [
+            "Grillen"
+          ],
+          "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der ____ muss bis 7 Uhr geräumt sein.",
+          "options": [
+            "Gehweg",
+            "Sie",
+            "Bitte",
+            "Seien"
+          ],
+          "answer": "Gehweg",
+          "answers": [
+            "Gehweg"
+          ],
+          "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ mich.",
+          "options": [
+            "verkleide",
+            "Seien",
+            "Warme",
+            "Nehmen"
+          ],
+          "answer": "verkleide",
+          "answers": [
+            "verkleide"
+          ],
+          "note": "Reflexive verbs: The reflexive pronoun changes with the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Du ____ dich.",
+          "options": [
+            "ärgerst",
+            "Warme",
+            "Nehmen",
+            "Antrag"
+          ],
+          "answer": "ärgerst",
+          "answers": [
+            "ärgerst"
+          ],
+          "note": "Reflexive verbs: The reflexive pronoun changes with the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ beruhigen sich.",
+          "options": [
+            "Fluggäste",
+            "Nehmen",
+            "Antrag",
+            "Eine"
+          ],
+          "answer": "Fluggäste",
+          "answers": [
+            "Fluggäste"
+          ],
+          "note": "Reflexive verbs: The reflexive pronoun changes with the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Sie ____ sich an die Regeln.",
+          "options": [
+            "hält",
+            "Antrag",
+            "Eine",
+            "werden"
+          ],
+          "answer": "hält",
+          "answers": [
+            "hält"
+          ],
+          "note": "Reflexive verbs: The reflexive pronoun changes with the subject.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Denken ____ bitte daran.",
+          "options": [
+            "Sie",
+            "Eine",
+            "werden",
+            "Rauchen"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Nehmen ____ Rücksicht auf andere Gäste.",
+          "options": [
+            "Sie",
+            "werden",
+            "Rauchen",
+            "nicht"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Geben ____ die Schlüssel zurück.",
+          "options": [
+            "Sie",
+            "Rauchen",
+            "nicht",
+            "Grillen"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Bestätigen ____ den Termin schriftlich.",
+          "options": [
+            "Sie",
+            "nicht",
+            "Grillen",
+            "Gehweg"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ pünktlich an der Schule sein.",
+          "options": [
+            "Bitte",
+            "Grillen",
+            "Gehweg",
+            "verkleide"
+          ],
+          "answer": "Bitte",
+          "answers": [
+            "Bitte"
+          ],
+          "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "= ____ Sie bitte pünktlich an der Schule.",
+          "options": [
+            "Seien",
+            "Gehweg",
+            "verkleide",
+            "ärgerst"
+          ],
+          "answer": "Seien",
+          "answers": [
+            "Seien"
+          ],
+          "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 14,
@@ -9256,7 +15919,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "geburtstag-feiern",
@@ -9956,7 +16619,514 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l14-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 2 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "sollte for advice",
+          "body": "sollte often expresses a recommendation rather than a strict obligation.",
+          "example": "Man sollte einen Rechtsanwalt fragen.",
+          "emphasis": [
+            "sollte"
+          ]
+        },
+        {
+          "title": "als for a role or function",
+          "body": "als describes the role in which someone acts.",
+          "example": "Als Vermieterin müssen Sie die Kündigungsfrist beachten.",
+          "emphasis": [
+            "Als"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "Man ____ einen Rechtsanwalt fragen.",
+          "options": [
+            "sollte",
+            "Als",
+            "als",
+            "Sie"
+          ],
+          "answer": "sollte",
+          "answers": [
+            "sollte"
+          ],
+          "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ein schriftlicher Widerspruch ____ diese Informationen enthalten.",
+          "options": [
+            "sollte",
+            "als",
+            "Sie",
+            "Bitte"
+          ],
+          "answer": "sollte",
+          "answers": [
+            "sollte"
+          ],
+          "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Vermieterin müssen Sie die Kündigungsfrist beachten.",
+          "options": [
+            "Als",
+            "Bitte",
+            "Seien",
+            "Warme"
+          ],
+          "answer": "Als",
+          "answers": [
+            "Als"
+          ],
+          "note": "als for a role or function: als describes the role in which someone acts.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Er arbeitet ____ Rechtsanwalt.",
+          "options": [
+            "als",
+            "Seien",
+            "Warme",
+            "Nehmen"
+          ],
+          "answer": "als",
+          "answers": [
+            "als"
+          ],
+          "note": "als for a role or function: als describes the role in which someone acts.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir besuchen das Projekt ____ ein Beispiel für mehr Natur in der Stadt.",
+          "options": [
+            "als",
+            "Warme",
+            "Nehmen",
+            "sollte"
+          ],
+          "answer": "als",
+          "answers": [
+            "als"
+          ],
+          "note": "als for a role or function: als describes the role in which someone acts.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Denken ____ bitte daran.",
+          "options": [
+            "Sie",
+            "Warme",
+            "Nehmen",
+            "sollte"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Nehmen ____ Rücksicht auf andere Gäste.",
+          "options": [
+            "Sie",
+            "Nehmen",
+            "sollte",
+            "Als"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Geben ____ die Schlüssel zurück.",
+          "options": [
+            "Sie",
+            "sollte",
+            "Als",
+            "als"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Bestätigen ____ den Termin schriftlich.",
+          "options": [
+            "Sie",
+            "Als",
+            "als",
+            "Bitte"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ pünktlich an der Schule sein.",
+          "options": [
+            "Bitte",
+            "als",
+            "Sie",
+            "Seien"
+          ],
+          "answer": "Bitte",
+          "answers": [
+            "Bitte"
+          ],
+          "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "= ____ Sie bitte pünktlich an der Schule.",
+          "options": [
+            "Seien",
+            "Sie",
+            "Bitte",
+            "Warme"
+          ],
+          "answer": "Seien",
+          "answers": [
+            "Seien"
+          ],
+          "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Kleidung und Picknick mitnehmen.",
+          "options": [
+            "Warme",
+            "Bitte",
+            "Seien",
+            "Nehmen"
+          ],
+          "answer": "Warme",
+          "answers": [
+            "Warme"
+          ],
+          "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "= ____ Sie warme Kleidung und ein Picknick mit.",
+          "options": [
+            "Nehmen",
+            "Seien",
+            "Warme",
+            "sollte"
+          ],
+          "answer": "Nehmen",
+          "answers": [
+            "Nehmen"
+          ],
+          "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Man ____ einen Rechtsanwalt fragen.",
+          "options": [
+            "sollte",
+            "Nehmen",
+            "Als",
+            "als"
+          ],
+          "answer": "sollte",
+          "answers": [
+            "sollte"
+          ],
+          "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ein schriftlicher Widerspruch ____ diese Informationen enthalten.",
+          "options": [
+            "sollte",
+            "Als",
+            "als",
+            "Sie"
+          ],
+          "answer": "sollte",
+          "answers": [
+            "sollte"
+          ],
+          "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Vermieterin müssen Sie die Kündigungsfrist beachten.",
+          "options": [
+            "Als",
+            "Seien",
+            "Warme",
+            "Nehmen"
+          ],
+          "answer": "Als",
+          "answers": [
+            "Als"
+          ],
+          "note": "als for a role or function: als describes the role in which someone acts.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Er arbeitet ____ Rechtsanwalt.",
+          "options": [
+            "als",
+            "Warme",
+            "Nehmen",
+            "sollte"
+          ],
+          "answer": "als",
+          "answers": [
+            "als"
+          ],
+          "note": "als for a role or function: als describes the role in which someone acts.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir besuchen das Projekt ____ ein Beispiel für mehr Natur in der Stadt.",
+          "options": [
+            "als",
+            "Nehmen",
+            "sollte",
+            "Sie"
+          ],
+          "answer": "als",
+          "answers": [
+            "als"
+          ],
+          "note": "als for a role or function: als describes the role in which someone acts.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Denken ____ bitte daran.",
+          "options": [
+            "Sie",
+            "Seien",
+            "Warme",
+            "Nehmen"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Nehmen ____ Rücksicht auf andere Gäste.",
+          "options": [
+            "Sie",
+            "Warme",
+            "Nehmen",
+            "sollte"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Geben ____ die Schlüssel zurück.",
+          "options": [
+            "Sie",
+            "Nehmen",
+            "sollte",
+            "Als"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Bestätigen ____ den Termin schriftlich.",
+          "options": [
+            "Sie",
+            "sollte",
+            "Als",
+            "als"
+          ],
+          "answer": "Sie",
+          "answers": [
+            "Sie"
+          ],
+          "note": "Formal requests and the Sie imperative: For a formal imperative, use the infinitive form followed by Sie.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ pünktlich an der Schule sein.",
+          "options": [
+            "Bitte",
+            "Als",
+            "als",
+            "Sie"
+          ],
+          "answer": "Bitte",
+          "answers": [
+            "Bitte"
+          ],
+          "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "= ____ Sie bitte pünktlich an der Schule.",
+          "options": [
+            "Seien",
+            "als",
+            "Sie",
+            "Bitte"
+          ],
+          "answer": "Seien",
+          "answers": [
+            "Seien"
+          ],
+          "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Kleidung und Picknick mitnehmen.",
+          "options": [
+            "Warme",
+            "Sie",
+            "Bitte",
+            "Seien"
+          ],
+          "answer": "Warme",
+          "answers": [
+            "Warme"
+          ],
+          "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "= ____ Sie warme Kleidung und ein Picknick mit.",
+          "options": [
+            "Nehmen",
+            "Bitte",
+            "Seien",
+            "Warme"
+          ],
+          "answer": "Nehmen",
+          "answers": [
+            "Nehmen"
+          ],
+          "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Man ____ einen Rechtsanwalt fragen.",
+          "options": [
+            "sollte",
+            "Warme",
+            "Nehmen",
+            "Als"
+          ],
+          "answer": "sollte",
+          "answers": [
+            "sollte"
+          ],
+          "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ein schriftlicher Widerspruch ____ diese Informationen enthalten.",
+          "options": [
+            "sollte",
+            "Nehmen",
+            "Als",
+            "als"
+          ],
+          "answer": "sollte",
+          "answers": [
+            "sollte"
+          ],
+          "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Vermieterin müssen Sie die Kündigungsfrist beachten.",
+          "options": [
+            "Als",
+            "Warme",
+            "Nehmen",
+            "sollte"
+          ],
+          "answer": "Als",
+          "answers": [
+            "Als"
+          ],
+          "note": "als for a role or function: als describes the role in which someone acts.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Er arbeitet ____ Rechtsanwalt.",
+          "options": [
+            "als",
+            "Nehmen",
+            "sollte",
+            "Sie"
+          ],
+          "answer": "als",
+          "answers": [
+            "als"
+          ],
+          "note": "als for a role or function: als describes the role in which someone acts.",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 15,
@@ -9966,7 +17136,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "genervt",
@@ -10666,7 +17836,522 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l15-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Adjective endings",
+          "body": "The adjective ending depends on gender, case, number, and the preceding article.",
+          "example": "angemeldete Gäste",
+          "emphasis": [
+            "angemeldete"
+          ]
+        },
+        {
+          "title": "Adjectives used adverbially",
+          "body": "German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
+          "example": "Wir beschäftigen uns theoretisch und praktisch mit dem Thema.",
+          "emphasis": [
+            "beschäftigen"
+          ]
+        },
+        {
+          "title": "Adjectival nouns",
+          "body": "Some adjectives are used as nouns and retain adjective endings.",
+          "example": "der Erwachsene / die Erwachsene",
+          "emphasis": [
+            "Erwachsene"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "____ Gäste",
+          "options": [
+            "angemeldete",
+            "schriftlicher",
+            "ärztliches",
+            "wegen"
+          ],
+          "answer": "angemeldete",
+          "answers": [
+            "angemeldete"
+          ],
+          "note": "Adjective endings: The adjective ending depends on gender, case, number, and the preceding article.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "ein ____ Widerspruch",
+          "options": [
+            "schriftlicher",
+            "ärztliches",
+            "wegen",
+            "beschäftigen"
+          ],
+          "answer": "schriftlicher",
+          "answers": [
+            "schriftlicher"
+          ],
+          "note": "Adjective endings: The adjective ending depends on gender, case, number, and the preceding article.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "ein ____ Gutachten",
+          "options": [
+            "ärztliches",
+            "wegen",
+            "beschäftigen",
+            "how"
+          ],
+          "answer": "ärztliches",
+          "answers": [
+            "ärztliches"
+          ],
+          "note": "Adjective endings: The adjective ending depends on gender, case, number, and the preceding article.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ des starken Nebels",
+          "options": [
+            "wegen",
+            "beschäftigen",
+            "how",
+            "kommt"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Adjective endings: The adjective ending depends on gender, case, number, and the preceding article.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ uns theoretisch und praktisch mit dem Thema.",
+          "options": [
+            "beschäftigen",
+            "how",
+            "kommt",
+            "pünktlicher"
+          ],
+          "answer": "beschäftigen",
+          "answers": [
+            "beschäftigen"
+          ],
+          "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____? how?",
+          "options": [
+            "how",
+            "kommt",
+            "pünktlicher",
+            "Erwachsene"
+          ],
+          "answer": "how",
+          "answers": [
+            "how"
+          ],
+          "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der Zug ____ pünktlich.",
+          "options": [
+            "kommt",
+            "pünktlicher",
+            "Erwachsene",
+            "Erwachsenen"
+          ],
+          "answer": "kommt",
+          "answers": [
+            "kommt"
+          ],
+          "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "ein ____ Zug",
+          "options": [
+            "pünktlicher",
+            "Erwachsene",
+            "Erwachsenen",
+            "Kinder"
+          ],
+          "answer": "pünktlicher",
+          "answers": [
+            "pünktlicher"
+          ],
+          "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "der ____ / die Erwachsene",
+          "options": [
+            "Erwachsene",
+            "Erwachsenen",
+            "Kinder",
+            "sollte"
+          ],
+          "answer": "Erwachsene",
+          "answers": [
+            "Erwachsene"
+          ],
+          "note": "Adjectival nouns: Some adjectives are used as nouns and retain adjective endings.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____",
+          "options": [
+            "Erwachsenen",
+            "Kinder",
+            "sollte",
+            "Als"
+          ],
+          "answer": "Erwachsenen",
+          "answers": [
+            "Erwachsenen"
+          ],
+          "note": "Adjectival nouns: Some adjectives are used as nouns and retain adjective endings.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ und Erwachsene feiern zusammen.",
+          "options": [
+            "Kinder",
+            "sollte",
+            "Als",
+            "als"
+          ],
+          "answer": "Kinder",
+          "answers": [
+            "Kinder"
+          ],
+          "note": "Adjectival nouns: Some adjectives are used as nouns and retain adjective endings.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Man ____ einen Rechtsanwalt fragen.",
+          "options": [
+            "sollte",
+            "Als",
+            "als",
+            "angemeldete"
+          ],
+          "answer": "sollte",
+          "answers": [
+            "sollte"
+          ],
+          "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ein schriftlicher Widerspruch ____ diese Informationen enthalten.",
+          "options": [
+            "sollte",
+            "als",
+            "angemeldete",
+            "schriftlicher"
+          ],
+          "answer": "sollte",
+          "answers": [
+            "sollte"
+          ],
+          "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Vermieterin müssen Sie die Kündigungsfrist beachten.",
+          "options": [
+            "Als",
+            "schriftlicher",
+            "ärztliches",
+            "wegen"
+          ],
+          "answer": "Als",
+          "answers": [
+            "Als"
+          ],
+          "note": "als for a role or function: als describes the role in which someone acts.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Er arbeitet ____ Rechtsanwalt.",
+          "options": [
+            "als",
+            "ärztliches",
+            "wegen",
+            "beschäftigen"
+          ],
+          "answer": "als",
+          "answers": [
+            "als"
+          ],
+          "note": "als for a role or function: als describes the role in which someone acts.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir besuchen das Projekt ____ ein Beispiel für mehr Natur in der Stadt.",
+          "options": [
+            "als",
+            "wegen",
+            "beschäftigen",
+            "how"
+          ],
+          "answer": "als",
+          "answers": [
+            "als"
+          ],
+          "note": "als for a role or function: als describes the role in which someone acts.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Gäste",
+          "options": [
+            "angemeldete",
+            "beschäftigen",
+            "how",
+            "kommt"
+          ],
+          "answer": "angemeldete",
+          "answers": [
+            "angemeldete"
+          ],
+          "note": "Adjective endings: The adjective ending depends on gender, case, number, and the preceding article.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "ein ____ Widerspruch",
+          "options": [
+            "schriftlicher",
+            "how",
+            "kommt",
+            "pünktlicher"
+          ],
+          "answer": "schriftlicher",
+          "answers": [
+            "schriftlicher"
+          ],
+          "note": "Adjective endings: The adjective ending depends on gender, case, number, and the preceding article.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "ein ____ Gutachten",
+          "options": [
+            "ärztliches",
+            "kommt",
+            "pünktlicher",
+            "Erwachsene"
+          ],
+          "answer": "ärztliches",
+          "answers": [
+            "ärztliches"
+          ],
+          "note": "Adjective endings: The adjective ending depends on gender, case, number, and the preceding article.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ des starken Nebels",
+          "options": [
+            "wegen",
+            "pünktlicher",
+            "Erwachsene",
+            "Erwachsenen"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Adjective endings: The adjective ending depends on gender, case, number, and the preceding article.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ uns theoretisch und praktisch mit dem Thema.",
+          "options": [
+            "beschäftigen",
+            "Erwachsene",
+            "Erwachsenen",
+            "Kinder"
+          ],
+          "answer": "beschäftigen",
+          "answers": [
+            "beschäftigen"
+          ],
+          "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____? how?",
+          "options": [
+            "how",
+            "Erwachsenen",
+            "Kinder",
+            "sollte"
+          ],
+          "answer": "how",
+          "answers": [
+            "how"
+          ],
+          "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der Zug ____ pünktlich.",
+          "options": [
+            "kommt",
+            "Kinder",
+            "sollte",
+            "Als"
+          ],
+          "answer": "kommt",
+          "answers": [
+            "kommt"
+          ],
+          "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "ein ____ Zug",
+          "options": [
+            "pünktlicher",
+            "sollte",
+            "Als",
+            "als"
+          ],
+          "answer": "pünktlicher",
+          "answers": [
+            "pünktlicher"
+          ],
+          "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "der ____ / die Erwachsene",
+          "options": [
+            "Erwachsene",
+            "Als",
+            "als",
+            "angemeldete"
+          ],
+          "answer": "Erwachsene",
+          "answers": [
+            "Erwachsene"
+          ],
+          "note": "Adjectival nouns: Some adjectives are used as nouns and retain adjective endings.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____",
+          "options": [
+            "Erwachsenen",
+            "als",
+            "angemeldete",
+            "schriftlicher"
+          ],
+          "answer": "Erwachsenen",
+          "answers": [
+            "Erwachsenen"
+          ],
+          "note": "Adjectival nouns: Some adjectives are used as nouns and retain adjective endings.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ und Erwachsene feiern zusammen.",
+          "options": [
+            "Kinder",
+            "angemeldete",
+            "schriftlicher",
+            "ärztliches"
+          ],
+          "answer": "Kinder",
+          "answers": [
+            "Kinder"
+          ],
+          "note": "Adjectival nouns: Some adjectives are used as nouns and retain adjective endings.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Man ____ einen Rechtsanwalt fragen.",
+          "options": [
+            "sollte",
+            "schriftlicher",
+            "ärztliches",
+            "wegen"
+          ],
+          "answer": "sollte",
+          "answers": [
+            "sollte"
+          ],
+          "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ein schriftlicher Widerspruch ____ diese Informationen enthalten.",
+          "options": [
+            "sollte",
+            "ärztliches",
+            "wegen",
+            "beschäftigen"
+          ],
+          "answer": "sollte",
+          "answers": [
+            "sollte"
+          ],
+          "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Vermieterin müssen Sie die Kündigungsfrist beachten.",
+          "options": [
+            "Als",
+            "how",
+            "kommt",
+            "pünktlicher"
+          ],
+          "answer": "Als",
+          "answers": [
+            "Als"
+          ],
+          "note": "als for a role or function: als describes the role in which someone acts.",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 16,
@@ -10676,7 +18361,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "sich-bei-jemandem-entschuldigen",
@@ -11376,7 +19061,522 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l16-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Nominalized infinitives",
+          "body": "An infinitive used as a noun is capitalized and is always neuter.",
+          "example": "das Rauchen",
+          "emphasis": [
+            "Rauchen"
+          ]
+        },
+        {
+          "title": "Nouns ending in -ung",
+          "body": "Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
+          "example": "trennen → die Trennung",
+          "emphasis": [
+            "trennen"
+          ]
+        },
+        {
+          "title": "Degree and intensity",
+          "body": "Degree and intensity",
+          "example": "total = totally",
+          "emphasis": [
+            "total"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "das ____",
+          "options": [
+            "Rauchen",
+            "Grillen",
+            "Schneeräumen",
+            "Fliegen"
+          ],
+          "answer": "Rauchen",
+          "answers": [
+            "Rauchen"
+          ],
+          "note": "Nominalized infinitives: An infinitive used as a noun is capitalized and is always neuter.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "das ____",
+          "options": [
+            "Grillen",
+            "Schneeräumen",
+            "Fliegen",
+            "trennen"
+          ],
+          "answer": "Grillen",
+          "answers": [
+            "Grillen"
+          ],
+          "note": "Nominalized infinitives: An infinitive used as a noun is capitalized and is always neuter.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "das ____",
+          "options": [
+            "Schneeräumen",
+            "Fliegen",
+            "trennen",
+            "vermeiden"
+          ],
+          "answer": "Schneeräumen",
+          "answers": [
+            "Schneeräumen"
+          ],
+          "note": "Nominalized infinitives: An infinitive used as a noun is capitalized and is always neuter.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "das ____",
+          "options": [
+            "Fliegen",
+            "trennen",
+            "vermeiden",
+            "entscheiden"
+          ],
+          "answer": "Fliegen",
+          "answers": [
+            "Fliegen"
+          ],
+          "note": "Nominalized infinitives: An infinitive used as a noun is capitalized and is always neuter.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → die Trennung",
+          "options": [
+            "trennen",
+            "vermeiden",
+            "entscheiden",
+            "kündigen"
+          ],
+          "answer": "trennen",
+          "answers": [
+            "trennen"
+          ],
+          "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → die Vermeidung",
+          "options": [
+            "vermeiden",
+            "entscheiden",
+            "kündigen",
+            "total"
+          ],
+          "answer": "vermeiden",
+          "answers": [
+            "vermeiden"
+          ],
+          "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → die Entscheidung",
+          "options": [
+            "entscheiden",
+            "kündigen",
+            "total",
+            "ziemlich"
+          ],
+          "answer": "entscheiden",
+          "answers": [
+            "entscheiden"
+          ],
+          "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → die Kündigung",
+          "options": [
+            "kündigen",
+            "total",
+            "ziemlich",
+            "etwas"
+          ],
+          "answer": "kündigen",
+          "answers": [
+            "kündigen"
+          ],
+          "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = totally",
+          "options": [
+            "total",
+            "ziemlich",
+            "etwas",
+            "nicht"
+          ],
+          "answer": "total",
+          "answers": [
+            "total"
+          ],
+          "note": "Degree and intensity: Degree and intensity",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = quite",
+          "options": [
+            "ziemlich",
+            "etwas",
+            "nicht",
+            "beschäftigen"
+          ],
+          "answer": "ziemlich",
+          "answers": [
+            "ziemlich"
+          ],
+          "note": "Degree and intensity: Degree and intensity",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = somewhat",
+          "options": [
+            "etwas",
+            "nicht",
+            "beschäftigen",
+            "how"
+          ],
+          "answer": "etwas",
+          "answers": [
+            "etwas"
+          ],
+          "note": "Degree and intensity: Degree and intensity",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ besonders = not particularly",
+          "options": [
+            "nicht",
+            "beschäftigen",
+            "how",
+            "kommt"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "Degree and intensity: Degree and intensity",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ uns theoretisch und praktisch mit dem Thema.",
+          "options": [
+            "beschäftigen",
+            "how",
+            "kommt",
+            "pünktlicher"
+          ],
+          "answer": "beschäftigen",
+          "answers": [
+            "beschäftigen"
+          ],
+          "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____? how?",
+          "options": [
+            "how",
+            "kommt",
+            "pünktlicher",
+            "Erwachsene"
+          ],
+          "answer": "how",
+          "answers": [
+            "how"
+          ],
+          "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der Zug ____ pünktlich.",
+          "options": [
+            "kommt",
+            "pünktlicher",
+            "Erwachsene",
+            "Erwachsenen"
+          ],
+          "answer": "kommt",
+          "answers": [
+            "kommt"
+          ],
+          "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "ein ____ Zug",
+          "options": [
+            "pünktlicher",
+            "Erwachsene",
+            "Erwachsenen",
+            "Kinder"
+          ],
+          "answer": "pünktlicher",
+          "answers": [
+            "pünktlicher"
+          ],
+          "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "der ____ / die Erwachsene",
+          "options": [
+            "Erwachsene",
+            "Erwachsenen",
+            "Kinder",
+            "Rauchen"
+          ],
+          "answer": "Erwachsene",
+          "answers": [
+            "Erwachsene"
+          ],
+          "note": "Adjectival nouns: Some adjectives are used as nouns and retain adjective endings.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____",
+          "options": [
+            "Erwachsenen",
+            "Kinder",
+            "Rauchen",
+            "Grillen"
+          ],
+          "answer": "Erwachsenen",
+          "answers": [
+            "Erwachsenen"
+          ],
+          "note": "Adjectival nouns: Some adjectives are used as nouns and retain adjective endings.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ und Erwachsene feiern zusammen.",
+          "options": [
+            "Kinder",
+            "Rauchen",
+            "Grillen",
+            "Schneeräumen"
+          ],
+          "answer": "Kinder",
+          "answers": [
+            "Kinder"
+          ],
+          "note": "Adjectival nouns: Some adjectives are used as nouns and retain adjective endings.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "das ____",
+          "options": [
+            "Rauchen",
+            "Schneeräumen",
+            "Fliegen",
+            "trennen"
+          ],
+          "answer": "Rauchen",
+          "answers": [
+            "Rauchen"
+          ],
+          "note": "Nominalized infinitives: An infinitive used as a noun is capitalized and is always neuter.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "das ____",
+          "options": [
+            "Grillen",
+            "Fliegen",
+            "trennen",
+            "vermeiden"
+          ],
+          "answer": "Grillen",
+          "answers": [
+            "Grillen"
+          ],
+          "note": "Nominalized infinitives: An infinitive used as a noun is capitalized and is always neuter.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "das ____",
+          "options": [
+            "Schneeräumen",
+            "trennen",
+            "vermeiden",
+            "entscheiden"
+          ],
+          "answer": "Schneeräumen",
+          "answers": [
+            "Schneeräumen"
+          ],
+          "note": "Nominalized infinitives: An infinitive used as a noun is capitalized and is always neuter.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "das ____",
+          "options": [
+            "Fliegen",
+            "vermeiden",
+            "entscheiden",
+            "kündigen"
+          ],
+          "answer": "Fliegen",
+          "answers": [
+            "Fliegen"
+          ],
+          "note": "Nominalized infinitives: An infinitive used as a noun is capitalized and is always neuter.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → die Trennung",
+          "options": [
+            "trennen",
+            "entscheiden",
+            "kündigen",
+            "total"
+          ],
+          "answer": "trennen",
+          "answers": [
+            "trennen"
+          ],
+          "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → die Vermeidung",
+          "options": [
+            "vermeiden",
+            "kündigen",
+            "total",
+            "ziemlich"
+          ],
+          "answer": "vermeiden",
+          "answers": [
+            "vermeiden"
+          ],
+          "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → die Entscheidung",
+          "options": [
+            "entscheiden",
+            "total",
+            "ziemlich",
+            "etwas"
+          ],
+          "answer": "entscheiden",
+          "answers": [
+            "entscheiden"
+          ],
+          "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → die Kündigung",
+          "options": [
+            "kündigen",
+            "ziemlich",
+            "etwas",
+            "nicht"
+          ],
+          "answer": "kündigen",
+          "answers": [
+            "kündigen"
+          ],
+          "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = totally",
+          "options": [
+            "total",
+            "etwas",
+            "nicht",
+            "beschäftigen"
+          ],
+          "answer": "total",
+          "answers": [
+            "total"
+          ],
+          "note": "Degree and intensity: Degree and intensity",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = quite",
+          "options": [
+            "ziemlich",
+            "nicht",
+            "beschäftigen",
+            "how"
+          ],
+          "answer": "ziemlich",
+          "answers": [
+            "ziemlich"
+          ],
+          "note": "Degree and intensity: Degree and intensity",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = somewhat",
+          "options": [
+            "etwas",
+            "beschäftigen",
+            "how",
+            "kommt"
+          ],
+          "answer": "etwas",
+          "answers": [
+            "etwas"
+          ],
+          "note": "Degree and intensity: Degree and intensity",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 17,
@@ -11386,7 +19586,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "rauswerfen",
@@ -12086,7 +20286,522 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l17-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Negation with nicht and kein",
+          "body": "Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
+          "example": "Er ist kein Rechtsanwalt.",
+          "emphasis": [
+            "kein"
+          ]
+        },
+        {
+          "title": "The word doch",
+          "body": "doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
+          "example": "Die Rechnung war doch richtig.",
+          "emphasis": [
+            "doch"
+          ]
+        },
+        {
+          "title": "The conversational particle ja",
+          "body": "Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "example": "Um solche Ausflüge zu bezahlen, haben wir ja die Klassenkasse.",
+          "emphasis": [
+            "ja"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "Er ist ____ Rechtsanwalt.",
+          "options": [
+            "kein",
+            "habe",
+            "Man",
+            "doch"
+          ],
+          "answer": "kein",
+          "answers": [
+            "kein"
+          ],
+          "note": "Negation with nicht and kein: Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Es wird ____ Schlüssel ausgegeben.",
+          "options": [
+            "kein",
+            "Man",
+            "doch",
+            "ja"
+          ],
+          "answer": "kein",
+          "answers": [
+            "kein"
+          ],
+          "note": "Negation with nicht and kein: Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ keine Zeit.",
+          "options": [
+            "habe",
+            "doch",
+            "ja",
+            "haben"
+          ],
+          "answer": "habe",
+          "answers": [
+            "habe"
+          ],
+          "note": "Negation with nicht and kein: Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ sollte keinen Widerspruch einlegen.",
+          "options": [
+            "Man",
+            "ja",
+            "haben",
+            "trennen"
+          ],
+          "answer": "Man",
+          "answers": [
+            "Man"
+          ],
+          "note": "Negation with nicht and kein: Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Rechnung war ____ richtig.",
+          "options": [
+            "doch",
+            "haben",
+            "trennen",
+            "vermeiden"
+          ],
+          "answer": "doch",
+          "answers": [
+            "doch"
+          ],
+          "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Party ist ____ später geworden.",
+          "options": [
+            "doch",
+            "trennen",
+            "vermeiden",
+            "entscheiden"
+          ],
+          "answer": "doch",
+          "answers": [
+            "doch"
+          ],
+          "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Sprich ____ mit dem Vermieter.",
+          "options": [
+            "doch",
+            "vermeiden",
+            "entscheiden",
+            "kündigen"
+          ],
+          "answer": "doch",
+          "answers": [
+            "doch"
+          ],
+          "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Um solche Ausflüge zu bezahlen, haben wir ____ die Klassenkasse.",
+          "options": [
+            "ja",
+            "entscheiden",
+            "kündigen",
+            "total"
+          ],
+          "answer": "ja",
+          "answers": [
+            "ja"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Das ist ____ klar.",
+          "options": [
+            "ja",
+            "kündigen",
+            "total",
+            "ziemlich"
+          ],
+          "answer": "ja",
+          "answers": [
+            "ja"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ die Klassenkasse. neutral information",
+          "options": [
+            "haben",
+            "total",
+            "ziemlich",
+            "etwas"
+          ],
+          "answer": "haben",
+          "answers": [
+            "haben"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir haben ____ die Klassenkasse. reminder of shared/obvious information",
+          "options": [
+            "ja",
+            "ziemlich",
+            "etwas",
+            "nicht"
+          ],
+          "answer": "ja",
+          "answers": [
+            "ja"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → die Trennung",
+          "options": [
+            "trennen",
+            "etwas",
+            "nicht",
+            "kein"
+          ],
+          "answer": "trennen",
+          "answers": [
+            "trennen"
+          ],
+          "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → die Vermeidung",
+          "options": [
+            "vermeiden",
+            "nicht",
+            "kein",
+            "habe"
+          ],
+          "answer": "vermeiden",
+          "answers": [
+            "vermeiden"
+          ],
+          "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → die Entscheidung",
+          "options": [
+            "entscheiden",
+            "kein",
+            "habe",
+            "Man"
+          ],
+          "answer": "entscheiden",
+          "answers": [
+            "entscheiden"
+          ],
+          "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ → die Kündigung",
+          "options": [
+            "kündigen",
+            "habe",
+            "Man",
+            "doch"
+          ],
+          "answer": "kündigen",
+          "answers": [
+            "kündigen"
+          ],
+          "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = totally",
+          "options": [
+            "total",
+            "Man",
+            "doch",
+            "ja"
+          ],
+          "answer": "total",
+          "answers": [
+            "total"
+          ],
+          "note": "Degree and intensity: Degree and intensity",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = quite",
+          "options": [
+            "ziemlich",
+            "doch",
+            "ja",
+            "haben"
+          ],
+          "answer": "ziemlich",
+          "answers": [
+            "ziemlich"
+          ],
+          "note": "Degree and intensity: Degree and intensity",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = somewhat",
+          "options": [
+            "etwas",
+            "ja",
+            "haben",
+            "trennen"
+          ],
+          "answer": "etwas",
+          "answers": [
+            "etwas"
+          ],
+          "note": "Degree and intensity: Degree and intensity",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ besonders = not particularly",
+          "options": [
+            "nicht",
+            "haben",
+            "trennen",
+            "vermeiden"
+          ],
+          "answer": "nicht",
+          "answers": [
+            "nicht"
+          ],
+          "note": "Degree and intensity: Degree and intensity",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Er ist ____ Rechtsanwalt.",
+          "options": [
+            "kein",
+            "vermeiden",
+            "entscheiden",
+            "kündigen"
+          ],
+          "answer": "kein",
+          "answers": [
+            "kein"
+          ],
+          "note": "Negation with nicht and kein: Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Es wird ____ Schlüssel ausgegeben.",
+          "options": [
+            "kein",
+            "entscheiden",
+            "kündigen",
+            "total"
+          ],
+          "answer": "kein",
+          "answers": [
+            "kein"
+          ],
+          "note": "Negation with nicht and kein: Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ keine Zeit.",
+          "options": [
+            "habe",
+            "kündigen",
+            "total",
+            "ziemlich"
+          ],
+          "answer": "habe",
+          "answers": [
+            "habe"
+          ],
+          "note": "Negation with nicht and kein: Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ sollte keinen Widerspruch einlegen.",
+          "options": [
+            "Man",
+            "total",
+            "ziemlich",
+            "etwas"
+          ],
+          "answer": "Man",
+          "answers": [
+            "Man"
+          ],
+          "note": "Negation with nicht and kein: Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Rechnung war ____ richtig.",
+          "options": [
+            "doch",
+            "ziemlich",
+            "etwas",
+            "nicht"
+          ],
+          "answer": "doch",
+          "answers": [
+            "doch"
+          ],
+          "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Party ist ____ später geworden.",
+          "options": [
+            "doch",
+            "etwas",
+            "nicht",
+            "kein"
+          ],
+          "answer": "doch",
+          "answers": [
+            "doch"
+          ],
+          "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Sprich ____ mit dem Vermieter.",
+          "options": [
+            "doch",
+            "nicht",
+            "kein",
+            "habe"
+          ],
+          "answer": "doch",
+          "answers": [
+            "doch"
+          ],
+          "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Um solche Ausflüge zu bezahlen, haben wir ____ die Klassenkasse.",
+          "options": [
+            "ja",
+            "kein",
+            "habe",
+            "Man"
+          ],
+          "answer": "ja",
+          "answers": [
+            "ja"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Das ist ____ klar.",
+          "options": [
+            "ja",
+            "habe",
+            "Man",
+            "doch"
+          ],
+          "answer": "ja",
+          "answers": [
+            "ja"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ die Klassenkasse. neutral information",
+          "options": [
+            "haben",
+            "Man",
+            "doch",
+            "ja"
+          ],
+          "answer": "haben",
+          "answers": [
+            "haben"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir haben ____ die Klassenkasse. reminder of shared/obvious information",
+          "options": [
+            "ja",
+            "doch",
+            "haben",
+            "trennen"
+          ],
+          "answer": "ja",
+          "answers": [
+            "ja"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 18,
@@ -12096,7 +20811,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "die-krankenkasse",
@@ -12796,7 +21511,514 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l18-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 2 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Comparative and superlative adverbs",
+          "body": "Comparative and superlative adverbs",
+          "example": "am meisten: Am meisten nervt mich der Müll.",
+          "emphasis": [
+            "meisten"
+          ]
+        },
+        {
+          "title": "so …, dass …",
+          "body": "This structure expresses a consequence. The verb in the dass clause goes to the end.",
+          "example": "Die Verkleidung ist so gut, dass man Nasrin nicht erkennt.",
+          "emphasis": [
+            "so"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "am ____: Am meisten nervt mich der Müll.",
+          "options": [
+            "meisten",
+            "besten",
+            "noch",
+            "so"
+          ],
+          "answer": "meisten",
+          "answers": [
+            "meisten"
+          ],
+          "note": "Comparative and superlative adverbs: Comparative and superlative adverbs",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "am ____: Welcher Termin passt Ihnen am besten?",
+          "options": [
+            "besten",
+            "noch",
+            "so",
+            "doch"
+          ],
+          "answer": "besten",
+          "answers": [
+            "besten"
+          ],
+          "note": "Comparative and superlative adverbs: Comparative and superlative adverbs",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ kälter: Im Kinderzimmer ist es noch kälter.",
+          "options": [
+            "noch",
+            "so",
+            "doch",
+            "ja"
+          ],
+          "answer": "noch",
+          "answers": [
+            "noch"
+          ],
+          "note": "Comparative and superlative adverbs: Comparative and superlative adverbs",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Verkleidung ist ____ gut, dass man Nasrin nicht erkennt.",
+          "options": [
+            "so",
+            "doch",
+            "ja",
+            "haben"
+          ],
+          "answer": "so",
+          "answers": [
+            "so"
+          ],
+          "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Es schneit ____ stark, dass man leicht ausrutschen kann.",
+          "options": [
+            "so",
+            "ja",
+            "haben",
+            "meisten"
+          ],
+          "answer": "so",
+          "answers": [
+            "so"
+          ],
+          "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + adjective/adverb + dass + consequence",
+          "options": [
+            "so",
+            "haben",
+            "meisten",
+            "besten"
+          ],
+          "answer": "so",
+          "answers": [
+            "so"
+          ],
+          "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ gut dass man sie nicht erkennt",
+          "options": [
+            "so",
+            "meisten",
+            "besten",
+            "noch"
+          ],
+          "answer": "so",
+          "answers": [
+            "so"
+          ],
+          "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Rechnung war ____ richtig.",
+          "options": [
+            "doch",
+            "besten",
+            "noch",
+            "so"
+          ],
+          "answer": "doch",
+          "answers": [
+            "doch"
+          ],
+          "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Party ist ____ später geworden.",
+          "options": [
+            "doch",
+            "noch",
+            "so",
+            "ja"
+          ],
+          "answer": "doch",
+          "answers": [
+            "doch"
+          ],
+          "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Sprich ____ mit dem Vermieter.",
+          "options": [
+            "doch",
+            "so",
+            "ja",
+            "haben"
+          ],
+          "answer": "doch",
+          "answers": [
+            "doch"
+          ],
+          "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Um solche Ausflüge zu bezahlen, haben wir ____ die Klassenkasse.",
+          "options": [
+            "ja",
+            "doch",
+            "haben",
+            "meisten"
+          ],
+          "answer": "ja",
+          "answers": [
+            "ja"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Das ist ____ klar.",
+          "options": [
+            "ja",
+            "haben",
+            "meisten",
+            "besten"
+          ],
+          "answer": "ja",
+          "answers": [
+            "ja"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ die Klassenkasse. neutral information",
+          "options": [
+            "haben",
+            "meisten",
+            "besten",
+            "noch"
+          ],
+          "answer": "haben",
+          "answers": [
+            "haben"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir haben ____ die Klassenkasse. reminder of shared/obvious information",
+          "options": [
+            "ja",
+            "besten",
+            "noch",
+            "so"
+          ],
+          "answer": "ja",
+          "answers": [
+            "ja"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "am ____: Am meisten nervt mich der Müll.",
+          "options": [
+            "meisten",
+            "so",
+            "doch",
+            "ja"
+          ],
+          "answer": "meisten",
+          "answers": [
+            "meisten"
+          ],
+          "note": "Comparative and superlative adverbs: Comparative and superlative adverbs",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "am ____: Welcher Termin passt Ihnen am besten?",
+          "options": [
+            "besten",
+            "doch",
+            "ja",
+            "haben"
+          ],
+          "answer": "besten",
+          "answers": [
+            "besten"
+          ],
+          "note": "Comparative and superlative adverbs: Comparative and superlative adverbs",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ kälter: Im Kinderzimmer ist es noch kälter.",
+          "options": [
+            "noch",
+            "ja",
+            "haben",
+            "meisten"
+          ],
+          "answer": "noch",
+          "answers": [
+            "noch"
+          ],
+          "note": "Comparative and superlative adverbs: Comparative and superlative adverbs",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Verkleidung ist ____ gut, dass man Nasrin nicht erkennt.",
+          "options": [
+            "so",
+            "haben",
+            "meisten",
+            "besten"
+          ],
+          "answer": "so",
+          "answers": [
+            "so"
+          ],
+          "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Es schneit ____ stark, dass man leicht ausrutschen kann.",
+          "options": [
+            "so",
+            "meisten",
+            "besten",
+            "noch"
+          ],
+          "answer": "so",
+          "answers": [
+            "so"
+          ],
+          "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + adjective/adverb + dass + consequence",
+          "options": [
+            "so",
+            "besten",
+            "noch",
+            "doch"
+          ],
+          "answer": "so",
+          "answers": [
+            "so"
+          ],
+          "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ gut dass man sie nicht erkennt",
+          "options": [
+            "so",
+            "noch",
+            "doch",
+            "ja"
+          ],
+          "answer": "so",
+          "answers": [
+            "so"
+          ],
+          "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Rechnung war ____ richtig.",
+          "options": [
+            "doch",
+            "so",
+            "ja",
+            "haben"
+          ],
+          "answer": "doch",
+          "answers": [
+            "doch"
+          ],
+          "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Party ist ____ später geworden.",
+          "options": [
+            "doch",
+            "ja",
+            "haben",
+            "meisten"
+          ],
+          "answer": "doch",
+          "answers": [
+            "doch"
+          ],
+          "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Sprich ____ mit dem Vermieter.",
+          "options": [
+            "doch",
+            "haben",
+            "meisten",
+            "besten"
+          ],
+          "answer": "doch",
+          "answers": [
+            "doch"
+          ],
+          "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Um solche Ausflüge zu bezahlen, haben wir ____ die Klassenkasse.",
+          "options": [
+            "ja",
+            "meisten",
+            "besten",
+            "noch"
+          ],
+          "answer": "ja",
+          "answers": [
+            "ja"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Das ist ____ klar.",
+          "options": [
+            "ja",
+            "besten",
+            "noch",
+            "so"
+          ],
+          "answer": "ja",
+          "answers": [
+            "ja"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ die Klassenkasse. neutral information",
+          "options": [
+            "haben",
+            "noch",
+            "so",
+            "doch"
+          ],
+          "answer": "haben",
+          "answers": [
+            "haben"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir haben ____ die Klassenkasse. reminder of shared/obvious information",
+          "options": [
+            "ja",
+            "so",
+            "doch",
+            "haben"
+          ],
+          "answer": "ja",
+          "answers": [
+            "ja"
+          ],
+          "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "am ____: Am meisten nervt mich der Müll.",
+          "options": [
+            "meisten",
+            "ja",
+            "haben",
+            "besten"
+          ],
+          "answer": "meisten",
+          "answers": [
+            "meisten"
+          ],
+          "note": "Comparative and superlative adverbs: Comparative and superlative adverbs",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "am ____: Welcher Termin passt Ihnen am besten?",
+          "options": [
+            "besten",
+            "haben",
+            "meisten",
+            "noch"
+          ],
+          "answer": "besten",
+          "answers": [
+            "besten"
+          ],
+          "note": "Comparative and superlative adverbs: Comparative and superlative adverbs",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 19,
@@ -12806,7 +22028,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "fordern",
@@ -13506,17 +22728,532 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l19-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "es kann sein, dass …",
+          "body": "This structure expresses possibility.",
+          "example": "Es kann sein, dass eine neue Entscheidung getroffen wird.",
+          "emphasis": [
+            "Es"
+          ]
+        },
+        {
+          "title": "Passive alternatives with man",
+          "body": "The same idea can often be expressed impersonally with man or with the passive.",
+          "example": "Man lehnt den Antrag ab.",
+          "emphasis": [
+            "Man"
+          ]
+        },
+        {
+          "title": "Formal letter patterns",
+          "body": "Formal letter patterns",
+          "example": "Hiermit kündige ich …",
+          "emphasis": [
+            "Hiermit"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "____ kann sein, dass eine neue Entscheidung getroffen wird.",
+          "options": [
+            "Es",
+            "Man",
+            "Antrag",
+            "man"
+          ],
+          "answer": "Es",
+          "answers": [
+            "Es"
+          ],
+          "note": "es kann sein, dass …: This structure expresses possibility.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ kann sein, dass die Rechnung richtig ist.",
+          "options": [
+            "Es",
+            "Antrag",
+            "man",
+            "passive"
+          ],
+          "answer": "Es",
+          "answers": [
+            "Es"
+          ],
+          "note": "es kann sein, dass …: This structure expresses possibility.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ lehnt den Antrag ab.",
+          "options": [
+            "Man",
+            "passive",
+            "Hiermit",
+            "Gegen"
+          ],
+          "answer": "Man",
+          "answers": [
+            "Man"
+          ],
+          "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der ____ wird abgelehnt.",
+          "options": [
+            "Antrag",
+            "passive",
+            "Hiermit",
+            "Gegen"
+          ],
+          "answer": "Antrag",
+          "answers": [
+            "Antrag"
+          ],
+          "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____: Beim Amt prüft man den Antrag.",
+          "options": [
+            "man",
+            "Gegen",
+            "Dieser",
+            "dass"
+          ],
+          "answer": "man",
+          "answers": [
+            "man"
+          ],
+          "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____: Der Antrag wird beim Amt geprüft.",
+          "options": [
+            "passive",
+            "Gegen",
+            "Dieser",
+            "dass"
+          ],
+          "answer": "passive",
+          "answers": [
+            "passive"
+          ],
+          "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ kündige ich …",
+          "options": [
+            "Hiermit",
+            "Dieser",
+            "dass",
+            "meisten"
+          ],
+          "answer": "Hiermit",
+          "answers": [
+            "Hiermit"
+          ],
+          "note": "Formal letter patterns: Formal letter patterns",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ diese Entscheidung lege ich Widerspruch ein.",
+          "options": [
+            "Gegen",
+            "dass",
+            "meisten",
+            "besten"
+          ],
+          "answer": "Gegen",
+          "answers": [
+            "Gegen"
+          ],
+          "note": "Formal letter patterns: Formal letter patterns",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Kündigung widerspreche ich hiermit.",
+          "options": [
+            "Dieser",
+            "meisten",
+            "besten",
+            "noch"
+          ],
+          "answer": "Dieser",
+          "answers": [
+            "Dieser"
+          ],
+          "note": "Formal letter patterns: Formal letter patterns",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Bitte bestätigen Sie mir schriftlich, ____ …",
+          "options": [
+            "dass",
+            "besten",
+            "noch",
+            "so"
+          ],
+          "answer": "dass",
+          "answers": [
+            "dass"
+          ],
+          "note": "Formal letter patterns: Formal letter patterns",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "am ____: Am meisten nervt mich der Müll.",
+          "options": [
+            "meisten",
+            "noch",
+            "so",
+            "Es"
+          ],
+          "answer": "meisten",
+          "answers": [
+            "meisten"
+          ],
+          "note": "Comparative and superlative adverbs: Comparative and superlative adverbs",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "am ____: Welcher Termin passt Ihnen am besten?",
+          "options": [
+            "besten",
+            "so",
+            "Es",
+            "Man"
+          ],
+          "answer": "besten",
+          "answers": [
+            "besten"
+          ],
+          "note": "Comparative and superlative adverbs: Comparative and superlative adverbs",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ kälter: Im Kinderzimmer ist es noch kälter.",
+          "options": [
+            "noch",
+            "Es",
+            "Man",
+            "Antrag"
+          ],
+          "answer": "noch",
+          "answers": [
+            "noch"
+          ],
+          "note": "Comparative and superlative adverbs: Comparative and superlative adverbs",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die Verkleidung ist ____ gut, dass man Nasrin nicht erkennt.",
+          "options": [
+            "so",
+            "Man",
+            "Antrag",
+            "man"
+          ],
+          "answer": "so",
+          "answers": [
+            "so"
+          ],
+          "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Es schneit ____ stark, dass man leicht ausrutschen kann.",
+          "options": [
+            "so",
+            "Antrag",
+            "man",
+            "passive"
+          ],
+          "answer": "so",
+          "answers": [
+            "so"
+          ],
+          "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + adjective/adverb + dass + consequence",
+          "options": [
+            "so",
+            "man",
+            "passive",
+            "Hiermit"
+          ],
+          "answer": "so",
+          "answers": [
+            "so"
+          ],
+          "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ gut dass man sie nicht erkennt",
+          "options": [
+            "so",
+            "passive",
+            "Hiermit",
+            "Gegen"
+          ],
+          "answer": "so",
+          "answers": [
+            "so"
+          ],
+          "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ kann sein, dass eine neue Entscheidung getroffen wird.",
+          "options": [
+            "Es",
+            "Gegen",
+            "Dieser",
+            "dass"
+          ],
+          "answer": "Es",
+          "answers": [
+            "Es"
+          ],
+          "note": "es kann sein, dass …: This structure expresses possibility.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ kann sein, dass die Rechnung richtig ist.",
+          "options": [
+            "Es",
+            "Dieser",
+            "dass",
+            "meisten"
+          ],
+          "answer": "Es",
+          "answers": [
+            "Es"
+          ],
+          "note": "es kann sein, dass …: This structure expresses possibility.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ lehnt den Antrag ab.",
+          "options": [
+            "Man",
+            "besten",
+            "noch",
+            "so"
+          ],
+          "answer": "Man",
+          "answers": [
+            "Man"
+          ],
+          "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der ____ wird abgelehnt.",
+          "options": [
+            "Antrag",
+            "meisten",
+            "besten",
+            "noch"
+          ],
+          "answer": "Antrag",
+          "answers": [
+            "Antrag"
+          ],
+          "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____: Beim Amt prüft man den Antrag.",
+          "options": [
+            "man",
+            "so",
+            "Es",
+            "Antrag"
+          ],
+          "answer": "man",
+          "answers": [
+            "man"
+          ],
+          "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____: Der Antrag wird beim Amt geprüft.",
+          "options": [
+            "passive",
+            "noch",
+            "so",
+            "Es"
+          ],
+          "answer": "passive",
+          "answers": [
+            "passive"
+          ],
+          "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ kündige ich …",
+          "options": [
+            "Hiermit",
+            "so",
+            "Es",
+            "Man"
+          ],
+          "answer": "Hiermit",
+          "answers": [
+            "Hiermit"
+          ],
+          "note": "Formal letter patterns: Formal letter patterns",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ diese Entscheidung lege ich Widerspruch ein.",
+          "options": [
+            "Gegen",
+            "Es",
+            "Man",
+            "Antrag"
+          ],
+          "answer": "Gegen",
+          "answers": [
+            "Gegen"
+          ],
+          "note": "Formal letter patterns: Formal letter patterns",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Kündigung widerspreche ich hiermit.",
+          "options": [
+            "Dieser",
+            "Man",
+            "Antrag",
+            "man"
+          ],
+          "answer": "Dieser",
+          "answers": [
+            "Dieser"
+          ],
+          "note": "Formal letter patterns: Formal letter patterns",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Bitte bestätigen Sie mir schriftlich, ____ …",
+          "options": [
+            "dass",
+            "Antrag",
+            "man",
+            "passive"
+          ],
+          "answer": "dass",
+          "answers": [
+            "dass"
+          ],
+          "note": "Formal letter patterns: Formal letter patterns",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "am ____: Am meisten nervt mich der Müll.",
+          "options": [
+            "meisten",
+            "man",
+            "passive",
+            "Hiermit"
+          ],
+          "answer": "meisten",
+          "answers": [
+            "meisten"
+          ],
+          "note": "Comparative and superlative adverbs: Comparative and superlative adverbs",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "am ____: Welcher Termin passt Ihnen am besten?",
+          "options": [
+            "besten",
+            "passive",
+            "Hiermit",
+            "Gegen"
+          ],
+          "answer": "besten",
+          "answers": [
+            "besten"
+          ],
+          "note": "Comparative and superlative adverbs: Comparative and superlative adverbs",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ kälter: Im Kinderzimmer ist es noch kälter.",
+          "options": [
+            "noch",
+            "Hiermit",
+            "Gegen",
+            "Dieser"
+          ],
+          "answer": "noch",
+          "answers": [
+            "noch"
+          ],
+          "note": "Comparative and superlative adverbs: Comparative and superlative adverbs",
+          "direction": "de"
+        }
+      ]
+    }
   },
   {
     "id": 20,
     "code": "Set 20",
     "title": "Wortschatz Set 20",
-    "subtitle": "17 entries from Wortschatz.md",
+    "subtitle": "20 entries from Wortschatz.md",
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Source: Wortschatz.md. Entries are grouped in the same order as the Markdown file.",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
     "vocab": [
       {
         "id": "sich-verkleiden",
@@ -14095,6 +23832,108 @@
             "en": "Please throw the ball to me."
           }
         ]
+      },
+      {
+        "id": "das-lernziel",
+        "group": "l20-g2",
+        "term": "das Lernziel",
+        "fa": "learning objective; learning goal",
+        "type": "noun",
+        "form": "Compound noun: `Lernen + Ziel`; plural: `die Lernziele`.",
+        "source": "Wortschatz.md",
+        "example": "Mein Lernziel ist das Sprachniveau B1.",
+        "exampleFa": "My learning goal is language level B1.",
+        "cloze": "Mein ____ ist das Sprachniveau B1.",
+        "clozeFa": "My learning goal is language level B1.",
+        "answer": "Lernziel",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "das Lernziel",
+          "Lernziel",
+          "Lernziel"
+        ],
+        "examples": [
+          {
+            "de": "Mein Lernziel ist das Sprachniveau B1.",
+            "en": "My learning goal is language level B1."
+          },
+          {
+            "de": "Ich habe mein Lernziel erreicht.",
+            "en": "I achieved my learning objective."
+          }
+        ]
+      },
+      {
+        "id": "vermitteln",
+        "group": "l20-g2",
+        "term": "vermitteln",
+        "fa": "to convey; to impart; to teach",
+        "type": "verb",
+        "form": "`jemandem` (Dativ) `etwas` (Akkusativ) vermitteln: `vermittelt – vermittelte – hat vermittelt`.",
+        "source": "Wortschatz.md",
+        "example": "Die Lehrerin vermittelt den Schülern wichtiges Wissen.",
+        "exampleFa": "The teacher imparts important knowledge to the students.",
+        "cloze": "Die Lehrerin vermittelt den Schülern wichtiges Wissen. ____",
+        "clozeFa": "The teacher imparts important knowledge to the students.",
+        "answer": "vermitteln",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "vermitteln",
+          "vermitteln",
+          "vermitteln"
+        ],
+        "examples": [
+          {
+            "de": "Die Lehrerin vermittelt den Schülern wichtiges Wissen.",
+            "en": "The teacher imparts important knowledge to the students."
+          },
+          {
+            "de": "Der Film vermittelt Informationen über den Klimawandel.",
+            "en": "The film conveys information about climate change."
+          }
+        ]
+      },
+      {
+        "id": "zeigen",
+        "group": "l20-g2",
+        "term": "zeigen",
+        "fa": "to show",
+        "type": "verb",
+        "form": "`jemandem` (Dativ) `etwas` (Akkusativ) zeigen: `zeigt – zeigte – hat gezeigt`.",
+        "source": "Wortschatz.md",
+        "example": "Die Lehrerin zeigt den Kindern ein Bild.",
+        "exampleFa": "The teacher shows the children a picture.",
+        "cloze": "Die Lehrerin zeigt den Kindern ein Bild. ____",
+        "clozeFa": "The teacher shows the children a picture.",
+        "answer": "zeigen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "zeigen",
+          "zeigen",
+          "zeigen"
+        ],
+        "examples": [
+          {
+            "de": "Die Lehrerin zeigt den Kindern ein Bild.",
+            "en": "The teacher shows the children a picture."
+          },
+          {
+            "de": "Kannst du mir den Weg zeigen?",
+            "en": "Can you show me the way?"
+          }
+        ]
       }
     ],
     "groups": [
@@ -14108,13 +23947,5254 @@
       {
         "id": "l20-g2",
         "icon": "2",
-        "title": "Words 391-397",
-        "fa": "7 words",
+        "title": "Words 391-400",
+        "fa": "10 words",
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": {
+      "id": "l20-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Useful contractions",
+          "body": "The contraction is normally preferred when the article is not emphasized:",
+          "example": "im = in dem",
+          "emphasis": [
+            "im"
+          ]
+        },
+        {
+          "title": "Word order with dates and deadlines",
+          "body": "Written dates with a period represent ordinal numbers:",
+          "example": "am 25. September",
+          "emphasis": [
+            "September"
+          ]
+        },
+        {
+          "title": "Temporal prepositions",
+          "body": "Use vom to mark the beginning and bis to mark the end of a period.",
+          "example": "ab + Dativ: ab zwei Stunden Verspätung",
+          "emphasis": [
+            "Dativ"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "____ = in dem",
+          "options": [
+            "im",
+            "am",
+            "beim",
+            "vom"
+          ],
+          "answer": "im",
+          "answers": [
+            "im"
+          ],
+          "note": "Useful contractions: The contraction is normally preferred when the article is not emphasized:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = an dem",
+          "options": [
+            "am",
+            "beim",
+            "vom",
+            "September"
+          ],
+          "answer": "am",
+          "answers": [
+            "am"
+          ],
+          "note": "Useful contractions: The contraction is normally preferred when the article is not emphasized:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = bei dem",
+          "options": [
+            "beim",
+            "vom",
+            "September",
+            "bis"
+          ],
+          "answer": "beim",
+          "answers": [
+            "beim"
+          ],
+          "note": "Useful contractions: The contraction is normally preferred when the article is not emphasized:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = von dem",
+          "options": [
+            "vom",
+            "September",
+            "bis",
+            "vor"
+          ],
+          "answer": "vom",
+          "answers": [
+            "vom"
+          ],
+          "note": "Useful contractions: The contraction is normally preferred when the article is not emphasized:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "am 25. ____",
+          "options": [
+            "September",
+            "bis",
+            "vor",
+            "fristgerecht"
+          ],
+          "answer": "September",
+          "answers": [
+            "September"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ 18:00 Uhr",
+          "options": [
+            "bis",
+            "vor",
+            "fristgerecht",
+            "Dativ"
+          ],
+          "answer": "bis",
+          "answers": [
+            "bis"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ 07:00 Uhr",
+          "options": [
+            "vor",
+            "fristgerecht",
+            "Dativ",
+            "Oktober"
+          ],
+          "answer": "vor",
+          "answers": [
+            "vor"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ zum 30. Juni",
+          "options": [
+            "fristgerecht",
+            "Dativ",
+            "Oktober",
+            "nach"
+          ],
+          "answer": "fristgerecht",
+          "answers": [
+            "fristgerecht"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "ab + ____: ab zwei Stunden Verspätung",
+          "options": [
+            "Dativ",
+            "Oktober",
+            "nach",
+            "Man"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Temporal prepositions: Use vom to mark the beginning and bis to mark the end of a period.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "bis: bis 18:00 Uhr, bis zum 31. ____",
+          "options": [
+            "Oktober",
+            "nach",
+            "Man",
+            "Antrag"
+          ],
+          "answer": "Oktober",
+          "answers": [
+            "Oktober"
+          ],
+          "note": "Temporal prepositions: Use vom to mark the beginning and bis to mark the end of a period.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "vor + ____: vor 07:00 Uhr, vor dem Haus",
+          "options": [
+            "Dativ",
+            "Man",
+            "Antrag",
+            "man"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Temporal prepositions: Use vom to mark the beginning and bis to mark the end of a period.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + Dativ: nach vorheriger Vereinbarung",
+          "options": [
+            "nach",
+            "Antrag",
+            "man",
+            "passive"
+          ],
+          "answer": "nach",
+          "answers": [
+            "nach"
+          ],
+          "note": "Temporal prepositions: Use vom to mark the beginning and bis to mark the end of a period.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ lehnt den Antrag ab.",
+          "options": [
+            "Man",
+            "passive",
+            "Hiermit",
+            "Gegen"
+          ],
+          "answer": "Man",
+          "answers": [
+            "Man"
+          ],
+          "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Der ____ wird abgelehnt.",
+          "options": [
+            "Antrag",
+            "passive",
+            "Hiermit",
+            "Gegen"
+          ],
+          "answer": "Antrag",
+          "answers": [
+            "Antrag"
+          ],
+          "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____: Beim Amt prüft man den Antrag.",
+          "options": [
+            "man",
+            "Gegen",
+            "Dieser",
+            "dass"
+          ],
+          "answer": "man",
+          "answers": [
+            "man"
+          ],
+          "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____: Der Antrag wird beim Amt geprüft.",
+          "options": [
+            "passive",
+            "Gegen",
+            "Dieser",
+            "dass"
+          ],
+          "answer": "passive",
+          "answers": [
+            "passive"
+          ],
+          "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ kündige ich …",
+          "options": [
+            "Hiermit",
+            "Dieser",
+            "dass",
+            "im"
+          ],
+          "answer": "Hiermit",
+          "answers": [
+            "Hiermit"
+          ],
+          "note": "Formal letter patterns: Formal letter patterns",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ diese Entscheidung lege ich Widerspruch ein.",
+          "options": [
+            "Gegen",
+            "dass",
+            "im",
+            "am"
+          ],
+          "answer": "Gegen",
+          "answers": [
+            "Gegen"
+          ],
+          "note": "Formal letter patterns: Formal letter patterns",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ Kündigung widerspreche ich hiermit.",
+          "options": [
+            "Dieser",
+            "im",
+            "am",
+            "beim"
+          ],
+          "answer": "Dieser",
+          "answers": [
+            "Dieser"
+          ],
+          "note": "Formal letter patterns: Formal letter patterns",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Bitte bestätigen Sie mir schriftlich, ____ …",
+          "options": [
+            "dass",
+            "am",
+            "beim",
+            "vom"
+          ],
+          "answer": "dass",
+          "answers": [
+            "dass"
+          ],
+          "note": "Formal letter patterns: Formal letter patterns",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = in dem",
+          "options": [
+            "im",
+            "vom",
+            "September",
+            "bis"
+          ],
+          "answer": "im",
+          "answers": [
+            "im"
+          ],
+          "note": "Useful contractions: The contraction is normally preferred when the article is not emphasized:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = an dem",
+          "options": [
+            "am",
+            "September",
+            "bis",
+            "vor"
+          ],
+          "answer": "am",
+          "answers": [
+            "am"
+          ],
+          "note": "Useful contractions: The contraction is normally preferred when the article is not emphasized:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = bei dem",
+          "options": [
+            "beim",
+            "bis",
+            "vor",
+            "fristgerecht"
+          ],
+          "answer": "beim",
+          "answers": [
+            "beim"
+          ],
+          "note": "Useful contractions: The contraction is normally preferred when the article is not emphasized:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ = von dem",
+          "options": [
+            "vom",
+            "vor",
+            "fristgerecht",
+            "Dativ"
+          ],
+          "answer": "vom",
+          "answers": [
+            "vom"
+          ],
+          "note": "Useful contractions: The contraction is normally preferred when the article is not emphasized:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "am 25. ____",
+          "options": [
+            "September",
+            "fristgerecht",
+            "Dativ",
+            "Oktober"
+          ],
+          "answer": "September",
+          "answers": [
+            "September"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ 18:00 Uhr",
+          "options": [
+            "bis",
+            "Dativ",
+            "Oktober",
+            "nach"
+          ],
+          "answer": "bis",
+          "answers": [
+            "bis"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ 07:00 Uhr",
+          "options": [
+            "vor",
+            "Oktober",
+            "nach",
+            "Man"
+          ],
+          "answer": "vor",
+          "answers": [
+            "vor"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ zum 30. Juni",
+          "options": [
+            "fristgerecht",
+            "nach",
+            "Man",
+            "Antrag"
+          ],
+          "answer": "fristgerecht",
+          "answers": [
+            "fristgerecht"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "ab + ____: ab zwei Stunden Verspätung",
+          "options": [
+            "Dativ",
+            "Man",
+            "Antrag",
+            "man"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Temporal prepositions: Use vom to mark the beginning and bis to mark the end of a period.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "bis: bis 18:00 Uhr, bis zum 31. ____",
+          "options": [
+            "Oktober",
+            "Antrag",
+            "man",
+            "passive"
+          ],
+          "answer": "Oktober",
+          "answers": [
+            "Oktober"
+          ],
+          "note": "Temporal prepositions: Use vom to mark the beginning and bis to mark the end of a period.",
+          "direction": "de"
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "code": "Set 21",
+    "title": "Wortschatz Set 21",
+    "subtitle": "20 entries from Wortschatz.md",
+    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "image": "assets/lektion-1-memories.png",
+    "imageAlt": "Abstract learning illustration",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "vocab": [
+      {
+        "id": "erklaeren",
+        "group": "l21-g1",
+        "term": "erklären",
+        "fa": "to explain",
+        "type": "verb",
+        "form": "`jemandem` (Dativ) `etwas` (Akkusativ) erklären: `erklärt – erklärte – hat erklärt`.",
+        "source": "Wortschatz.md",
+        "example": "Der Lehrer erklärt den Schülern den Klimawandel.",
+        "exampleFa": "The teacher explains climate change to the students.",
+        "cloze": "Der Lehrer erklärt den Schülern den Klimawandel. ____",
+        "clozeFa": "The teacher explains climate change to the students.",
+        "answer": "erklären",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "erklären",
+          "erklären",
+          "erklären"
+        ],
+        "examples": [
+          {
+            "de": "Der Lehrer erklärt den Schülern den Klimawandel.",
+            "en": "The teacher explains climate change to the students."
+          },
+          {
+            "de": "Können Sie mir diese Regel erklären?",
+            "en": "Can you explain this rule to me?"
+          }
+        ]
+      },
+      {
+        "id": "unterrichten",
+        "group": "l21-g1",
+        "term": "unterrichten",
+        "fa": "to teach; to instruct",
+        "type": "verb",
+        "form": "`jemanden` (Akkusativ) or `ein Fach` (Akkusativ) unterrichten: `unterrichtet – unterrichtete – hat unterrichtet`.",
+        "source": "Wortschatz.md",
+        "example": "Sie unterrichtet die Kinder in Deutsch.",
+        "exampleFa": "She teaches the children German.",
+        "cloze": "Sie unterrichtet die Kinder in Deutsch. ____",
+        "clozeFa": "She teaches the children German.",
+        "answer": "unterrichten",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "unterrichten",
+          "unterrichten",
+          "unterrichten"
+        ],
+        "examples": [
+          {
+            "de": "Sie unterrichtet die Kinder in Deutsch.",
+            "en": "She teaches the children German."
+          },
+          {
+            "de": "Herr Müller unterrichtet Mathematik.",
+            "en": "Mr. Müller teaches mathematics."
+          }
+        ]
+      },
+      {
+        "id": "der-klimawandel",
+        "group": "l21-g1",
+        "term": "der Klimawandel",
+        "fa": "climate change",
+        "type": "noun",
+        "form": "Masculine compound noun; normally used in the singular.",
+        "source": "Wortschatz.md",
+        "example": "Der Klimawandel betrifft die ganze Welt.",
+        "exampleFa": "Climate change affects the whole world.",
+        "cloze": "Der ____ betrifft die ganze Welt.",
+        "clozeFa": "Climate change affects the whole world.",
+        "answer": "Klimawandel",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "der Klimawandel",
+          "Klimawandel",
+          "Klimawandel"
+        ],
+        "examples": [
+          {
+            "de": "Der Klimawandel betrifft die ganze Welt.",
+            "en": "Climate change affects the whole world."
+          },
+          {
+            "de": "Im Unterricht sprechen wir über den Klimawandel.",
+            "en": "We discuss climate change in class."
+          }
+        ]
+      },
+      {
+        "id": "der-elternabend",
+        "group": "l21-g1",
+        "term": "der Elternabend",
+        "fa": "parents' evening; parent-teacher meeting",
+        "type": "noun",
+        "form": "Masculine compound noun; plural: `die Elternabende`.",
+        "source": "Wortschatz.md",
+        "example": "Die Eltern sind heute beim Elternabend.",
+        "exampleFa": "The parents are at the parent-teacher meeting today.",
+        "cloze": "Die Eltern sind heute beim ____.",
+        "clozeFa": "The parents are at the parent-teacher meeting today.",
+        "answer": "Elternabend",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "der Elternabend",
+          "Elternabend",
+          "Elternabend"
+        ],
+        "examples": [
+          {
+            "de": "Die Eltern sind heute beim Elternabend.",
+            "en": "The parents are at the parent-teacher meeting today."
+          },
+          {
+            "de": "Der Elternabend beginnt um 18 Uhr.",
+            "en": "The parents' evening begins at 6 p.m."
+          }
+        ]
+      },
+      {
+        "id": "genug",
+        "group": "l21-g1",
+        "term": "genug",
+        "fa": "enough",
+        "type": "verb",
+        "form": "Used before a noun or after an adjective/adverb; its form does not change.",
+        "source": "Wortschatz.md",
+        "example": "Lernen die Kinder genug?",
+        "exampleFa": "Are the children learning enough?",
+        "cloze": "Lernen die Kinder ____?",
+        "clozeFa": "Are the children learning enough?",
+        "answer": "genug",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "genug",
+          "genug",
+          "genug"
+        ],
+        "examples": [
+          {
+            "de": "Lernen die Kinder genug?",
+            "en": "Are the children learning enough?"
+          },
+          {
+            "de": "Wir haben genug Geld für den Ausflug.",
+            "en": "We have enough money for the trip."
+          }
+        ]
+      },
+      {
+        "id": "der-ausflug",
+        "group": "l21-g1",
+        "term": "der Ausflug",
+        "fa": "excursion; trip; outing",
+        "type": "noun",
+        "form": "Masculine noun; plural: `die Ausflüge`.",
+        "source": "Wortschatz.md",
+        "example": "Die Klasse macht einen Ausflug.",
+        "exampleFa": "The class is going on an excursion.",
+        "cloze": "Die Klasse macht einen ____.",
+        "clozeFa": "The class is going on an excursion.",
+        "answer": "Ausflug",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "der Ausflug",
+          "Ausflug",
+          "Ausflug"
+        ],
+        "examples": [
+          {
+            "de": "Die Klasse macht einen Ausflug.",
+            "en": "The class is going on an excursion."
+          },
+          {
+            "de": "Solche Ausflüge sind für Kinder interessant.",
+            "en": "Such trips are interesting for children."
+          }
+        ]
+      },
+      {
+        "id": "die-klassenkasse",
+        "group": "l21-g1",
+        "term": "die Klassenkasse",
+        "fa": "class fund",
+        "type": "noun",
+        "form": "Feminine compound noun; plural: `die Klassenkassen`.",
+        "source": "Wortschatz.md",
+        "example": "Wir bezahlen den Ausflug aus der Klassenkasse.",
+        "exampleFa": "We pay for the trip from the class fund.",
+        "cloze": "Wir bezahlen den Ausflug aus der ____.",
+        "clozeFa": "We pay for the trip from the class fund.",
+        "answer": "Klassenkasse",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "die Klassenkasse",
+          "Klassenkasse",
+          "Klassenkasse"
+        ],
+        "examples": [
+          {
+            "de": "Wir bezahlen den Ausflug aus der Klassenkasse.",
+            "en": "We pay for the trip from the class fund."
+          },
+          {
+            "de": "In der Klassenkasse ist genug Geld.",
+            "en": "There is enough money in the class fund."
+          }
+        ]
+      },
+      {
+        "id": "sich-treffen",
+        "group": "l21-g1",
+        "term": "sich treffen",
+        "fa": "to meet",
+        "type": "verb",
+        "form": "Reflexive strong verb: `trifft sich – traf sich – hat sich getroffen`.",
+        "source": "Wortschatz.md",
+        "example": "Wir treffen uns um 7:30 Uhr an der Schule.",
+        "exampleFa": "We meet at the school at 7:30 a.m.",
+        "cloze": "Wir ____ uns um 7:30 Uhr an der Schule.",
+        "clozeFa": "We meet at the school at 7:30 a.m.",
+        "answer": "treffen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "sich treffen",
+          "sich treffen",
+          "treffen"
+        ],
+        "examples": [
+          {
+            "de": "Wir treffen uns um 7:30 Uhr an der Schule.",
+            "en": "We meet at the school at 7:30 a.m."
+          },
+          {
+            "de": "Ich treffe mich morgen mit meiner Lehrerin.",
+            "en": "I am meeting my teacher tomorrow."
+          }
+        ]
+      },
+      {
+        "id": "losfahren",
+        "group": "l21-g1",
+        "term": "losfahren",
+        "fa": "to set off; to depart",
+        "type": "verb",
+        "form": "Separable strong verb: `fährt los – fuhr los – ist losgefahren`.",
+        "source": "Wortschatz.md",
+        "example": "Wir fahren pünktlich los.",
+        "exampleFa": "We set off on time.",
+        "cloze": "Wir fahren pünktlich los. ____",
+        "clozeFa": "We set off on time.",
+        "answer": "losfahren",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "losfahren",
+          "losfahren",
+          "losfahren"
+        ],
+        "examples": [
+          {
+            "de": "Wir fahren pünktlich los.",
+            "en": "We set off on time."
+          },
+          {
+            "de": "Der Bus ist um 8 Uhr losgefahren.",
+            "en": "The bus departed at 8 a.m."
+          }
+        ]
+      },
+      {
+        "id": "puenktlich",
+        "group": "l21-g1",
+        "term": "pünktlich",
+        "fa": "punctual; on time",
+        "type": "verb",
+        "form": "Adjective or adverb.",
+        "source": "Wortschatz.md",
+        "example": "Wir möchten pünktlich losfahren.",
+        "exampleFa": "We would like to depart on time.",
+        "cloze": "Wir möchten ____ losfahren.",
+        "clozeFa": "We would like to depart on time.",
+        "answer": "pünktlich",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "pünktlich",
+          "pünktlich",
+          "pünktlich"
+        ],
+        "examples": [
+          {
+            "de": "Wir möchten pünktlich losfahren.",
+            "en": "We would like to depart on time."
+          },
+          {
+            "de": "Der Zug ist pünktlich angekommen.",
+            "en": "The train arrived on time."
+          }
+        ]
+      },
+      {
+        "id": "die-projektwoche",
+        "group": "l21-g2",
+        "term": "die Projektwoche",
+        "fa": "project week",
+        "type": "noun",
+        "form": "Feminine compound noun; plural: `die Projektwochen`.",
+        "source": "Wortschatz.md",
+        "example": "Die Schüler haben eine Projektwoche.",
+        "exampleFa": "The students have a project week.",
+        "cloze": "Die Schüler haben eine ____.",
+        "clozeFa": "The students have a project week.",
+        "answer": "Projektwoche",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "die Projektwoche",
+          "Projektwoche",
+          "Projektwoche"
+        ],
+        "examples": [
+          {
+            "de": "Die Schüler haben eine Projektwoche.",
+            "en": "The students have a project week."
+          },
+          {
+            "de": "Die Lehrerin erklärt den Eltern die Projektwoche.",
+            "en": "The teacher explains the project week to the parents."
+          }
+        ]
+      },
+      {
+        "id": "einladen",
+        "group": "l21-g2",
+        "term": "einladen",
+        "fa": "to invite",
+        "type": "verb",
+        "form": "Separable strong verb: `lädt ein – lud ein – hat eingeladen`; `jemanden zu etwas einladen`.",
+        "source": "Wortschatz.md",
+        "example": "Ich habe Sie zum Elternabend eingeladen.",
+        "exampleFa": "I invited you to the parent-teacher meeting.",
+        "cloze": "Ich habe Sie zum Elternabend eingeladen. ____",
+        "clozeFa": "I invited you to the parent-teacher meeting.",
+        "answer": "einladen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "einladen",
+          "einladen",
+          "einladen"
+        ],
+        "examples": [
+          {
+            "de": "Ich habe Sie zum Elternabend eingeladen.",
+            "en": "I invited you to the parent-teacher meeting."
+          },
+          {
+            "de": "Sie lädt ihre Freunde zur Party ein.",
+            "en": "She invites her friends to the party."
+          }
+        ]
+      },
+      {
+        "id": "besichtigen",
+        "group": "l21-g2",
+        "term": "besichtigen",
+        "fa": "to visit; to tour; to inspect",
+        "type": "verb",
+        "form": "Inseparable regular verb: `besichtigt – besichtigte – hat besichtigt`.",
+        "source": "Wortschatz.md",
+        "example": "Wir besichtigen ein Gartenprojekt.",
+        "exampleFa": "We are touring a garden project.",
+        "cloze": "Wir ____ ein Gartenprojekt.",
+        "clozeFa": "We are touring a garden project.",
+        "answer": "besichtigen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "besichtigen",
+          "besichtigen",
+          "besichtigen"
+        ],
+        "examples": [
+          {
+            "de": "Wir besichtigen ein Gartenprojekt.",
+            "en": "We are touring a garden project."
+          },
+          {
+            "de": "Die Klasse hat die Wasserwerke besichtigt.",
+            "en": "The class visited the waterworks."
+          }
+        ]
+      },
+      {
+        "id": "das-gartenprojekt",
+        "group": "l21-g2",
+        "term": "das Gartenprojekt",
+        "fa": "garden project",
+        "type": "noun",
+        "form": "Neuter compound noun; plural: `die Gartenprojekte`.",
+        "source": "Wortschatz.md",
+        "example": "Das Gartenprojekt befindet sich auf einem Hochhaus.",
+        "exampleFa": "The garden project is located on a high-rise building.",
+        "cloze": "Das ____ befindet sich auf einem Hochhaus.",
+        "clozeFa": "The garden project is located on a high-rise building.",
+        "answer": "Gartenprojekt",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "das Gartenprojekt",
+          "Gartenprojekt",
+          "Gartenprojekt"
+        ],
+        "examples": [
+          {
+            "de": "Das Gartenprojekt befindet sich auf einem Hochhaus.",
+            "en": "The garden project is located on a high-rise building."
+          },
+          {
+            "de": "Die Schüler besuchen ein Gartenprojekt.",
+            "en": "The students visit a garden project."
+          }
+        ]
+      },
+      {
+        "id": "das-hochhaus",
+        "group": "l21-g2",
+        "term": "das Hochhaus",
+        "fa": "high-rise building",
+        "type": "noun",
+        "form": "Neuter noun; plural: `die Hochhäuser`.",
+        "source": "Wortschatz.md",
+        "example": "Auf dem Hochhaus gibt es einen Garten.",
+        "exampleFa": "There is a garden on the high-rise building.",
+        "cloze": "Auf dem ____ gibt es einen Garten.",
+        "clozeFa": "There is a garden on the high-rise building.",
+        "answer": "Hochhaus",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "das Hochhaus",
+          "Hochhaus",
+          "Hochhaus"
+        ],
+        "examples": [
+          {
+            "de": "Auf dem Hochhaus gibt es einen Garten.",
+            "en": "There is a garden on the high-rise building."
+          },
+          {
+            "de": "In der Stadt stehen viele Hochhäuser.",
+            "en": "There are many high-rise buildings in the city."
+          }
+        ]
+      },
+      {
+        "id": "die-natur",
+        "group": "l21-g2",
+        "term": "die Natur",
+        "fa": "nature",
+        "type": "noun",
+        "form": "Feminine noun; normally used in the singular.",
+        "source": "Wortschatz.md",
+        "example": "Wir sehen Natur in der Stadt.",
+        "exampleFa": "We see nature in the city.",
+        "cloze": "Wir sehen ____ in der Stadt.",
+        "clozeFa": "We see nature in the city.",
+        "answer": "Natur",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "die Natur",
+          "Natur",
+          "Natur"
+        ],
+        "examples": [
+          {
+            "de": "Wir sehen Natur in der Stadt.",
+            "en": "We see nature in the city."
+          },
+          {
+            "de": "Kinder sollen die Natur kennenlernen.",
+            "en": "Children should become familiar with nature."
+          }
+        ]
+      },
+      {
+        "id": "das-trinkwasser",
+        "group": "l21-g2",
+        "term": "das Trinkwasser",
+        "fa": "drinking water",
+        "type": "noun",
+        "form": "Neuter compound noun; normally used in the singular.",
+        "source": "Wortschatz.md",
+        "example": "Wir lernen den Weg des Trinkwassers kennen.",
+        "exampleFa": "We learn about the journey of drinking water.",
+        "cloze": "Wir lernen den Weg des ____s kennen.",
+        "clozeFa": "We learn about the journey of drinking water.",
+        "answer": "Trinkwasser",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "das Trinkwasser",
+          "Trinkwasser",
+          "Trinkwasser"
+        ],
+        "examples": [
+          {
+            "de": "Wir lernen den Weg des Trinkwassers kennen.",
+            "en": "We learn about the journey of drinking water."
+          },
+          {
+            "de": "Das Trinkwasser wird regelmäßig geprüft.",
+            "en": "The drinking water is checked regularly."
+          }
+        ]
+      },
+      {
+        "id": "das-wasserwerk",
+        "group": "l21-g2",
+        "term": "das Wasserwerk",
+        "fa": "waterworks; water treatment plant",
+        "type": "noun",
+        "form": "Neuter noun; plural: `die Wasserwerke`.",
+        "source": "Wortschatz.md",
+        "example": "Die Klasse besucht die Wasserwerke.",
+        "exampleFa": "The class visits the waterworks.",
+        "cloze": "Die Klasse besucht die ____e.",
+        "clozeFa": "The class visits the waterworks.",
+        "answer": "Wasserwerk",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "das Wasserwerk",
+          "Wasserwerk",
+          "Wasserwerk"
+        ],
+        "examples": [
+          {
+            "de": "Die Klasse besucht die Wasserwerke.",
+            "en": "The class visits the waterworks."
+          },
+          {
+            "de": "Das Wasserwerk liefert sauberes Trinkwasser.",
+            "en": "The waterworks supplies clean drinking water."
+          }
+        ]
+      },
+      {
+        "id": "kennenlernen",
+        "group": "l21-g2",
+        "term": "kennenlernen",
+        "fa": "to get to know; to become familiar with",
+        "type": "verb",
+        "form": "Separable verb: `lernt kennen – lernte kennen – hat kennengelernt`; with `zu`: `kennenzulernen`.",
+        "source": "Wortschatz.md",
+        "example": "Wir lernen den Weg des Trinkwassers kennen.",
+        "exampleFa": "We become familiar with the journey of drinking water.",
+        "cloze": "Wir lernen den Weg des Trinkwassers kennen. ____",
+        "clozeFa": "We become familiar with the journey of drinking water.",
+        "answer": "kennenlernen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "kennenlernen",
+          "kennenlernen",
+          "kennenlernen"
+        ],
+        "examples": [
+          {
+            "de": "Wir lernen den Weg des Trinkwassers kennen.",
+            "en": "We become familiar with the journey of drinking water."
+          },
+          {
+            "de": "Ich freue mich, Sie kennenzulernen.",
+            "en": "I am pleased to meet you."
+          }
+        ]
+      },
+      {
+        "id": "der-umweltschutz",
+        "group": "l21-g2",
+        "term": "der Umweltschutz",
+        "fa": "environmental protection",
+        "type": "noun",
+        "form": "Masculine compound noun; normally used in the singular.",
+        "source": "Wortschatz.md",
+        "example": "Unsere Projektwoche hat das Thema Umweltschutz.",
+        "exampleFa": "Our project week has the topic of environmental protection.",
+        "cloze": "Unsere Projektwoche hat das Thema ____.",
+        "clozeFa": "Our project week has the topic of environmental protection.",
+        "answer": "Umweltschutz",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "der Umweltschutz",
+          "Umweltschutz",
+          "Umweltschutz"
+        ],
+        "examples": [
+          {
+            "de": "Unsere Projektwoche hat das Thema Umweltschutz.",
+            "en": "Our project week has the topic of environmental protection."
+          },
+          {
+            "de": "Umweltschutz ist für unsere Zukunft wichtig.",
+            "en": "Environmental protection is important for our future."
+          }
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "id": "l21-g1",
+        "icon": "1",
+        "title": "Words 401-410",
+        "fa": "10 words",
+        "subtitle": "Practice German vocabulary from your daily glossary."
+      },
+      {
+        "id": "l21-g2",
+        "icon": "2",
+        "title": "Words 411-420",
+        "fa": "10 words",
+        "subtitle": "Practice German vocabulary from your daily glossary."
+      }
+    ],
+    "workbook": [],
+    "grammar": {
+      "id": "l21-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 2 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Changes in time and replacement",
+          "body": "Changes in time and replacement",
+          "example": "sich um eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden.",
+          "emphasis": [
+            "um"
+          ]
+        },
+        {
+          "title": "sich etwas ansehen",
+          "body": "The reflexive pronoun is dative when the verb also has an accusative object.",
+          "example": "Ich sehe mir die Wand an.",
+          "emphasis": [
+            "sehe"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "sich ____ eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden.",
+          "options": [
+            "um",
+            "etwas",
+            "sehe",
+            "sich"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Changes in time and replacement: Changes in time and replacement",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ auf einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben.",
+          "options": [
+            "etwas",
+            "sehe",
+            "sich",
+            "September"
+          ],
+          "answer": "etwas",
+          "answers": [
+            "etwas"
+          ],
+          "note": "Changes in time and replacement: Changes in time and replacement",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ durch etwas ersetzen: Wir ersetzen den Besen durch einen neuen.",
+          "options": [
+            "etwas",
+            "sich",
+            "September",
+            "bis"
+          ],
+          "answer": "etwas",
+          "answers": [
+            "etwas"
+          ],
+          "note": "Changes in time and replacement: Changes in time and replacement",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ mir die Wand an.",
+          "options": [
+            "sehe",
+            "September",
+            "bis",
+            "vor"
+          ],
+          "answer": "sehe",
+          "answers": [
+            "sehe"
+          ],
+          "note": "sich etwas ansehen: The reflexive pronoun is dative when the verb also has an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Kann der Handwerker ____ das ansehen?",
+          "options": [
+            "sich",
+            "bis",
+            "vor",
+            "fristgerecht"
+          ],
+          "answer": "sich",
+          "answers": [
+            "sich"
+          ],
+          "note": "sich etwas ansehen: The reflexive pronoun is dative when the verb also has an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "am 25. ____",
+          "options": [
+            "September",
+            "vor",
+            "fristgerecht",
+            "Dativ"
+          ],
+          "answer": "September",
+          "answers": [
+            "September"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ 18:00 Uhr",
+          "options": [
+            "bis",
+            "fristgerecht",
+            "Dativ",
+            "Oktober"
+          ],
+          "answer": "bis",
+          "answers": [
+            "bis"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ 07:00 Uhr",
+          "options": [
+            "vor",
+            "Dativ",
+            "Oktober",
+            "nach"
+          ],
+          "answer": "vor",
+          "answers": [
+            "vor"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ zum 30. Juni",
+          "options": [
+            "fristgerecht",
+            "Oktober",
+            "nach",
+            "um"
+          ],
+          "answer": "fristgerecht",
+          "answers": [
+            "fristgerecht"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "ab + ____: ab zwei Stunden Verspätung",
+          "options": [
+            "Dativ",
+            "nach",
+            "um",
+            "etwas"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Temporal prepositions: Use vom to mark the beginning and bis to mark the end of a period.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "bis: bis 18:00 Uhr, bis zum 31. ____",
+          "options": [
+            "Oktober",
+            "um",
+            "etwas",
+            "sehe"
+          ],
+          "answer": "Oktober",
+          "answers": [
+            "Oktober"
+          ],
+          "note": "Temporal prepositions: Use vom to mark the beginning and bis to mark the end of a period.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "vor + ____: vor 07:00 Uhr, vor dem Haus",
+          "options": [
+            "Dativ",
+            "etwas",
+            "sehe",
+            "sich"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Temporal prepositions: Use vom to mark the beginning and bis to mark the end of a period.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + Dativ: nach vorheriger Vereinbarung",
+          "options": [
+            "nach",
+            "sehe",
+            "sich",
+            "September"
+          ],
+          "answer": "nach",
+          "answers": [
+            "nach"
+          ],
+          "note": "Temporal prepositions: Use vom to mark the beginning and bis to mark the end of a period.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "sich ____ eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden.",
+          "options": [
+            "um",
+            "September",
+            "bis",
+            "vor"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Changes in time and replacement: Changes in time and replacement",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ auf einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben.",
+          "options": [
+            "etwas",
+            "bis",
+            "vor",
+            "fristgerecht"
+          ],
+          "answer": "etwas",
+          "answers": [
+            "etwas"
+          ],
+          "note": "Changes in time and replacement: Changes in time and replacement",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ durch etwas ersetzen: Wir ersetzen den Besen durch einen neuen.",
+          "options": [
+            "etwas",
+            "vor",
+            "fristgerecht",
+            "Dativ"
+          ],
+          "answer": "etwas",
+          "answers": [
+            "etwas"
+          ],
+          "note": "Changes in time and replacement: Changes in time and replacement",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ mir die Wand an.",
+          "options": [
+            "sehe",
+            "fristgerecht",
+            "Dativ",
+            "Oktober"
+          ],
+          "answer": "sehe",
+          "answers": [
+            "sehe"
+          ],
+          "note": "sich etwas ansehen: The reflexive pronoun is dative when the verb also has an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Kann der Handwerker ____ das ansehen?",
+          "options": [
+            "sich",
+            "Dativ",
+            "Oktober",
+            "nach"
+          ],
+          "answer": "sich",
+          "answers": [
+            "sich"
+          ],
+          "note": "sich etwas ansehen: The reflexive pronoun is dative when the verb also has an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "am 25. ____",
+          "options": [
+            "September",
+            "Oktober",
+            "nach",
+            "um"
+          ],
+          "answer": "September",
+          "answers": [
+            "September"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ 18:00 Uhr",
+          "options": [
+            "bis",
+            "nach",
+            "um",
+            "etwas"
+          ],
+          "answer": "bis",
+          "answers": [
+            "bis"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ 07:00 Uhr",
+          "options": [
+            "vor",
+            "um",
+            "etwas",
+            "sehe"
+          ],
+          "answer": "vor",
+          "answers": [
+            "vor"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ zum 30. Juni",
+          "options": [
+            "fristgerecht",
+            "etwas",
+            "sehe",
+            "sich"
+          ],
+          "answer": "fristgerecht",
+          "answers": [
+            "fristgerecht"
+          ],
+          "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "ab + ____: ab zwei Stunden Verspätung",
+          "options": [
+            "Dativ",
+            "sehe",
+            "sich",
+            "September"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Temporal prepositions: Use vom to mark the beginning and bis to mark the end of a period.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "bis: bis 18:00 Uhr, bis zum 31. ____",
+          "options": [
+            "Oktober",
+            "sich",
+            "September",
+            "bis"
+          ],
+          "answer": "Oktober",
+          "answers": [
+            "Oktober"
+          ],
+          "note": "Temporal prepositions: Use vom to mark the beginning and bis to mark the end of a period.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "vor + ____: vor 07:00 Uhr, vor dem Haus",
+          "options": [
+            "Dativ",
+            "September",
+            "bis",
+            "vor"
+          ],
+          "answer": "Dativ",
+          "answers": [
+            "Dativ"
+          ],
+          "note": "Temporal prepositions: Use vom to mark the beginning and bis to mark the end of a period.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + Dativ: nach vorheriger Vereinbarung",
+          "options": [
+            "nach",
+            "bis",
+            "vor",
+            "fristgerecht"
+          ],
+          "answer": "nach",
+          "answers": [
+            "nach"
+          ],
+          "note": "Temporal prepositions: Use vom to mark the beginning and bis to mark the end of a period.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "sich ____ eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden.",
+          "options": [
+            "um",
+            "fristgerecht",
+            "Dativ",
+            "Oktober"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Changes in time and replacement: Changes in time and replacement",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ auf einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben.",
+          "options": [
+            "etwas",
+            "Dativ",
+            "Oktober",
+            "nach"
+          ],
+          "answer": "etwas",
+          "answers": [
+            "etwas"
+          ],
+          "note": "Changes in time and replacement: Changes in time and replacement",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ durch etwas ersetzen: Wir ersetzen den Besen durch einen neuen.",
+          "options": [
+            "etwas",
+            "Oktober",
+            "nach",
+            "um"
+          ],
+          "answer": "etwas",
+          "answers": [
+            "etwas"
+          ],
+          "note": "Changes in time and replacement: Changes in time and replacement",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ mir die Wand an.",
+          "options": [
+            "sehe",
+            "nach",
+            "um",
+            "etwas"
+          ],
+          "answer": "sehe",
+          "answers": [
+            "sehe"
+          ],
+          "note": "sich etwas ansehen: The reflexive pronoun is dative when the verb also has an accusative object.",
+          "direction": "de"
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "code": "Set 22",
+    "title": "Wortschatz Set 22",
+    "subtitle": "20 entries from Wortschatz.md",
+    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "image": "assets/lektion-2-friendship.png",
+    "imageAlt": "Abstract learning illustration",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "vocab": [
+      {
+        "id": "das-thema",
+        "group": "l22-g1",
+        "term": "das Thema",
+        "fa": "topic; theme; subject",
+        "type": "noun",
+        "form": "Neuter noun; plural: `die Themen`; common phrase: `zum Thema + noun`.",
+        "source": "Wortschatz.md",
+        "example": "Die Projektwoche ist zum Thema Umweltschutz.",
+        "exampleFa": "The project week is about environmental protection.",
+        "cloze": "Die Projektwoche ist zum ____ Umweltschutz.",
+        "clozeFa": "The project week is about environmental protection.",
+        "answer": "Thema",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "das Thema",
+          "Thema",
+          "Thema"
+        ],
+        "examples": [
+          {
+            "de": "Die Projektwoche ist zum Thema Umweltschutz.",
+            "en": "The project week is about environmental protection."
+          },
+          {
+            "de": "Heute sprechen wir über ein wichtiges Thema.",
+            "en": "Today we are discussing an important topic."
+          }
+        ]
+      },
+      {
+        "id": "die-umwelt",
+        "group": "l22-g1",
+        "term": "die Umwelt",
+        "fa": "environment",
+        "type": "noun",
+        "form": "Feminine noun; normally used in the singular.",
+        "source": "Wortschatz.md",
+        "example": "Wir müssen unsere Umwelt schützen.",
+        "exampleFa": "We must protect our environment.",
+        "cloze": "Wir müssen unsere ____ schützen.",
+        "clozeFa": "We must protect our environment.",
+        "answer": "Umwelt",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "die Umwelt",
+          "Umwelt",
+          "Umwelt"
+        ],
+        "examples": [
+          {
+            "de": "Wir müssen unsere Umwelt schützen.",
+            "en": "We must protect our environment."
+          },
+          {
+            "de": "Plastik kann der Umwelt schaden.",
+            "en": "Plastic can harm the environment."
+          }
+        ]
+      },
+      {
+        "id": "schaedigen",
+        "group": "l22-g1",
+        "term": "schädigen",
+        "fa": "to damage; to harm",
+        "type": "verb",
+        "form": "Regular verb: `schädigt – schädigte – hat geschädigt`; takes the accusative.",
+        "source": "Wortschatz.md",
+        "example": "Abgase schädigen die Umwelt.",
+        "exampleFa": "Exhaust fumes harm the environment.",
+        "cloze": "Abgase ____ die Umwelt.",
+        "clozeFa": "Exhaust fumes harm the environment.",
+        "answer": "schädigen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "schädigen",
+          "schädigen",
+          "schädigen"
+        ],
+        "examples": [
+          {
+            "de": "Abgase schädigen die Umwelt.",
+            "en": "Exhaust fumes harm the environment."
+          },
+          {
+            "de": "Wir wollen leben, ohne die Natur zu schädigen.",
+            "en": "We want to live without harming nature."
+          }
+        ]
+      },
+      {
+        "id": "zerstoeren",
+        "group": "l22-g1",
+        "term": "zerstören",
+        "fa": "to destroy",
+        "type": "verb",
+        "form": "Regular inseparable verb: `zerstört – zerstörte – hat zerstört`.",
+        "source": "Wortschatz.md",
+        "example": "Müll kann natürliche Lebensräume zerstören.",
+        "exampleFa": "Waste can destroy natural habitats.",
+        "cloze": "Müll kann natürliche Lebensräume ____.",
+        "clozeFa": "Waste can destroy natural habitats.",
+        "answer": "zerstören",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "zerstören",
+          "zerstören",
+          "zerstören"
+        ],
+        "examples": [
+          {
+            "de": "Müll kann natürliche Lebensräume zerstören.",
+            "en": "Waste can destroy natural habitats."
+          },
+          {
+            "de": "Das Gebäude wurde vollständig zerstört.",
+            "en": "The building was completely destroyed."
+          }
+        ]
+      },
+      {
+        "id": "der-ueberblick",
+        "group": "l22-g1",
+        "term": "der Überblick",
+        "fa": "overview",
+        "type": "noun",
+        "form": "Masculine noun; common expression: `einen Überblick geben/haben`.",
+        "source": "Wortschatz.md",
+        "example": "Der Wochenplan gibt einen guten Überblick.",
+        "exampleFa": "The weekly schedule provides a good overview.",
+        "cloze": "Der Wochenplan gibt einen guten ____.",
+        "clozeFa": "The weekly schedule provides a good overview.",
+        "answer": "Überblick",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "der Überblick",
+          "Überblick",
+          "Überblick"
+        ],
+        "examples": [
+          {
+            "de": "Der Wochenplan gibt einen guten Überblick.",
+            "en": "The weekly schedule provides a good overview."
+          },
+          {
+            "de": "Ich habe den Überblick verloren.",
+            "en": "I have lost track of things."
+          }
+        ]
+      },
+      {
+        "id": "der-wochenplan",
+        "group": "l22-g1",
+        "term": "der Wochenplan",
+        "fa": "weekly schedule; weekly plan",
+        "type": "noun",
+        "form": "Masculine compound noun; plural: `die Wochenpläne`.",
+        "source": "Wortschatz.md",
+        "example": "Hier finden Sie den Wochenplan.",
+        "exampleFa": "Here you can find the weekly schedule.",
+        "cloze": "Hier finden Sie den ____.",
+        "clozeFa": "Here you can find the weekly schedule.",
+        "answer": "Wochenplan",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "der Wochenplan",
+          "Wochenplan",
+          "Wochenplan"
+        ],
+        "examples": [
+          {
+            "de": "Hier finden Sie den Wochenplan.",
+            "en": "Here you can find the weekly schedule."
+          },
+          {
+            "de": "Der Wochenplan enthält alle Ausflüge.",
+            "en": "The weekly schedule contains all the excursions."
+          }
+        ]
+      },
+      {
+        "id": "das-detail",
+        "group": "l22-g1",
+        "term": "das Detail",
+        "fa": "detail",
+        "type": "noun",
+        "form": "Neuter noun; plural: `die Details`; common phrase: `ins Detail gehen`.",
+        "source": "Wortschatz.md",
+        "example": "Wir wollen nicht zu sehr ins Detail gehen.",
+        "exampleFa": "We do not want to go into too much detail.",
+        "cloze": "Wir wollen nicht zu sehr ins ____ gehen.",
+        "clozeFa": "We do not want to go into too much detail.",
+        "answer": "Detail",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "das Detail",
+          "Detail",
+          "Detail"
+        ],
+        "examples": [
+          {
+            "de": "Wir wollen nicht zu sehr ins Detail gehen.",
+            "en": "We do not want to go into too much detail."
+          },
+          {
+            "de": "Die wichtigsten Details stehen im Wochenplan.",
+            "en": "The most important details are in the weekly schedule."
+          }
+        ]
+      },
+      {
+        "id": "gar",
+        "group": "l22-g1",
+        "term": "gar",
+        "fa": "even; at all; absolutely",
+        "type": "verb",
+        "form": "Intensifying adverb; its meaning depends on context.",
+        "source": "Wortschatz.md",
+        "example": "Wir dürfen die Umwelt nicht schädigen oder gar zerstören.",
+        "exampleFa": "We must not harm or even destroy the environment.",
+        "cloze": "Wir dürfen die Umwelt nicht schädigen oder ____ zerstören.",
+        "clozeFa": "We must not harm or even destroy the environment.",
+        "answer": "gar",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "gar",
+          "gar",
+          "gar"
+        ],
+        "examples": [
+          {
+            "de": "Wir dürfen die Umwelt nicht schädigen oder gar zerstören.",
+            "en": "We must not harm or even destroy the environment."
+          },
+          {
+            "de": "Das ist gar nicht schwer.",
+            "en": "That is not difficult at all."
+          }
+        ]
+      },
+      {
+        "id": "der-muell",
+        "group": "l22-g1",
+        "term": "der Müll",
+        "fa": "rubbish; garbage; waste",
+        "type": "noun",
+        "form": "Masculine collective noun; normally used in the singular.",
+        "source": "Wortschatz.md",
+        "example": "Wir sammeln Müll rund um die Schule.",
+        "exampleFa": "We collect rubbish around the school.",
+        "cloze": "Wir sammeln ____ rund um die Schule.",
+        "clozeFa": "We collect rubbish around the school.",
+        "answer": "Müll",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "der Müll",
+          "Müll",
+          "Müll"
+        ],
+        "examples": [
+          {
+            "de": "Wir sammeln Müll rund um die Schule.",
+            "en": "We collect rubbish around the school."
+          },
+          {
+            "de": "Bitte werfen Sie den Müll in die richtige Tonne.",
+            "en": "Please put the waste in the correct bin."
+          }
+        ]
+      },
+      {
+        "id": "produzieren",
+        "group": "l22-g1",
+        "term": "produzieren",
+        "fa": "to produce; to generate",
+        "type": "verb",
+        "form": "Regular verb ending in `-ieren`: `produziert – produzierte – hat produziert`.",
+        "source": "Wortschatz.md",
+        "example": "Wir sollten weniger Müll produzieren.",
+        "exampleFa": "We should produce less waste.",
+        "cloze": "Wir sollten weniger Müll ____.",
+        "clozeFa": "We should produce less waste.",
+        "answer": "produzieren",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "produzieren",
+          "produzieren",
+          "produzieren"
+        ],
+        "examples": [
+          {
+            "de": "Wir sollten weniger Müll produzieren.",
+            "en": "We should produce less waste."
+          },
+          {
+            "de": "Die Firma produziert umweltfreundliche Produkte.",
+            "en": "The company produces environmentally friendly products."
+          }
+        ]
+      },
+      {
+        "id": "entsorgen",
+        "group": "l22-g2",
+        "term": "entsorgen",
+        "fa": "to dispose of",
+        "type": "verb",
+        "form": "Regular inseparable verb: `entsorgt – entsorgte – hat entsorgt`.",
+        "source": "Wortschatz.md",
+        "example": "Wie kann man den Müll richtig entsorgen?",
+        "exampleFa": "How can one dispose of waste correctly?",
+        "cloze": "Wie kann man den Müll richtig ____?",
+        "clozeFa": "How can one dispose of waste correctly?",
+        "answer": "entsorgen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "entsorgen",
+          "entsorgen",
+          "entsorgen"
+        ],
+        "examples": [
+          {
+            "de": "Wie kann man den Müll richtig entsorgen?",
+            "en": "How can one dispose of waste correctly?"
+          },
+          {
+            "de": "Batterien müssen getrennt entsorgt werden.",
+            "en": "Batteries must be disposed of separately."
+          }
+        ]
+      },
+      {
+        "id": "sammeln",
+        "group": "l22-g2",
+        "term": "sammeln",
+        "fa": "to collect; to gather",
+        "type": "verb",
+        "form": "Regular verb: `sammelt – sammelte – hat gesammelt`.",
+        "source": "Wortschatz.md",
+        "example": "Die Schüler sammeln Müll.",
+        "exampleFa": "The students collect rubbish.",
+        "cloze": "Die Schüler ____ Müll.",
+        "clozeFa": "The students collect rubbish.",
+        "answer": "sammeln",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "sammeln",
+          "sammeln",
+          "sammeln"
+        ],
+        "examples": [
+          {
+            "de": "Die Schüler sammeln Müll.",
+            "en": "The students collect rubbish."
+          },
+          {
+            "de": "Wir sammeln Informationen über Recycling.",
+            "en": "We collect information about recycling."
+          }
+        ]
+      },
+      {
+        "id": "rund-um",
+        "group": "l22-g2",
+        "term": "rund um",
+        "fa": "around; all around",
+        "type": "phrase",
+        "form": "Prepositional expression followed by the accusative.",
+        "source": "Wortschatz.md",
+        "example": "Wir sammeln Müll rund um die Schule.",
+        "exampleFa": "We collect rubbish around the school.",
+        "cloze": "Wir sammeln Müll ____ die Schule.",
+        "clozeFa": "We collect rubbish around the school.",
+        "answer": "rund um",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "rund um",
+          "rund um",
+          "rund um"
+        ],
+        "examples": [
+          {
+            "de": "Wir sammeln Müll rund um die Schule.",
+            "en": "We collect rubbish around the school."
+          },
+          {
+            "de": "Rund um den Bahnhof gibt es viele Geschäfte.",
+            "en": "There are many shops around the station."
+          }
+        ]
+      },
+      {
+        "id": "sich-mit-etwas-beschaeftigen",
+        "group": "l22-g2",
+        "term": "sich mit etwas beschäftigen",
+        "fa": "to deal with; to study; to occupy oneself with",
+        "type": "phrase",
+        "form": "Reflexive verb with `mit + Dativ`: `beschäftigt sich – beschäftigte sich – hat sich beschäftigt`.",
+        "source": "Wortschatz.md",
+        "example": "Wir beschäftigen uns mit dem Thema Recycling.",
+        "exampleFa": "We are studying the topic of recycling.",
+        "cloze": "Wir ____ uns mit dem Thema Recycling.",
+        "clozeFa": "We are studying the topic of recycling.",
+        "answer": "beschäftigen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "sich mit etwas beschäftigen",
+          "sich mit etwas beschäftigen",
+          "beschäftigen"
+        ],
+        "examples": [
+          {
+            "de": "Wir beschäftigen uns mit dem Thema Recycling.",
+            "en": "We are studying the topic of recycling."
+          },
+          {
+            "de": "Sie beschäftigt sich intensiv mit dem Klimawandel.",
+            "en": "She studies climate change intensively."
+          }
+        ]
+      },
+      {
+        "id": "theoretisch",
+        "group": "l22-g2",
+        "term": "theoretisch",
+        "fa": "theoretical; theoretically",
+        "type": "verb",
+        "form": "Adjective or adverb.",
+        "source": "Wortschatz.md",
+        "example": "Wir beschäftigen uns theoretisch mit dem Thema.",
+        "exampleFa": "We study the topic theoretically.",
+        "cloze": "Wir beschäftigen uns ____ mit dem Thema.",
+        "clozeFa": "We study the topic theoretically.",
+        "answer": "theoretisch",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "theoretisch",
+          "theoretisch",
+          "theoretisch"
+        ],
+        "examples": [
+          {
+            "de": "Wir beschäftigen uns theoretisch mit dem Thema.",
+            "en": "We study the topic theoretically."
+          },
+          {
+            "de": "Das ist eine theoretische Frage.",
+            "en": "That is a theoretical question."
+          }
+        ]
+      },
+      {
+        "id": "praktisch",
+        "group": "l22-g2",
+        "term": "praktisch",
+        "fa": "practical; practically; in practice",
+        "type": "verb",
+        "form": "Adjective or adverb.",
+        "source": "Wortschatz.md",
+        "example": "Die Schüler arbeiten praktisch an dem Projekt.",
+        "exampleFa": "The students do practical work on the project.",
+        "cloze": "Die Schüler arbeiten ____ an dem Projekt.",
+        "clozeFa": "The students do practical work on the project.",
+        "answer": "praktisch",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "praktisch",
+          "praktisch",
+          "praktisch"
+        ],
+        "examples": [
+          {
+            "de": "Die Schüler arbeiten praktisch an dem Projekt.",
+            "en": "The students do practical work on the project."
+          },
+          {
+            "de": "Wir brauchen eine praktische Lösung.",
+            "en": "We need a practical solution."
+          }
+        ]
+      },
+      {
+        "id": "die-muelltrennung",
+        "group": "l22-g2",
+        "term": "die Mülltrennung",
+        "fa": "waste separation; waste sorting",
+        "type": "noun",
+        "form": "Feminine compound noun; normally used in the singular.",
+        "source": "Wortschatz.md",
+        "example": "Mülltrennung ist wichtig für das Recycling.",
+        "exampleFa": "Waste separation is important for recycling.",
+        "cloze": "____ ist wichtig für das Recycling.",
+        "clozeFa": "Waste separation is important for recycling.",
+        "answer": "Mülltrennung",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "die Mülltrennung",
+          "Mülltrennung",
+          "Mülltrennung"
+        ],
+        "examples": [
+          {
+            "de": "Mülltrennung ist wichtig für das Recycling.",
+            "en": "Waste separation is important for recycling."
+          },
+          {
+            "de": "Die Kinder lernen etwas über Mülltrennung.",
+            "en": "The children learn about waste sorting."
+          }
+        ]
+      },
+      {
+        "id": "die-muellvermeidung",
+        "group": "l22-g2",
+        "term": "die Müllvermeidung",
+        "fa": "waste prevention; waste reduction",
+        "type": "noun",
+        "form": "Feminine compound noun; normally used in the singular.",
+        "source": "Wortschatz.md",
+        "example": "Müllvermeidung schützt die Umwelt.",
+        "exampleFa": "Waste prevention protects the environment.",
+        "cloze": "____ schützt die Umwelt.",
+        "clozeFa": "Waste prevention protects the environment.",
+        "answer": "Müllvermeidung",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "die Müllvermeidung",
+          "Müllvermeidung",
+          "Müllvermeidung"
+        ],
+        "examples": [
+          {
+            "de": "Müllvermeidung schützt die Umwelt.",
+            "en": "Waste prevention protects the environment."
+          },
+          {
+            "de": "Mehrwegflaschen helfen bei der Müllvermeidung.",
+            "en": "Reusable bottles help with waste reduction."
+          }
+        ]
+      },
+      {
+        "id": "das-recycling",
+        "group": "l22-g2",
+        "term": "das Recycling",
+        "fa": "recycling",
+        "type": "noun",
+        "form": "Neuter noun; normally used in the singular.",
+        "source": "Wortschatz.md",
+        "example": "Recycling spart Rohstoffe.",
+        "exampleFa": "Recycling saves raw materials.",
+        "cloze": "____ spart Rohstoffe.",
+        "clozeFa": "Recycling saves raw materials.",
+        "answer": "Recycling",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "das Recycling",
+          "Recycling",
+          "Recycling"
+        ],
+        "examples": [
+          {
+            "de": "Recycling spart Rohstoffe.",
+            "en": "Recycling saves raw materials."
+          },
+          {
+            "de": "Wir beschäftigen uns mit dem Thema Recycling.",
+            "en": "We are studying the topic of recycling."
+          }
+        ]
+      },
+      {
+        "id": "verbrauchen",
+        "group": "l22-g2",
+        "term": "verbrauchen",
+        "fa": "to consume; to use up",
+        "type": "verb",
+        "form": "Regular verb: `verbraucht – verbrauchte – hat verbraucht`.",
+        "source": "Wortschatz.md",
+        "example": "Wir sollten weniger Wasser verbrauchen.",
+        "exampleFa": "We should consume less water.",
+        "cloze": "Wir sollten weniger Wasser ____.",
+        "clozeFa": "We should consume less water.",
+        "answer": "verbrauchen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "verbrauchen",
+          "verbrauchen",
+          "verbrauchen"
+        ],
+        "examples": [
+          {
+            "de": "Wir sollten weniger Wasser verbrauchen.",
+            "en": "We should consume less water."
+          },
+          {
+            "de": "Dieses Gerät verbraucht viel Energie.",
+            "en": "This device uses a lot of energy."
+          }
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "id": "l22-g1",
+        "icon": "1",
+        "title": "Words 421-430",
+        "fa": "10 words",
+        "subtitle": "Practice German vocabulary from your daily glossary."
+      },
+      {
+        "id": "l22-g2",
+        "icon": "2",
+        "title": "Words 431-440",
+        "fa": "10 words",
+        "subtitle": "Practice German vocabulary from your daily glossary."
+      }
+    ],
+    "workbook": [],
+    "grammar": {
+      "id": "l22-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Formal jemanden einer Sache verweisen",
+          "body": "The expression jemanden des Hauses verweisen uses an accusative person and a genitive place. It means to expel someone from the building.",
+          "example": "Stark alkoholisierte Gäste können des Hauses verwiesen werden.",
+          "emphasis": [
+            "Stark"
+          ]
+        },
+        {
+          "title": "Common case contrasts from the examples",
+          "body": "Common case contrasts from the examples",
+          "example": "die Kündigung erhalten",
+          "emphasis": [
+            "Kündigung"
+          ]
+        },
+        {
+          "title": "Verb–noun collocations",
+          "body": "A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "example": "Wir schützen die Umwelt.",
+          "emphasis": [
+            "schützen"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "____ alkoholisierte Gäste können des Hauses verwiesen werden.",
+          "options": [
+            "Stark",
+            "Kündigung",
+            "gegen",
+            "wegen"
+          ],
+          "answer": "Stark",
+          "answers": [
+            "Stark"
+          ],
+          "note": "Formal jemanden einer Sache verweisen: The expression jemanden des Hauses verweisen uses an accusative person and a genitive place. It means to expel someone from the building.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ erhalten",
+          "options": [
+            "Kündigung",
+            "gegen",
+            "wegen",
+            "schützen"
+          ],
+          "answer": "Kündigung",
+          "answers": [
+            "Kündigung"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "der ____ widersprechen",
+          "options": [
+            "Kündigung",
+            "wegen",
+            "schützen",
+            "Flugzeug"
+          ],
+          "answer": "Kündigung",
+          "answers": [
+            "Kündigung"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ die Kündigung Widerspruch einlegen",
+          "options": [
+            "gegen",
+            "schützen",
+            "Flugzeug",
+            "sollten"
+          ],
+          "answer": "gegen",
+          "answers": [
+            "gegen"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ der Kündigung",
+          "options": [
+            "wegen",
+            "Flugzeug",
+            "sollten",
+            "Schule"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ die Umwelt.",
+          "options": [
+            "schützen",
+            "sollten",
+            "Schule",
+            "um"
+          ],
+          "answer": "schützen",
+          "answers": [
+            "schützen"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Das ____ verschmutzt die Umwelt.",
+          "options": [
+            "Flugzeug",
+            "Schule",
+            "um",
+            "etwas"
+          ],
+          "answer": "Flugzeug",
+          "answers": [
+            "Flugzeug"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ Energie sparen.",
+          "options": [
+            "sollten",
+            "um",
+            "etwas",
+            "sehe"
+          ],
+          "answer": "sollten",
+          "answers": [
+            "sollten"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ veranstaltet eine Projektwoche.",
+          "options": [
+            "Schule",
+            "etwas",
+            "sehe",
+            "sich"
+          ],
+          "answer": "Schule",
+          "answers": [
+            "Schule"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "sich ____ eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden.",
+          "options": [
+            "um",
+            "sehe",
+            "sich",
+            "Stark"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Changes in time and replacement: Changes in time and replacement",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ auf einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben.",
+          "options": [
+            "etwas",
+            "sich",
+            "Stark",
+            "Kündigung"
+          ],
+          "answer": "etwas",
+          "answers": [
+            "etwas"
+          ],
+          "note": "Changes in time and replacement: Changes in time and replacement",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ durch etwas ersetzen: Wir ersetzen den Besen durch einen neuen.",
+          "options": [
+            "etwas",
+            "Stark",
+            "Kündigung",
+            "gegen"
+          ],
+          "answer": "etwas",
+          "answers": [
+            "etwas"
+          ],
+          "note": "Changes in time and replacement: Changes in time and replacement",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ mir die Wand an.",
+          "options": [
+            "sehe",
+            "Kündigung",
+            "gegen",
+            "wegen"
+          ],
+          "answer": "sehe",
+          "answers": [
+            "sehe"
+          ],
+          "note": "sich etwas ansehen: The reflexive pronoun is dative when the verb also has an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Kann der Handwerker ____ das ansehen?",
+          "options": [
+            "sich",
+            "gegen",
+            "wegen",
+            "schützen"
+          ],
+          "answer": "sich",
+          "answers": [
+            "sich"
+          ],
+          "note": "sich etwas ansehen: The reflexive pronoun is dative when the verb also has an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ alkoholisierte Gäste können des Hauses verwiesen werden.",
+          "options": [
+            "Stark",
+            "schützen",
+            "Flugzeug",
+            "sollten"
+          ],
+          "answer": "Stark",
+          "answers": [
+            "Stark"
+          ],
+          "note": "Formal jemanden einer Sache verweisen: The expression jemanden des Hauses verweisen uses an accusative person and a genitive place. It means to expel someone from the building.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ erhalten",
+          "options": [
+            "Kündigung",
+            "Flugzeug",
+            "sollten",
+            "Schule"
+          ],
+          "answer": "Kündigung",
+          "answers": [
+            "Kündigung"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "der ____ widersprechen",
+          "options": [
+            "Kündigung",
+            "sollten",
+            "Schule",
+            "um"
+          ],
+          "answer": "Kündigung",
+          "answers": [
+            "Kündigung"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ die Kündigung Widerspruch einlegen",
+          "options": [
+            "gegen",
+            "Schule",
+            "um",
+            "etwas"
+          ],
+          "answer": "gegen",
+          "answers": [
+            "gegen"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ der Kündigung",
+          "options": [
+            "wegen",
+            "um",
+            "etwas",
+            "sehe"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ die Umwelt.",
+          "options": [
+            "schützen",
+            "etwas",
+            "sehe",
+            "sich"
+          ],
+          "answer": "schützen",
+          "answers": [
+            "schützen"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Das ____ verschmutzt die Umwelt.",
+          "options": [
+            "Flugzeug",
+            "sehe",
+            "sich",
+            "Stark"
+          ],
+          "answer": "Flugzeug",
+          "answers": [
+            "Flugzeug"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ Energie sparen.",
+          "options": [
+            "sollten",
+            "sich",
+            "Stark",
+            "Kündigung"
+          ],
+          "answer": "sollten",
+          "answers": [
+            "sollten"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ veranstaltet eine Projektwoche.",
+          "options": [
+            "Schule",
+            "Stark",
+            "Kündigung",
+            "gegen"
+          ],
+          "answer": "Schule",
+          "answers": [
+            "Schule"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "sich ____ eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden.",
+          "options": [
+            "um",
+            "Kündigung",
+            "gegen",
+            "wegen"
+          ],
+          "answer": "um",
+          "answers": [
+            "um"
+          ],
+          "note": "Changes in time and replacement: Changes in time and replacement",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ auf einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben.",
+          "options": [
+            "etwas",
+            "gegen",
+            "wegen",
+            "schützen"
+          ],
+          "answer": "etwas",
+          "answers": [
+            "etwas"
+          ],
+          "note": "Changes in time and replacement: Changes in time and replacement",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ durch etwas ersetzen: Wir ersetzen den Besen durch einen neuen.",
+          "options": [
+            "etwas",
+            "wegen",
+            "schützen",
+            "Flugzeug"
+          ],
+          "answer": "etwas",
+          "answers": [
+            "etwas"
+          ],
+          "note": "Changes in time and replacement: Changes in time and replacement",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Ich ____ mir die Wand an.",
+          "options": [
+            "sehe",
+            "schützen",
+            "Flugzeug",
+            "sollten"
+          ],
+          "answer": "sehe",
+          "answers": [
+            "sehe"
+          ],
+          "note": "sich etwas ansehen: The reflexive pronoun is dative when the verb also has an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Kann der Handwerker ____ das ansehen?",
+          "options": [
+            "sich",
+            "Flugzeug",
+            "sollten",
+            "Schule"
+          ],
+          "answer": "sich",
+          "answers": [
+            "sich"
+          ],
+          "note": "sich etwas ansehen: The reflexive pronoun is dative when the verb also has an accusative object.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ alkoholisierte Gäste können des Hauses verwiesen werden.",
+          "options": [
+            "Stark",
+            "Schule",
+            "um",
+            "etwas"
+          ],
+          "answer": "Stark",
+          "answers": [
+            "Stark"
+          ],
+          "note": "Formal jemanden einer Sache verweisen: The expression jemanden des Hauses verweisen uses an accusative person and a genitive place. It means to expel someone from the building.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ erhalten",
+          "options": [
+            "Kündigung",
+            "um",
+            "etwas",
+            "sehe"
+          ],
+          "answer": "Kündigung",
+          "answers": [
+            "Kündigung"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "code": "Set 23",
+    "title": "Wortschatz Set 23",
+    "subtitle": "20 entries from Wortschatz.md",
+    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "image": "assets/lektion-3-strengths.png",
+    "imageAlt": "Abstract learning illustration",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "vocab": [
+      {
+        "id": "verschmutzen",
+        "group": "l23-g1",
+        "term": "verschmutzen",
+        "fa": "to pollute; to make dirty",
+        "type": "verb",
+        "form": "Regular verb: `verschmutzt – verschmutzte – hat verschmutzt`.",
+        "source": "Wortschatz.md",
+        "example": "Abwasser kann Flüsse verschmutzen.",
+        "exampleFa": "Wastewater can pollute rivers.",
+        "cloze": "Abwasser kann Flüsse ____.",
+        "clozeFa": "Wastewater can pollute rivers.",
+        "answer": "verschmutzen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "verschmutzen",
+          "verschmutzen",
+          "verschmutzen"
+        ],
+        "examples": [
+          {
+            "de": "Abwasser kann Flüsse verschmutzen.",
+            "en": "Wastewater can pollute rivers."
+          },
+          {
+            "de": "Kann man Wasser nutzen, ohne es zu verschmutzen?",
+            "en": "Can one use water without polluting it?"
+          }
+        ]
+      },
+      {
+        "id": "das-klima",
+        "group": "l23-g1",
+        "term": "das Klima",
+        "fa": "climate",
+        "type": "noun",
+        "form": "Neuter noun; plural `die Klimata` is uncommon in everyday language.",
+        "source": "Wortschatz.md",
+        "example": "Der Klimawandel verändert das Klima.",
+        "exampleFa": "Climate change alters the climate.",
+        "cloze": "Der ____wandel verändert das Klima.",
+        "clozeFa": "Climate change alters the climate.",
+        "answer": "Klima",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "das Klima",
+          "Klima",
+          "Klima"
+        ],
+        "examples": [
+          {
+            "de": "Der Klimawandel verändert das Klima.",
+            "en": "Climate change alters the climate."
+          },
+          {
+            "de": "Wir lernen viel über das Klima.",
+            "en": "We learn a lot about the climate."
+          }
+        ]
+      },
+      {
+        "id": "die-klimazone",
+        "group": "l23-g1",
+        "term": "die Klimazone",
+        "fa": "climate zone",
+        "type": "noun",
+        "form": "Feminine compound noun; plural: `die Klimazonen`.",
+        "source": "Wortschatz.md",
+        "example": "Die Erde hat verschiedene Klimazonen.",
+        "exampleFa": "Earth has different climate zones.",
+        "cloze": "Die Erde hat verschiedene ____n.",
+        "clozeFa": "Earth has different climate zones.",
+        "answer": "Klimazone",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "die Klimazone",
+          "Klimazone",
+          "Klimazone"
+        ],
+        "examples": [
+          {
+            "de": "Die Erde hat verschiedene Klimazonen.",
+            "en": "Earth has different climate zones."
+          },
+          {
+            "de": "Wir erleben die Klimazonen der Erde.",
+            "en": "We experience Earth's climate zones."
+          }
+        ]
+      },
+      {
+        "id": "die-erde",
+        "group": "l23-g1",
+        "term": "die Erde",
+        "fa": "Earth; soil; ground",
+        "type": "noun",
+        "form": "Feminine noun; meaning depends on context.",
+        "source": "Wortschatz.md",
+        "example": "Das Klima der Erde verändert sich.",
+        "exampleFa": "Earth's climate is changing.",
+        "cloze": "Das Klima der ____ verändert sich.",
+        "clozeFa": "Earth's climate is changing.",
+        "answer": "Erde",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "die Erde",
+          "Erde",
+          "Erde"
+        ],
+        "examples": [
+          {
+            "de": "Das Klima der Erde verändert sich.",
+            "en": "Earth's climate is changing."
+          },
+          {
+            "de": "Die Pflanzen wachsen in der Erde.",
+            "en": "The plants grow in the soil."
+          }
+        ]
+      },
+      {
+        "id": "erleben",
+        "group": "l23-g1",
+        "term": "erleben",
+        "fa": "to experience",
+        "type": "verb",
+        "form": "Regular inseparable verb: `erlebt – erlebte – hat erlebt`.",
+        "source": "Wortschatz.md",
+        "example": "Im Klimahaus erleben wir verschiedene Klimazonen.",
+        "exampleFa": "At the climate museum, we experience different climate zones.",
+        "cloze": "Im Klimahaus ____ wir verschiedene Klimazonen.",
+        "clozeFa": "At the climate museum, we experience different climate zones.",
+        "answer": "erleben",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "erleben",
+          "erleben",
+          "erleben"
+        ],
+        "examples": [
+          {
+            "de": "Im Klimahaus erleben wir verschiedene Klimazonen.",
+            "en": "At the climate museum, we experience different climate zones."
+          },
+          {
+            "de": "Die Schüler haben einen interessanten Tag erlebt.",
+            "en": "The students experienced an interesting day."
+          }
+        ]
+      },
+      {
+        "id": "erfahren",
+        "group": "l23-g1",
+        "term": "erfahren",
+        "fa": "to learn; to find out; to experience",
+        "type": "verb",
+        "form": "Strong inseparable verb: `erfährt – erfuhr – hat erfahren`.",
+        "source": "Wortschatz.md",
+        "example": "Wir erfahren, wie sich das Klima verändert.",
+        "exampleFa": "We learn how the climate is changing.",
+        "cloze": "Wir ____, wie sich das Klima verändert.",
+        "clozeFa": "We learn how the climate is changing.",
+        "answer": "erfahren",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "erfahren",
+          "erfahren",
+          "erfahren"
+        ],
+        "examples": [
+          {
+            "de": "Wir erfahren, wie sich das Klima verändert.",
+            "en": "We learn how the climate is changing."
+          },
+          {
+            "de": "Wann hast du davon erfahren?",
+            "en": "When did you find out about it?"
+          }
+        ]
+      },
+      {
+        "id": "sich-veraendern",
+        "group": "l23-g1",
+        "term": "sich verändern",
+        "fa": "to change; to transform",
+        "type": "verb",
+        "form": "Reflexive: something changes by itself. Transitive `etwas verändern`: someone changes something.",
+        "source": "Wortschatz.md",
+        "example": "Die Klimazonen verändern sich.",
+        "exampleFa": "The climate zones are changing.",
+        "cloze": "Die Klimazonen ____ sich.",
+        "clozeFa": "The climate zones are changing.",
+        "answer": "verändern",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "sich verändern",
+          "sich verändern",
+          "verändern"
+        ],
+        "examples": [
+          {
+            "de": "Die Klimazonen verändern sich.",
+            "en": "The climate zones are changing."
+          },
+          {
+            "de": "Unser Alltag hat sich stark verändert.",
+            "en": "Our everyday life has changed significantly."
+          },
+          {
+            "de": "Wir sollten unseren Alltag verändern.",
+            "en": "We should change our everyday lives."
+          }
+        ]
+      },
+      {
+        "id": "mitnehmen",
+        "group": "l23-g1",
+        "term": "mitnehmen",
+        "fa": "to take along; to bring",
+        "type": "verb",
+        "form": "Separable strong verb: `nimmt mit – nahm mit – hat mitgenommen`.",
+        "source": "Wortschatz.md",
+        "example": "Bitte warme Kleidung mitnehmen.",
+        "exampleFa": "Please bring warm clothing.",
+        "cloze": "Bitte warme Kleidung ____.",
+        "clozeFa": "Please bring warm clothing.",
+        "answer": "mitnehmen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "mitnehmen",
+          "mitnehmen",
+          "mitnehmen"
+        ],
+        "examples": [
+          {
+            "de": "Bitte warme Kleidung mitnehmen.",
+            "en": "Please bring warm clothing."
+          },
+          {
+            "de": "Ich nehme ein Picknick mit.",
+            "en": "I am taking a packed meal with me."
+          }
+        ]
+      },
+      {
+        "id": "die-grossstadt",
+        "group": "l23-g1",
+        "term": "die Großstadt",
+        "fa": "large city; major city",
+        "type": "noun",
+        "form": "Feminine noun; plural: `die Großstädte`.",
+        "source": "Wortschatz.md",
+        "example": "Wir möchten mehr Natur in die Großstadt bringen.",
+        "exampleFa": "We want to bring more nature into the large city.",
+        "cloze": "Wir möchten mehr Natur in die ____ bringen.",
+        "clozeFa": "We want to bring more nature into the large city.",
+        "answer": "Großstadt",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "die Großstadt",
+          "Großstadt",
+          "Großstadt"
+        ],
+        "examples": [
+          {
+            "de": "Wir möchten mehr Natur in die Großstadt bringen.",
+            "en": "We want to bring more nature into the large city."
+          },
+          {
+            "de": "Das Leben in einer Großstadt ist oft teuer.",
+            "en": "Life in a large city is often expensive."
+          }
+        ]
+      },
+      {
+        "id": "das-energiesparen",
+        "group": "l23-g1",
+        "term": "das Energiesparen",
+        "fa": "saving energy; energy conservation",
+        "type": "noun",
+        "form": "Nominalized infinitive and compound noun; always neuter.",
+        "source": "Wortschatz.md",
+        "example": "Energiesparen schützt die Umwelt.",
+        "exampleFa": "Saving energy protects the environment.",
+        "cloze": "____ schützt die Umwelt.",
+        "clozeFa": "Saving energy protects the environment.",
+        "answer": "Energiesparen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "das Energiesparen",
+          "Energiesparen",
+          "Energiesparen"
+        ],
+        "examples": [
+          {
+            "de": "Energiesparen schützt die Umwelt.",
+            "en": "Saving energy protects the environment."
+          },
+          {
+            "de": "Wir sehen Videos zum Thema Energiesparen.",
+            "en": "We watch videos about saving energy."
+          }
+        ]
+      },
+      {
+        "id": "der-lebensstandard",
+        "group": "l23-g2",
+        "term": "der Lebensstandard",
+        "fa": "standard of living",
+        "type": "noun",
+        "form": "Masculine compound noun; plural: `die Lebensstandards`.",
+        "source": "Wortschatz.md",
+        "example": "Wir möchten unseren Lebensstandard behalten.",
+        "exampleFa": "We want to maintain our standard of living.",
+        "cloze": "Wir möchten unseren ____ behalten.",
+        "clozeFa": "We want to maintain our standard of living.",
+        "answer": "Lebensstandard",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "der Lebensstandard",
+          "Lebensstandard",
+          "Lebensstandard"
+        ],
+        "examples": [
+          {
+            "de": "Wir möchten unseren Lebensstandard behalten.",
+            "en": "We want to maintain our standard of living."
+          },
+          {
+            "de": "Kann man auf diesem Lebensstandard nachhaltig leben?",
+            "en": "Can one live sustainably at this standard of living?"
+          }
+        ]
+      },
+      {
+        "id": "allzu",
+        "group": "l23-g2",
+        "term": "allzu",
+        "fa": "overly; excessively; all too",
+        "type": "verb",
+        "form": "Intensifying adverb, usually followed by an adjective or adverb.",
+        "source": "Wortschatz.md",
+        "example": "Wir sollten nicht allzu viel Energie verbrauchen.",
+        "exampleFa": "We should not consume too much energy.",
+        "cloze": "Wir sollten nicht ____ viel Energie verbrauchen.",
+        "clozeFa": "We should not consume too much energy.",
+        "answer": "allzu",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "allzu",
+          "allzu",
+          "allzu"
+        ],
+        "examples": [
+          {
+            "de": "Wir sollten nicht allzu viel Energie verbrauchen.",
+            "en": "We should not consume too much energy."
+          },
+          {
+            "de": "Die Aufgabe ist nicht allzu schwer.",
+            "en": "The task is not overly difficult."
+          }
+        ]
+      },
+      {
+        "id": "die-gruppenarbeit",
+        "group": "l23-g2",
+        "term": "die Gruppenarbeit",
+        "fa": "group work",
+        "type": "noun",
+        "form": "Feminine compound noun; plural: `die Gruppenarbeiten`.",
+        "source": "Wortschatz.md",
+        "example": "Heute machen wir eine Gruppenarbeit.",
+        "exampleFa": "Today we are doing group work.",
+        "cloze": "Heute machen wir eine ____.",
+        "clozeFa": "Today we are doing group work.",
+        "answer": "Gruppenarbeit",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "die Gruppenarbeit",
+          "Gruppenarbeit",
+          "Gruppenarbeit"
+        ],
+        "examples": [
+          {
+            "de": "Heute machen wir eine Gruppenarbeit.",
+            "en": "Today we are doing group work."
+          },
+          {
+            "de": "Die Schüler lernen durch Videos und Gruppenarbeit.",
+            "en": "The students learn through videos and group work."
+          }
+        ]
+      },
+      {
+        "id": "die-energieform",
+        "group": "l23-g2",
+        "term": "die Energieform",
+        "fa": "form/source of energy",
+        "type": "noun",
+        "form": "Feminine compound noun; plural: `die Energieformen`.",
+        "source": "Wortschatz.md",
+        "example": "Wir sprechen über alte und neue Energieformen.",
+        "exampleFa": "We discuss old and new forms of energy.",
+        "cloze": "Wir sprechen über alte und neue ____en.",
+        "clozeFa": "We discuss old and new forms of energy.",
+        "answer": "Energieform",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "die Energieform",
+          "Energieform",
+          "Energieform"
+        ],
+        "examples": [
+          {
+            "de": "Wir sprechen über alte und neue Energieformen.",
+            "en": "We discuss old and new forms of energy."
+          },
+          {
+            "de": "Solarenergie ist eine erneuerbare Energieform.",
+            "en": "Solar energy is a renewable form of energy."
+          }
+        ]
+      },
+      {
+        "id": "anstatt",
+        "group": "l23-g2",
+        "term": "anstatt",
+        "fa": "instead of",
+        "type": "word",
+        "form": "Common patterns: `anstatt + Genitiv` or `anstatt … zu + Infinitiv`; short form: `statt`.",
+        "source": "Wortschatz.md",
+        "example": "Anstatt nur zu reden, sollten wir handeln.",
+        "exampleFa": "Instead of only talking, we should act.",
+        "cloze": "____ nur zu reden, sollten wir handeln.",
+        "clozeFa": "Instead of only talking, we should act.",
+        "answer": "anstatt",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "anstatt",
+          "anstatt",
+          "anstatt"
+        ],
+        "examples": [
+          {
+            "de": "Anstatt nur zu reden, sollten wir handeln.",
+            "en": "Instead of only talking, we should act."
+          },
+          {
+            "de": "Anstatt des Autos nehme ich den Bus.",
+            "en": "Instead of the car, I take the bus."
+          }
+        ]
+      },
+      {
+        "id": "sich-fuehlen",
+        "group": "l23-g2",
+        "term": "sich fühlen",
+        "fa": "to feel",
+        "type": "verb",
+        "form": "Reflexive verb: `fühlt sich – fühlte sich – hat sich gefühlt`.",
+        "source": "Wortschatz.md",
+        "example": "Wir fühlen uns manchmal hilflos.",
+        "exampleFa": "We sometimes feel helpless.",
+        "cloze": "Wir ____ uns manchmal hilflos.",
+        "clozeFa": "We sometimes feel helpless.",
+        "answer": "fühlen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "sich fühlen",
+          "sich fühlen",
+          "fühlen"
+        ],
+        "examples": [
+          {
+            "de": "Wir fühlen uns manchmal hilflos.",
+            "en": "We sometimes feel helpless."
+          },
+          {
+            "de": "Wie fühlst du dich heute?",
+            "en": "How do you feel today?"
+          }
+        ]
+      },
+      {
+        "id": "hilflos",
+        "group": "l23-g2",
+        "term": "hilflos",
+        "fa": "helpless",
+        "type": "verb",
+        "form": "Adjective or adverb.",
+        "source": "Wortschatz.md",
+        "example": "Wir dürfen uns nicht hilflos fühlen.",
+        "exampleFa": "We must not feel helpless.",
+        "cloze": "Wir dürfen uns nicht ____ fühlen.",
+        "clozeFa": "We must not feel helpless.",
+        "answer": "hilflos",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "hilflos",
+          "hilflos",
+          "hilflos"
+        ],
+        "examples": [
+          {
+            "de": "Wir dürfen uns nicht hilflos fühlen.",
+            "en": "We must not feel helpless."
+          },
+          {
+            "de": "Ohne Unterstützung war er völlig hilflos.",
+            "en": "Without support, he was completely helpless."
+          }
+        ]
+      },
+      {
+        "id": "der-alltag",
+        "group": "l23-g2",
+        "term": "der Alltag",
+        "fa": "everyday life; daily routine",
+        "type": "noun",
+        "form": "Masculine noun; normally used in the singular.",
+        "source": "Wortschatz.md",
+        "example": "Wir sollten unseren Alltag verändern.",
+        "exampleFa": "We should change our everyday lives.",
+        "cloze": "Wir sollten unseren ____ verändern.",
+        "clozeFa": "We should change our everyday lives.",
+        "answer": "Alltag",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "der Alltag",
+          "Alltag",
+          "Alltag"
+        ],
+        "examples": [
+          {
+            "de": "Wir sollten unseren Alltag verändern.",
+            "en": "We should change our everyday lives."
+          },
+          {
+            "de": "Bewegung gehört zu meinem Alltag.",
+            "en": "Exercise is part of my daily routine."
+          }
+        ]
+      },
+      {
+        "id": "stoppen",
+        "group": "l23-g2",
+        "term": "stoppen",
+        "fa": "to stop",
+        "type": "verb",
+        "form": "Regular verb: `stoppt – stoppte – hat gestoppt`.",
+        "source": "Wortschatz.md",
+        "example": "Wir müssen den Klimawandel stoppen.",
+        "exampleFa": "We must stop climate change.",
+        "cloze": "Wir müssen den Klimawandel ____.",
+        "clozeFa": "We must stop climate change.",
+        "answer": "stoppen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "stoppen",
+          "stoppen",
+          "stoppen"
+        ],
+        "examples": [
+          {
+            "de": "Wir müssen den Klimawandel stoppen.",
+            "en": "We must stop climate change."
+          },
+          {
+            "de": "Der Fahrer hat das Auto gestoppt.",
+            "en": "The driver stopped the car."
+          }
+        ]
+      },
+      {
+        "id": "verlangsamen",
+        "group": "l23-g2",
+        "term": "verlangsamen",
+        "fa": "to slow down",
+        "type": "verb",
+        "form": "Regular verb: `verlangsamt – verlangsamte – hat verlangsamt`.",
+        "source": "Wortschatz.md",
+        "example": "Wir können den Klimawandel verlangsamen.",
+        "exampleFa": "We can slow down climate change.",
+        "cloze": "Wir können den Klimawandel ____.",
+        "clozeFa": "We can slow down climate change.",
+        "answer": "verlangsamen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "verlangsamen",
+          "verlangsamen",
+          "verlangsamen"
+        ],
+        "examples": [
+          {
+            "de": "Wir können den Klimawandel verlangsamen.",
+            "en": "We can slow down climate change."
+          },
+          {
+            "de": "Der starke Verkehr verlangsamt den Bus.",
+            "en": "Heavy traffic slows down the bus."
+          }
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "id": "l23-g1",
+        "icon": "1",
+        "title": "Words 441-450",
+        "fa": "10 words",
+        "subtitle": "Practice German vocabulary from your daily glossary."
+      },
+      {
+        "id": "l23-g2",
+        "icon": "2",
+        "title": "Words 451-460",
+        "fa": "10 words",
+        "subtitle": "Practice German vocabulary from your daily glossary."
+      }
+    ],
+    "workbook": [],
+    "grammar": {
+      "id": "l23-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Common corrections from the lessons",
+          "body": "Common corrections from the lessons",
+          "example": "Common corrections from the lessons",
+          "emphasis": [
+            "Common"
+          ]
+        },
+        {
+          "title": "Sentence-building checklist",
+          "body": "Use this order when checking a new sentence:",
+          "example": "Sentence-building checklist",
+          "emphasis": [
+            "Sentence"
+          ]
+        },
+        {
+          "title": "One sentence analyzed completely",
+          "body": "> Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
+          "example": "Obwohl | ich | sehr gerne | hier | wohne,",
+          "emphasis": [
+            "Obwohl"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "____ corrections from the lessons",
+          "options": [
+            "Common",
+            "Sentence",
+            "Obwohl",
+            "muss"
+          ],
+          "answer": "Common",
+          "answers": [
+            "Common"
+          ],
+          "note": "Common corrections from the lessons: Common corrections from the lessons",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____-building checklist",
+          "options": [
+            "Sentence",
+            "Obwohl",
+            "muss",
+            "obwohl"
+          ],
+          "answer": "Sentence",
+          "answers": [
+            "Sentence"
+          ],
+          "note": "Sentence-building checklist: Use this order when checking a new sentence:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ | ich | sehr gerne | hier | wohne,",
+          "options": [
+            "Obwohl",
+            "muss",
+            "wohne",
+            "Kündigung"
+          ],
+          "answer": "Obwohl",
+          "answers": [
+            "Obwohl"
+          ],
+          "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ | ich | leider | ausziehen.",
+          "options": [
+            "muss",
+            "obwohl",
+            "wohne",
+            "Kündigung"
+          ],
+          "answer": "muss",
+          "answers": [
+            "muss"
+          ],
+          "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ introduces a contrast and creates a subordinate clause.",
+          "options": [
+            "obwohl",
+            "Kündigung",
+            "gegen",
+            "wegen"
+          ],
+          "answer": "obwohl",
+          "answers": [
+            "obwohl"
+          ],
+          "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ therefore goes to the end of that clause.",
+          "options": [
+            "wohne",
+            "Kündigung",
+            "gegen",
+            "wegen"
+          ],
+          "answer": "wohne",
+          "answers": [
+            "wohne"
+          ],
+          "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ erhalten",
+          "options": [
+            "Kündigung",
+            "gegen",
+            "wegen",
+            "schützen"
+          ],
+          "answer": "Kündigung",
+          "answers": [
+            "Kündigung"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "der ____ widersprechen",
+          "options": [
+            "Kündigung",
+            "wegen",
+            "schützen",
+            "Flugzeug"
+          ],
+          "answer": "Kündigung",
+          "answers": [
+            "Kündigung"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ die Kündigung Widerspruch einlegen",
+          "options": [
+            "gegen",
+            "schützen",
+            "Flugzeug",
+            "sollten"
+          ],
+          "answer": "gegen",
+          "answers": [
+            "gegen"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ der Kündigung",
+          "options": [
+            "wegen",
+            "Flugzeug",
+            "sollten",
+            "Schule"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ die Umwelt.",
+          "options": [
+            "schützen",
+            "sollten",
+            "Schule",
+            "Common"
+          ],
+          "answer": "schützen",
+          "answers": [
+            "schützen"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Das ____ verschmutzt die Umwelt.",
+          "options": [
+            "Flugzeug",
+            "Schule",
+            "Common",
+            "Sentence"
+          ],
+          "answer": "Flugzeug",
+          "answers": [
+            "Flugzeug"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ Energie sparen.",
+          "options": [
+            "sollten",
+            "Common",
+            "Sentence",
+            "Obwohl"
+          ],
+          "answer": "sollten",
+          "answers": [
+            "sollten"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ veranstaltet eine Projektwoche.",
+          "options": [
+            "Schule",
+            "Sentence",
+            "Obwohl",
+            "muss"
+          ],
+          "answer": "Schule",
+          "answers": [
+            "Schule"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ corrections from the lessons",
+          "options": [
+            "Common",
+            "muss",
+            "obwohl",
+            "wohne"
+          ],
+          "answer": "Common",
+          "answers": [
+            "Common"
+          ],
+          "note": "Common corrections from the lessons: Common corrections from the lessons",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____-building checklist",
+          "options": [
+            "Sentence",
+            "obwohl",
+            "wohne",
+            "Kündigung"
+          ],
+          "answer": "Sentence",
+          "answers": [
+            "Sentence"
+          ],
+          "note": "Sentence-building checklist: Use this order when checking a new sentence:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ | ich | sehr gerne | hier | wohne,",
+          "options": [
+            "Obwohl",
+            "gegen",
+            "wegen",
+            "schützen"
+          ],
+          "answer": "Obwohl",
+          "answers": [
+            "Obwohl"
+          ],
+          "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ | ich | leider | ausziehen.",
+          "options": [
+            "muss",
+            "Kündigung",
+            "gegen",
+            "wegen"
+          ],
+          "answer": "muss",
+          "answers": [
+            "muss"
+          ],
+          "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ introduces a contrast and creates a subordinate clause.",
+          "options": [
+            "obwohl",
+            "schützen",
+            "Flugzeug",
+            "sollten"
+          ],
+          "answer": "obwohl",
+          "answers": [
+            "obwohl"
+          ],
+          "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ therefore goes to the end of that clause.",
+          "options": [
+            "wohne",
+            "wegen",
+            "schützen",
+            "Flugzeug"
+          ],
+          "answer": "wohne",
+          "answers": [
+            "wohne"
+          ],
+          "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ erhalten",
+          "options": [
+            "Kündigung",
+            "schützen",
+            "Flugzeug",
+            "sollten"
+          ],
+          "answer": "Kündigung",
+          "answers": [
+            "Kündigung"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "der ____ widersprechen",
+          "options": [
+            "Kündigung",
+            "Flugzeug",
+            "sollten",
+            "Schule"
+          ],
+          "answer": "Kündigung",
+          "answers": [
+            "Kündigung"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ die Kündigung Widerspruch einlegen",
+          "options": [
+            "gegen",
+            "sollten",
+            "Schule",
+            "Common"
+          ],
+          "answer": "gegen",
+          "answers": [
+            "gegen"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ der Kündigung",
+          "options": [
+            "wegen",
+            "Schule",
+            "Common",
+            "Sentence"
+          ],
+          "answer": "wegen",
+          "answers": [
+            "wegen"
+          ],
+          "note": "Common case contrasts from the examples: Common case contrasts from the examples",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ die Umwelt.",
+          "options": [
+            "schützen",
+            "Common",
+            "Sentence",
+            "Obwohl"
+          ],
+          "answer": "schützen",
+          "answers": [
+            "schützen"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Das ____ verschmutzt die Umwelt.",
+          "options": [
+            "Flugzeug",
+            "Sentence",
+            "Obwohl",
+            "muss"
+          ],
+          "answer": "Flugzeug",
+          "answers": [
+            "Flugzeug"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Wir ____ Energie sparen.",
+          "options": [
+            "sollten",
+            "Obwohl",
+            "muss",
+            "obwohl"
+          ],
+          "answer": "sollten",
+          "answers": [
+            "sollten"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ veranstaltet eine Projektwoche.",
+          "options": [
+            "Schule",
+            "muss",
+            "obwohl",
+            "wohne"
+          ],
+          "answer": "Schule",
+          "answers": [
+            "Schule"
+          ],
+          "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ corrections from the lessons",
+          "options": [
+            "Common",
+            "wohne",
+            "Kündigung",
+            "gegen"
+          ],
+          "answer": "Common",
+          "answers": [
+            "Common"
+          ],
+          "note": "Common corrections from the lessons: Common corrections from the lessons",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____-building checklist",
+          "options": [
+            "Sentence",
+            "Kündigung",
+            "gegen",
+            "wegen"
+          ],
+          "answer": "Sentence",
+          "answers": [
+            "Sentence"
+          ],
+          "note": "Sentence-building checklist: Use this order when checking a new sentence:",
+          "direction": "de"
+        }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "code": "Set 24",
+    "title": "Wortschatz Set 24",
+    "subtitle": "15 entries from Wortschatz.md",
+    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "image": "assets/lektion-4-habits.png",
+    "imageAlt": "Abstract learning illustration",
+    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "vocab": [
+      {
+        "id": "die-luft",
+        "group": "l24-g1",
+        "term": "die Luft",
+        "fa": "air",
+        "type": "noun",
+        "form": "Feminine noun; normally used in the singular.",
+        "source": "Wortschatz.md",
+        "example": "Fliegen verschmutzt die Luft.",
+        "exampleFa": "Flying pollutes the air.",
+        "cloze": "Fliegen verschmutzt die ____.",
+        "clozeFa": "Flying pollutes the air.",
+        "answer": "Luft",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "die Luft",
+          "Luft",
+          "Luft"
+        ],
+        "examples": [
+          {
+            "de": "Fliegen verschmutzt die Luft.",
+            "en": "Flying pollutes the air."
+          },
+          {
+            "de": "Frische Luft ist gesund.",
+            "en": "Fresh air is healthy."
+          }
+        ]
+      },
+      {
+        "id": "umweltschaedlich",
+        "group": "l24-g1",
+        "term": "umweltschädlich",
+        "fa": "harmful to the environment; environmentally damaging",
+        "type": "adjective",
+        "form": "Compound adjective: `Umwelt + schädlich`; opposite: `umweltfreundlich`.",
+        "source": "Wortschatz.md",
+        "example": "Fliegen ist sehr umweltschädlich.",
+        "exampleFa": "Flying is very harmful to the environment.",
+        "cloze": "Fliegen ist sehr ____.",
+        "clozeFa": "Flying is very harmful to the environment.",
+        "answer": "umweltschädlich",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "umweltschädlich",
+          "umweltschädlich",
+          "umweltschädlich"
+        ],
+        "examples": [
+          {
+            "de": "Fliegen ist sehr umweltschädlich.",
+            "en": "Flying is very harmful to the environment."
+          },
+          {
+            "de": "Einwegplastik ist umweltschädlich.",
+            "en": "Single-use plastic is environmentally damaging."
+          }
+        ]
+      },
+      {
+        "id": "das-fliegen",
+        "group": "l24-g1",
+        "term": "das Fliegen",
+        "fa": "flying; air travel",
+        "type": "noun",
+        "form": "Nominalized infinitive; always neuter and capitalized.",
+        "source": "Wortschatz.md",
+        "example": "Das Fliegen ist umweltschädlich.",
+        "exampleFa": "Flying is harmful to the environment.",
+        "cloze": "Das ____ ist umweltschädlich.",
+        "clozeFa": "Flying is harmful to the environment.",
+        "answer": "Fliegen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "das Fliegen",
+          "Fliegen",
+          "Fliegen"
+        ],
+        "examples": [
+          {
+            "de": "Das Fliegen ist umweltschädlich.",
+            "en": "Flying is harmful to the environment."
+          },
+          {
+            "de": "Durch weniger Fliegen kann man Energie sparen.",
+            "en": "By flying less, one can save energy."
+          }
+        ]
+      },
+      {
+        "id": "schuetzen",
+        "group": "l24-g1",
+        "term": "schützen",
+        "fa": "to protect",
+        "type": "verb",
+        "form": "Regular verb: `schützt – schützte – hat geschützt`; common pattern: `jemanden/etwas vor + Dativ schützen`.",
+        "source": "Wortschatz.md",
+        "example": "Wir müssen die Umwelt schützen.",
+        "exampleFa": "We must protect the environment.",
+        "cloze": "Wir müssen die Umwelt ____.",
+        "clozeFa": "We must protect the environment.",
+        "answer": "schützen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "schützen",
+          "schützen",
+          "schützen"
+        ],
+        "examples": [
+          {
+            "de": "Wir müssen die Umwelt schützen.",
+            "en": "We must protect the environment."
+          },
+          {
+            "de": "Diese Regeln schützen Kinder vor Gefahren.",
+            "en": "These rules protect children from dangers."
+          }
+        ]
+      },
+      {
+        "id": "verschwenden",
+        "group": "l24-g1",
+        "term": "verschwenden",
+        "fa": "to waste",
+        "type": "verb",
+        "form": "Regular verb: `verschwendet – verschwendete – hat verschwendet`.",
+        "source": "Wortschatz.md",
+        "example": "Wir dürfen keine Energie verschwenden.",
+        "exampleFa": "We must not waste energy.",
+        "cloze": "Wir dürfen keine Energie ____.",
+        "clozeFa": "We must not waste energy.",
+        "answer": "verschwenden",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "verschwenden",
+          "verschwenden",
+          "verschwenden"
+        ],
+        "examples": [
+          {
+            "de": "Wir dürfen keine Energie verschwenden.",
+            "en": "We must not waste energy."
+          },
+          {
+            "de": "Verschwende nicht so viel Wasser!",
+            "en": "Do not waste so much water!"
+          }
+        ]
+      },
+      {
+        "id": "sparen",
+        "group": "l24-g1",
+        "term": "sparen",
+        "fa": "to save; to conserve",
+        "type": "verb",
+        "form": "Regular verb: `spart – sparte – hat gespart`; common patterns: `etwas sparen` and `für etwas sparen`.",
+        "source": "Wortschatz.md",
+        "example": "Wir wollen Energie sparen.",
+        "exampleFa": "We want to save energy.",
+        "cloze": "Wir wollen Energie ____.",
+        "clozeFa": "We want to save energy.",
+        "answer": "sparen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "sparen",
+          "sparen",
+          "sparen"
+        ],
+        "examples": [
+          {
+            "de": "Wir wollen Energie sparen.",
+            "en": "We want to save energy."
+          },
+          {
+            "de": "Sie spart für eine Reise.",
+            "en": "She is saving for a trip."
+          }
+        ]
+      },
+      {
+        "id": "nutzen",
+        "group": "l24-g1",
+        "term": "nutzen",
+        "fa": "to use; to make use of",
+        "type": "verb",
+        "form": "Regular verb: `nutzt – nutzte – hat genutzt`; takes the accusative.",
+        "source": "Wortschatz.md",
+        "example": "Wir sollten erneuerbare Energie nutzen.",
+        "exampleFa": "We should use renewable energy.",
+        "cloze": "Wir sollten erneuerbare Energie ____.",
+        "clozeFa": "We should use renewable energy.",
+        "answer": "nutzen",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "nutzen",
+          "nutzen",
+          "nutzen"
+        ],
+        "examples": [
+          {
+            "de": "Wir sollten erneuerbare Energie nutzen.",
+            "en": "We should use renewable energy."
+          },
+          {
+            "de": "Die Schüler nutzen die Klassenkasse für den Ausflug.",
+            "en": "The students use the class fund for the trip."
+          }
+        ]
+      },
+      {
+        "id": "veranstalten",
+        "group": "l24-g1",
+        "term": "veranstalten",
+        "fa": "to organize; to hold; to stage",
+        "type": "verb",
+        "form": "Regular inseparable verb: `veranstaltet – veranstaltete – hat veranstaltet`.",
+        "source": "Wortschatz.md",
+        "example": "Die Schule veranstaltet eine Projektwoche.",
+        "exampleFa": "The school organizes a project week.",
+        "cloze": "Die Schule veranstaltet eine Projektwoche. ____",
+        "clozeFa": "The school organizes a project week.",
+        "answer": "veranstalten",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "veranstalten",
+          "veranstalten",
+          "veranstalten"
+        ],
+        "examples": [
+          {
+            "de": "Die Schule veranstaltet eine Projektwoche.",
+            "en": "The school organizes a project week."
+          },
+          {
+            "de": "Der Verein veranstaltet jedes Jahr ein Fest.",
+            "en": "The association holds a festival every year."
+          }
+        ]
+      },
+      {
+        "id": "die-energie",
+        "group": "l24-g1",
+        "term": "die Energie",
+        "fa": "energy",
+        "type": "noun",
+        "form": "Feminine noun; plural `die Energien` is used mainly for different kinds of energy.",
+        "source": "Wortschatz.md",
+        "example": "Wir müssen Energie sparen.",
+        "exampleFa": "We must conserve energy.",
+        "cloze": "Wir müssen ____ sparen.",
+        "clozeFa": "We must conserve energy.",
+        "answer": "Energie",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "die Energie",
+          "Energie",
+          "Energie"
+        ],
+        "examples": [
+          {
+            "de": "Wir müssen Energie sparen.",
+            "en": "We must conserve energy."
+          },
+          {
+            "de": "Wind und Sonne liefern erneuerbare Energie.",
+            "en": "Wind and sunlight provide renewable energy."
+          }
+        ]
+      },
+      {
+        "id": "ueberhaupt",
+        "group": "l24-g1",
+        "term": "überhaupt",
+        "fa": "at all; generally; actually",
+        "type": "verb",
+        "form": "Adverb; meaning depends on context.",
+        "source": "Wortschatz.md",
+        "example": "Welche Produkte kann man überhaupt noch kaufen?",
+        "exampleFa": "Which products can one still buy at all?",
+        "cloze": "Welche Produkte kann man ____ noch kaufen?",
+        "clozeFa": "Which products can one still buy at all?",
+        "answer": "überhaupt",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "überhaupt",
+          "überhaupt",
+          "überhaupt"
+        ],
+        "examples": [
+          {
+            "de": "Welche Produkte kann man überhaupt noch kaufen?",
+            "en": "Which products can one still buy at all?"
+          },
+          {
+            "de": "Hast du überhaupt Zeit?",
+            "en": "Do you have any time at all?"
+          }
+        ]
+      },
+      {
+        "id": "ruhig-mal",
+        "group": "l24-g2",
+        "term": "ruhig mal",
+        "fa": "feel free to; why don't you; go ahead and",
+        "type": "phrase",
+        "form": "Conversational particles that soften a suggestion or permission.",
+        "source": "Wortschatz.md",
+        "example": "Du könntest ruhig mal mit dem Fahrrad fahren.",
+        "exampleFa": "You could take the bicycle for a change.",
+        "cloze": "Du könntest ____ mit dem Fahrrad fahren.",
+        "clozeFa": "You could take the bicycle for a change.",
+        "answer": "ruhig mal",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "ruhig mal",
+          "ruhig mal",
+          "ruhig mal"
+        ],
+        "examples": [
+          {
+            "de": "Du könntest ruhig mal mit dem Fahrrad fahren.",
+            "en": "You could take the bicycle for a change."
+          },
+          {
+            "de": "Frag ruhig mal deine Lehrerin.",
+            "en": "Feel free to ask your teacher."
+          }
+        ]
+      },
+      {
+        "id": "das-fahrrad",
+        "group": "l24-g2",
+        "term": "das Fahrrad",
+        "fa": "bicycle",
+        "type": "noun",
+        "form": "Neuter compound noun; plural: `die Fahrräder`; common phrase: `mit dem Fahrrad fahren`.",
+        "source": "Wortschatz.md",
+        "example": "Ich fahre mit dem Fahrrad zur Schule.",
+        "exampleFa": "I ride my bicycle to school.",
+        "cloze": "Ich fahre mit dem ____ zur Schule.",
+        "clozeFa": "I ride my bicycle to school.",
+        "answer": "Fahrrad",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "das Fahrrad",
+          "Fahrrad",
+          "Fahrrad"
+        ],
+        "examples": [
+          {
+            "de": "Ich fahre mit dem Fahrrad zur Schule.",
+            "en": "I ride my bicycle to school."
+          },
+          {
+            "de": "Das Fahrrad ist umweltfreundlich.",
+            "en": "The bicycle is environmentally friendly."
+          }
+        ]
+      },
+      {
+        "id": "das-abgas",
+        "group": "l24-g2",
+        "term": "das Abgas",
+        "fa": "exhaust gas; emission",
+        "type": "noun",
+        "form": "Neuter noun; usually used in the plural: `die Abgase`.",
+        "source": "Wortschatz.md",
+        "example": "Autos produzieren Abgase.",
+        "exampleFa": "Cars produce exhaust fumes.",
+        "cloze": "Autos produzieren ____e.",
+        "clozeFa": "Cars produce exhaust fumes.",
+        "answer": "Abgas",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "das Abgas",
+          "Abgas",
+          "Abgas"
+        ],
+        "examples": [
+          {
+            "de": "Autos produzieren Abgase.",
+            "en": "Cars produce exhaust fumes."
+          },
+          {
+            "de": "Abgase verschmutzen die Luft.",
+            "en": "Emissions pollute the air."
+          }
+        ]
+      },
+      {
+        "id": "das-elektroauto",
+        "group": "l24-g2",
+        "term": "das Elektroauto",
+        "fa": "electric car",
+        "type": "noun",
+        "form": "Neuter compound noun; plural: `die Elektroautos`.",
+        "source": "Wortschatz.md",
+        "example": "Elektroautos produzieren beim Fahren keine Abgase.",
+        "exampleFa": "Electric cars produce no exhaust fumes while driving.",
+        "cloze": "____s produzieren beim Fahren keine Abgase.",
+        "clozeFa": "Electric cars produce no exhaust fumes while driving.",
+        "answer": "Elektroauto",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "das Elektroauto",
+          "Elektroauto",
+          "Elektroauto"
+        ],
+        "examples": [
+          {
+            "de": "Elektroautos produzieren beim Fahren keine Abgase.",
+            "en": "Electric cars produce no exhaust fumes while driving."
+          },
+          {
+            "de": "Vielleicht reisen wir in Zukunft mit Elektroautos.",
+            "en": "Perhaps we will travel with electric cars in the future."
+          }
+        ]
+      },
+      {
+        "id": "der-unterricht",
+        "group": "l24-g2",
+        "term": "der Unterricht",
+        "fa": "lesson; instruction; classes",
+        "type": "noun",
+        "form": "Masculine noun; normally used in the singular.",
+        "source": "Wortschatz.md",
+        "example": "Der Unterricht beginnt um 8 Uhr.",
+        "exampleFa": "Classes begin at 8 a.m.",
+        "cloze": "Der ____ beginnt um 8 Uhr.",
+        "clozeFa": "Classes begin at 8 a.m.",
+        "answer": "Unterricht",
+        "distractors": [
+          "ausgeben",
+          "sich anmelden",
+          "eintreffen"
+        ],
+        "typeAnswers": [
+          "der Unterricht",
+          "Unterricht",
+          "Unterricht"
+        ],
+        "examples": [
+          {
+            "de": "Der Unterricht beginnt um 8 Uhr.",
+            "en": "Classes begin at 8 a.m."
+          },
+          {
+            "de": "Kinder können auch in Projekten lernen, ohne nur normalen Unterricht zu haben.",
+            "en": "Children can also learn through projects without only having regular lessons."
+          }
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "id": "l24-g1",
+        "icon": "1",
+        "title": "Words 461-470",
+        "fa": "10 words",
+        "subtitle": "Practice German vocabulary from your daily glossary."
+      },
+      {
+        "id": "l24-g2",
+        "icon": "2",
+        "title": "Words 471-475",
+        "fa": "5 words",
+        "subtitle": "Practice German vocabulary from your daily glossary."
+      }
+    ],
+    "workbook": [],
+    "grammar": {
+      "id": "l24-grammar",
+      "icon": "G",
+      "title": "Grammar",
+      "fa": "Grammar practice",
+      "subtitle": "Learn 3 rules from Grammar.md and practise them in context.",
+      "placeholder": "Type the missing German form",
+      "teach": [
+        {
+          "title": "Compound nouns",
+          "body": "German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
+          "example": "Lernen + das Ziel = das Lernziel",
+          "emphasis": [
+            "Lernen"
+          ]
+        },
+        {
+          "title": "Compound adjectives",
+          "body": "German can combine a noun with an adjective to create a more specific adjective.",
+          "example": "die Umwelt + schädlich → umweltschädlich",
+          "emphasis": [
+            "Umwelt"
+          ]
+        },
+        {
+          "title": "Verbs for teaching and explaining",
+          "body": "These verbs have similar meanings, but their object structures are different.",
+          "example": "Die Lehrerin erklärt den Schülern den Klimawandel.",
+          "emphasis": [
+            "Lehrerin"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "____ + das Ziel = das Lernziel",
+          "options": [
+            "Lernen",
+            "final",
+            "Lernziel",
+            "plural"
+          ],
+          "answer": "Lernen",
+          "answers": [
+            "Lernen"
+          ],
+          "note": "Compound nouns: German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ noun determines: das",
+          "options": [
+            "final",
+            "Lernziel",
+            "plural",
+            "Umwelt"
+          ],
+          "answer": "final",
+          "answers": [
+            "final"
+          ],
+          "note": "Compound nouns: German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "das ____ → die Lernziele",
+          "options": [
+            "Lernziel",
+            "plural",
+            "Umwelt",
+            "Umweltschutz"
+          ],
+          "answer": "Lernziel",
+          "answers": [
+            "Lernziel"
+          ],
+          "note": "Compound nouns: German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ follows Ziel → Ziele",
+          "options": [
+            "plural",
+            "Umwelt",
+            "Umweltschutz",
+            "umweltschädlich"
+          ],
+          "answer": "plural",
+          "answers": [
+            "plural"
+          ],
+          "note": "Compound nouns: German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ + schädlich → umweltschädlich",
+          "options": [
+            "Umwelt",
+            "Umweltschutz",
+            "umweltschädlich",
+            "Lehrerin"
+          ],
+          "answer": "Umwelt",
+          "answers": [
+            "Umwelt"
+          ],
+          "note": "Compound adjectives: German can combine a noun with an adjective to create a more specific adjective.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ + freundlich → umweltfreundlich",
+          "options": [
+            "Umwelt",
+            "umweltschädlich",
+            "Lehrerin",
+            "whom"
+          ],
+          "answer": "Umwelt",
+          "answers": [
+            "Umwelt"
+          ],
+          "note": "Compound adjectives: German can combine a noun with an adjective to create a more specific adjective.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "der ____",
+          "options": [
+            "Umweltschutz",
+            "Lehrerin",
+            "whom",
+            "Sentence"
+          ],
+          "answer": "Umweltschutz",
+          "answers": [
+            "Umweltschutz"
+          ],
+          "note": "Compound adjectives: German can combine a noun with an adjective to create a more specific adjective.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____",
+          "options": [
+            "umweltschädlich",
+            "whom",
+            "Sentence",
+            "Obwohl"
+          ],
+          "answer": "umweltschädlich",
+          "answers": [
+            "umweltschädlich"
+          ],
+          "note": "Compound adjectives: German can combine a noun with an adjective to create a more specific adjective.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ erklärt den Schülern den Klimawandel.",
+          "options": [
+            "Lehrerin",
+            "Sentence",
+            "Obwohl",
+            "muss"
+          ],
+          "answer": "Lehrerin",
+          "answers": [
+            "Lehrerin"
+          ],
+          "note": "Verbs for teaching and explaining: These verbs have similar meanings, but their object structures are different.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Dat: to ____? Akk: what?",
+          "options": [
+            "whom",
+            "Obwohl",
+            "muss",
+            "obwohl"
+          ],
+          "answer": "whom",
+          "answers": [
+            "whom"
+          ],
+          "note": "Verbs for teaching and explaining: These verbs have similar meanings, but their object structures are different.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ unterrichtet die Schüler.",
+          "options": [
+            "Lehrerin",
+            "muss",
+            "obwohl",
+            "wohne"
+          ],
+          "answer": "Lehrerin",
+          "answers": [
+            "Lehrerin"
+          ],
+          "note": "Verbs for teaching and explaining: These verbs have similar meanings, but their object structures are different.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Akk: ____?",
+          "options": [
+            "whom",
+            "obwohl",
+            "wohne",
+            "Lernen"
+          ],
+          "answer": "whom",
+          "answers": [
+            "whom"
+          ],
+          "note": "Verbs for teaching and explaining: These verbs have similar meanings, but their object structures are different.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____-building checklist",
+          "options": [
+            "Sentence",
+            "wohne",
+            "Lernen",
+            "final"
+          ],
+          "answer": "Sentence",
+          "answers": [
+            "Sentence"
+          ],
+          "note": "Sentence-building checklist: Use this order when checking a new sentence:",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ | ich | sehr gerne | hier | wohne,",
+          "options": [
+            "Obwohl",
+            "final",
+            "Lernziel",
+            "plural"
+          ],
+          "answer": "Obwohl",
+          "answers": [
+            "Obwohl"
+          ],
+          "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ | ich | leider | ausziehen.",
+          "options": [
+            "muss",
+            "final",
+            "Lernziel",
+            "plural"
+          ],
+          "answer": "muss",
+          "answers": [
+            "muss"
+          ],
+          "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ introduces a contrast and creates a subordinate clause.",
+          "options": [
+            "obwohl",
+            "plural",
+            "Umwelt",
+            "Umweltschutz"
+          ],
+          "answer": "obwohl",
+          "answers": [
+            "obwohl"
+          ],
+          "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ therefore goes to the end of that clause.",
+          "options": [
+            "wohne",
+            "plural",
+            "Umwelt",
+            "Umweltschutz"
+          ],
+          "answer": "wohne",
+          "answers": [
+            "wohne"
+          ],
+          "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ + das Ziel = das Lernziel",
+          "options": [
+            "Lernen",
+            "Umweltschutz",
+            "umweltschädlich",
+            "Lehrerin"
+          ],
+          "answer": "Lernen",
+          "answers": [
+            "Lernen"
+          ],
+          "note": "Compound nouns: German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ noun determines: das",
+          "options": [
+            "final",
+            "umweltschädlich",
+            "Lehrerin",
+            "whom"
+          ],
+          "answer": "final",
+          "answers": [
+            "final"
+          ],
+          "note": "Compound nouns: German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "das ____ → die Lernziele",
+          "options": [
+            "Lernziel",
+            "Lehrerin",
+            "whom",
+            "Sentence"
+          ],
+          "answer": "Lernziel",
+          "answers": [
+            "Lernziel"
+          ],
+          "note": "Compound nouns: German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____ follows Ziel → Ziele",
+          "options": [
+            "plural",
+            "whom",
+            "Sentence",
+            "Obwohl"
+          ],
+          "answer": "plural",
+          "answers": [
+            "plural"
+          ],
+          "note": "Compound nouns: German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ + schädlich → umweltschädlich",
+          "options": [
+            "Umwelt",
+            "Sentence",
+            "Obwohl",
+            "muss"
+          ],
+          "answer": "Umwelt",
+          "answers": [
+            "Umwelt"
+          ],
+          "note": "Compound adjectives: German can combine a noun with an adjective to create a more specific adjective.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "die ____ + freundlich → umweltfreundlich",
+          "options": [
+            "Umwelt",
+            "Obwohl",
+            "muss",
+            "obwohl"
+          ],
+          "answer": "Umwelt",
+          "answers": [
+            "Umwelt"
+          ],
+          "note": "Compound adjectives: German can combine a noun with an adjective to create a more specific adjective.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "der ____",
+          "options": [
+            "Umweltschutz",
+            "muss",
+            "obwohl",
+            "wohne"
+          ],
+          "answer": "Umweltschutz",
+          "answers": [
+            "Umweltschutz"
+          ],
+          "note": "Compound adjectives: German can combine a noun with an adjective to create a more specific adjective.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____",
+          "options": [
+            "umweltschädlich",
+            "obwohl",
+            "wohne",
+            "Lernen"
+          ],
+          "answer": "umweltschädlich",
+          "answers": [
+            "umweltschädlich"
+          ],
+          "note": "Compound adjectives: German can combine a noun with an adjective to create a more specific adjective.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ erklärt den Schülern den Klimawandel.",
+          "options": [
+            "Lehrerin",
+            "wohne",
+            "Lernen",
+            "final"
+          ],
+          "answer": "Lehrerin",
+          "answers": [
+            "Lehrerin"
+          ],
+          "note": "Verbs for teaching and explaining: These verbs have similar meanings, but their object structures are different.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Dat: to ____? Akk: what?",
+          "options": [
+            "whom",
+            "Lernen",
+            "final",
+            "Lernziel"
+          ],
+          "answer": "whom",
+          "answers": [
+            "whom"
+          ],
+          "note": "Verbs for teaching and explaining: These verbs have similar meanings, but their object structures are different.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Die ____ unterrichtet die Schüler.",
+          "options": [
+            "Lehrerin",
+            "final",
+            "Lernziel",
+            "plural"
+          ],
+          "answer": "Lehrerin",
+          "answers": [
+            "Lehrerin"
+          ],
+          "note": "Verbs for teaching and explaining: These verbs have similar meanings, but their object structures are different.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "Akk: ____?",
+          "options": [
+            "whom",
+            "Lernziel",
+            "plural",
+            "Umwelt"
+          ],
+          "answer": "whom",
+          "answers": [
+            "whom"
+          ],
+          "note": "Verbs for teaching and explaining: These verbs have similar meanings, but their object structures are different.",
+          "direction": "de"
+        },
+        {
+          "kind": "choice",
+          "prompt": "____-building checklist",
+          "options": [
+            "Sentence",
+            "plural",
+            "Umwelt",
+            "Umweltschutz"
+          ],
+          "answer": "Sentence",
+          "answers": [
+            "Sentence"
+          ],
+          "note": "Sentence-building checklist: Use this order when checking a new sentence:",
+          "direction": "de"
+        }
+      ]
+    }
   }
 ];
 

@@ -109,6 +109,12 @@
         <label class="switch-row"><span>Auto-play new words</span><input id="autoSpeak" type="checkbox" checked></label>
         <label class="field-row"><span>Pronunciation speed</span><select id="speechRate"><option value="0.72">Slow</option><option value="0.86" selected>Normal</option><option value="1">Fast</option></select></label>
       </div>
+      <div class="setting-group">
+        <h3>Progress between devices</h3>
+        <p class="setting-note">Create a private transfer link, then open it on your other device.</p>
+        <button id="shareProgress" class="secondary-btn" type="button">Share progress link</button>
+        <p id="syncStatus" class="setting-note" aria-live="polite"></p>
+      </div>
       <button id="resetProgress" class="danger-btn" type="button">Reset progress</button>
       <p id="appCredit" class="app-credit">Wortschatz · English/German vocabulary trainer</p>
     </section>
@@ -122,7 +128,7 @@
         <button class="icon-btn" type="button" data-close-criteria aria-label="Close">×</button>
       </header>
       <ol class="criteria-list">
-        <li><strong>Source:</strong> Every generated item comes from <span lang="de">Wortschatz.md</span>.</li>
+        <li><strong>Sources:</strong> Vocabulary comes from <span lang="de">Wortschatz.md</span>; grammar lessons come from <span lang="de">Grammar.md</span>.</li>
         <li><strong>Order:</strong> Sets preserve the same order as the Markdown glossary.</li>
         <li><strong>Practice:</strong> The app uses translation, grammar notes, examples, cloze, listening, and typed recall.</li>
         <li><strong>Refresh:</strong> Later sections include older words for spaced review.</li>
