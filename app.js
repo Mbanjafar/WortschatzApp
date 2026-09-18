@@ -309,14 +309,20 @@
     els.appCredit.textContent = `Wortschatz · English/German vocabulary trainer · ${faNum(lessons.length)} sets`;
     const nodes = [
       ...groups,
-      ...workbook.map((unit) => ({ ...unit, workbook: true })),
-      ...(lesson.grammar ? [{ ...lesson.grammar, grammar: true }] : [])
+      ...(lesson.grammar ? [{ ...lesson.grammar, grammar: true }] : []),
+      ...workbook.map((unit) => ({ ...unit, workbook: true }))
     ];
     els.learningPath.innerHTML = "";
     nodes.forEach((node, index) => {
       const unlocked = nodeUnlocked(index, nodes);
       const progress = nodeProgress(node.id);
       const words = node.grammar || node.workbook ? [] : vocab.filter((item) => item.group === node.id);
+      const workload = node.grammar
+        ? `${faNum(node.teach.length)} steps`
+        : node.workbook
+          ? `${faNum(node.questions.length)} exercises`
+          : `${faNum(BASE_EXERCISES)} exercises`;
+      const readyNote = node.grammar ? "Guided explanation" : node.workbook ? "Grammar application" : index === 0 ? "Ready to start" : `${faNum(REVIEW_EXERCISES)} older reviews`;
       const article = document.createElement("article");
       article.className = `path-node${node.grammar ? " grammar" : ""}${node.workbook ? " workbook" : ""}${unlocked ? "" : " locked"}${progress ? " complete" : ""}`;
       article.setAttribute("role", "listitem");
@@ -327,7 +333,7 @@
           <p>${escapeHtml(node.subtitle)}</p>
           ${words.length ? `<p class="word-preview" lang="de">${words.map((item) => escapeHtml(item.term)).join(" · ")}</p>` : ""}
         </div>
-        <div class="node-score"><strong>${progress ? `${faNum(progress.best)}%` : unlocked ? `${faNum(BASE_EXERCISES)} exercises` : "Locked"}</strong>${progress ? `${faNum(progress.sessions)} completed` : unlocked ? (index === 0 ? "Ready to start" : node.workbook ? `${faNum(REVIEW_EXERCISES)} mixed reviews` : `${faNum(REVIEW_EXERCISES)} older reviews`) : "Finish the previous section"}</div>`;
+        <div class="node-score"><strong>${progress ? `${faNum(progress.best)}%` : unlocked ? workload : "Locked"}</strong>${progress ? `${faNum(progress.sessions)} completed` : unlocked ? readyNote : "Finish the previous section"}</div>`;
       if (unlocked) article.querySelector(".node-button").addEventListener("click", () => {
         if (node.grammar) startGrammarSession();
         else if (node.workbook) startWorkbookSession(node.id);
@@ -359,7 +365,7 @@
     const queue = [];
     currentWords.forEach((item, index) => queue.push({ type: "teach", item, teachIndex: index + 1, teachTotal: currentWords.length }));
     questions.forEach((question) => queue.push(question));
-    session = baseSession({ kind: "vocab", nodeId: groupId, title: `${group.title}${group.fa ? ` · ${group.fa}` : ""}`, queue });
+    session = baseSession({ kind: "vocab", nodeId: groupId, title: `${group.title}${group.fa ? ` · ${group.fa}` : ""}`, queue, target: questions.length });
     openSession();
   }
 
@@ -385,9 +391,9 @@
     return { type: "question", item, mode, retry, review, retryCount: 0 };
   }
 
-  function baseSession({ kind, nodeId, title, queue }) {
+  function baseSession({ kind, nodeId, title, queue, target = queue.length }) {
     return {
-      kind, nodeId, title, queue, pos: 0, selected: null, currentQuestion: null,
+      kind, nodeId, title, queue, target, pos: 0, selected: null, currentQuestion: null,
       awaiting: false, done: false, baseAnswered: 0, retryAnswered: 0,
       correct: 0, answers: 0, mistakes: 0, mistakeIds: new Set(), xp: 0
     };
@@ -395,22 +401,22 @@
 
   function startGrammarSession() {
     const queue = lesson.grammar.teach.map((rule, index) => ({ type: "grammar-teach", rule, teachIndex: index + 1 }));
-    lesson.grammar.questions.forEach((question, index) => queue.push({ type: "grammar-question", question, retry: false, retryCount: 0, review: index >= lesson.grammar.questions.length - REVIEW_EXERCISES }));
-    session = baseSession({ kind: "grammar", nodeId: lesson.grammar.id, title: `${lesson.grammar.title} · Grammar`, queue });
+    session = baseSession({ kind: "grammar", nodeId: lesson.grammar.id, title: lesson.grammar.title, queue, target: queue.length });
     openSession();
   }
 
   function startWorkbookSession(unitId) {
     const unit = workbook.find((entry) => entry.id === unitId);
     if (!unit) return;
+    const reviewCount = unit.reviewCount || 0;
     const queue = unit.questions.map((question, index) => ({
       type: "workbook-question",
       question,
       retry: false,
       retryCount: 0,
-      review: index >= unit.questions.length - REVIEW_EXERCISES
+      review: reviewCount > 0 && index >= unit.questions.length - reviewCount
     }));
-    session = baseSession({ kind: "workbook", nodeId: unit.id, title: `${unit.title} · ${unit.fa}`, queue });
+    session = baseSession({ kind: unit.kind || "grammar-practice", nodeId: unit.id, title: `${unit.title} · ${unit.fa}`, queue, target: queue.length });
     openSession();
   }
 
@@ -423,7 +429,7 @@
     const pool = prioritized(learned);
     const modes = ["meaning", "cloze", "term", "listen", "type", "example"];
     const queue = Array.from({ length: BASE_EXERCISES }, (_, index) => qStep(pool[index % pool.length], modes[index % modes.length], false, true));
-    session = baseSession({ kind: "review", nodeId: null, title: "Mixed review" , queue });
+    session = baseSession({ kind: "review", nodeId: null, title: "Mixed review" , queue, target: queue.length });
     openSession();
   }
 
@@ -569,7 +575,7 @@
     const q = step.question;
     session.currentQuestion = { ...q, grammar: true, workbook: isWorkbook, retry: step.retry };
     const phase = isWorkbook
-      ? step.retry ? "Workbook retry" : step.review ? "Mixed review" : "Workbook practice"
+      ? step.retry ? "Grammar retry" : step.review ? "Mixed review" : "Grammar practice"
       : step.retry ? "Grammar retry" : step.review ? "Older grammar review" : "Grammar practice";
     const promptClass = q.direction === "fa" ? "prompt-fa" : "sentence-prompt";
     const answerArea = q.kind === "choice"
@@ -609,6 +615,7 @@
     const step = session.queue[session.pos];
     if (step.type === "teach" || step.type === "grammar-teach") {
       if (step.item) recordSeen(step.item);
+      if (step.type === "grammar-teach") session.baseAnswered += 1;
       session.pos += 1;
       renderStep();
       return;
@@ -722,14 +729,15 @@
 
   function updateProgress() {
     if (!session) return;
-    const inRetry = session.baseAnswered >= BASE_EXERCISES;
-    const pct = Math.min(100, (session.baseAnswered / BASE_EXERCISES) * 100);
+    const target = session.target || 1;
+    const inRetry = session.baseAnswered >= target;
+    const pct = Math.min(100, (session.baseAnswered / target) * 100);
     els.progressFill.style.width = `${pct}%`;
     if (inRetry) {
       const remaining = session.queue.slice(session.pos).filter((step) => step.retry).length;
-      els.progressText.textContent = remaining ? `Retry ${faNum(session.retryAnswered + 1)}` : `${faNum(BASE_EXERCISES)} / ${faNum(BASE_EXERCISES)}`;
+      els.progressText.textContent = remaining ? `Retry ${faNum(session.retryAnswered + 1)}` : `${faNum(target)} / ${faNum(target)}`;
     } else {
-      els.progressText.textContent = `${faNum(session.baseAnswered)} / ${faNum(BASE_EXERCISES)}`;
+      els.progressText.textContent = `${faNum(session.baseAnswered)} / ${faNum(target)}`;
     }
     els.mistakeBadge.textContent = session.mistakes;
   }
@@ -751,7 +759,7 @@
     els.stage.innerHTML = `
       <div class="result">
         <div class="result-mark">✓</div>
-        <h2>${session.kind === "grammar" ? "Grammar complete" : session.kind === "workbook" ? "Workbook complete" : session.kind === "review" ? "Review complete" : "Section complete"}</h2>
+        <h2>${session.kind === "grammar" ? "Grammar lesson complete" : session.kind === "grammar-practice" ? "Grammar practice complete" : session.kind === "review" ? "Review complete" : "Section complete"}</h2>
         <p>${escapeHtml(session.title)}</p>
         <div class="result-grid">
           <div class="result-stat"><strong>+${session.xp}</strong><span>XP</span></div>
