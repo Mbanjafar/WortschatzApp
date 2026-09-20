@@ -7,6 +7,9 @@
   let groups = lesson.groups;
   let workbook = lesson.workbook || [];
   const STATE_KEY = "wortschatz-en-de-v2";
+  const SYNC_CONFIG_KEY = "wortschatz-github-sync-v1";
+  const SYNC_FILENAME = "wortschatz-progress.json";
+  const SYNC_DESCRIPTION = "WortschatzApp private progress sync";
   const BASE_EXERCISES = 30;
   const REVIEW_EXERCISES = 5;
   const INITIAL_COMPLETED = {
@@ -58,6 +61,11 @@
     goalOptions: $("#goalOptions"),
     autoSpeak: $("#autoSpeak"),
     speechRate: $("#speechRate"),
+    githubToken: $("#githubToken"),
+    connectGithub: $("#connectGithub"),
+    syncGithubNow: $("#syncGithubNow"),
+    disconnectGithub: $("#disconnectGithub"),
+    githubSyncStatus: $("#githubSyncStatus"),
     shareProgress: $("#shareProgress"),
     syncStatus: $("#syncStatus"),
     resetProgress: $("#resetProgress"),
@@ -76,9 +84,13 @@
     completed: structuredClone(INITIAL_COMPLETED),
     words: {},
     currentLesson: 1,
+    updatedAt: 0,
     speech: { auto: true, rate: 0.86 }
   };
 
+  let syncConfig = loadSyncConfig();
+  let syncTimer = null;
+  let syncInFlight = null;
   let state = loadState();
   importSharedProgress();
   let currentLessonId = lessons.some((entry) => entry.id === state.currentLesson) ? state.currentLesson : 1;
@@ -124,8 +136,147 @@
     }
   }
 
-  function saveState() {
+  function loadSyncConfig() {
+    try {
+      const value = JSON.parse(localStorage.getItem(SYNC_CONFIG_KEY) || "null");
+      return value?.token && value?.gistId ? value : null;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  function saveSyncConfig(value) {
+    syncConfig = value;
+    if (value) localStorage.setItem(SYNC_CONFIG_KEY, JSON.stringify(value));
+    else localStorage.removeItem(SYNC_CONFIG_KEY);
+  }
+
+  function saveState({ cloud = true, touch = true } = {}) {
+    if (touch) state.updatedAt = Date.now();
     localStorage.setItem(STATE_KEY, JSON.stringify(state));
+    if (cloud) scheduleCloudSync();
+  }
+
+  function setGithubSyncStatus(message, status = "") {
+    if (!els.githubSyncStatus) return;
+    els.githubSyncStatus.textContent = message;
+    els.githubSyncStatus.dataset.state = status;
+  }
+
+  function scheduleCloudSync() {
+    if (!syncConfig?.token || !syncConfig?.gistId) return;
+    window.clearTimeout(syncTimer);
+    syncTimer = window.setTimeout(() => syncGithubProgress({ silent: true }), 1200);
+  }
+
+  async function githubRequest(path, options = {}, token = syncConfig?.token) {
+    const response = await fetch(`https://api.github.com${path}`, {
+      ...options,
+      headers: {
+        Accept: "application/vnd.github+json",
+        Authorization: `Bearer ${token}`,
+        "X-GitHub-Api-Version": "2022-11-28",
+        ...(options.headers || {})
+      }
+    });
+    if (!response.ok) {
+      const details = await response.json().catch(() => ({}));
+      throw new Error(details.message || `GitHub request failed (${response.status})`);
+    }
+    return response.status === 204 ? null : response.json();
+  }
+
+  function remoteProgress(gist) {
+    const content = gist?.files?.[SYNC_FILENAME]?.content;
+    if (!content) return null;
+    return JSON.parse(content);
+  }
+
+  async function pushGithubProgress() {
+    if (!syncConfig?.gistId) return;
+    await githubRequest(`/gists/${syncConfig.gistId}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ files: { [SYNC_FILENAME]: { content: JSON.stringify(state) } } })
+    });
+  }
+
+  async function syncGithubProgress({ silent = false } = {}) {
+    if (!syncConfig?.token || !syncConfig?.gistId) return;
+    window.clearTimeout(syncTimer);
+    if (syncInFlight) return syncInFlight;
+    syncInFlight = (async () => {
+      if (!silent) setGithubSyncStatus("Syncing with GitHub…");
+      try {
+        const gist = await githubRequest(`/gists/${syncConfig.gistId}`);
+        const remote = remoteProgress(gist);
+        if (remote) mergeProgress(remote, { cloud: false });
+        await pushGithubProgress();
+        syncConfig.lastSync = Date.now();
+        saveSyncConfig(syncConfig);
+        setGithubSyncStatus(`Synced with @${syncConfig.login}.`, "ok");
+        if (!session) {
+          currentLessonId = lessons.some((entry) => entry.id === state.currentLesson) ? state.currentLesson : currentLessonId;
+          setLessonData(currentLessonId);
+          if (currentView === "bank") renderBank();
+          else if (currentView === "home") renderHome();
+        }
+      } catch (error) {
+        setGithubSyncStatus(`Sync failed: ${error.message}`, "error");
+      } finally {
+        syncInFlight = null;
+      }
+    })();
+    return syncInFlight;
+  }
+
+  async function connectGithubSync() {
+    const token = els.githubToken.value.trim();
+    if (!token) {
+      setGithubSyncStatus("Paste a gist-only GitHub token first.", "error");
+      return;
+    }
+    els.connectGithub.disabled = true;
+    setGithubSyncStatus("Connecting to GitHub…");
+    try {
+      const user = await githubRequest("/user", {}, token);
+      const gists = await githubRequest("/gists?per_page=100", {}, token);
+      let gist = gists.find((entry) => entry.description === SYNC_DESCRIPTION && entry.files?.[SYNC_FILENAME]);
+      if (!gist) {
+        gist = await githubRequest("/gists", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            description: SYNC_DESCRIPTION,
+            public: false,
+            files: { [SYNC_FILENAME]: { content: JSON.stringify(state) } }
+          })
+        }, token);
+      }
+      saveSyncConfig({ token, gistId: gist.id, login: user.login, lastSync: 0 });
+      els.githubToken.value = "";
+      renderGithubSyncControls();
+      await syncGithubProgress();
+    } catch (error) {
+      setGithubSyncStatus(`Connection failed: ${error.message}`, "error");
+    } finally {
+      els.connectGithub.disabled = false;
+    }
+  }
+
+  function disconnectGithubSync() {
+    window.clearTimeout(syncTimer);
+    saveSyncConfig(null);
+    renderGithubSyncControls();
+    setGithubSyncStatus("GitHub sync disconnected on this device.");
+  }
+
+  function renderGithubSyncControls() {
+    const connected = Boolean(syncConfig?.token && syncConfig?.gistId);
+    els.connectGithub.textContent = connected ? "Replace connection" : "Connect GitHub sync";
+    els.syncGithubNow.disabled = !connected;
+    els.disconnectGithub.disabled = !connected;
+    if (connected && !els.githubSyncStatus.textContent) setGithubSyncStatus(`Connected as @${syncConfig.login}.`, "ok");
   }
 
   function encodeProgress(value) {
@@ -142,7 +293,7 @@
     return JSON.parse(new TextDecoder().decode(bytes));
   }
 
-  function mergeProgress(incoming) {
+  function mergeProgress(incoming, { cloud = true } = {}) {
     if (!incoming || incoming.version !== 1) throw new Error("Unsupported progress data");
     const completed = { ...state.completed };
     Object.entries(incoming.completed || {}).forEach(([key, value]) => {
@@ -168,12 +319,13 @@
       ...state,
       xp: Math.max(state.xp || 0, incoming.xp || 0),
       currentLesson: Math.max(state.currentLesson || 1, incoming.currentLesson || 1),
+      updatedAt: Math.max(state.updatedAt || 0, incoming.updatedAt || 0),
       completed,
       words
     };
     if (incoming.streak && (incoming.streak.last || "") > (state.streak.last || "")) state.streak = incoming.streak;
     if (incoming.daily?.date === state.daily.date) state.daily.xp = Math.max(state.daily.xp || 0, incoming.daily.xp || 0);
-    saveState();
+    saveState({ cloud, touch: false });
   }
 
   function importSharedProgress() {
@@ -200,7 +352,9 @@
   }
 
   function ensureToday() {
-    if (state.daily.date !== todayKey()) state.daily = { date: todayKey(), xp: 0 };
+    if (state.daily.date === todayKey()) return false;
+    state.daily = { date: todayKey(), xp: 0 };
+    return true;
   }
 
   function wordState(item) {
@@ -346,12 +500,12 @@
   }
 
   function updateHud() {
-    ensureToday();
+    const dayChanged = ensureToday();
     const learned = vocab.filter((item) => wordState(item).seen > 0).length;
     els.streakCount.textContent = state.streak.count;
     els.goalText.textContent = `${state.daily.xp}/${state.goal}`;
     els.learnedCount.textContent = `${learned}/${vocab.length}`;
-    saveState();
+    if (dayChanged) saveState();
   }
 
   function startVocabSession(groupId) {
@@ -753,6 +907,7 @@
       const old = state.completed[key] || { sessions: 0, best: 0 };
       state.completed[key] = { sessions: old.sessions + 1, best: Math.max(old.best, accuracy), last: Date.now() };
       saveState();
+      syncGithubProgress({ silent: true });
     }
     session.done = true;
     els.feedback.hidden = true;
@@ -846,6 +1001,7 @@
     els.goalOptions.querySelectorAll("[data-goal]").forEach((button) => button.addEventListener("click", () => { state.goal = Number(button.dataset.goal); saveState(); renderSettings(); updateHud(); }));
     els.autoSpeak.checked = state.speech.auto;
     els.speechRate.value = String(state.speech.rate);
+    renderGithubSyncControls();
     const imported = sessionStorage.getItem("wortschatz-imported");
     if (imported === "1") els.syncStatus.textContent = "Progress imported on this device.";
     if (imported === "error") els.syncStatus.textContent = "That progress link could not be read.";
@@ -905,6 +1061,9 @@
   els.searchInput.addEventListener("input", renderBank);
   els.autoSpeak.addEventListener("change", () => { state.speech.auto = els.autoSpeak.checked; saveState(); });
   els.speechRate.addEventListener("change", () => { state.speech.rate = Number(els.speechRate.value); saveState(); });
+  els.connectGithub.addEventListener("click", connectGithubSync);
+  els.syncGithubNow.addEventListener("click", () => syncGithubProgress());
+  els.disconnectGithub.addEventListener("click", disconnectGithubSync);
   els.shareProgress.addEventListener("click", shareProgress);
   els.resetProgress.addEventListener("click", () => {
     if (!window.confirm("Reset all progress for this app?")) return;
@@ -913,7 +1072,10 @@
     state.speech = speech;
     currentLessonId = 1;
     setLessonData(currentLessonId);
-    saveState();
+    saveState({ cloud: false });
+    if (syncConfig) pushGithubProgress()
+      .then(() => setGithubSyncStatus("Reset progress synced to GitHub.", "ok"))
+      .catch((error) => setGithubSyncStatus(`Cloud reset failed: ${error.message}`, "error"));
     closeModals();
     renderHome();
   });
@@ -928,9 +1090,16 @@
       if (option) { event.preventDefault(); option.click(); }
     }
   });
+  window.addEventListener("focus", () => syncGithubProgress({ silent: true }));
+  window.addEventListener("online", () => syncGithubProgress({ silent: true }));
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") syncGithubProgress({ silent: true });
+  });
 
   ensureToday();
   initSpeech();
   setView("home");
   renderHome();
+  renderGithubSyncControls();
+  syncGithubProgress({ silent: true });
 })();

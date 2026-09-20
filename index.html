@@ -110,7 +110,22 @@
         <label class="field-row"><span>Pronunciation speed</span><select id="speechRate"><option value="0.72">Slow</option><option value="0.86" selected>Normal</option><option value="1">Fast</option></select></label>
       </div>
       <div class="setting-group">
-        <h3>Progress between devices</h3>
+        <h3>GitHub sync</h3>
+        <p class="setting-note">Automatically keep vocabulary and grammar progress identical on your devices using a private GitHub Gist.</p>
+        <label class="token-field">
+          <span>GitHub token</span>
+          <input id="githubToken" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Token with Gists: write permission">
+        </label>
+        <p class="setting-note">The token is stored only on this device. <a href="https://github.com/settings/tokens/new?scopes=gist&amp;description=WortschatzApp%20Sync" target="_blank" rel="noopener noreferrer">Create a gist-only token</a>.</p>
+        <button id="connectGithub" class="primary-setting-btn" type="button">Connect GitHub sync</button>
+        <div class="setting-actions">
+          <button id="syncGithubNow" class="secondary-btn" type="button">Sync now</button>
+          <button id="disconnectGithub" class="secondary-btn" type="button">Disconnect</button>
+        </div>
+        <p id="githubSyncStatus" class="setting-note sync-status" aria-live="polite"></p>
+      </div>
+      <div class="setting-group">
+        <h3>Manual transfer</h3>
         <p class="setting-note">Create a private transfer link, then open it on your other device.</p>
         <button id="shareProgress" class="secondary-btn" type="button">Share progress link</button>
         <p id="syncStatus" class="setting-note" aria-live="polite"></p>
