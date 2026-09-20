@@ -12,14 +12,16 @@
   const SYNC_DESCRIPTION = "WortschatzApp private progress sync";
   const BASE_EXERCISES = 30;
   const REVIEW_EXERCISES = 5;
-  const INITIAL_COMPLETED = {
-    "1:l1-g1": { sessions: 1, best: 100, last: 1789714800000 },
-    "1:l1-g2": { sessions: 1, best: 100, last: 1789714800000 },
-    "1:l1-grammar": { sessions: 1, best: 100, last: 1789898400000 },
-    "1:l1-grammar-practice": { sessions: 1, best: 100, last: 1789898400000 },
-    "2:l2-g1": { sessions: 1, best: 100, last: 1789898400000 },
-    "2:l2-g2": { sessions: 1, best: 100, last: 1789898400000 }
-  };
+  const CHECKPOINT_LESSON = 6;
+  const CHECKPOINT_TIME = 1789898400000;
+  const INITIAL_COMPLETED = Object.fromEntries(
+    Array.from({ length: CHECKPOINT_LESSON }, (_, index) => index + 1).flatMap((lessonId) => [
+      [`${lessonId}:l${lessonId}-g1`, { sessions: 1, best: 100, last: CHECKPOINT_TIME }],
+      [`${lessonId}:l${lessonId}-g2`, { sessions: 1, best: 100, last: CHECKPOINT_TIME }],
+      [`${lessonId}:l${lessonId}-grammar`, { sessions: 1, best: 100, last: CHECKPOINT_TIME }],
+      [`${lessonId}:l${lessonId}-grammar-practice`, { sessions: 1, best: 100, last: CHECKPOINT_TIME }]
+    ])
+  );
   const intervals = [0, 10 * 60e3, 24 * 60 * 60e3, 3 * 24 * 60 * 60e3, 7 * 24 * 60 * 60e3, 14 * 24 * 60 * 60e3];
 
   const $ = (selector) => document.querySelector(selector);
