@@ -1,4 +1,4 @@
-const CACHE = "wortschatz-en-de-v10";
+const CACHE = "wortschatz-en-de-v11";
 const ASSETS = ["./", "./index.html", "./styles.css", "./data.js", "./app.js", "./icon.svg", "./icon-512.png", "./apple-touch-icon.png", "./manifest.webmanifest", "./assets/lektion-1-memories.png", "./assets/lektion-2-friendship.png", "./assets/lektion-3-strengths.png", "./assets/lektion-4-habits.png"];
 
 self.addEventListener("install", (event) => {

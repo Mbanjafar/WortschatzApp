@@ -89,7 +89,7 @@
     streak: { count: 0, last: "" },
     completed: structuredClone(INITIAL_COMPLETED),
     words: {},
-    currentLesson: 1,
+    currentLesson: CHECKPOINT_LESSON + 1,
     updatedAt: 0,
     speech: { auto: true, rate: 0.86 }
   };
@@ -134,7 +134,9 @@
         daily: { ...defaultState.daily, ...(saved.daily || {}) },
         streak: { ...defaultState.streak, ...(saved.streak || {}) },
         speech: { ...defaultState.speech, ...(saved.speech || {}) },
-        currentLesson: lessons.some((entry) => entry.id === saved.currentLesson) ? saved.currentLesson : 1,
+        currentLesson: lessons.some((entry) => entry.id === saved.currentLesson)
+          ? Math.max(saved.currentLesson, CHECKPOINT_LESSON + 1)
+          : CHECKPOINT_LESSON + 1,
         completed, words: saved.words || {}
       };
     } catch (_) {
