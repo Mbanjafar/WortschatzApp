@@ -68,10 +68,11 @@
     autoSpeak: $("#autoSpeak"),
     speechRate: $("#speechRate"),
     githubToken: $("#githubToken"),
-    connectGithub: $("#connectGithub"),
-    syncGithubNow: $("#syncGithubNow"),
-    disconnectGithub: $("#disconnectGithub"),
-    githubSyncStatus: $("#githubSyncStatus"),
+    startDeviceSync: $("#startDeviceSync"),
+    shareDeviceSync: $("#shareDeviceSync"),
+    syncDeviceNow: $("#syncDeviceNow"),
+    disconnectDeviceSync: $("#disconnectDeviceSync"),
+    deviceSyncStatus: $("#deviceSyncStatus"),
     shareProgress: $("#shareProgress"),
     syncStatus: $("#syncStatus"),
     resetProgress: $("#resetProgress"),
@@ -98,6 +99,7 @@
   let syncTimer = null;
   let syncInFlight = null;
   let state = loadState();
+  importDevicePairing();
   importSharedProgress();
   let currentLessonId = lessons.some((entry) => entry.id === state.currentLesson) ? state.currentLesson : 1;
   setLessonData(currentLessonId);
@@ -165,16 +167,16 @@
     if (cloud) scheduleCloudSync();
   }
 
-  function setGithubSyncStatus(message, status = "") {
-    if (!els.githubSyncStatus) return;
-    els.githubSyncStatus.textContent = message;
-    els.githubSyncStatus.dataset.state = status;
+  function setDeviceSyncStatus(message, status = "") {
+    if (!els.deviceSyncStatus) return;
+    els.deviceSyncStatus.textContent = message;
+    els.deviceSyncStatus.dataset.state = status;
   }
 
   function scheduleCloudSync() {
     if (!syncConfig?.token || !syncConfig?.gistId) return;
     window.clearTimeout(syncTimer);
-    syncTimer = window.setTimeout(() => syncGithubProgress({ silent: true }), 1200);
+    syncTimer = window.setTimeout(() => syncCloudProgress({ silent: true }), 800);
   }
 
   async function githubRequest(path, options = {}, token = syncConfig?.token) {
@@ -196,11 +198,10 @@
 
   function remoteProgress(gist) {
     const content = gist?.files?.[SYNC_FILENAME]?.content;
-    if (!content) return null;
-    return JSON.parse(content);
+    return content ? JSON.parse(content) : null;
   }
 
-  async function pushGithubProgress() {
+  async function pushCloudProgress() {
     if (!syncConfig?.gistId) return;
     await githubRequest(`/gists/${syncConfig.gistId}`, {
       method: "PATCH",
@@ -209,43 +210,14 @@
     });
   }
 
-  async function syncGithubProgress({ silent = false } = {}) {
-    if (!syncConfig?.token || !syncConfig?.gistId) return;
-    window.clearTimeout(syncTimer);
-    if (syncInFlight) return syncInFlight;
-    syncInFlight = (async () => {
-      if (!silent) setGithubSyncStatus("Syncing with GitHub…");
-      try {
-        const gist = await githubRequest(`/gists/${syncConfig.gistId}`);
-        const remote = remoteProgress(gist);
-        if (remote) mergeProgress(remote, { cloud: false });
-        await pushGithubProgress();
-        syncConfig.lastSync = Date.now();
-        saveSyncConfig(syncConfig);
-        setGithubSyncStatus(`Synced with @${syncConfig.login}.`, "ok");
-        if (!session) {
-          currentLessonId = lessons.some((entry) => entry.id === state.currentLesson) ? state.currentLesson : currentLessonId;
-          setLessonData(currentLessonId);
-          if (currentView === "bank") renderBank();
-          else if (currentView === "home") renderHome();
-        }
-      } catch (error) {
-        setGithubSyncStatus(`Sync failed: ${error.message}`, "error");
-      } finally {
-        syncInFlight = null;
-      }
-    })();
-    return syncInFlight;
-  }
-
-  async function connectGithubSync() {
+  async function createDeviceSync() {
     const token = els.githubToken.value.trim();
     if (!token) {
-      setGithubSyncStatus("Paste a gist-only GitHub token first.", "error");
+      setDeviceSyncStatus("Paste the dedicated gist-only token first.", "error");
       return;
     }
-    els.connectGithub.disabled = true;
-    setGithubSyncStatus("Connecting to GitHub…");
+    els.startDeviceSync.disabled = true;
+    setDeviceSyncStatus("Connecting secure GitHub sync…");
     try {
       const user = await githubRequest("/user", {}, token);
       const gists = await githubRequest("/gists?per_page=100", {}, token);
@@ -263,28 +235,102 @@
       }
       saveSyncConfig({ token, gistId: gist.id, login: user.login, lastSync: 0 });
       els.githubToken.value = "";
-      renderGithubSyncControls();
-      await syncGithubProgress();
+      renderDeviceSyncControls();
+      await syncCloudProgress();
+      setDeviceSyncStatus("Sync is active. Pair your iPhone next.", "ok");
     } catch (error) {
-      setGithubSyncStatus(`Connection failed: ${error.message}`, "error");
+      setDeviceSyncStatus(`Connection failed: ${error.message}`, "error");
     } finally {
-      els.connectGithub.disabled = false;
+      els.startDeviceSync.disabled = Boolean(syncConfig?.token && syncConfig?.gistId);
     }
   }
 
-  function disconnectGithubSync() {
+  async function syncCloudProgress({ silent = false } = {}) {
+    if (!syncConfig?.token || !syncConfig?.gistId) return;
     window.clearTimeout(syncTimer);
-    saveSyncConfig(null);
-    renderGithubSyncControls();
-    setGithubSyncStatus("GitHub sync disconnected on this device.");
+    if (syncInFlight) return syncInFlight;
+    syncInFlight = (async () => {
+      if (!silent) setDeviceSyncStatus("Syncing progress…");
+      try {
+        const gist = await githubRequest(`/gists/${syncConfig.gistId}`);
+        const remote = remoteProgress(gist);
+        if (remote) mergeProgress(remote, { cloud: false });
+        await pushCloudProgress();
+        syncConfig.lastSync = Date.now();
+        saveSyncConfig(syncConfig);
+        setDeviceSyncStatus(`Synced with @${syncConfig.login}.`, "ok");
+        if (!session) {
+          currentLessonId = lessons.some((entry) => entry.id === state.currentLesson) ? state.currentLesson : currentLessonId;
+          setLessonData(currentLessonId);
+          if (currentView === "bank") renderBank();
+          else if (currentView === "home") renderHome();
+        }
+      } catch (error) {
+        setDeviceSyncStatus(`Sync failed: ${error.message}`, "error");
+      } finally {
+        syncInFlight = null;
+      }
+    })();
+    return syncInFlight;
   }
 
-  function renderGithubSyncControls() {
+  async function overwriteCloudProgress() {
+    if (!syncConfig?.token || !syncConfig?.gistId) return;
+    try {
+      await pushCloudProgress();
+      syncConfig.lastSync = Date.now();
+      saveSyncConfig(syncConfig);
+      setDeviceSyncStatus("Reset progress synced.", "ok");
+    } catch (error) {
+      setDeviceSyncStatus(`Cloud reset failed: ${error.message}`, "error");
+    }
+  }
+
+  function pairingUrl() {
+    return `${window.location.origin}${window.location.pathname}#sync-setup`;
+  }
+
+  async function shareDevicePairing() {
+    if (!syncConfig?.token || !syncConfig?.gistId) return;
+    const url = pairingUrl();
+    try {
+      if (navigator.share) {
+        await navigator.share({ title: "Pair Wortschatz", text: "Open this link, then paste the same dedicated gist-only token once.", url });
+        setDeviceSyncStatus("Setup link shared. Paste the same token on the other device.", "ok");
+      } else if (navigator.clipboard) {
+        await navigator.clipboard.writeText(url);
+        setDeviceSyncStatus("Setup link copied. Paste the same token on the other device.", "ok");
+      } else {
+        window.prompt("Copy this setup link:", url);
+      }
+    } catch (error) {
+      if (error?.name !== "AbortError") setDeviceSyncStatus("Could not share the pairing link.", "error");
+    }
+  }
+
+  function importDevicePairing() {
+    if (window.location.hash !== "#sync-setup") return;
+    sessionStorage.setItem("wortschatz-paired", "setup");
+    history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
+  }
+
+  function disconnectDeviceSync() {
+    window.clearTimeout(syncTimer);
+    saveSyncConfig(null);
+    renderDeviceSyncControls();
+    setDeviceSyncStatus("Sync disconnected on this device.");
+  }
+
+  function renderDeviceSyncControls() {
     const connected = Boolean(syncConfig?.token && syncConfig?.gistId);
-    els.connectGithub.textContent = connected ? "Replace connection" : "Connect GitHub sync";
-    els.syncGithubNow.disabled = !connected;
-    els.disconnectGithub.disabled = !connected;
-    if (connected && !els.githubSyncStatus.textContent) setGithubSyncStatus(`Connected as @${syncConfig.login}.`, "ok");
+    els.startDeviceSync.disabled = connected;
+    els.startDeviceSync.textContent = connected ? "Device sync active" : "Connect GitHub sync";
+    els.githubToken.disabled = connected;
+    els.githubToken.hidden = connected;
+    els.shareDeviceSync.disabled = !connected;
+    els.syncDeviceNow.disabled = !connected;
+    els.disconnectDeviceSync.disabled = !connected;
+    if (connected && !els.deviceSyncStatus.textContent) setDeviceSyncStatus(`Connected as @${syncConfig.login}.`, "ok");
   }
 
   function encodeProgress(value) {
@@ -915,7 +961,7 @@
       const old = state.completed[key] || { sessions: 0, best: 0 };
       state.completed[key] = { sessions: old.sessions + 1, best: Math.max(old.best, accuracy), last: Date.now() };
       saveState();
-      syncGithubProgress({ silent: true });
+      syncCloudProgress({ silent: true });
     }
     session.done = true;
     els.feedback.hidden = true;
@@ -1009,7 +1055,9 @@
     els.goalOptions.querySelectorAll("[data-goal]").forEach((button) => button.addEventListener("click", () => { state.goal = Number(button.dataset.goal); saveState(); renderSettings(); updateHud(); }));
     els.autoSpeak.checked = state.speech.auto;
     els.speechRate.value = String(state.speech.rate);
-    renderGithubSyncControls();
+    renderDeviceSyncControls();
+    const paired = sessionStorage.getItem("wortschatz-paired");
+    if (paired === "setup") setDeviceSyncStatus("Paste the same dedicated token to finish pairing this device.");
     const imported = sessionStorage.getItem("wortschatz-imported");
     if (imported === "1") els.syncStatus.textContent = "Progress imported on this device.";
     if (imported === "error") els.syncStatus.textContent = "That progress link could not be read.";
@@ -1069,21 +1117,20 @@
   els.searchInput.addEventListener("input", renderBank);
   els.autoSpeak.addEventListener("change", () => { state.speech.auto = els.autoSpeak.checked; saveState(); });
   els.speechRate.addEventListener("change", () => { state.speech.rate = Number(els.speechRate.value); saveState(); });
-  els.connectGithub.addEventListener("click", connectGithubSync);
-  els.syncGithubNow.addEventListener("click", () => syncGithubProgress());
-  els.disconnectGithub.addEventListener("click", disconnectGithubSync);
+  els.startDeviceSync.addEventListener("click", createDeviceSync);
+  els.shareDeviceSync.addEventListener("click", shareDevicePairing);
+  els.syncDeviceNow.addEventListener("click", () => syncCloudProgress());
+  els.disconnectDeviceSync.addEventListener("click", disconnectDeviceSync);
   els.shareProgress.addEventListener("click", shareProgress);
   els.resetProgress.addEventListener("click", () => {
     if (!window.confirm("Reset all progress for this app?")) return;
     const speech = { ...state.speech };
     state = structuredClone(defaultState);
     state.speech = speech;
-    currentLessonId = 1;
+    currentLessonId = defaultState.currentLesson;
     setLessonData(currentLessonId);
     saveState({ cloud: false });
-    if (syncConfig) pushGithubProgress()
-      .then(() => setGithubSyncStatus("Reset progress synced to GitHub.", "ok"))
-      .catch((error) => setGithubSyncStatus(`Cloud reset failed: ${error.message}`, "error"));
+    if (syncConfig) overwriteCloudProgress();
     closeModals();
     renderHome();
   });
@@ -1098,16 +1145,17 @@
       if (option) { event.preventDefault(); option.click(); }
     }
   });
-  window.addEventListener("focus", () => syncGithubProgress({ silent: true }));
-  window.addEventListener("online", () => syncGithubProgress({ silent: true }));
+  window.addEventListener("focus", () => syncCloudProgress({ silent: true }));
+  window.addEventListener("online", () => syncCloudProgress({ silent: true }));
   document.addEventListener("visibilitychange", () => {
-    if (document.visibilityState === "visible") syncGithubProgress({ silent: true });
+    if (document.visibilityState === "visible") syncCloudProgress({ silent: true });
   });
 
   ensureToday();
   initSpeech();
   setView("home");
   renderHome();
-  renderGithubSyncControls();
-  syncGithubProgress({ silent: true });
+  renderDeviceSyncControls();
+  syncCloudProgress({ silent: true });
+  if (sessionStorage.getItem("wortschatz-paired") === "setup" && !syncConfig) openSettings();
 })();
