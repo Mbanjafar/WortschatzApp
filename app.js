@@ -11,7 +11,7 @@
   const SYNC_FILENAME = "wortschatz-progress.json";
   const SYNC_DESCRIPTION = "WortschatzApp private progress sync";
   const BASE_EXERCISES = 30;
-  const REVIEW_EXERCISES = 5;
+  const SET_REVIEW_WORDS = Math.round(BASE_EXERCISES * 0.3);
   const CHECKPOINT_LESSON = 6;
   const CHECKPOINT_TIME = 1789898400000;
   const INITIAL_COMPLETED = Object.fromEntries(
@@ -23,6 +23,7 @@
   const VALID_COMPLETION_KEYS = new Set(lessons.flatMap((entry) => [
     ...entry.groups,
     ...(entry.grammar ? [entry.grammar] : []),
+    ...(entry.review ? [entry.review] : []),
     ...(entry.workbook || [])
   ].map((node) => `${entry.id}:${node.id}`)));
   const intervals = [0, 10 * 60e3, 24 * 60 * 60e3, 3 * 24 * 60 * 60e3, 7 * 24 * 60 * 60e3, 14 * 24 * 60 * 60e3];
@@ -524,6 +525,7 @@
     els.appCredit.textContent = `Wortschatz · English/German vocabulary trainer · ${faNum(lessons.length)} sets`;
     const nodes = [
       ...groups,
+      ...(lesson.review ? [{ ...lesson.review, review: true }] : []),
       ...(lesson.grammar ? [{ ...lesson.grammar, grammar: true }] : []),
       ...workbook.map((unit) => ({ ...unit, workbook: true }))
     ];
@@ -531,15 +533,23 @@
     nodes.forEach((node, index) => {
       const unlocked = nodeUnlocked(index, nodes);
       const progress = nodeProgress(node.id);
-      const words = node.grammar || node.workbook ? [] : vocab.filter((item) => item.group === node.id);
+      const words = node.grammar || node.review || node.workbook ? [] : vocab.filter((item) => item.group === node.id);
       const workload = node.grammar
         ? `${faNum(node.teach.length)} examples`
+        : node.review
+          ? `${faNum(BASE_EXERCISES)} exercises`
         : node.workbook
           ? `${faNum(node.questions.length)} exercises`
           : `${faNum(BASE_EXERCISES)} exercises`;
-      const readyNote = node.grammar ? "Guided examples" : node.workbook ? "Grammar application" : index === 0 ? "Ready to start" : `${faNum(REVIEW_EXERCISES)} older reviews`;
+      const readyNote = node.grammar
+        ? "Guided examples"
+        : node.review
+          ? `${faNum(SET_REVIEW_WORDS)} words from earlier sets`
+          : node.workbook
+            ? "Grammar application"
+            : "Ready to start";
       const article = document.createElement("article");
-      article.className = `path-node${node.grammar ? " grammar" : ""}${node.workbook ? " workbook" : ""}${unlocked ? "" : " locked"}${progress ? " complete" : ""}`;
+      article.className = `path-node${node.grammar ? " grammar" : ""}${node.review ? " review" : ""}${node.workbook ? " workbook" : ""}${unlocked ? "" : " locked"}${progress ? " complete" : ""}`;
       article.setAttribute("role", "listitem");
       article.innerHTML = `
         <button class="node-button" type="button" ${unlocked ? "" : "disabled"} aria-label="${escapeAttr(node.fa || node.title)}">${unlocked ? escapeHtml(node.icon) : "•"}</button>
@@ -551,6 +561,7 @@
         <div class="node-score"><strong>${progress ? `${faNum(progress.best)}%` : unlocked ? workload : "Locked"}</strong>${progress ? `${faNum(progress.sessions)} completed` : unlocked ? readyNote : "Finish the previous section"}</div>`;
       if (unlocked) article.querySelector(".node-button").addEventListener("click", () => {
         if (node.grammar) startGrammarSession();
+        else if (node.review) startSetReviewSession(node.id);
         else if (node.workbook) startWorkbookSession(node.id);
         else startVocabSession(node.id);
       });
@@ -571,12 +582,8 @@
 
   function startVocabSession(groupId) {
     const group = groups.find((entry) => entry.id === groupId);
-    const currentIndex = groups.findIndex((entry) => entry.id === groupId);
     const currentWords = vocab.filter((item) => item.group === groupId);
-    const earlierLessonWords = lessons.filter((entry) => entry.id < currentLessonId).flatMap((entry) => entry.vocab);
-    const earlierGroupWords = vocab.filter((item) => groups.findIndex((entry) => entry.id === item.group) < currentIndex);
-    const oldWords = [...earlierLessonWords, ...earlierGroupWords];
-    const questions = buildVocabQuestions(currentWords, oldWords);
+    const questions = buildVocabQuestions(currentWords);
     const queue = [];
     currentWords.forEach((item, index) => queue.push({ type: "teach", item, teachIndex: index + 1, teachTotal: currentWords.length }));
     questions.forEach((question) => queue.push(question));
@@ -584,14 +591,42 @@
     openSession();
   }
 
-  function buildVocabQuestions(currentWords, oldWords) {
+  function buildVocabQuestions(currentWords) {
     const questions = currentWords.map((item) => qStep(item, "meaning"));
-    const modes = ["cloze", "term", "listen", "cloze", "term", "type", "cloze", "term", "listen", "type", "example", "type", "meaning", "cloze", "listen"];
+    const modes = [
+      "cloze", "term", "listen", "example", "meaning",
+      "term", "cloze", "listen", "meaning", "example",
+      "listen", "term", "example", "cloze", "meaning",
+      "example", "listen", "cloze", "term", "meaning"
+    ];
     modes.forEach((mode, index) => questions.push(qStep(currentWords[index % currentWords.length], mode)));
-    const reviewPool = oldWords.length ? prioritized(oldWords) : currentWords;
-    const reviewModes = ["meaning", "cloze", "term", "listen", "type"];
-    reviewModes.forEach((mode, index) => questions.push(qStep(reviewPool[index % reviewPool.length], mode, false, true)));
     return questions.slice(0, BASE_EXERCISES);
+  }
+
+  function startSetReviewSession(nodeId) {
+    const previousWords = lessons
+      .filter((entry) => entry.id < currentLessonId)
+      .flatMap((entry) => entry.vocab);
+    if (!previousWords.length) return;
+    const start = ((currentLessonId - 2) * SET_REVIEW_WORDS) % previousWords.length;
+    const reviewWords = Array.from(
+      { length: Math.min(SET_REVIEW_WORDS, previousWords.length) },
+      (_, index) => previousWords[(start + index) % previousWords.length]
+    );
+    const modes = ["meaning", "cloze", "term", "listen", "example"];
+    const queue = Array.from(
+      { length: BASE_EXERCISES },
+      (_, index) => qStep(reviewWords[index % reviewWords.length], modes[index % modes.length], false, true)
+    );
+    session = baseSession({
+      kind: "review",
+      nodeId,
+      title: `Previous-set review · ${SET_REVIEW_WORDS} words`,
+      queue,
+      target: queue.length,
+      questionPool: previousWords
+    });
+    openSession();
   }
 
   function prioritized(items) {
@@ -606,9 +641,10 @@
     return { type: "question", item, mode, retry, review, retryCount: 0 };
   }
 
-  function baseSession({ kind, nodeId, title, queue, target = queue.length }) {
+  function baseSession({ kind, nodeId, title, queue, target = queue.length, questionPool = vocab }) {
     return {
       kind, nodeId, title, queue, target, pos: 0, selected: null, currentQuestion: null,
+      questionPool,
       awaiting: false, done: false, baseAnswered: 0, retryAnswered: 0,
       correct: 0, answers: 0, mistakes: 0, mistakeIds: new Set(), xp: 0
     };
@@ -642,9 +678,9 @@
       return;
     }
     const pool = prioritized(learned);
-    const modes = ["meaning", "cloze", "term", "listen", "type", "example"];
+    const modes = ["meaning", "cloze", "term", "listen", "example"];
     const queue = Array.from({ length: BASE_EXERCISES }, (_, index) => qStep(pool[index % pool.length], modes[index % modes.length], false, true));
-    session = baseSession({ kind: "review", nodeId: null, title: "Mixed review" , queue, target: queue.length });
+    session = baseSession({ kind: "review", nodeId: null, title: "Mixed review", queue, target: queue.length, questionPool: pool });
     openSession();
   }
 
@@ -716,9 +752,10 @@
 
   function buildVocabQuestion(step) {
     const item = step.item;
-    const allTranslations = vocab.map((entry) => entry.fa);
-    const allTerms = vocab.map((entry) => entry.term);
-    const labels = { meaning: "Choose the meaning", term: "Choose the German word", cloze: "Complete the sentence", listen: "Listen and choose the meaning", type: "Write it in German", example: "Choose the meaning in context" };
+    const questionPool = session.questionPool || vocab;
+    const allTranslations = questionPool.map((entry) => entry.fa);
+    const allTerms = questionPool.map((entry) => entry.term);
+    const labels = { meaning: "Choose the meaning", term: "Choose the German word", cloze: "Complete the sentence", listen: "Listen and choose the meaning", example: "Choose the meaning in context" };
     const question = { item, mode: step.mode, title: labels[step.mode], review: step.review, retry: step.retry };
     if (step.mode === "meaning" || step.mode === "listen" || step.mode === "example") {
       question.kind = "choice";
@@ -735,19 +772,11 @@
       question.options = shuffle([item.answer, ...item.distractors]).slice(0, 4);
       question.germanOptions = true;
     } else {
-      question.kind = "input";
-      question.answer = item.term;
-      question.answers = typeAnswers(item);
+      question.kind = "choice";
+      question.answer = item.fa;
+      question.options = choiceSet(item.fa, allTranslations);
     }
     return question;
-  }
-
-  function typeAnswers(item) {
-    const forms = new Set([item.term]);
-    forms.add(item.term.replace(/^(der|die|das)\s+/i, ""));
-    forms.add(item.term.replace(/^sich\s+/i, ""));
-    (item.typeAnswers || []).forEach((answer) => forms.add(answer));
-    return [...forms];
   }
 
   function choiceSet(answer, pool) {
@@ -760,14 +789,12 @@
     const phase = question.retry ? "Retry" : question.review ? "Older review" : "New-word practice";
     let prompt = "";
     if (question.mode === "meaning") prompt = `<div class="prompt-word" lang="de">${escapeHtml(item.term)}</div>`;
-    if (question.mode === "term" || question.mode === "type") prompt = `<div class="prompt-fa">${escapeHtml(item.fa)}</div>`;
+    if (question.mode === "term") prompt = `<div class="prompt-fa">${escapeHtml(item.fa)}</div>`;
     if (question.mode === "cloze") prompt = `<div class="sentence-prompt" lang="de">${escapeHtml(item.cloze).replace("____", "<strong>____</strong>")}<span class="sentence-translation">${escapeHtml(item.clozeFa)}</span></div>`;
     if (question.mode === "listen") prompt = `<button class="listen-prompt" type="button" data-speak="${escapeAttr(item.term)}" aria-label="Play pronunciation">Listen</button>`;
     if (question.mode === "example") prompt = `<div class="sentence-prompt" lang="de">${escapeHtml(item.example).replace(new RegExp(escapeRegExp(termCore(item.term)), "i"), (match) => `<strong>${match}</strong>`)}</div>`;
-    const answerArea = question.kind === "choice"
-      ? `<div class="options">${question.options.map((option, index) => `<button class="option${question.germanOptions ? " german" : ""}" type="button" data-option="${escapeAttr(option)}"><span class="num">${index + 1}</span><span>${escapeHtml(option)}</span></button>`).join("")}</div>`
-      : `<input class="answer-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Type in German">`;
-    els.stage.innerHTML = `<div class="q-kicker">${phase}</div><h2 class="q-title">${escapeHtml(question.title)}</h2><p class="q-sub">${question.kind === "input" ? "Use the article or full phrase when possible." : ""}</p>${prompt}${answerArea}`;
+    const answerArea = `<div class="options">${question.options.map((option, index) => `<button class="option${question.germanOptions ? " german" : ""}" type="button" data-option="${escapeAttr(option)}"><span class="num">${index + 1}</span><span>${escapeHtml(option)}</span></button>`).join("")}</div>`;
+    els.stage.innerHTML = `<div class="q-kicker">${phase}</div><h2 class="q-title">${escapeHtml(question.title)}</h2>${prompt}${answerArea}`;
     bindAnswerControls(question);
     if (question.mode === "listen" && state.speech.auto) setTimeout(() => speak(item.term), 220);
   }
@@ -880,7 +907,7 @@
       session.queue.push({ ...step, retry: true, retryCount: step.retryCount + 1 });
       return;
     }
-    const retryModes = { meaning: "cloze", cloze: "term", term: "type", listen: "meaning", type: "cloze", example: "term" };
+    const retryModes = { meaning: "cloze", cloze: "term", term: "example", listen: "meaning", example: "term" };
     session.queue.push({ ...step, mode: retryModes[step.mode] || "meaning", retry: true, review: true, retryCount: step.retryCount + 1 });
   }
 

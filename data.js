@@ -7,7 +7,7 @@
     "code": "Set 01",
     "title": "Wortschatz Set 1",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -29,11 +29,6 @@
           "nächstes Wochenende",
           "Geburtstag haben",
           "Grillparty"
-        ],
-        "typeAnswers": [
-          "ehemalig",
-          "ehemalig",
-          "ehemalig"
         ],
         "examples": [
           {
@@ -64,11 +59,6 @@
           "Geburtstag haben",
           "Grillparty"
         ],
-        "typeAnswers": [
-          "nächstes Wochenende",
-          "nächstes Wochenende",
-          "nächstes Wochenende"
-        ],
         "examples": [
           {
             "de": "Karolina hat nächstes Wochenende Geburtstag.",
@@ -97,11 +87,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Grillparty"
-        ],
-        "typeAnswers": [
-          "Geburtstag haben",
-          "Geburtstag haben",
-          "Geburtstag haben"
         ],
         "examples": [
           {
@@ -132,11 +117,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Grillparty",
-          "Grillparty",
-          "Grillparty"
-        ],
         "examples": [
           {
             "de": "Karolina möchte eine Grillparty feiern.",
@@ -165,11 +145,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "auf eine Einladung antworten",
-          "auf eine Einladung antworten",
-          "auf eine Einladung antworten"
         ],
         "examples": [
           {
@@ -200,11 +175,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich für eine Einladung bedanken",
-          "sich für eine Einladung bedanken",
-          "sich für eine Einladung bedanken"
-        ],
         "examples": [
           {
             "de": "Vielen Dank für deine Einladung.",
@@ -233,11 +203,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "im Moment",
-          "im Moment",
-          "im Moment"
         ],
         "examples": [
           {
@@ -268,11 +233,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Wegbeschreibung",
-          "Wegbeschreibung",
-          "Wegbeschreibung"
-        ],
         "examples": [
           {
             "de": "Kannst du mir bitte eine Wegbeschreibung schicken?",
@@ -301,11 +261,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "jemanden um eine Wegbeschreibung bitten",
-          "jemanden um eine Wegbeschreibung bitten",
-          "jemanden um eine Wegbeschreibung bitten"
         ],
         "examples": [
           {
@@ -336,11 +291,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich auf etwas freuen",
-          "sich auf etwas freuen",
-          "sich auf etwas freuen"
-        ],
         "examples": [
           {
             "de": "Ich freue mich auf die Grillparty.",
@@ -369,11 +319,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "trotz + Genitiv",
-          "trotz + Genitiv",
-          "trotz"
         ],
         "examples": [
           {
@@ -404,11 +349,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "einige Zeit brauchen",
-          "einige Zeit brauchen",
-          "einige Zeit brauchen"
-        ],
         "examples": [
           {
             "de": "Es braucht einige Zeit, bis das Verbot akzeptiert wird.",
@@ -437,11 +377,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Fahrradkurier / die Fahrradkurierin",
-          "Fahrradkurier / die Fahrradkurierin",
-          "Fahrradkurier"
         ],
         "examples": [
           {
@@ -472,11 +407,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Kurierdienst",
-          "Kurierdienst",
-          "Kurierdienst"
-        ],
         "examples": [
           {
             "de": "Dieser Kurierdienst liefert Dokumente noch am selben Tag.",
@@ -505,11 +435,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Lieferung",
-          "Lieferung",
-          "Lieferung"
         ],
         "examples": [
           {
@@ -540,11 +465,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "akzeptieren",
-          "akzeptieren",
-          "akzeptieren"
-        ],
         "examples": [
           {
             "de": "Das Rauchverbot wird langsam akzeptiert.",
@@ -573,11 +493,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "zwischen + Dativ/Akkusativ",
-          "zwischen + Dativ/Akkusativ",
-          "zwischen"
         ],
         "examples": [
           {
@@ -608,11 +523,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "Rad fahren",
-          "Rad fahren",
-          "Rad fahren"
-        ],
         "examples": [
           {
             "de": "Er fährt jeden Tag 70 bis 120 Kilometer Rad.",
@@ -642,11 +552,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Straße",
-          "Straße",
-          "Straße"
-        ],
         "examples": [
           {
             "de": "Auf der Straße fahren viele Autos.",
@@ -675,11 +580,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "unterschreiben",
-          "unterschreiben",
-          "unterschreiben"
         ],
         "examples": [
           {
@@ -750,14 +650,15 @@
         }
       ],
       "questions": []
-    }
+    },
+    "review": null
   },
   {
     "id": 2,
     "code": "Set 02",
     "title": "Wortschatz Set 2",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -779,11 +680,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich mit jemandem verstehen",
-          "sich mit jemandem verstehen",
-          "sich mit jemandem verstehen"
         ],
         "examples": [
           {
@@ -814,11 +710,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "schnell / schneller",
-          "schnell / schneller",
-          "schnell"
-        ],
         "examples": [
           {
             "de": "Fahrradkuriere sind oft schneller als Autos.",
@@ -847,11 +738,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "weniger",
-          "weniger",
-          "weniger"
         ],
         "examples": [
           {
@@ -882,11 +768,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Verhalten",
-          "Verhalten",
-          "Verhalten"
-        ],
         "examples": [
           {
             "de": "Das Verhalten der Gäste hat sich geändert.",
@@ -915,11 +796,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "je mehr ..., desto mehr ...",
-          "je mehr ..., desto mehr ...",
-          "je"
         ],
         "examples": [
           {
@@ -950,11 +826,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Gast / die Gästin",
-          "Gast / die Gästin",
-          "Gast / die Gästin"
-        ],
         "examples": [
           {
             "de": "Das Verhalten der Gäste hat sich nicht geändert.",
@@ -984,11 +855,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "wenig Kontakt haben",
-          "wenig Kontakt haben",
-          "haben"
-        ],
         "examples": [
           {
             "de": "Die beiden Gruppen haben wenig Kontakt.",
@@ -1017,11 +883,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Geld verdienen",
-          "Geld verdienen",
-          "Geld verdienen"
         ],
         "examples": [
           {
@@ -1056,11 +917,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "Angst haben, etwas zu tun",
-          "Angst haben, etwas zu tun",
-          "Angst haben, etwas zu tun"
-        ],
         "examples": [
           {
             "de": "Die Frau hat Angst, weniger Geld zu verdienen.",
@@ -1089,11 +945,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Gefahr",
-          "Gefahr",
-          "Gefahr"
         ],
         "examples": [
           {
@@ -1124,11 +975,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Raucherraum",
-          "Raucherraum",
-          "Raucherraum"
-        ],
         "examples": [
           {
             "de": "In dem Gebäude gibt es mehrere Raucherräume.",
@@ -1157,11 +1003,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Student / die Studentin",
-          "Student / die Studentin",
-          "Student"
         ],
         "examples": [
           {
@@ -1192,11 +1033,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich ändern",
-          "sich ändern",
-          "sich ändern"
-        ],
         "examples": [
           {
             "de": "Seit dem Rauchverbot hat sich das Verhalten nicht geändert.",
@@ -1225,11 +1061,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "durch + Akkusativ",
-          "durch + Akkusativ",
-          "durch"
         ],
         "examples": [
           {
@@ -1260,11 +1091,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "nicht mehr als",
-          "nicht mehr als",
-          "nicht mehr als"
-        ],
         "examples": [
           {
             "de": "Oliver arbeitet nicht mehr als 30 Stunden pro Woche.",
@@ -1293,11 +1119,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Wert",
-          "Wert",
-          "Wert"
         ],
         "examples": [
           {
@@ -1328,11 +1149,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "zusammenarbeiten",
-          "zusammenarbeiten",
-          "zusammenarbeiten"
-        ],
         "examples": [
           {
             "de": "Der Tauschring arbeitet mit anderen Gruppen zusammen.",
@@ -1361,11 +1177,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "etwas toll finden",
-          "etwas toll finden",
-          "etwas toll finden"
         ],
         "examples": [
           {
@@ -1396,11 +1207,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "länger geöffnet haben",
-          "länger geöffnet haben",
-          "länger geöffnet haben"
-        ],
         "examples": [
           {
             "de": "Am Freitag hat der Zoo länger geöffnet.",
@@ -1429,11 +1235,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "gewinnen",
-          "gewinnen",
-          "gewinnen"
         ],
         "examples": [
           {
@@ -1503,6 +1304,13 @@
         }
       ],
       "questions": []
+    },
+    "review": {
+      "id": "l2-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-1."
     }
   },
   {
@@ -1510,7 +1318,7 @@
     "code": "Set 03",
     "title": "Wortschatz Set 3",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -1532,11 +1340,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Stadtteil",
-          "Stadtteil",
-          "Stadtteil"
         ],
         "examples": [
           {
@@ -1567,11 +1370,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Pkw",
-          "Pkw",
-          "Pkw"
-        ],
         "examples": [
           {
             "de": "Ein grüner Pkw wird gerade abgeschleppt.",
@@ -1600,11 +1398,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Mitarbeit",
-          "Mitarbeit",
-          "Mitarbeit"
         ],
         "examples": [
           {
@@ -1635,11 +1428,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "jedes Wochenende",
-          "jedes Wochenende",
-          "jedes Wochenende"
-        ],
         "examples": [
           {
             "de": "Jedes Wochenende kann man eine Reise gewinnen.",
@@ -1668,11 +1456,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "erscheinen",
-          "erscheinen",
-          "erscheinen"
         ],
         "examples": [
           {
@@ -1703,11 +1486,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "abschleppen",
-          "abschleppen",
-          "abschleppen"
-        ],
         "examples": [
           {
             "de": "Die Polizei lässt den Pkw abschleppen.",
@@ -1736,11 +1514,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Kontakt zueinander haben",
-          "Kontakt zueinander haben",
-          "haben"
         ],
         "examples": [
           {
@@ -1771,11 +1544,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Reise",
-          "Reise",
-          "Reise"
-        ],
         "examples": [
           {
             "de": "Man kann eine Reise nach Rom gewinnen.",
@@ -1804,11 +1572,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Bewohner / die Bewohnerin",
-          "Bewohner / die Bewohnerin",
-          "Bewohner"
         ],
         "examples": [
           {
@@ -1839,11 +1602,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Protest",
-          "Protest",
-          "Protest"
-        ],
         "examples": [
           {
             "de": "Der Protest gegen das Rauchverbot dauert an.",
@@ -1872,11 +1630,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Rauchverbot",
-          "Rauchverbot",
-          "Rauchverbot"
         ],
         "examples": [
           {
@@ -1907,11 +1660,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Spielfilm",
-          "Spielfilm",
-          "Spielfilm"
-        ],
         "examples": [
           {
             "de": "Der Spielfilm wird um 22:30 Uhr gezeigt.",
@@ -1940,11 +1688,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "gerade",
-          "gerade",
-          "gerade"
         ],
         "examples": [
           {
@@ -1975,11 +1718,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Zoo",
-          "Zoo",
-          "Zoo"
-        ],
         "examples": [
           {
             "de": "Am Freitag hat der Zoo länger geöffnet.",
@@ -2008,11 +1746,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "alle vier Wochen",
-          "alle vier Wochen",
-          "alle vier Wochen"
         ],
         "examples": [
           {
@@ -2043,11 +1776,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Fest",
-          "Fest",
-          "Fest"
-        ],
         "examples": [
           {
             "de": "Jens macht auf dem Fest Musik.",
@@ -2076,11 +1804,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Musik machen",
-          "Musik machen",
-          "Musik machen"
         ],
         "examples": [
           {
@@ -2111,11 +1834,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "über + Zahl",
-          "über + Zahl",
-          "über"
-        ],
         "examples": [
           {
             "de": "Der Tauschring hat über 200 Mitglieder.",
@@ -2145,11 +1863,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "kostenlos",
-          "kostenlos",
-          "kostenlos"
-        ],
         "examples": [
           {
             "de": "Die Teilnahme ist kostenlos.",
@@ -2178,11 +1891,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Mitgliederzeitung",
-          "Mitgliederzeitung",
-          "Mitgliederzeitung"
         ],
         "examples": [
           {
@@ -2250,6 +1958,13 @@
         }
       ],
       "questions": []
+    },
+    "review": {
+      "id": "l3-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-2."
     }
   },
   {
@@ -2257,7 +1972,7 @@
     "code": "Set 04",
     "title": "Wortschatz Set 4",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -2279,11 +1994,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "mit jemandem unzufrieden sein",
-          "mit jemandem unzufrieden sein",
-          "unzufrieden"
         ],
         "examples": [
           {
@@ -2314,11 +2024,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Fitnessstudio",
-          "Fitnessstudio",
-          "Fitnessstudio"
-        ],
         "examples": [
           {
             "de": "Sie trainiert in dem neuen Fitnessstudio.",
@@ -2347,11 +2052,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Stress",
-          "Stress",
-          "Stress"
         ],
         "examples": [
           {
@@ -2382,11 +2082,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "keine schlechte Idee",
-          "keine schlechte Idee",
-          "keine schlechte Idee"
-        ],
         "examples": [
           {
             "de": "Frau Wulf findet Unterricht am Samstag keine schlechte Idee.",
@@ -2415,11 +2110,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich erholen",
-          "sich erholen",
-          "erholen"
         ],
         "examples": [
           {
@@ -2450,11 +2140,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Ganztagsschule",
-          "Ganztagsschule",
-          "Ganztagsschule"
-        ],
         "examples": [
           {
             "de": "In Ganztagsschulen bleiben die Kinder bis zum Nachmittag.",
@@ -2483,11 +2168,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Arbeit mit nach Hause nehmen",
-          "Arbeit mit nach Hause nehmen",
-          "nehmen"
         ],
         "examples": [
           {
@@ -2518,11 +2198,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "mitmachen",
-          "mitmachen",
-          "mitmachen"
-        ],
         "examples": [
           {
             "de": "Jeder, der beim Tauschring mitmacht, bekommt ein Formular.",
@@ -2551,11 +2226,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich bewegen",
-          "sich bewegen",
-          "sich bewegen"
         ],
         "examples": [
           {
@@ -2586,11 +2256,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Ausbildung",
-          "Ausbildung",
-          "Ausbildung"
-        ],
         "examples": [
           {
             "de": "Während ihrer Ausbildung lernen Lehrer viel Theorie.",
@@ -2619,11 +2284,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Eltern",
-          "Eltern",
-          "Eltern"
         ],
         "examples": [
           {
@@ -2654,11 +2314,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "zunehmen",
-          "zunehmen",
-          "zunehmen"
-        ],
         "examples": [
           {
             "de": "Der Stress hat zugenommen.",
@@ -2687,11 +2342,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Hälfte",
-          "Hälfte",
-          "Hälfte"
         ],
         "examples": [
           {
@@ -2722,11 +2372,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Tauschring",
-          "Tauschring",
-          "Tauschring"
-        ],
         "examples": [
           {
             "de": "In einem Tauschring tauschen Mitglieder Dienstleistungen aus.",
@@ -2755,11 +2400,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Ferien",
-          "Ferien",
-          "Ferien"
         ],
         "examples": [
           {
@@ -2790,11 +2430,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "leicht",
-          "leicht",
-          "leicht"
-        ],
         "examples": [
           {
             "de": "Der Unterricht ist leichter.",
@@ -2823,11 +2458,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Ziel",
-          "Ziel",
-          "Ziel"
         ],
         "examples": [
           {
@@ -2858,11 +2488,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "jemanden auf etwas vorbereiten",
-          "jemanden auf etwas vorbereiten",
-          "jemanden auf etwas vorbereiten"
-        ],
         "examples": [
           {
             "de": "Die Ausbildung bereitet die Lehrer auf die Probleme vor.",
@@ -2892,11 +2517,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich Zeit für etwas nehmen",
-          "sich Zeit für etwas nehmen",
-          "sich Zeit für etwas nehmen"
-        ],
         "examples": [
           {
             "de": "Die Sprecherin nimmt sich für Sport viel Zeit.",
@@ -2925,11 +2545,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Formular",
-          "Formular",
-          "Formular"
         ],
         "examples": [
           {
@@ -2997,6 +2612,13 @@
         }
       ],
       "questions": []
+    },
+    "review": {
+      "id": "l4-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-3."
     }
   },
   {
@@ -3004,7 +2626,7 @@
     "code": "Set 05",
     "title": "Wortschatz Set 5",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -3026,11 +2648,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "miteinander",
-          "miteinander",
-          "miteinander"
         ],
         "examples": [
           {
@@ -3061,11 +2678,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Lehrerberuf",
-          "Lehrerberuf",
-          "Lehrerberuf"
-        ],
         "examples": [
           {
             "de": "Der Lehrerberuf kann sehr anstrengend sein.",
@@ -3094,11 +2706,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "etwas in Zeit berechnen",
-          "etwas in Zeit berechnen",
-          "etwas in Zeit berechnen"
         ],
         "examples": [
           {
@@ -3129,11 +2736,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "etwas austauschen",
-          "etwas austauschen",
-          "etwas austauschen"
-        ],
         "examples": [
           {
             "de": "Die Mitglieder tauschen Leistungen aus.",
@@ -3162,11 +2764,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Bundesland",
-          "Bundesland",
-          "Bundesland"
         ],
         "examples": [
           {
@@ -3197,11 +2794,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "trainieren",
-          "trainieren",
-          "trainieren"
-        ],
         "examples": [
           {
             "de": "Die Sprecherin trainiert regelmäßig.",
@@ -3230,11 +2822,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Fahrzeug",
-          "Fahrzeug",
-          "Fahrzeug"
         ],
         "examples": [
           {
@@ -3265,11 +2852,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "vorher",
-          "vorher",
-          "vorher"
-        ],
         "examples": [
           {
             "de": "Nach dem Kurs konnte sie besser Englisch als vorher.",
@@ -3298,11 +2880,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "jemandem entgegenkommen",
-          "jemandem entgegenkommen",
-          "jemandem entgegenkommen"
         ],
         "examples": [
           {
@@ -3333,11 +2910,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "kosten",
-          "kosten",
-          "kosten"
-        ],
         "examples": [
           {
             "de": "Die Orangen kosten 1,94 Euro.",
@@ -3366,11 +2938,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "abholen",
-          "abholen",
-          "abholen"
         ],
         "examples": [
           {
@@ -3401,11 +2968,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "suchen",
-          "suchen",
-          "suchen"
-        ],
         "examples": [
           {
             "de": "Die Polizei sucht den Besitzer.",
@@ -3434,11 +2996,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Orange",
-          "Orange",
-          "Orange"
         ],
         "examples": [
           {
@@ -3469,11 +3026,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "regelmäßig",
-          "regelmäßig",
-          "regelmäßig"
-        ],
         "examples": [
           {
             "de": "Sie trainiert regelmäßig im Fitnessstudio.",
@@ -3502,11 +3054,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "für jemanden das Richtige sein",
-          "für jemanden das Richtige sein",
-          "für jemanden das Richtige sein"
         ],
         "examples": [
           {
@@ -3537,11 +3084,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "etwas Englisch können",
-          "etwas Englisch können",
-          "etwas Englisch können"
-        ],
         "examples": [
           {
             "de": "Teresa konnte schon etwas Englisch.",
@@ -3570,11 +3112,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "empfehlen",
-          "empfehlen",
-          "empfehlen"
         ],
         "examples": [
           {
@@ -3605,11 +3142,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "besser werden",
-          "besser werden",
-          "besser werden"
-        ],
         "examples": [
           {
             "de": "Sein Englisch ist viel besser geworden.",
@@ -3639,11 +3171,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "viel besser als",
-          "viel besser als",
-          "viel"
-        ],
         "examples": [
           {
             "de": "Sie konnte viel besser Englisch als vorher.",
@@ -3672,11 +3199,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Medikament",
-          "Medikament",
-          "Medikament"
         ],
         "examples": [
           {
@@ -3745,6 +3267,13 @@
         }
       ],
       "questions": []
+    },
+    "review": {
+      "id": "l5-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-4."
     }
   },
   {
@@ -3752,7 +3281,7 @@
     "code": "Set 06",
     "title": "Wortschatz Set 6",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -3774,11 +3303,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "nach fünf Monaten",
-          "nach fünf Monaten",
-          "nach fünf Monaten"
         ],
         "examples": [
           {
@@ -3809,11 +3333,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "niemand / niemandem",
-          "niemand / niemandem",
-          "niemand"
-        ],
         "examples": [
           {
             "de": "Niemand kennt die Antwort.",
@@ -3842,11 +3361,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Polizei",
-          "Polizei",
-          "Polizei"
         ],
         "examples": [
           {
@@ -3877,11 +3391,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Online-Sprachschule",
-          "Online-Sprachschule",
-          "Online-Sprachschule"
-        ],
         "examples": [
           {
             "de": "Sie lernt an einer Online-Sprachschule.",
@@ -3910,11 +3419,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "langweilig",
-          "langweilig",
-          "langweilig"
         ],
         "examples": [
           {
@@ -3945,11 +3449,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "dieselben ... wie ...",
-          "dieselben ... wie ...",
-          "dieselben"
-        ],
         "examples": [
           {
             "de": "Dennis hatte dieselben Probleme wie Teresa.",
@@ -3978,11 +3477,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "weiterlernen",
-          "weiterlernen",
-          "weiterlernen"
         ],
         "examples": [
           {
@@ -4013,11 +3507,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "passiv",
-          "passiv",
-          "passiv"
-        ],
         "examples": [
           {
             "de": "Sie findet Lernen am Computer zu passiv.",
@@ -4046,11 +3535,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Nordosten",
-          "Nordosten",
-          "Nordosten"
         ],
         "examples": [
           {
@@ -4081,11 +3565,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Besitzer / die Besitzerin",
-          "Besitzer / die Besitzerin",
-          "Besitzer"
-        ],
         "examples": [
           {
             "de": "Die Polizei sucht den Besitzer eines Medikaments.",
@@ -4114,11 +3593,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "was etwas betrifft",
-          "was etwas betrifft",
-          "was"
         ],
         "examples": [
           {
@@ -4149,11 +3623,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Sprachkurs",
-          "Sprachkurs",
-          "Sprachkurs"
-        ],
         "examples": [
           {
             "de": "Teresa fand den Sprachkurs langweilig.",
@@ -4182,11 +3651,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Feuerwehr",
-          "Feuerwehr",
-          "Feuerwehr"
         ],
         "examples": [
           {
@@ -4217,11 +3681,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "nachdenken",
-          "nachdenken",
-          "nachdenken"
-        ],
         "examples": [
           {
             "de": "Beim Einkaufen sollte man nachdenken.",
@@ -4250,11 +3709,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "versuchen, etwas zu tun",
-          "versuchen, etwas zu tun",
-          "versuchen, etwas zu tun"
         ],
         "examples": [
           {
@@ -4285,11 +3739,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Wetterstation",
-          "Wetterstation",
-          "Wetterstation"
-        ],
         "examples": [
           {
             "de": "Die Arbeit auf der Wetterstation war interessant.",
@@ -4318,11 +3767,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "jemandem gefallen",
-          "jemandem gefallen",
-          "jemandem gefallen"
         ],
         "examples": [
           {
@@ -4353,11 +3797,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "arbeitslos",
-          "arbeitslos",
-          "arbeitslos"
-        ],
         "examples": [
           {
             "de": "Sie hat keine Angst, arbeitslos zu werden.",
@@ -4387,11 +3826,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "spannend",
-          "spannend",
-          "spannend"
-        ],
         "examples": [
           {
             "de": "Sie hat viele spannende Ausflüge gemacht.",
@@ -4420,11 +3854,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "am Computer arbeiten",
-          "am Computer arbeiten",
-          "am Computer arbeiten"
         ],
         "examples": [
           {
@@ -4493,6 +3922,13 @@
         }
       ],
       "questions": []
+    },
+    "review": {
+      "id": "l6-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-5."
     }
   },
   {
@@ -4500,7 +3936,7 @@
     "code": "Set 07",
     "title": "Wortschatz Set 7",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -4522,11 +3958,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Internetkurs",
-          "Internetkurs",
-          "Internetkurs"
         ],
         "examples": [
           {
@@ -4556,11 +3987,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich Sorgen machen",
-          "sich Sorgen machen",
-          "Sorgen"
         ],
         "examples": [
           {
@@ -4595,11 +4021,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "beim Einkaufen",
-          "beim Einkaufen",
-          "beim Einkaufen"
-        ],
         "examples": [
           {
             "de": "Beim Einkaufen sollte man nachdenken.",
@@ -4628,11 +4049,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Konzert",
-          "Konzert",
-          "Konzert"
         ],
         "examples": [
           {
@@ -4663,11 +4079,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "pessimistisch",
-          "pessimistisch",
-          "pessimistisch"
-        ],
         "examples": [
           {
             "de": "Der Mann ist pessimistisch.",
@@ -4696,11 +4107,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "löschen",
-          "löschen",
-          "löschen"
         ],
         "examples": [
           {
@@ -4731,11 +4137,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "immer mehr",
-          "immer mehr",
-          "immer mehr"
-        ],
         "examples": [
           {
             "de": "Es gibt immer mehr Konzerte für die Umwelt.",
@@ -4764,11 +4165,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Arbeitstag",
-          "Arbeitstag",
-          "Arbeitstag"
         ],
         "examples": [
           {
@@ -4799,11 +4195,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "immer gleich",
-          "immer gleich",
-          "immer gleich"
-        ],
         "examples": [
           {
             "de": "Der Arbeitstag ist immer gleich.",
@@ -4832,11 +4223,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Institut",
-          "Institut",
-          "Institut"
         ],
         "examples": [
           {
@@ -4867,11 +4253,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Meinung sein, dass ...",
-          "Meinung sein, dass ...",
-          "Meinung"
-        ],
         "examples": [
           {
             "de": "Die Frau ist der Meinung, dass man nachdenken sollte.",
@@ -4900,11 +4281,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Bericht",
-          "Bericht",
-          "Bericht"
         ],
         "examples": [
           {
@@ -4935,11 +4311,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Energieproblem",
-          "Energieproblem",
-          "Energieproblem"
-        ],
         "examples": [
           {
             "de": "Man kann das Energieproblem lösen.",
@@ -4968,11 +4339,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "lösen",
-          "lösen",
-          "lösen"
         ],
         "examples": [
           {
@@ -5003,11 +4369,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Brand",
-          "Brand",
-          "Brand"
-        ],
         "examples": [
           {
             "de": "Die Feuerwehr löscht den Brand.",
@@ -5036,11 +4397,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "mit 16 Jahren",
-          "mit 16 Jahren",
-          "mit 16 Jahren"
         ],
         "examples": [
           {
@@ -5071,11 +4427,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Musikstil",
-          "Musikstil",
-          "Musikstil"
-        ],
         "examples": [
           {
             "de": "Die Firma berücksichtigt verschiedene Musikstile.",
@@ -5105,11 +4456,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "verstehen",
-          "verstehen",
-          "verstehen"
-        ],
         "examples": [
           {
             "de": "Das Publikum hat den Rücktritt verstanden.",
@@ -5138,11 +4484,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "aufhören",
-          "aufhören",
-          "aufhören"
         ],
         "examples": [
           {
@@ -5180,11 +4521,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Hauptbahnhof",
-          "Hauptbahnhof",
-          "Hauptbahnhof"
         ],
         "examples": [
           {
@@ -5253,6 +4589,13 @@
         }
       ],
       "questions": []
+    },
+    "review": {
+      "id": "l7-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-6."
     }
   },
   {
@@ -5260,7 +4603,7 @@
     "code": "Set 08",
     "title": "Wortschatz Set 8",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -5282,11 +4625,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "kompliziert",
-          "kompliziert",
-          "kompliziert"
         ],
         "examples": [
           {
@@ -5317,11 +4655,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "einen Bus nehmen",
-          "Bus nehmen",
-          "Bus nehmen"
-        ],
         "examples": [
           {
             "de": "Zum Hauptbahnhof muss man einen Bus nehmen.",
@@ -5350,11 +4683,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Text",
-          "Text",
-          "Text"
         ],
         "examples": [
           {
@@ -5385,11 +4713,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Jeans",
-          "Jeans",
-          "Jeans"
-        ],
         "examples": [
           {
             "de": "Im neunten Stock gibt es die neuesten Jeans.",
@@ -5418,11 +4741,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "zusammen mit anderen",
-          "zusammen mit anderen",
-          "zusammen mit anderen"
         ],
         "examples": [
           {
@@ -5453,11 +4771,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "im Ausland studieren",
-          "im Ausland studieren",
-          "im Ausland studieren"
-        ],
         "examples": [
           {
             "de": "Gisela hat im Ausland studiert.",
@@ -5486,11 +4799,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "heiraten",
-          "heiraten",
-          "heiraten"
         ],
         "examples": [
           {
@@ -5521,11 +4829,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "gründen",
-          "gründen",
-          "gründen"
-        ],
         "examples": [
           {
             "de": "Marco hat in Australien eine Band gegründet.",
@@ -5554,11 +4857,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "berücksichtigen",
-          "berücksichtigen",
-          "berücksichtigen"
         ],
         "examples": [
           {
@@ -5589,11 +4887,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Hauptmarkt",
-          "Hauptmarkt",
-          "Hauptmarkt"
-        ],
         "examples": [
           {
             "de": "Der Bus fährt vom Hauptmarkt ab.",
@@ -5622,11 +4915,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Einladung",
-          "Einladung",
-          "Einladung"
         ],
         "examples": [
           {
@@ -5661,11 +4949,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "für etwas verantwortlich sein",
-          "für etwas verantwortlich sein",
-          "für"
-        ],
         "examples": [
           {
             "de": "Marco ist für die Musikauswahl verantwortlich.",
@@ -5694,11 +4977,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Plattenfirma",
-          "Plattenfirma",
-          "Plattenfirma"
         ],
         "examples": [
           {
@@ -5729,11 +5007,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Band",
-          "Band",
-          "Band"
-        ],
         "examples": [
           {
             "de": "Marco hat eine Band gegründet.",
@@ -5762,11 +5035,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "ab 10 Uhr abends",
-          "ab 10 Uhr abends",
-          "ab 10 Uhr abends"
         ],
         "examples": [
           {
@@ -5797,11 +5065,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "für 29,50 Euro",
-          "für 29,50 Euro",
-          "für 29,50 Euro"
-        ],
         "examples": [
           {
             "de": "Heute gibt es die Jeans für 29,50 Euro.",
@@ -5830,11 +5093,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Stock",
-          "Stock",
-          "Stock"
         ],
         "examples": [
           {
@@ -5865,11 +5123,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Musikauswahl",
-          "Musikauswahl",
-          "Musikauswahl"
-        ],
         "examples": [
           {
             "de": "Marco ist für die Musikauswahl verantwortlich.",
@@ -5899,11 +5152,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Rücktritt",
-          "Rücktritt",
-          "Rücktritt"
-        ],
         "examples": [
           {
             "de": "Das Publikum hat den Rücktritt verstanden.",
@@ -5932,11 +5180,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "neueste-",
-          "neueste-",
-          "neueste-"
         ],
         "examples": [
           {
@@ -6006,6 +5249,13 @@
         }
       ],
       "questions": []
+    },
+    "review": {
+      "id": "l8-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-7."
     }
   },
   {
@@ -6013,7 +5263,7 @@
     "code": "Set 09",
     "title": "Wortschatz Set 9",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -6035,11 +5285,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Interview",
-          "Interview",
-          "Interview"
         ],
         "examples": [
           {
@@ -6070,11 +5315,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "nicht mehr",
-          "nicht mehr",
-          "nicht mehr"
-        ],
         "examples": [
           {
             "de": "Die Gruppe spielt nicht mehr zusammen.",
@@ -6103,11 +5343,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "veröffentlichen",
-          "veröffentlichen",
-          "veröffentlichen"
         ],
         "examples": [
           {
@@ -6138,11 +5373,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "mehr ... als ...",
-          "mehr ... als ...",
-          "mehr"
-        ],
         "examples": [
           {
             "de": "Im Verein gibt es mehr Frauen als Männer.",
@@ -6171,11 +5401,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Sport treiben",
-          "Sport treiben",
-          "Sport treiben"
         ],
         "examples": [
           {
@@ -6206,11 +5431,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "voll mit etwas sein",
-          "voll mit etwas sein",
-          "voll"
-        ],
         "examples": [
           {
             "de": "Das Zimmer ist voll mit Sachen.",
@@ -6239,11 +5459,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Mitglied",
-          "Mitglied",
-          "Mitglied"
         ],
         "examples": [
           {
@@ -6278,11 +5493,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Krieg",
-          "Krieg",
-          "Krieg"
-        ],
         "examples": [
           {
             "de": "Viele Papiere sind im Krieg verloren gegangen.",
@@ -6311,11 +5521,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "ausbilden",
-          "ausbilden",
-          "ausbilden"
         ],
         "examples": [
           {
@@ -6346,11 +5551,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Lehrer / die Lehrerin",
-          "Lehrer / die Lehrerin",
-          "Lehrer"
-        ],
         "examples": [
           {
             "de": "Einige Mitglieder arbeiten heute als Lehrer.",
@@ -6379,11 +5579,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Musiksendung",
-          "Musiksendung",
-          "Musiksendung"
         ],
         "examples": [
           {
@@ -6414,11 +5609,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "verloren gehen",
-          "verloren gehen",
-          "verloren"
-        ],
         "examples": [
           {
             "de": "Viele Papiere sind verloren gegangen.",
@@ -6447,11 +5637,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Halle",
-          "Halle",
-          "Halle"
         ],
         "examples": [
           {
@@ -6482,11 +5667,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Poster",
-          "Poster",
-          "Poster"
-        ],
         "examples": [
           {
             "de": "Im Zimmer hängen viele Poster.",
@@ -6515,11 +5695,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "verschieden",
-          "verschieden",
-          "verschieden"
         ],
         "examples": [
           {
@@ -6550,11 +5725,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "im Freien",
-          "im Freien",
-          "im Freien"
-        ],
         "examples": [
           {
             "de": "Man kann im Freien Sport treiben.",
@@ -6583,11 +5753,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Musikgruppe",
-          "Musikgruppe",
-          "Musikgruppe"
         ],
         "examples": [
           {
@@ -6618,11 +5783,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Kosten tragen",
-          "Kosten tragen",
-          "Kosten"
-        ],
         "examples": [
           {
             "de": "Die Mitglieder müssen die Kosten alleine tragen.",
@@ -6652,11 +5812,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Festzeitung",
-          "Festzeitung",
-          "Festzeitung"
-        ],
         "examples": [
           {
             "de": "Der Verein veröffentlicht eine Festzeitung.",
@@ -6685,11 +5840,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "jedes Jahr",
-          "jedes Jahr",
-          "jedes Jahr"
         ],
         "examples": [
           {
@@ -6759,6 +5909,13 @@
         }
       ],
       "questions": []
+    },
+    "review": {
+      "id": "l9-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-8."
     }
   },
   {
@@ -6766,7 +5923,7 @@
     "code": "Set 10",
     "title": "Wortschatz Set 10",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -6788,11 +5945,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Schauspieler / die Schauspielerin",
-          "Schauspieler / die Schauspielerin",
-          "Schauspieler"
         ],
         "examples": [
           {
@@ -6823,11 +5975,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Ordnung",
-          "Ordnung",
-          "Ordnung"
-        ],
         "examples": [
           {
             "de": "Ordnung ist ihr sehr wichtig.",
@@ -6856,11 +6003,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "zusammen spielen",
-          "zusammen spielen",
-          "zusammen"
         ],
         "examples": [
           {
@@ -6891,11 +6033,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Rockgruppe",
-          "Rockgruppe",
-          "Rockgruppe"
-        ],
         "examples": [
           {
             "de": "Der Sprecher sammelt Bilder von der Rockgruppe Metallica.",
@@ -6924,11 +6061,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Fußballstar",
-          "Fußballstar",
-          "Fußballstar"
         ],
         "examples": [
           {
@@ -6959,11 +6091,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "auf dem Programm stehen",
-          "auf dem Programm stehen",
-          "auf dem Programm stehen"
-        ],
         "examples": [
           {
             "de": "Der Besuch der Insel steht auf dem Programm.",
@@ -6992,11 +6119,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Naturlandschaft",
-          "Naturlandschaft",
-          "Naturlandschaft"
         ],
         "examples": [
           {
@@ -7027,11 +6149,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Wäsche",
-          "Wäsche",
-          "Wäsche"
-        ],
         "examples": [
           {
             "de": "Er wäscht die Wäsche.",
@@ -7060,11 +6177,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Situation",
-          "Situation",
-          "Situation"
         ],
         "examples": [
           {
@@ -7095,11 +6207,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich mit jemandem unterhalten",
-          "sich mit jemandem unterhalten",
-          "sich mit jemandem unterhalten"
-        ],
         "examples": [
           {
             "de": "Der Journalist unterhält sich mit einer Vertreterin.",
@@ -7128,11 +6235,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "wunderschön",
-          "wunderschön",
-          "wunderschön"
         ],
         "examples": [
           {
@@ -7163,11 +6265,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "froh sein, dass ...",
-          "froh sein, dass ...",
-          "froh"
-        ],
         "examples": [
           {
             "de": "Sie ist froh, dass ihr Mann viele Hausarbeiten übernimmt.",
@@ -7196,11 +6293,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Geschirr",
-          "Geschirr",
-          "Geschirr"
         ],
         "examples": [
           {
@@ -7231,11 +6323,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Besuch",
-          "Besuch",
-          "Besuch"
-        ],
         "examples": [
           {
             "de": "Steht auch der Besuch der Insel auf dem Programm?",
@@ -7264,11 +6351,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Sprecher / die Sprecherin",
-          "Sprecher / die Sprecherin",
-          "Sprecher"
         ],
         "examples": [
           {
@@ -7299,11 +6381,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Hausarbeit",
-          "Hausarbeit",
-          "Hausarbeit"
-        ],
         "examples": [
           {
             "de": "Sie hat keine Zeit für die Hausarbeit.",
@@ -7332,11 +6409,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Sportverein",
-          "Sportverein",
-          "Sportverein"
         ],
         "examples": [
           {
@@ -7367,11 +6439,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Verein",
-          "Verein",
-          "Verein"
-        ],
         "examples": [
           {
             "de": "Der Verein veröffentlicht jedes Jahr eine Festzeitung.",
@@ -7401,11 +6468,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Feier",
-          "Feier",
-          "Feier"
-        ],
         "examples": [
           {
             "de": "Der Verein plant eine große Feier.",
@@ -7434,11 +6496,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Vertreter / die Vertreterin",
-          "Vertreter / die Vertreterin",
-          "Vertreter"
         ],
         "examples": [
           {
@@ -7510,6 +6567,13 @@
         }
       ],
       "questions": []
+    },
+    "review": {
+      "id": "l10-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-9."
     }
   },
   {
@@ -7517,7 +6581,7 @@
     "code": "Set 11",
     "title": "Wortschatz Set 11",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -7539,11 +6603,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich etwas aufteilen",
-          "sich etwas aufteilen",
-          "sich etwas aufteilen"
         ],
         "examples": [
           {
@@ -7574,11 +6633,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Haushalt",
-          "Haushalt",
-          "Haushalt"
-        ],
         "examples": [
           {
             "de": "Sie muss im Haushalt fast alles alleine machen.",
@@ -7607,11 +6661,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "fast alles",
-          "fast alles",
-          "fast alles"
         ],
         "examples": [
           {
@@ -7642,11 +6691,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "allein / alleine",
-          "allein / alleine",
-          "allein"
-        ],
         "examples": [
           {
             "de": "Sie macht die Hausarbeit alleine.",
@@ -7675,11 +6719,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Partner / die Partnerin",
-          "Partner / die Partnerin",
-          "Partner"
         ],
         "examples": [
           {
@@ -7710,11 +6749,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "planen",
-          "planen",
-          "planen"
-        ],
         "examples": [
           {
             "de": "Wir planen einen Ausflug.",
@@ -7744,11 +6778,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "berufstätig",
-          "berufstätig",
-          "berufstätig"
-        ],
         "examples": [
           {
             "de": "Die Sprecherin ist berufstätig.",
@@ -7777,11 +6806,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Anfang",
-          "Anfang",
-          "Anfang"
         ],
         "examples": [
           {
@@ -7820,11 +6844,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Insel",
-          "Insel",
-          "Insel"
-        ],
         "examples": [
           {
             "de": "Hiddensee ist eine Insel in der Ostsee.",
@@ -7853,11 +6872,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Journalist / die Journalistin",
-          "Journalist / die Journalistin",
-          "Journalist"
         ],
         "examples": [
           {
@@ -7888,11 +6902,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Möglichkeit",
-          "Möglichkeit",
-          "Möglichkeit"
-        ],
         "examples": [
           {
             "de": "Gibt es die Möglichkeit, ein Zimmer zu mieten?",
@@ -7921,11 +6930,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Informationen zu etwas",
-          "Informationen zu etwas",
-          "Informationen"
         ],
         "examples": [
           {
@@ -7956,11 +6960,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "zum Schluss",
-          "zum Schluss",
-          "zum Schluss"
-        ],
         "examples": [
           {
             "de": "Zum Schluss habe ich noch eine Frage.",
@@ -7989,11 +6988,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "preiswert",
-          "preiswert",
-          "preiswert"
         ],
         "examples": [
           {
@@ -8024,11 +7018,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Zertifikatsprüfung",
-          "Zertifikatsprüfung",
-          "Zertifikatsprüfung"
-        ],
         "examples": [
           {
             "de": "Ich werde die Zertifikatsprüfung Deutsch ablegen.",
@@ -8057,11 +7046,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "natürlich",
-          "natürlich",
-          "natürlich"
         ],
         "examples": [
           {
@@ -8092,11 +7076,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Zimmer",
-          "Zimmer",
-          "Zimmer"
-        ],
         "examples": [
           {
             "de": "Ich möchte ein Zimmer mieten.",
@@ -8125,11 +7104,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "in einem Monat",
-          "in einem Monat",
-          "in einem Monat"
         ],
         "examples": [
           {
@@ -8160,11 +7134,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Tagesplan",
-          "Tagesplan",
-          "Tagesplan"
-        ],
         "examples": [
           {
             "de": "Wie sieht mein Tagesplan aus?",
@@ -8193,11 +7162,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Foto",
-          "Foto",
-          "Foto"
         ],
         "examples": [
           {
@@ -8228,14 +7192,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l11-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-10."
+    }
   },
   {
     "id": 12,
     "code": "Set 12",
     "title": "Wortschatz Set 12",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -8257,11 +7228,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Taschengeld",
-          "Taschengeld",
-          "Taschengeld"
         ],
         "examples": [
           {
@@ -8292,11 +7258,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "was",
-          "was",
-          "was"
-        ],
         "examples": [
           {
             "de": "Was muss ich machen?",
@@ -8325,11 +7286,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "aussehen",
-          "aussehen",
-          "aussehen"
         ],
         "examples": [
           {
@@ -8360,11 +7316,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Gastfamilie",
-          "Gastfamilie",
-          "Gastfamilie"
-        ],
         "examples": [
           {
             "de": "Die Teilnehmer wohnen in Gastfamilien.",
@@ -8393,11 +7344,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "in diesem Zusammenhang",
-          "in diesem Zusammenhang",
-          "in diesem Zusammenhang"
         ],
         "examples": [
           {
@@ -8428,11 +7374,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Kommunikation",
-          "Kommunikation",
-          "Kommunikation"
-        ],
         "examples": [
           {
             "de": "Mich interessiert Kommunikation im Beruf.",
@@ -8461,11 +7402,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "mieten",
-          "mieten",
-          "mieten"
         ],
         "examples": [
           {
@@ -8496,11 +7432,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Aktivität",
-          "Aktivität",
-          "Aktivität"
-        ],
         "examples": [
           {
             "de": "Welche Aktivitäten genau sind geplant?",
@@ -8529,11 +7460,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "ein Foto von jemandem",
-          "Foto von jemandem",
-          "Foto"
         ],
         "examples": [
           {
@@ -8564,11 +7490,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Hotel",
-          "Hotel",
-          "Hotel"
-        ],
         "examples": [
           {
             "de": "Kann man ein Zimmer in einem Hotel mieten?",
@@ -8597,11 +7518,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "vor allem",
-          "vor allem",
-          "vor allem"
         ],
         "examples": [
           {
@@ -8636,11 +7552,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Teilnehmer / die Teilnehmerin",
-          "Teilnehmer / die Teilnehmerin",
-          "Teilnehmer"
-        ],
         "examples": [
           {
             "de": "Die Teilnehmer können in Gastfamilien wohnen.",
@@ -8669,11 +7580,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "für Fortgeschrittene",
-          "für Fortgeschrittene",
-          "für Fortgeschrittene"
         ],
         "examples": [
           {
@@ -8704,11 +7610,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "wohnen",
-          "wohnen",
-          "wohnen"
-        ],
         "examples": [
           {
             "de": "Die Teilnehmer können in Gastfamilien wohnen.",
@@ -8737,11 +7638,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Beruf",
-          "Beruf",
-          "Beruf"
         ],
         "examples": [
           {
@@ -8780,11 +7676,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "helfen",
-          "helfen",
-          "helfen"
-        ],
         "examples": [
           {
             "de": "Ich muss meiner Mutter in der Küche helfen.",
@@ -8818,11 +7709,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Lehre",
-          "Lehre",
-          "Lehre"
-        ],
         "examples": [
           {
             "de": "Ich beginne eine Lehre in einer Bank.",
@@ -8851,11 +7737,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Umgebung",
-          "Umgebung",
-          "Umgebung"
         ],
         "examples": [
           {
@@ -8886,11 +7767,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "verbessern",
-          "verbessern",
-          "verbessern"
-        ],
         "examples": [
           {
             "de": "Ich würde gern mein Englisch verbessern.",
@@ -8919,11 +7795,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Pension",
-          "Pension",
-          "Pension"
         ],
         "examples": [
           {
@@ -8954,14 +7825,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l12-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-11."
+    }
   },
   {
     "id": 13,
     "code": "Set 13",
     "title": "Wortschatz Set 13",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -8983,11 +7861,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Prospekt",
-          "Prospekt",
-          "Prospekt"
         ],
         "examples": [
           {
@@ -9017,11 +7890,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Arbeit",
-          "Arbeit",
-          "Arbeit"
         ],
         "examples": [
           {
@@ -9068,11 +7936,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Schuljahr",
-          "Schuljahr",
-          "Schuljahr"
-        ],
         "examples": [
           {
             "de": "Das Schuljahr endet im Juni.",
@@ -9101,11 +7964,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "an einem Kurs teilnehmen",
-          "an einem Kurs teilnehmen",
-          "teilnehmen"
         ],
         "examples": [
           {
@@ -9136,11 +7994,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "darüber",
-          "darüber",
-          "darüber"
-        ],
         "examples": [
           {
             "de": "Ich würde gern mehr darüber wissen.",
@@ -9169,11 +8022,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "so bald wie möglich",
-          "so bald wie möglich",
-          "so bald wie möglich"
         ],
         "examples": [
           {
@@ -9204,11 +8052,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich entscheiden",
-          "sich entscheiden",
-          "entscheiden"
-        ],
         "examples": [
           {
             "de": "Wir müssen uns bald entscheiden.",
@@ -9237,11 +8080,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "schließlich",
-          "schließlich",
-          "schließlich"
         ],
         "examples": [
           {
@@ -9272,11 +8110,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "deshalb",
-          "deshalb",
-          "deshalb"
-        ],
         "examples": [
           {
             "de": "Die Kinder können sich nicht vom Hund trennen. Deshalb nehmen wir ihn mit.",
@@ -9305,11 +8138,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "enden",
-          "enden",
-          "enden"
         ],
         "examples": [
           {
@@ -9340,11 +8168,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "mehr über etwas wissen",
-          "mehr über etwas wissen",
-          "wissen"
-        ],
         "examples": [
           {
             "de": "Ich möchte mehr über die Arbeit wissen.",
@@ -9373,11 +8196,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Geschwister",
-          "Geschwister",
-          "Geschwister"
         ],
         "examples": [
           {
@@ -9408,11 +8226,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sowie",
-          "sowie",
-          "sowie"
-        ],
         "examples": [
           {
             "de": "Bitte senden Sie Bilder Ihrer Pension sowie der Umgebung.",
@@ -9442,11 +8255,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Hausaufgaben",
-          "Hausaufgaben",
-          "Hausaufgaben"
-        ],
         "examples": [
           {
             "de": "Ich helfe meinen Geschwistern bei den Hausaufgaben.",
@@ -9475,11 +8283,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "mit etwas beginnen",
-          "mit etwas beginnen",
-          "mit etwas beginnen"
         ],
         "examples": [
           {
@@ -9514,11 +8317,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Sekundarschule",
-          "Sekundarschule",
-          "Sekundarschule"
-        ],
         "examples": [
           {
             "de": "Sie ist in der letzten Klasse der Sekundarschule.",
@@ -9547,11 +8345,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "zusenden",
-          "zusenden",
-          "zusenden"
         ],
         "examples": [
           {
@@ -9582,11 +8375,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "viel zu tun haben",
-          "viel zu tun haben",
-          "viel zu tun haben"
-        ],
         "examples": [
           {
             "de": "Zu Hause habe ich viel zu tun.",
@@ -9615,11 +8403,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "frei bekommen / freibekommen",
-          "frei bekommen / freibekommen",
-          "bekommen"
         ],
         "examples": [
           {
@@ -9650,11 +8433,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "jemandem dankbar sein",
-          "jemandem dankbar sein",
-          "jemandem dankbar sein"
-        ],
         "examples": [
           {
             "de": "Wir wären Ihnen sehr dankbar.",
@@ -9684,14 +8462,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l13-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-12."
+    }
   },
   {
     "id": 14,
     "code": "Set 14",
     "title": "Wortschatz Set 14",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -9713,11 +8498,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Schwimmkurs",
-          "Schwimmkurs",
-          "Schwimmkurs"
         ],
         "examples": [
           {
@@ -9748,11 +8528,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Unterkunft",
-          "Unterkunft",
-          "Unterkunft"
-        ],
         "examples": [
           {
             "de": "Die Unterkunft bietet günstige Angebote für Kinder.",
@@ -9781,11 +8556,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Service",
-          "Service",
-          "Service"
         ],
         "examples": [
           {
@@ -9816,11 +8586,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich für etwas interessieren",
-          "sich für etwas interessieren",
-          "sich für etwas interessieren"
-        ],
         "examples": [
           {
             "de": "Ich interessiere mich sehr für Ihr Angebot.",
@@ -9849,11 +8614,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "nähere Informationen",
-          "nähere Informationen",
-          "nähere Informationen"
         ],
         "examples": [
           {
@@ -9884,11 +8644,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "innerhalb",
-          "innerhalb",
-          "innerhalb"
-        ],
         "examples": [
           {
             "de": "Bitte liefern Sie die Sessel innerhalb der nächsten zwei Wochen.",
@@ -9917,11 +8672,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Angebot",
-          "Angebot",
-          "Angebot"
         ],
         "examples": [
           {
@@ -9952,11 +8702,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "erneut",
-          "erneut",
-          "erneut"
-        ],
         "examples": [
           {
             "de": "Ich habe letzte Woche erneut telefonisch reklamiert.",
@@ -9985,11 +8730,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Anzeige",
-          "Anzeige",
-          "Anzeige"
         ],
         "examples": [
           {
@@ -10020,11 +8760,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich von jemandem/etwas trennen",
-          "sich von jemandem/etwas trennen",
-          "trennen"
-        ],
         "examples": [
           {
             "de": "Die Kinder können sich von ihrem Hund nicht trennen.",
@@ -10053,11 +8788,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "mit etwas zufrieden sein",
-          "mit etwas zufrieden sein",
-          "zufrieden"
         ],
         "examples": [
           {
@@ -10088,11 +8818,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "reklamieren",
-          "reklamieren",
-          "reklamieren"
-        ],
         "examples": [
           {
             "de": "Ich habe die verspätete Lieferung reklamiert.",
@@ -10121,11 +8846,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "pro Woche",
-          "pro Woche",
-          "pro Woche"
         ],
         "examples": [
           {
@@ -10160,11 +8880,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "gern / gerne",
-          "gern / gerne",
-          "gern"
-        ],
         "examples": [
           {
             "de": "Ich hätte gern noch nähere Informationen.",
@@ -10198,11 +8913,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "wenn ja",
-          "wenn ja",
-          "wenn ja"
-        ],
         "examples": [
           {
             "de": "Gibt es Kurse für Kinder? Wenn ja, was kosten sie?",
@@ -10231,11 +8941,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Hersteller",
-          "Hersteller",
-          "Hersteller"
         ],
         "examples": [
           {
@@ -10266,11 +8971,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "besonders",
-          "besonders",
-          "besonders"
-        ],
         "examples": [
           {
             "de": "Das Freizeitprogramm interessiert uns ganz besonders.",
@@ -10299,11 +8999,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Tenniskurs",
-          "Tenniskurs",
-          "Tenniskurs"
         ],
         "examples": [
           {
@@ -10334,11 +9029,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "Urlaub machen",
-          "Urlaub machen",
-          "Urlaub machen"
-        ],
         "examples": [
           {
             "de": "Wir möchten im August in Österreich Urlaub machen.",
@@ -10367,11 +9057,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Freizeitprogramm",
-          "Freizeitprogramm",
-          "Freizeitprogramm"
         ],
         "examples": [
           {
@@ -10402,14 +9087,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l14-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-13."
+    }
   },
   {
     "id": 15,
     "code": "Set 15",
     "title": "Wortschatz Set 15",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -10431,11 +9123,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sonst",
-          "sonst",
-          "sonst"
         ],
         "examples": [
           {
@@ -10466,11 +9153,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Möbel / die Möbel",
-          "Möbel / die Möbel",
-          "Möbel"
-        ],
         "examples": [
           {
             "de": "Der Hersteller der Möbel hat Probleme.",
@@ -10499,11 +9181,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "von etwas zurücktreten",
-          "von etwas zurücktreten",
-          "zurücktreten"
         ],
         "examples": [
           {
@@ -10534,11 +9211,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Kaufvertrag",
-          "Kaufvertrag",
-          "Kaufvertrag"
-        ],
         "examples": [
           {
             "de": "Ich habe den Kaufvertrag unterschrieben.",
@@ -10567,11 +9239,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "spätestens",
-          "spätestens",
-          "spätestens"
         ],
         "examples": [
           {
@@ -10602,11 +9269,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Bett",
-          "Bett",
-          "Bett"
-        ],
         "examples": [
           {
             "de": "Die Kundin hat ein Bett gekauft.",
@@ -10636,11 +9298,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Monat",
-          "Monat",
-          "Monat"
-        ],
         "examples": [
           {
             "de": "Im Laufe des Monats kommt die Ware an.",
@@ -10669,11 +9326,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "anstrengend",
-          "anstrengend",
-          "anstrengend"
         ],
         "examples": [
           {
@@ -10712,11 +9364,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Chef / die Chefin",
-          "Chef / die Chefin",
-          "Chef"
-        ],
         "examples": [
           {
             "de": "Der Chef ist sehr nett.",
@@ -10745,11 +9392,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "zu jemandem kommen",
-          "zu jemandem kommen",
-          "kommen"
         ],
         "examples": [
           {
@@ -10780,11 +9422,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Provision",
-          "Provision",
-          "Provision"
-        ],
         "examples": [
           {
             "de": "Ich bekomme eine Provision, wenn ich etwas verkaufe.",
@@ -10813,11 +9450,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "vergehen",
-          "vergehen",
-          "vergehen"
         ],
         "examples": [
           {
@@ -10848,11 +9480,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sogar",
-          "sogar",
-          "sogar"
-        ],
         "examples": [
           {
             "de": "Ich bekomme sogar eine Provision.",
@@ -10881,11 +9508,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Ware",
-          "Ware",
-          "Ware"
         ],
         "examples": [
           {
@@ -10916,11 +9538,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "bestellen",
-          "bestellen",
-          "bestellen"
-        ],
         "examples": [
           {
             "de": "Ich habe telefonisch bei Ihnen zwei Sessel bestellt.",
@@ -10949,11 +9566,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "inzwischen",
-          "inzwischen",
-          "inzwischen"
         ],
         "examples": [
           {
@@ -10984,11 +9596,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Serviceabteilung",
-          "Serviceabteilung",
-          "Serviceabteilung"
-        ],
         "examples": [
           {
             "de": "Ich telefonierte mit der Serviceabteilung.",
@@ -11018,11 +9625,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "verkaufen",
-          "verkaufen",
-          "verkaufen"
-        ],
         "examples": [
           {
             "de": "Ich habe der Kundin ein Bett verkauft.",
@@ -11051,11 +9653,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Erfolg",
-          "Erfolg",
-          "Erfolg"
         ],
         "examples": [
           {
@@ -11090,11 +9687,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Verkäufer / die Verkäuferin",
-          "Verkäufer / die Verkäuferin",
-          "Verkäufer"
-        ],
         "examples": [
           {
             "de": "Sie arbeitet seit drei Wochen als Verkäuferin.",
@@ -11124,14 +9716,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l15-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-14."
+    }
   },
   {
     "id": 16,
     "code": "Set 16",
     "title": "Wortschatz Set 16",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -11153,11 +9752,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "ankommen",
-          "ankommen",
-          "ankommen"
         ],
         "examples": [
           {
@@ -11188,11 +9782,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "im Laufe",
-          "im Laufe",
-          "im Laufe"
-        ],
         "examples": [
           {
             "de": "Die Ware sollte im Laufe des Monats ankommen.",
@@ -11221,11 +9810,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Kollege / die Kollegin",
-          "Kollege / die Kollegin",
-          "Kollege"
         ],
         "examples": [
           {
@@ -11260,11 +9844,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Sessel",
-          "Sessel",
-          "Sessel"
-        ],
         "examples": [
           {
             "de": "Ich habe zwei Sessel bestellt.",
@@ -11293,11 +9872,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "zuschicken",
-          "zuschicken",
-          "zuschicken"
         ],
         "examples": [
           {
@@ -11328,11 +9902,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Kunde / die Kundin",
-          "Kunde / die Kundin",
-          "Kunde / die Kundin"
-        ],
         "examples": [
           {
             "de": "Eine Kundin möchte eine Couch kaufen.",
@@ -11361,11 +9930,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Couch",
-          "Couch",
-          "Couch"
         ],
         "examples": [
           {
@@ -11396,11 +9960,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "mit jemandem telefonieren",
-          "mit jemandem telefonieren",
-          "mit jemandem telefonieren"
-        ],
         "examples": [
           {
             "de": "Ich habe mit einer Mitarbeiterin telefoniert.",
@@ -11429,11 +9988,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "nett",
-          "nett",
-          "nett"
         ],
         "examples": [
           {
@@ -11464,11 +10018,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "jemanden nehmen",
-          "jemanden nehmen",
-          "jemanden nehmen"
-        ],
         "examples": [
           {
             "de": "Die Firma hat mich genommen.",
@@ -11497,11 +10046,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Möbelhaus",
-          "Möbelhaus",
-          "Möbelhaus"
         ],
         "examples": [
           {
@@ -11532,11 +10076,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich langweilen",
-          "sich langweilen",
-          "sich langweilen"
-        ],
         "examples": [
           {
             "de": "Ich langweile mich schrecklich.",
@@ -11565,11 +10104,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Bewerbung",
-          "Bewerbung",
-          "Bewerbung"
         ],
         "examples": [
           {
@@ -11600,11 +10134,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "feststellen",
-          "feststellen",
-          "feststellen"
-        ],
         "examples": [
           {
             "de": "Im Krankenhaus haben sie festgestellt, dass das Bein gebrochen war.",
@@ -11633,11 +10162,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Tablette",
-          "Tablette",
-          "Tablette"
         ],
         "examples": [
           {
@@ -11668,11 +10192,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "endlich",
-          "endlich",
-          "endlich"
-        ],
         "examples": [
           {
             "de": "Ich habe endlich eine Arbeit gefunden.",
@@ -11701,11 +10220,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "gebrochen",
-          "gebrochen",
-          "gebrochen"
         ],
         "examples": [
           {
@@ -11736,11 +10250,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "schade",
-          "schade",
-          "schade"
-        ],
         "examples": [
           {
             "de": "Schade, dass du nicht kommen konntest.",
@@ -11769,11 +10278,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Bewerbungsgespräch",
-          "Bewerbungsgespräch",
-          "Bewerbungsgespräch"
         ],
         "examples": [
           {
@@ -11804,11 +10308,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "verschicken",
-          "verschicken",
-          "verschicken"
-        ],
         "examples": [
           {
             "de": "Sie hat zehn Bewerbungen verschickt.",
@@ -11838,14 +10337,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l16-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-15."
+    }
   },
   {
     "id": 17,
     "code": "Set 17",
     "title": "Wortschatz Set 17",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -11867,11 +10373,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "von früher",
-          "von früher",
-          "von früher"
         ],
         "examples": [
           {
@@ -11902,11 +10403,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "operieren",
-          "operieren",
-          "operieren"
-        ],
         "examples": [
           {
             "de": "Das Bein wurde gestern operiert.",
@@ -11935,11 +10431,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Gips",
-          "Gips",
-          "Gips"
         ],
         "examples": [
           {
@@ -11970,11 +10461,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "bestimmt",
-          "bestimmt",
-          "bestimmt"
-        ],
         "examples": [
           {
             "de": "Es hätte dir bestimmt Spaß gemacht.",
@@ -12003,11 +10489,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "jemandem Spaß machen",
-          "jemandem Spaß machen",
-          "jemandem Spaß machen"
         ],
         "examples": [
           {
@@ -12042,11 +10523,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Job",
-          "Job",
-          "Job"
-        ],
         "examples": [
           {
             "de": "Ich habe endlich einen Job!",
@@ -12075,11 +10551,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "schrecklich",
-          "schrecklich",
-          "schrecklich"
         ],
         "examples": [
           {
@@ -12110,11 +10581,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "dauern",
-          "dauern",
-          "dauern"
-        ],
         "examples": [
           {
             "de": "Es wird noch einige Zeit dauern.",
@@ -12143,11 +10609,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "wiedersehen",
-          "wiedersehen",
-          "wiedersehen"
         ],
         "examples": [
           {
@@ -12178,11 +10639,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Geburtstagsgruß",
-          "Geburtstagsgruß",
-          "Geburtstagsgruß"
-        ],
         "examples": [
           {
             "de": "Vielen Dank für deine lieben Geburtstagsgrüße.",
@@ -12211,11 +10667,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Wochenende",
-          "Wochenende",
-          "Wochenende"
         ],
         "examples": [
           {
@@ -12250,11 +10701,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "besuchen",
-          "besuchen",
-          "besuchen"
-        ],
         "examples": [
           {
             "de": "Besuch mich doch mal!",
@@ -12283,11 +10729,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "liegen",
-          "liegen",
-          "liegen"
         ],
         "examples": [
           {
@@ -12318,11 +10759,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "laufen",
-          "laufen",
-          "laufen"
-        ],
         "examples": [
           {
             "de": "Bald kann ich wieder normal laufen.",
@@ -12351,11 +10787,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Stell dir vor!",
-          "Stell dir vor!",
-          "Stell"
         ],
         "examples": [
           {
@@ -12386,11 +10817,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "hinfallen",
-          "hinfallen",
-          "hinfallen"
-        ],
         "examples": [
           {
             "de": "Ich bin ausgerutscht und hingefallen.",
@@ -12419,11 +10845,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Disco",
-          "Disco",
-          "Disco"
         ],
         "examples": [
           {
@@ -12462,11 +10883,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "irgendetwas",
-          "irgendetwas",
-          "irgendetwas"
-        ],
         "examples": [
           {
             "de": "Kannst du dich an irgendetwas erinnern?",
@@ -12495,11 +10911,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "zum Glück",
-          "zum Glück",
-          "zum Glück"
         ],
         "examples": [
           {
@@ -12530,11 +10941,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Fundbüro",
-          "Fundbüro",
-          "Fundbüro"
-        ],
         "examples": [
           {
             "de": "Ich werde zum Fundbüro gehen.",
@@ -12564,14 +10970,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l17-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-16."
+    }
   },
   {
     "id": 18,
     "code": "Set 18",
     "title": "Wortschatz Set 18",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -12593,11 +11006,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Papiere",
-          "Papiere",
-          "Papiere"
         ],
         "examples": [
           {
@@ -12632,11 +11040,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "unglaublich",
-          "unglaublich",
-          "unglaublich"
-        ],
         "examples": [
           {
             "de": "Das Bein hat unglaublich wehgetan.",
@@ -12665,11 +11068,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "finden",
-          "finden",
-          "finden"
         ],
         "examples": [
           {
@@ -12700,11 +11098,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "aufpassen",
-          "aufpassen",
-          "aufpassen"
-        ],
         "examples": [
           {
             "de": "Ich habe nicht aufgepasst und bin hingefallen.",
@@ -12733,11 +11126,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "komisch",
-          "komisch",
-          "komisch"
         ],
         "examples": [
           {
@@ -12768,11 +11156,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Bein",
-          "Bein",
-          "Bein"
-        ],
         "examples": [
           {
             "de": "Das linke Bein hat mir wehgetan.",
@@ -12801,11 +11184,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Krankenhaus",
-          "Krankenhaus",
-          "Krankenhaus"
         ],
         "examples": [
           {
@@ -12836,11 +11214,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Bar",
-          "Bar",
-          "Bar"
-        ],
         "examples": [
           {
             "de": "Zwei Männer standen an der Bar.",
@@ -12869,11 +11242,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "schreiben",
-          "schreiben",
-          "schreiben"
         ],
         "examples": [
           {
@@ -12904,11 +11272,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "ausprobieren",
-          "ausprobieren",
-          "ausprobieren"
-        ],
         "examples": [
           {
             "de": "Ich musste das neue Rennrad sofort ausprobieren.",
@@ -12937,11 +11300,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Rennrad",
-          "Rennrad",
-          "Rennrad"
         ],
         "examples": [
           {
@@ -12972,11 +11330,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "dabeihaben",
-          "dabeihaben",
-          "dabeihaben"
-        ],
         "examples": [
           {
             "de": "Ich hatte nicht viel Geld dabei.",
@@ -13005,11 +11358,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "nehmen",
-          "nehmen",
-          "nehmen"
         ],
         "examples": [
           {
@@ -13040,11 +11388,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "irgendwie",
-          "irgendwie",
-          "irgendwie"
-        ],
         "examples": [
           {
             "de": "Irgendwie habe ich nicht aufgepasst.",
@@ -13073,11 +11416,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "etwas geschenkt bekommen",
-          "etwas geschenkt bekommen",
-          "bekommen"
         ],
         "examples": [
           {
@@ -13108,11 +11446,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "liebe Grüße",
-          "liebe Grüße",
-          "liebe"
-        ],
         "examples": [
           {
             "de": "Danke für deine lieben Grüße.",
@@ -13141,11 +11474,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Weihnachten",
-          "Weihnachten",
-          "Weihnachten"
         ],
         "examples": [
           {
@@ -13176,11 +11504,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "wehtun",
-          "wehtun",
-          "wehtun"
-        ],
         "examples": [
           {
             "de": "Das Bein tut mir weh.",
@@ -13210,11 +11533,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Wald",
-          "Wald",
-          "Wald"
-        ],
         "examples": [
           {
             "de": "Ich bin mit dem Rennrad in den Wald gefahren.",
@@ -13243,11 +11561,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "denken",
-          "denken",
-          "denken"
         ],
         "examples": [
           {
@@ -13282,14 +11595,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l18-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-17."
+    }
   },
   {
     "id": 19,
     "code": "Set 19",
     "title": "Wortschatz Set 19",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -13311,11 +11631,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Luft",
-          "Luft",
-          "Luft"
         ],
         "examples": [
           {
@@ -13345,11 +11660,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich fühlen",
-          "sich fühlen",
-          "fühlen"
         ],
         "examples": [
           {
@@ -13384,11 +11694,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Energie",
-          "Energie",
-          "Energie"
-        ],
         "examples": [
           {
             "de": "Wir müssen Energie sparen.",
@@ -13417,11 +11722,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich erinnern",
-          "sich erinnern",
-          "erinnern"
         ],
         "examples": [
           {
@@ -13452,11 +11752,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "bezahlen",
-          "bezahlen",
-          "bezahlen"
-        ],
         "examples": [
           {
             "de": "Nachdem ich bezahlt hatte, ging ich nach Hause.",
@@ -13485,11 +11780,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "hilflos",
-          "hilflos",
-          "hilflos"
         ],
         "examples": [
           {
@@ -13520,11 +11810,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Portemonnaie",
-          "Portemonnaie",
-          "Portemonnaie"
-        ],
         "examples": [
           {
             "de": "Mein Portemonnaie war plötzlich weg.",
@@ -13553,11 +11838,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "etwas in die Tasche stecken",
-          "etwas in die Tasche stecken",
-          "etwas in die Tasche stecken"
         ],
         "examples": [
           {
@@ -13588,11 +11868,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "überhaupt",
-          "überhaupt",
-          "überhaupt"
-        ],
         "examples": [
           {
             "de": "Welche Produkte kann man überhaupt noch kaufen?",
@@ -13621,11 +11896,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "nutzen",
-          "nutzen",
-          "nutzen"
         ],
         "examples": [
           {
@@ -13656,11 +11926,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Elektroauto",
-          "Elektroauto",
-          "Elektroauto"
-        ],
         "examples": [
           {
             "de": "Elektroautos produzieren beim Fahren keine Abgase.",
@@ -13689,11 +11954,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "nach Hause kommen",
-          "nach Hause kommen",
-          "kommen"
         ],
         "examples": [
           {
@@ -13724,11 +11984,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Abgas",
-          "Abgas",
-          "Abgas"
-        ],
         "examples": [
           {
             "de": "Autos produzieren Abgase.",
@@ -13757,11 +12012,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sparen",
-          "sparen",
-          "sparen"
         ],
         "examples": [
           {
@@ -13796,11 +12046,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "ruhig mal",
-          "ruhig mal",
-          "ruhig mal"
-        ],
         "examples": [
           {
             "de": "Du könntest ruhig mal mit dem Fahrrad fahren.",
@@ -13829,11 +12074,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "verschwenden",
-          "verschwenden",
-          "verschwenden"
         ],
         "examples": [
           {
@@ -13864,11 +12104,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Fahrrad",
-          "Fahrrad",
-          "Fahrrad"
-        ],
         "examples": [
           {
             "de": "Ich fahre mit dem Fahrrad zur Schule.",
@@ -13897,11 +12132,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Alltag",
-          "Alltag",
-          "Alltag"
         ],
         "examples": [
           {
@@ -13932,11 +12162,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "verlangsamen",
-          "verlangsamen",
-          "verlangsamen"
-        ],
         "examples": [
           {
             "de": "Wir können den Klimawandel verlangsamen.",
@@ -13965,11 +12190,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "schützen",
-          "schützen",
-          "schützen"
         ],
         "examples": [
           {
@@ -14000,14 +12220,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l19-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-18."
+    }
   },
   {
     "id": 20,
     "code": "Set 20",
     "title": "Wortschatz Set 20",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -14029,11 +12256,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "umweltschädlich",
-          "umweltschädlich",
-          "umweltschädlich"
         ],
         "examples": [
           {
@@ -14063,11 +12285,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Unterricht",
-          "Unterricht",
-          "Unterricht"
         ],
         "examples": [
           {
@@ -14102,11 +12319,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Fliegen",
-          "Fliegen",
-          "Fliegen"
-        ],
         "examples": [
           {
             "de": "Das Fliegen ist umweltschädlich.",
@@ -14135,11 +12347,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "veranstalten",
-          "veranstalten",
-          "veranstalten"
         ],
         "examples": [
           {
@@ -14170,11 +12377,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "stoppen",
-          "stoppen",
-          "stoppen"
-        ],
         "examples": [
           {
             "de": "Wir müssen den Klimawandel stoppen.",
@@ -14203,11 +12405,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "verbrauchen",
-          "verbrauchen",
-          "verbrauchen"
         ],
         "examples": [
           {
@@ -14238,11 +12435,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "praktisch",
-          "praktisch",
-          "praktisch"
-        ],
         "examples": [
           {
             "de": "Die Schüler arbeiten praktisch an dem Projekt.",
@@ -14271,11 +12463,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sammeln",
-          "sammeln",
-          "sammeln"
         ],
         "examples": [
           {
@@ -14310,11 +12497,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "entsorgen",
-          "entsorgen",
-          "entsorgen"
-        ],
         "examples": [
           {
             "de": "Wie kann man den Müll richtig entsorgen?",
@@ -14343,11 +12525,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "erfahren",
-          "erfahren",
-          "erfahren"
         ],
         "examples": [
           {
@@ -14378,11 +12555,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Müllvermeidung",
-          "Müllvermeidung",
-          "Müllvermeidung"
-        ],
         "examples": [
           {
             "de": "Müllvermeidung schützt die Umwelt.",
@@ -14411,11 +12583,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Energiesparen",
-          "Energiesparen",
-          "Energiesparen"
         ],
         "examples": [
           {
@@ -14446,11 +12613,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "erleben",
-          "erleben",
-          "erleben"
-        ],
         "examples": [
           {
             "de": "Im Klimahaus erleben wir verschiedene Klimazonen.",
@@ -14479,11 +12641,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "anstatt",
-          "anstatt",
-          "anstatt"
         ],
         "examples": [
           {
@@ -14514,11 +12671,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "rund um",
-          "rund um",
-          "rund um"
-        ],
         "examples": [
           {
             "de": "Wir sammeln Müll rund um die Schule.",
@@ -14548,11 +12700,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Großstadt",
-          "Großstadt",
-          "Großstadt"
-        ],
         "examples": [
           {
             "de": "Wir möchten mehr Natur in die Großstadt bringen.",
@@ -14581,11 +12728,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich verändern",
-          "sich verändern",
-          "verändern"
         ],
         "examples": [
           {
@@ -14620,11 +12762,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "allzu",
-          "allzu",
-          "allzu"
-        ],
         "examples": [
           {
             "de": "Wir sollten nicht allzu viel Energie verbrauchen.",
@@ -14653,11 +12790,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich mit etwas beschäftigen",
-          "sich mit etwas beschäftigen",
-          "beschäftigen"
         ],
         "examples": [
           {
@@ -14688,11 +12820,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Gruppenarbeit",
-          "Gruppenarbeit",
-          "Gruppenarbeit"
-        ],
         "examples": [
           {
             "de": "Heute machen wir eine Gruppenarbeit.",
@@ -14722,14 +12849,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l20-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-19."
+    }
   },
   {
     "id": 21,
     "code": "Set 21",
     "title": "Wortschatz Set 21",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -14751,11 +12885,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "verschmutzen",
-          "verschmutzen",
-          "verschmutzen"
         ],
         "examples": [
           {
@@ -14786,11 +12915,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "theoretisch",
-          "theoretisch",
-          "theoretisch"
-        ],
         "examples": [
           {
             "de": "Wir beschäftigen uns theoretisch mit dem Thema.",
@@ -14819,11 +12943,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Klimazone",
-          "Klimazone",
-          "Klimazone"
         ],
         "examples": [
           {
@@ -14854,11 +12973,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Mülltrennung",
-          "Mülltrennung",
-          "Mülltrennung"
-        ],
         "examples": [
           {
             "de": "Mülltrennung ist wichtig für das Recycling.",
@@ -14887,11 +13001,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Recycling",
-          "Recycling",
-          "Recycling"
         ],
         "examples": [
           {
@@ -14922,11 +13031,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "mitnehmen",
-          "mitnehmen",
-          "mitnehmen"
-        ],
         "examples": [
           {
             "de": "Bitte warme Kleidung mitnehmen.",
@@ -14955,11 +13059,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Klima",
-          "Klima",
-          "Klima"
         ],
         "examples": [
           {
@@ -14990,11 +13089,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Erde",
-          "Erde",
-          "Erde"
-        ],
         "examples": [
           {
             "de": "Das Klima der Erde verändert sich.",
@@ -15023,11 +13117,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Energieform",
-          "Energieform",
-          "Energieform"
         ],
         "examples": [
           {
@@ -15058,11 +13147,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Lebensstandard",
-          "Lebensstandard",
-          "Lebensstandard"
-        ],
         "examples": [
           {
             "de": "Wir möchten unseren Lebensstandard behalten.",
@@ -15091,11 +13175,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Detail",
-          "Detail",
-          "Detail"
         ],
         "examples": [
           {
@@ -15126,11 +13205,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich treffen",
-          "sich treffen",
-          "treffen"
-        ],
         "examples": [
           {
             "de": "Wir treffen uns um 7:30 Uhr an der Schule.",
@@ -15159,11 +13233,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Umwelt",
-          "Umwelt",
-          "Umwelt"
         ],
         "examples": [
           {
@@ -15194,11 +13263,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Natur",
-          "Natur",
-          "Natur"
-        ],
         "examples": [
           {
             "de": "Wir sehen Natur in der Stadt.",
@@ -15227,11 +13291,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Müll",
-          "Müll",
-          "Müll"
         ],
         "examples": [
           {
@@ -15262,11 +13321,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "kennenlernen",
-          "kennenlernen",
-          "kennenlernen"
-        ],
         "examples": [
           {
             "de": "Wir lernen den Weg des Trinkwassers kennen.",
@@ -15295,11 +13349,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Umweltschutz",
-          "Umweltschutz",
-          "Umweltschutz"
         ],
         "examples": [
           {
@@ -15334,11 +13383,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Klassenkasse",
-          "Klassenkasse",
-          "Klassenkasse"
-        ],
         "examples": [
           {
             "de": "Wir bezahlen den Ausflug aus der Klassenkasse.",
@@ -15367,11 +13411,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "zerstören",
-          "zerstören",
-          "zerstören"
         ],
         "examples": [
           {
@@ -15402,11 +13441,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Trinkwasser",
-          "Trinkwasser",
-          "Trinkwasser"
-        ],
         "examples": [
           {
             "de": "Wir lernen den Weg des Trinkwassers kennen.",
@@ -15436,14 +13470,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l21-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-20."
+    }
   },
   {
     "id": 22,
     "code": "Set 22",
     "title": "Wortschatz Set 22",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -15465,11 +13506,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "einladen",
-          "einladen",
-          "einladen"
         ],
         "examples": [
           {
@@ -15500,11 +13536,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "produzieren",
-          "produzieren",
-          "produzieren"
-        ],
         "examples": [
           {
             "de": "Wir sollten weniger Müll produzieren.",
@@ -15533,11 +13564,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "schädigen",
-          "schädigen",
-          "schädigen"
         ],
         "examples": [
           {
@@ -15568,11 +13594,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "besichtigen",
-          "besichtigen",
-          "besichtigen"
-        ],
         "examples": [
           {
             "de": "Wir besichtigen ein Gartenprojekt.",
@@ -15601,11 +13622,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Wochenplan",
-          "Wochenplan",
-          "Wochenplan"
         ],
         "examples": [
           {
@@ -15636,11 +13652,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Überblick",
-          "Überblick",
-          "Überblick"
-        ],
         "examples": [
           {
             "de": "Der Wochenplan gibt einen guten Überblick.",
@@ -15669,11 +13680,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Ausflug",
-          "Ausflug",
-          "Ausflug"
         ],
         "examples": [
           {
@@ -15708,11 +13714,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Thema",
-          "Thema",
-          "Thema"
-        ],
         "examples": [
           {
             "de": "Die Projektwoche ist zum Thema Umweltschutz.",
@@ -15741,11 +13742,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "losfahren",
-          "losfahren",
-          "losfahren"
         ],
         "examples": [
           {
@@ -15776,11 +13772,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Projektwoche",
-          "Projektwoche",
-          "Projektwoche"
-        ],
         "examples": [
           {
             "de": "Die Schüler haben eine Projektwoche.",
@@ -15809,11 +13800,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Gartenprojekt",
-          "Gartenprojekt",
-          "Gartenprojekt"
         ],
         "examples": [
           {
@@ -15844,11 +13830,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "pünktlich",
-          "pünktlich",
-          "pünktlich"
-        ],
         "examples": [
           {
             "de": "Wir möchten pünktlich losfahren.",
@@ -15877,11 +13858,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Hochhaus",
-          "Hochhaus",
-          "Hochhaus"
         ],
         "examples": [
           {
@@ -15912,11 +13888,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "gar",
-          "gar",
-          "gar"
-        ],
         "examples": [
           {
             "de": "Wir dürfen die Umwelt nicht schädigen oder gar zerstören.",
@@ -15945,11 +13916,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Wasserwerk",
-          "Wasserwerk",
-          "Wasserwerk"
         ],
         "examples": [
           {
@@ -15980,11 +13946,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Lernziel",
-          "Lernziel",
-          "Lernziel"
-        ],
         "examples": [
           {
             "de": "Mein Lernziel ist das Sprachniveau B1.",
@@ -16013,11 +13974,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "bekannt für",
-          "bekannt für",
-          "bekannt"
         ],
         "examples": [
           {
@@ -16048,11 +14004,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "schmücken",
-          "schmücken",
-          "schmücken"
-        ],
         "examples": [
           {
             "de": "Die Wagen sind bunt geschmückt.",
@@ -16081,11 +14032,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Kostüm",
-          "Kostüm",
-          "Kostüm"
         ],
         "examples": [
           {
@@ -16116,11 +14062,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Rosenmontag",
-          "Rosenmontag",
-          "Rosenmontag"
-        ],
         "examples": [
           {
             "de": "Rosenmontag ist der wichtigste Tag im Karneval.",
@@ -16150,14 +14091,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l22-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-21."
+    }
   },
   {
     "id": 23,
     "code": "Set 23",
     "title": "Wortschatz Set 23",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -16179,11 +14127,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Spaß haben",
-          "Spaß haben",
-          "Spaß haben"
         ],
         "examples": [
           {
@@ -16213,11 +14156,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Publikum",
-          "Publikum",
-          "Publikum"
         ],
         "examples": [
           {
@@ -16252,11 +14190,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "genug",
-          "genug",
-          "genug"
-        ],
         "examples": [
           {
             "de": "Lernen die Kinder genug?",
@@ -16290,11 +14223,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Verkleidung",
-          "Verkleidung",
-          "Verkleidung"
-        ],
         "examples": [
           {
             "de": "Nasrins Verkleidung war sehr gut.",
@@ -16324,11 +14252,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Stimmung",
-          "Stimmung",
-          "Stimmung"
-        ],
         "examples": [
           {
             "de": "Die Stimmung auf der Party war gut.",
@@ -16357,11 +14280,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "je nach",
-          "je nach",
-          "je nach"
         ],
         "examples": [
           {
@@ -16396,11 +14314,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Karnevalsfeier",
-          "Karnevalsfeier",
-          "Karnevalsfeier"
-        ],
         "examples": [
           {
             "de": "Die Karnevalsfeier beginnt am Abend.",
@@ -16429,11 +14342,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "vermitteln",
-          "vermitteln",
-          "vermitteln"
         ],
         "examples": [
           {
@@ -16464,11 +14372,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "werfen",
-          "werfen",
-          "werfen"
-        ],
         "examples": [
           {
             "de": "Die Leute werfen Bonbons ins Publikum.",
@@ -16498,11 +14401,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Elternabend",
-          "Elternabend",
-          "Elternabend"
-        ],
         "examples": [
           {
             "de": "Die Eltern sind heute beim Elternabend.",
@@ -16531,11 +14429,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "zeigen",
-          "zeigen",
-          "zeigen"
         ],
         "examples": [
           {
@@ -16570,11 +14463,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "erklären",
-          "erklären",
-          "erklären"
-        ],
         "examples": [
           {
             "de": "Der Lehrer erklärt den Schülern den Klimawandel.",
@@ -16603,11 +14491,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Klimawandel",
-          "Klimawandel",
-          "Klimawandel"
         ],
         "examples": [
           {
@@ -16638,11 +14521,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "erkennen",
-          "erkennen",
-          "erkennen"
-        ],
         "examples": [
           {
             "de": "Die Nachbarin konnte Nasrin nicht erkennen.",
@@ -16671,11 +14549,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Erwachsene / die Erwachsene",
-          "Erwachsene / die Erwachsene",
-          "Erwachsene"
         ],
         "examples": [
           {
@@ -16706,11 +14579,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Kneipe",
-          "Kneipe",
-          "Kneipe"
-        ],
         "examples": [
           {
             "de": "Viele Menschen feiern in den Kneipen.",
@@ -16739,11 +14607,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "eine Maske aufsetzen",
-          "Maske aufsetzen",
-          "Maske aufsetzen"
         ],
         "examples": [
           {
@@ -16774,11 +14637,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich verkleiden",
-          "sich verkleiden",
-          "verkleiden"
-        ],
         "examples": [
           {
             "de": "Auf der Karnevalsparty verkleiden wir uns.",
@@ -16807,11 +14665,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "unterrichten",
-          "unterrichten",
-          "unterrichten"
         ],
         "examples": [
           {
@@ -16842,11 +14695,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "nicht nur …, sondern auch …",
-          "nicht nur …, sondern auch …",
-          "sondern"
-        ],
         "examples": [
           {
             "de": "Zum Karneval gehören nicht nur Kostüme, sondern auch Musik und Partys.",
@@ -16876,14 +14724,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l23-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-22."
+    }
   },
   {
     "id": 24,
     "code": "Set 24",
     "title": "Wortschatz Set 24",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -16905,11 +14760,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Gericht",
-          "Gericht",
-          "Gericht"
         ],
         "examples": [
           {
@@ -16940,11 +14790,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "gegen jemanden klagen",
-          "gegen jemanden klagen",
-          "gegen"
-        ],
         "examples": [
           {
             "de": "Der Mieter klagt gegen den Vermieter.",
@@ -16973,11 +14818,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Urteil",
-          "Urteil",
-          "Urteil"
         ],
         "examples": [
           {
@@ -17008,11 +14848,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich an etwas halten",
-          "sich an etwas halten",
-          "halten"
-        ],
         "examples": [
           {
             "de": "Sie müssen sich an die gesetzlichen Fristen halten.",
@@ -17041,11 +14876,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Briefkasten",
-          "Briefkasten",
-          "Briefkasten"
         ],
         "examples": [
           {
@@ -17076,11 +14906,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "zurückgeben",
-          "zurückgeben",
-          "zurückgeben"
-        ],
         "examples": [
           {
             "de": "Bitte geben Sie mir alle Schlüssel zurück.",
@@ -17109,11 +14934,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "bedeuten",
-          "bedeuten",
-          "bedeuten"
         ],
         "examples": [
           {
@@ -17144,11 +14964,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Richter / die Richterin",
-          "Richter / die Richterin",
-          "Richter"
-        ],
         "examples": [
           {
             "de": "Der Richter prüft den Fall.",
@@ -17177,11 +14992,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Gesetz",
-          "Gesetz",
-          "Gesetz"
         ],
         "examples": [
           {
@@ -17216,11 +15026,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "aus gesundheitlichen Gründen",
-          "aus gesundheitlichen Gründen",
-          "aus gesundheitlichen Gründen"
-        ],
         "examples": [
           {
             "de": "Die Behandlung ist aus gesundheitlichen Gründen notwendig.",
@@ -17249,11 +15054,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "jemanden verklagen",
-          "jemanden verklagen",
-          "jemanden verklagen"
         ],
         "examples": [
           {
@@ -17284,11 +15084,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "widersprechen",
-          "widersprechen",
-          "widersprechen"
-        ],
         "examples": [
           {
             "de": "Dieser Kündigung widerspreche ich hiermit.",
@@ -17318,11 +15113,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "fordern",
-          "fordern",
-          "fordern"
-        ],
         "examples": [
           {
             "de": "Ich fordere, dass der Vertrag bestehen bleibt.",
@@ -17351,11 +15141,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "seit",
-          "seit",
-          "seit"
         ],
         "examples": [
           {
@@ -17390,11 +15175,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "gesetzlich",
-          "gesetzlich",
-          "gesetzlich"
-        ],
         "examples": [
           {
             "de": "Die gesetzliche Kündigungsfrist beträgt sechs Monate.",
@@ -17423,11 +15203,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "passen",
-          "passen",
-          "passen"
         ],
         "examples": [
           {
@@ -17458,11 +15233,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "an die Tür klopfen",
-          "an die Tür klopfen",
-          "an die Tür klopfen"
-        ],
         "examples": [
           {
             "de": "Nasrin hat an die Tür der Nachbarin geklopft.",
@@ -17491,11 +15261,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Haustür",
-          "Haustür",
-          "Haustür"
         ],
         "examples": [
           {
@@ -17526,11 +15291,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "notwendig",
-          "notwendig",
-          "notwendig"
-        ],
         "examples": [
           {
             "de": "Die Behandlung ist notwendig.",
@@ -17559,11 +15319,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "angeben",
-          "angeben",
-          "angeben"
         ],
         "examples": [
           {
@@ -17594,14 +15349,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l24-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-23."
+    }
   },
   {
     "id": 25,
     "code": "Set 25",
     "title": "Wortschatz Set 25",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -17623,11 +15385,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "bereits",
-          "bereits",
-          "bereits"
         ],
         "examples": [
           {
@@ -17658,11 +15415,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "verpflichtet sein",
-          "verpflichtet sein",
-          "verpflichtet"
-        ],
         "examples": [
           {
             "de": "Die Vermieterin ist verpflichtet, die Frist einzuhalten.",
@@ -17692,11 +15444,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "besprechen",
-          "besprechen",
-          "besprechen"
-        ],
         "examples": [
           {
             "de": "Wir haben den Termin telefonisch besprochen.",
@@ -17725,11 +15472,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "anbieten",
-          "anbieten",
-          "anbieten"
         ],
         "examples": [
           {
@@ -17764,11 +15506,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "bestehen bleiben",
-          "bestehen bleiben",
-          "bestehen"
-        ],
         "examples": [
           {
             "de": "Der Mietvertrag bleibt noch sechs Monate bestehen.",
@@ -17798,11 +15535,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "ändern",
-          "ändern",
-          "ändern"
-        ],
         "examples": [
           {
             "de": "Das Amt hat die Entscheidung geändert.",
@@ -17831,11 +15563,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Kosten übernehmen",
-          "Kosten übernehmen",
-          "Kosten"
         ],
         "examples": [
           {
@@ -17870,11 +15597,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Rechnung",
-          "Rechnung",
-          "Rechnung"
-        ],
         "examples": [
           {
             "de": "Ich bin mit der Rechnung nicht einverstanden.",
@@ -17903,11 +15625,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sollen",
-          "sollen",
-          "sollen"
         ],
         "examples": [
           {
@@ -17938,11 +15655,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Entscheidung",
-          "Entscheidung",
-          "Entscheidung"
-        ],
         "examples": [
           {
             "de": "Ich verstehe die Entscheidung nicht.",
@@ -17971,11 +15683,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "mit etwas einverstanden sein",
-          "mit etwas einverstanden sein",
-          "einverstanden"
         ],
         "examples": [
           {
@@ -18010,11 +15717,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "einen Antrag stellen",
-          "Antrag stellen",
-          "Antrag stellen"
-        ],
         "examples": [
           {
             "de": "Sie hat beim Amt einen Antrag gestellt.",
@@ -18043,11 +15745,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "prüfen / die Prüfung",
-          "prüfen / die Prüfung",
-          "prüfen / die Prüfung"
         ],
         "examples": [
           {
@@ -18078,11 +15775,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "immer dann, wenn",
-          "immer dann, wenn",
-          "immer dann, wenn"
-        ],
         "examples": [
           {
             "de": "Man kann Widerspruch einlegen, immer dann, wenn man nicht einverstanden ist.",
@@ -18111,11 +15803,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "prinzipiell",
-          "prinzipiell",
-          "prinzipiell"
         ],
         "examples": [
           {
@@ -18146,11 +15833,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "enthalten",
-          "enthalten",
-          "enthalten"
-        ],
         "examples": [
           {
             "de": "Der Brief enthält wichtige Informationen.",
@@ -18179,11 +15861,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "es kann sein, dass",
-          "es kann sein, dass",
-          "es kann sein, dass"
         ],
         "examples": [
           {
@@ -18214,11 +15891,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "schriftlich",
-          "schriftlich",
-          "schriftlich"
-        ],
         "examples": [
           {
             "de": "Ein schriftlicher Widerspruch ist notwendig.",
@@ -18247,11 +15919,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Arbeitgeber / die Arbeitgeberin",
-          "Arbeitgeber / die Arbeitgeberin",
-          "Arbeitgeber"
         ],
         "examples": [
           {
@@ -18282,11 +15949,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Zahnbehandlung",
-          "Zahnbehandlung",
-          "Zahnbehandlung"
-        ],
         "examples": [
           {
             "de": "Die Kosten für die Zahnbehandlung sind hoch.",
@@ -18316,14 +15978,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l25-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-24."
+    }
   },
   {
     "id": 26,
     "code": "Set 26",
     "title": "Wortschatz Set 26",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -18345,11 +16014,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das ärztliche Gutachten",
-          "ärztliche Gutachten",
-          "Gutachten"
         ],
         "examples": [
           {
@@ -18380,11 +16044,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "eine Entscheidung treffen",
-          "Entscheidung treffen",
-          "Entscheidung treffen"
-        ],
         "examples": [
           {
             "de": "Das Amt trifft eine neue Entscheidung.",
@@ -18413,11 +16072,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "ob",
-          "ob",
-          "ob"
         ],
         "examples": [
           {
@@ -18448,11 +16102,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "nämlich",
-          "nämlich",
-          "nämlich"
-        ],
         "examples": [
           {
             "de": "Sie können etwas tun, nämlich Widerspruch einlegen.",
@@ -18481,11 +16130,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "einen Fehler machen",
-          "Fehler machen",
-          "Fehler machen"
         ],
         "examples": [
           {
@@ -18516,11 +16160,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "erzählen",
-          "erzählen",
-          "erzählen"
-        ],
         "examples": [
           {
             "de": "Simon erzählt Andreas von seinem Freund.",
@@ -18549,11 +16188,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Krankenkasse",
-          "Krankenkasse",
-          "Krankenkasse"
         ],
         "examples": [
           {
@@ -18584,11 +16218,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Amt",
-          "Amt",
-          "Amt"
-        ],
         "examples": [
           {
             "de": "Ich muss morgen zum Amt gehen.",
@@ -18617,11 +16246,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "mitteilen",
-          "mitteilen",
-          "mitteilen"
         ],
         "examples": [
           {
@@ -18652,11 +16276,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "ablehnen",
-          "ablehnen",
-          "ablehnen"
-        ],
         "examples": [
           {
             "de": "Das Amt hat den Antrag abgelehnt.",
@@ -18685,11 +16304,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "hiermit",
-          "hiermit",
-          "hiermit"
         ],
         "examples": [
           {
@@ -18720,11 +16334,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "gehören",
-          "gehören",
-          "gehören"
-        ],
         "examples": [
           {
             "de": "Das Haus gehört der Vermieterin.",
@@ -18753,11 +16362,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "viel zu",
-          "viel zu",
-          "viel zu"
         ],
         "examples": [
           {
@@ -18788,11 +16392,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Kündigungsfrist",
-          "Kündigungsfrist",
-          "Kündigungsfrist"
-        ],
         "examples": [
           {
             "de": "Die Kündigungsfrist beträgt drei Monate.",
@@ -18821,11 +16420,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Kündigung",
-          "Kündigung",
-          "Kündigung"
         ],
         "examples": [
           {
@@ -18856,11 +16450,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "trotzdem",
-          "trotzdem",
-          "trotzdem"
-        ],
         "examples": [
           {
             "de": "Trotzdem kann sie die Mieter nicht rauswerfen.",
@@ -18889,11 +16478,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "wirksam",
-          "wirksam",
-          "wirksam"
         ],
         "examples": [
           {
@@ -18924,11 +16508,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Frist",
-          "Frist",
-          "Frist"
-        ],
         "examples": [
           {
             "de": "Bitte beachten Sie die Frist.",
@@ -18957,11 +16536,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Wohnungsübergabe",
-          "Wohnungsübergabe",
-          "Wohnungsübergabe"
         ],
         "examples": [
           {
@@ -18992,11 +16566,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Anschrift",
-          "Anschrift",
-          "Anschrift"
-        ],
         "examples": [
           {
             "de": "Meine neue Anschrift ist in Stuttgart.",
@@ -19026,14 +16595,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l26-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-25."
+    }
   },
   {
     "id": 27,
     "code": "Set 27",
     "title": "Wortschatz Set 27",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -19055,11 +16631,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "ein Tor schießen",
-          "Tor schießen",
-          "Tor schießen"
         ],
         "examples": [
           {
@@ -19090,11 +16661,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "rauswerfen",
-          "rauswerfen",
-          "rauswerfen"
-        ],
         "examples": [
           {
             "de": "Der Vermieter darf die Mieter nicht einfach rauswerfen.",
@@ -19123,11 +16689,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Eigenbedarf",
-          "Eigenbedarf",
-          "Eigenbedarf"
         ],
         "examples": [
           {
@@ -19158,11 +16719,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "betragen",
-          "betragen",
-          "betragen"
-        ],
         "examples": [
           {
             "de": "Die Kündigungsfrist beträgt drei Monate.",
@@ -19191,11 +16747,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "umziehen",
-          "umziehen",
-          "umziehen"
         ],
         "examples": [
           {
@@ -19226,11 +16777,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "aus beruflichen Gründen",
-          "aus beruflichen Gründen",
-          "aus beruflichen Gründen"
-        ],
         "examples": [
           {
             "de": "Aus beruflichen Gründen ziehe ich um.",
@@ -19259,11 +16805,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Rechtsanwalt / die Rechtsanwältin",
-          "Rechtsanwalt / die Rechtsanwältin",
-          "Rechtsanwalt"
         ],
         "examples": [
           {
@@ -19294,11 +16835,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Mannschaft",
-          "Mannschaft",
-          "Mannschaft"
-        ],
         "examples": [
           {
             "de": "Unsere Mannschaft spielt heute.",
@@ -19327,11 +16863,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "fristgerecht",
-          "fristgerecht",
-          "fristgerecht"
         ],
         "examples": [
           {
@@ -19362,11 +16893,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "kündigen",
-          "kündigen",
-          "kündigen"
-        ],
         "examples": [
           {
             "de": "Ich möchte meinen Mietvertrag kündigen.",
@@ -19395,11 +16921,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Widerspruch einlegen",
-          "Widerspruch einlegen",
-          "Widerspruch einlegen"
         ],
         "examples": [
           {
@@ -19430,11 +16951,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "bestätigen",
-          "bestätigen",
-          "bestätigen"
-        ],
         "examples": [
           {
             "de": "Bitte bestätigen Sie den Termin schriftlich.",
@@ -19463,11 +16979,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "erhalten",
-          "erhalten",
-          "erhalten"
         ],
         "examples": [
           {
@@ -19498,11 +17009,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "insgesamt",
-          "insgesamt",
-          "insgesamt"
-        ],
         "examples": [
           {
             "de": "Insgesamt waren zwanzig Gäste da.",
@@ -19531,11 +17037,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "ausziehen",
-          "ausziehen",
-          "ausziehen"
         ],
         "examples": [
           {
@@ -19566,11 +17067,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Schlosspark",
-          "Schlosspark",
-          "Schlosspark"
-        ],
         "examples": [
           {
             "de": "Der Schlosspark liegt im Zentrum.",
@@ -19599,11 +17095,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "fast",
-          "fast",
-          "fast"
         ],
         "examples": [
           {
@@ -19634,11 +17125,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "nebenan",
-          "nebenan",
-          "nebenan"
-        ],
         "examples": [
           {
             "de": "Die Nachbarn nebenan streiten sich.",
@@ -19667,11 +17153,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich streiten",
-          "sich streiten",
-          "streiten"
         ],
         "examples": [
           {
@@ -19702,11 +17183,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "überlegen",
-          "überlegen",
-          "überlegen"
-        ],
         "examples": [
           {
             "de": "Wir müssen noch einmal überlegen.",
@@ -19736,14 +17212,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l27-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-26."
+    }
   },
   {
     "id": 28,
     "code": "Set 28",
     "title": "Wortschatz Set 28",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -19765,11 +17248,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Lass uns …",
-          "Lass uns …",
-          "Lass"
         ],
         "examples": [
           {
@@ -19800,11 +17278,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "Schritte befolgen",
-          "Schritte befolgen",
-          "befolgen"
-        ],
         "examples": [
           {
             "de": "Welche Schritte sollten Sie befolgen?",
@@ -19834,11 +17307,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "allerdings",
-          "allerdings",
-          "allerdings"
-        ],
         "examples": [
           {
             "de": "Da hast du allerdings recht.",
@@ -19867,11 +17335,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "immer noch",
-          "immer noch",
-          "immer noch"
         ],
         "examples": [
           {
@@ -19906,11 +17369,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sauer sein",
-          "sauer sein",
-          "sauer"
-        ],
         "examples": [
           {
             "de": "Die Nachbarn sind sauer auf mich.",
@@ -19939,11 +17397,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Streit haben",
-          "Streit haben",
-          "haben"
         ],
         "examples": [
           {
@@ -19974,11 +17427,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "Was meint ihr?",
-          "Was meint ihr?",
-          "Was"
-        ],
         "examples": [
           {
             "de": "Was meint ihr zu dieser Idee?",
@@ -20007,11 +17455,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "recht haben",
-          "recht haben",
-          "recht haben"
         ],
         "examples": [
           {
@@ -20042,11 +17485,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "zu etwas gelangen",
-          "zu etwas gelangen",
-          "zu etwas gelangen"
-        ],
         "examples": [
           {
             "de": "Wie gelange ich zum Schlosspark?",
@@ -20075,11 +17513,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "jemanden beleidigen",
-          "jemanden beleidigen",
-          "jemanden beleidigen"
         ],
         "examples": [
           {
@@ -20110,11 +17543,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "Das sehe ich auch so.",
-          "sehe ich auch so.",
-          "sehe ich auch so."
-        ],
         "examples": [
           {
             "de": "Das sehe ich auch so.",
@@ -20143,11 +17571,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Hausbewohner / die Hausbewohnerin",
-          "Hausbewohner / die Hausbewohnerin",
-          "Hausbewohner"
         ],
         "examples": [
           {
@@ -20178,11 +17601,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sicher sein",
-          "sicher sein",
-          "sicher"
-        ],
         "examples": [
           {
             "de": "Ich bin nicht sicher.",
@@ -20211,11 +17629,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "höflich",
-          "höflich",
-          "höflich"
         ],
         "examples": [
           {
@@ -20246,11 +17659,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich bei jemandem entschuldigen",
-          "sich bei jemandem entschuldigen",
-          "sich bei jemandem entschuldigen"
-        ],
         "examples": [
           {
             "de": "Ich habe mich bei den Nachbarn entschuldigt.",
@@ -20279,11 +17687,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Spielplatz",
-          "Spielplatz",
-          "Spielplatz"
         ],
         "examples": [
           {
@@ -20314,11 +17717,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "jemandem zustimmen",
-          "jemandem zustimmen",
-          "jemandem zustimmen"
-        ],
         "examples": [
           {
             "de": "Da stimme ich Ihnen zu.",
@@ -20347,11 +17745,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "hängen: position and placement",
-          "hängen: position and placement",
-          "hängen"
         ],
         "examples": [
           {
@@ -20386,11 +17779,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "draußen",
-          "draußen",
-          "draußen"
-        ],
         "examples": [
           {
             "de": "Die Kinder sollten draußen spielen.",
@@ -20419,11 +17807,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "genervt",
-          "genervt",
-          "genervt"
         ],
         "examples": [
           {
@@ -20454,14 +17837,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l28-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-27."
+    }
   },
   {
     "id": 29,
     "code": "Set 29",
     "title": "Wortschatz Set 29",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -20483,11 +17873,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "finden, dass …",
-          "finden, dass …",
-          "finden, dass …"
         ],
         "examples": [
           {
@@ -20522,11 +17907,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "gemeinsam",
-          "gemeinsam",
-          "gemeinsam"
-        ],
         "examples": [
           {
             "de": "Wir suchen gemeinsam nach einer Lösung.",
@@ -20555,11 +17935,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "jemanden einladen",
-          "jemanden einladen",
-          "jemanden einladen"
         ],
         "examples": [
           {
@@ -20590,11 +17965,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "nach einer Lösung suchen",
-          "nach einer Lösung suchen",
-          "nach einer Lösung suchen"
-        ],
         "examples": [
           {
             "de": "Wir sollten nach einer Lösung suchen.",
@@ -20623,11 +17993,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Nichtraucher / die Nichtraucherin",
-          "Nichtraucher / die Nichtraucherin",
-          "Nichtraucher"
         ],
         "examples": [
           {
@@ -20658,11 +18023,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "herausfinden",
-          "herausfinden",
-          "herausfinden"
-        ],
         "examples": [
           {
             "de": "Ich habe herausgefunden, dass sie nachts arbeitet.",
@@ -20691,11 +18051,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "um Entschuldigung bitten",
-          "um Entschuldigung bitten",
-          "um Entschuldigung bitten"
         ],
         "examples": [
           {
@@ -20726,11 +18081,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "kaum",
-          "kaum",
-          "kaum"
-        ],
         "examples": [
           {
             "de": "Ich konnte kaum schlafen.",
@@ -20759,11 +18109,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Anrufbeantworter",
-          "Anrufbeantworter",
-          "Anrufbeantworter"
         ],
         "examples": [
           {
@@ -20794,11 +18139,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "nach etwas stinken",
-          "nach etwas stinken",
-          "nach etwas stinken"
-        ],
         "examples": [
           {
             "de": "Das Haus stinkt nach Zigaretten.",
@@ -20827,11 +18167,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Geburtstag feiern",
-          "Geburtstag feiern",
-          "Geburtstag feiern"
         ],
         "examples": [
           {
@@ -20862,11 +18197,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "in Ruhe",
-          "in Ruhe",
-          "in Ruhe"
-        ],
         "examples": [
           {
             "de": "Ich möchte in Ruhe arbeiten.",
@@ -20896,11 +18226,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "bellen",
-          "bellen",
-          "bellen"
-        ],
         "examples": [
           {
             "de": "Mein Hund bellt sehr laut.",
@@ -20929,11 +18254,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "jemandem einen Tipp geben",
-          "jemandem einen Tipp geben",
-          "einen"
         ],
         "examples": [
           {
@@ -20972,11 +18292,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "jemanden stören",
-          "jemanden stören",
-          "jemanden stören"
-        ],
         "examples": [
           {
             "de": "Es tut mir leid, dass ich Sie gestört habe.",
@@ -21005,11 +18320,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "unangenehm / ungesund",
-          "unangenehm / ungesund",
-          "unangenehm"
         ],
         "examples": [
           {
@@ -21040,11 +18350,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "Es tut mir leid.",
-          "Es tut mir leid.",
-          "Es"
-        ],
         "examples": [
           {
             "de": "Es tut mir leid, dass ich Sie gestört habe.",
@@ -21073,11 +18378,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich vorstellen",
-          "sich vorstellen",
-          "sich vorstellen"
         ],
         "examples": [
           {
@@ -21116,11 +18416,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Schild / das Verbotsschild",
-          "Schild / das Verbotsschild",
-          "Schild"
-        ],
         "examples": [
           {
             "de": "Im Flur hängt ein Verbotsschild.",
@@ -21149,11 +18444,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "beide",
-          "beide",
-          "beide"
         ],
         "examples": [
           {
@@ -21184,14 +18474,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l29-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-28."
+    }
   },
   {
     "id": 30,
     "code": "Set 30",
     "title": "Wortschatz Set 30",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -21213,11 +18510,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "jemanden besser kennenlernen",
-          "jemanden besser kennenlernen",
-          "jemanden besser kennenlernen"
         ],
         "examples": [
           {
@@ -21248,11 +18540,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "letzte Nacht",
-          "letzte Nacht",
-          "letzte Nacht"
-        ],
         "examples": [
           {
             "de": "Letzte Nacht hat es geschneit.",
@@ -21281,11 +18568,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "doch",
-          "doch",
-          "doch"
         ],
         "examples": [
           {
@@ -21316,11 +18598,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "nachmittags",
-          "nachmittags",
-          "nachmittags"
-        ],
         "examples": [
           {
             "de": "Ich bringe den Hund nachmittags zu meiner Schwester.",
@@ -21349,11 +18626,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "zu etwas passen",
-          "zu etwas passen",
-          "zu etwas passen"
         ],
         "examples": [
           {
@@ -21384,11 +18656,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "einigermaßen",
-          "einigermaßen",
-          "einigermaßen"
-        ],
         "examples": [
           {
             "de": "Das Treppenhaus ist einigermaßen sauber.",
@@ -21418,11 +18685,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "bei uns",
-          "bei uns",
-          "bei uns"
-        ],
         "examples": [
           {
             "de": "Bei uns ist es meistens ruhig.",
@@ -21451,11 +18713,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "etwas gut finden",
-          "etwas gut finden",
-          "etwas gut finden"
         ],
         "examples": [
           {
@@ -21490,11 +18747,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Heizkosten",
-          "Heizkosten",
-          "Heizkosten"
-        ],
         "examples": [
           {
             "de": "Ich möchte Heizkosten sparen.",
@@ -21523,11 +18775,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "am meisten",
-          "am meisten",
-          "am meisten"
         ],
         "examples": [
           {
@@ -21558,11 +18805,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "unordentlich",
-          "unordentlich",
-          "unordentlich"
-        ],
         "examples": [
           {
             "de": "Die neuen Mieter sind unordentlich.",
@@ -21591,11 +18833,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "putzen",
-          "putzen",
-          "putzen"
         ],
         "examples": [
           {
@@ -21626,11 +18863,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "obwohl",
-          "obwohl",
-          "obwohl"
-        ],
         "examples": [
           {
             "de": "Ich konnte nicht schlafen, obwohl ich müde war.",
@@ -21659,11 +18891,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Firma",
-          "Firma",
-          "Firma"
         ],
         "examples": [
           {
@@ -21698,11 +18925,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Balkontür",
-          "Balkontür",
-          "Balkontür"
-        ],
         "examples": [
           {
             "de": "Die Balkontür schließt nicht richtig.",
@@ -21731,11 +18953,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "ganz nett",
-          "ganz nett",
-          "ganz nett"
         ],
         "examples": [
           {
@@ -21766,11 +18983,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "Das geht gar nicht!",
-          "geht gar nicht!",
-          "geht gar nicht!"
-        ],
         "examples": [
           {
             "de": "Müll im Treppenhaus? Das geht gar nicht!",
@@ -21799,11 +19011,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "jemanden ärgern",
-          "jemanden ärgern",
-          "jemanden ärgern"
         ],
         "examples": [
           {
@@ -21834,11 +19041,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "bei jemandem klingeln",
-          "bei jemandem klingeln",
-          "klingeln"
-        ],
         "examples": [
           {
             "de": "Bitte klingeln Sie bei Frau Thalbach.",
@@ -21867,11 +19069,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Gradangaben: müde",
-          "Gradangaben: müde",
-          "Gradangaben: müde"
         ],
         "examples": [
           {
@@ -21914,14 +19111,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l30-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-29."
+    }
   },
   {
     "id": 31,
     "code": "Set 31",
     "title": "Wortschatz Set 31",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -21943,11 +19147,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "eigentlich",
-          "eigentlich",
-          "eigentlich"
         ],
         "examples": [
           {
@@ -21978,11 +19177,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "hereinkommen",
-          "hereinkommen",
-          "hereinkommen"
-        ],
         "examples": [
           {
             "de": "Durch das Fenster kommt kalte Luft herein.",
@@ -22011,11 +19205,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "jemandem wichtig sein",
-          "jemandem wichtig sein",
-          "jemandem wichtig sein"
         ],
         "examples": [
           {
@@ -22050,11 +19239,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sauber / schmutzig",
-          "sauber / schmutzig",
-          "sauber"
-        ],
         "examples": [
           {
             "de": "Im Haus ist es sauber.",
@@ -22083,11 +19267,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Treppenhaus",
-          "Treppenhaus",
-          "Treppenhaus"
         ],
         "examples": [
           {
@@ -22118,11 +19297,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "ständig",
-          "ständig",
-          "ständig"
-        ],
         "examples": [
           {
             "de": "Durch die Tür kommt ständig kalte Luft herein.",
@@ -22151,11 +19325,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Wohnungsschlüssel",
-          "Wohnungsschlüssel",
-          "Wohnungsschlüssel"
         ],
         "examples": [
           {
@@ -22186,11 +19355,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "jemanden nerven",
-          "jemanden nerven",
-          "jemanden nerven"
-        ],
         "examples": [
           {
             "de": "Der Müll nervt mich.",
@@ -22219,11 +19383,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Nachbar / die Nachbarin",
-          "Nachbar / die Nachbarin",
-          "Nachbar"
         ],
         "examples": [
           {
@@ -22254,11 +19413,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich bei jemandem beschweren",
-          "sich bei jemandem beschweren",
-          "sich bei jemandem beschweren"
-        ],
         "examples": [
           {
             "de": "Die Nachbarn haben sich beim Vermieter beschwert.",
@@ -22287,11 +19441,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "streichen (malen)",
-          "streichen (malen)",
-          "streichen"
         ],
         "examples": [
           {
@@ -22322,11 +19471,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "jemanden erreichen",
-          "jemanden erreichen",
-          "jemanden erreichen"
-        ],
         "examples": [
           {
             "de": "Sie können mich per Handy erreichen.",
@@ -22355,11 +19499,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "defekt",
-          "defekt",
-          "defekt"
         ],
         "examples": [
           {
@@ -22390,11 +19529,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Wand",
-          "Wand",
-          "Wand"
-        ],
         "examples": [
           {
             "de": "Die Wand im Flur ist weiß.",
@@ -22423,11 +19557,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Aufgabe",
-          "Aufgabe",
-          "Aufgabe"
         ],
         "examples": [
           {
@@ -22462,11 +19591,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Badezimmer",
-          "Badezimmer",
-          "Badezimmer"
-        ],
         "examples": [
           {
             "de": "Bitte räumen Sie Ihre Sachen aus dem Badezimmer.",
@@ -22495,11 +19619,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Mieter / die Mieterin",
-          "Mieter / die Mieterin",
-          "Mieter"
         ],
         "examples": [
           {
@@ -22530,11 +19649,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "feucht",
-          "feucht",
-          "feucht"
-        ],
         "examples": [
           {
             "de": "Die Wand ist feucht.",
@@ -22563,11 +19677,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "zu wenig / zu wenige",
-          "zu wenig / zu wenige",
-          "zu"
         ],
         "examples": [
           {
@@ -22602,11 +19711,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "bei mir",
-          "bei mir",
-          "bei mir"
-        ],
         "examples": [
           {
             "de": "Bei mir im Bad ist eine Wand feucht.",
@@ -22636,14 +19740,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l31-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-30."
+    }
   },
   {
     "id": 32,
     "code": "Set 32",
     "title": "Wortschatz Set 32",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -22665,11 +19776,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Festnetz",
-          "Festnetz",
-          "Festnetz"
         ],
         "examples": [
           {
@@ -22700,11 +19806,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "den ganzen Tag",
-          "den ganzen Tag",
-          "den ganzen Tag"
-        ],
         "examples": [
           {
             "de": "Ich bin den ganzen Tag zu Hause.",
@@ -22733,11 +19834,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "vergessen",
-          "vergessen",
-          "vergessen"
         ],
         "examples": [
           {
@@ -22768,11 +19864,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "so schnell wie möglich",
-          "so schnell wie möglich",
-          "so schnell wie möglich"
-        ],
         "examples": [
           {
             "de": "Bitte kommen Sie so schnell wie möglich.",
@@ -22801,11 +19892,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Flur",
-          "Flur",
-          "Flur"
         ],
         "examples": [
           {
@@ -22836,11 +19922,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "etwas reparieren lassen",
-          "etwas reparieren lassen",
-          "reparieren"
-        ],
         "examples": [
           {
             "de": "Ich lasse die Heizung reparieren.",
@@ -22869,11 +19950,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich etwas ansehen",
-          "sich etwas ansehen",
-          "sich etwas ansehen"
         ],
         "examples": [
           {
@@ -22904,11 +19980,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "jemandem etwas mitteilen",
-          "jemandem etwas mitteilen",
-          "jemandem etwas mitteilen"
-        ],
         "examples": [
           {
             "de": "Wie ich Ihnen mitgeteilt habe, ist die Heizung defekt.",
@@ -22937,11 +20008,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "reparieren",
-          "reparieren",
-          "reparieren"
         ],
         "examples": [
           {
@@ -22972,11 +20038,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "nochmals",
-          "nochmals",
-          "nochmals"
-        ],
         "examples": [
           {
             "de": "Ich bitte Sie nochmals um Hilfe.",
@@ -23005,11 +20066,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "selbst",
-          "selbst",
-          "selbst"
         ],
         "examples": [
           {
@@ -23040,11 +20096,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "telefonisch",
-          "telefonisch",
-          "telefonisch"
-        ],
         "examples": [
           {
             "de": "Ich habe Sie telefonisch informiert.",
@@ -23074,11 +20125,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "etwas durch etwas ersetzen",
-          "etwas durch etwas ersetzen",
-          "ersetzen"
-        ],
         "examples": [
           {
             "de": "Wir ersetzen den alten Besen durch einen neuen.",
@@ -23107,11 +20153,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Sachen",
-          "Sachen",
-          "Sachen"
         ],
         "examples": [
           {
@@ -23146,11 +20187,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Erkältung",
-          "Erkältung",
-          "Erkältung"
-        ],
         "examples": [
           {
             "de": "Meine Tochter hat eine Erkältung.",
@@ -23179,11 +20215,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "keine Zeit haben",
-          "keine Zeit haben",
-          "keine Zeit haben"
         ],
         "examples": [
           {
@@ -23214,11 +20245,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "jemandem versprechen, etwas zu tun",
-          "jemandem versprechen, etwas zu tun",
-          "jemandem versprechen, etwas zu tun"
-        ],
         "examples": [
           {
             "de": "Die Vermieterin hat ihr versprochen, einen Handwerker anzurufen.",
@@ -23247,11 +20273,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "laut Mietvertrag",
-          "laut Mietvertrag",
-          "laut Mietvertrag"
         ],
         "examples": [
           {
@@ -23282,11 +20303,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Gehweg",
-          "Gehweg",
-          "Gehweg"
-        ],
         "examples": [
           {
             "de": "Der Gehweg muss geräumt sein.",
@@ -23315,11 +20331,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "mehrmals",
-          "mehrmals",
-          "mehrmals"
         ],
         "examples": [
           {
@@ -23350,14 +20361,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l32-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-31."
+    }
   },
   {
     "id": 33,
     "code": "Set 33",
     "title": "Wortschatz Set 33",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -23379,11 +20397,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich verletzen",
-          "sich verletzen",
-          "sich verletzen"
         ],
         "examples": [
           {
@@ -23414,11 +20427,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "erneuern",
-          "erneuern",
-          "erneuern"
-        ],
         "examples": [
           {
             "de": "Der Vermieter lässt die Fenster erneuern.",
@@ -23447,11 +20455,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Guck mal!",
-          "Guck mal!",
-          "Guck"
         ],
         "examples": [
           {
@@ -23482,11 +20485,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "mindestens",
-          "mindestens",
-          "mindestens"
-        ],
         "examples": [
           {
             "de": "Räumen Sie mindestens dreimal täglich.",
@@ -23515,11 +20513,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Handwerker / die Handwerkerin",
-          "Handwerker / die Handwerkerin",
-          "Handwerker"
         ],
         "examples": [
           {
@@ -23550,11 +20543,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "aufstehen",
-          "aufstehen",
-          "aufstehen"
-        ],
         "examples": [
           {
             "de": "Ich habe keine Lust, früh aufzustehen.",
@@ -23583,11 +20571,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "fegen / streuen",
-          "fegen / streuen",
-          "fegen"
         ],
         "examples": [
           {
@@ -23618,11 +20601,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "jemanden bitten, etwas zu tun",
-          "jemanden bitten, etwas zu tun",
-          "jemanden bitten, etwas zu tun"
-        ],
         "examples": [
           {
             "de": "Katrin bittet die Vermieterin, einen Handwerker anzurufen.",
@@ -23651,11 +20629,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "jemanden anrufen",
-          "jemanden anrufen",
-          "jemanden anrufen"
         ],
         "examples": [
           {
@@ -23686,11 +20659,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "reichen",
-          "reichen",
-          "reichen"
-        ],
         "examples": [
           {
             "de": "Einmal am Tag reicht nicht.",
@@ -23719,11 +20687,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "anfangen, etwas zu tun",
-          "anfangen, etwas zu tun",
-          "anfangen, etwas zu tun"
         ],
         "examples": [
           {
@@ -23754,11 +20717,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "daran denken",
-          "daran denken",
-          "denken"
-        ],
         "examples": [
           {
             "de": "Denken Sie daran, dass Sie Winterdienst haben.",
@@ -23787,11 +20745,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Rückseite",
-          "Rückseite",
-          "Rückseite"
         ],
         "examples": [
           {
@@ -23822,11 +20775,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Schneefall",
-          "Schneefall",
-          "Schneefall"
-        ],
         "examples": [
           {
             "de": "Bei starkem Schneefall reicht einmaliges Räumen nicht.",
@@ -23855,11 +20803,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "schneien",
-          "schneien",
-          "schneien"
         ],
         "examples": [
           {
@@ -23894,11 +20837,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Fenster",
-          "Fenster",
-          "Fenster"
-        ],
         "examples": [
           {
             "de": "Alle Fenster im Haus sind alt.",
@@ -23927,11 +20865,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Besen / die Schneeschaufel",
-          "Besen / die Schneeschaufel",
-          "Besen"
         ],
         "examples": [
           {
@@ -23962,11 +20895,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Hausflur",
-          "Hausflur",
-          "Hausflur"
-        ],
         "examples": [
           {
             "de": "Der Winterdienst-Plan hängt im Hausflur.",
@@ -23995,11 +20923,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "dran sein",
-          "dran sein",
-          "dran"
         ],
         "examples": [
           {
@@ -24030,11 +20953,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "zu etwas verpflichtet sein",
-          "zu etwas verpflichtet sein",
-          "zu"
-        ],
         "examples": [
           {
             "de": "Die Mieter sind zum Winterdienst verpflichtet.",
@@ -24064,14 +20982,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l33-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-32."
+    }
   },
   {
     "id": 34,
     "code": "Set 34",
     "title": "Wortschatz Set 34",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -24093,11 +21018,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "begeistert",
-          "begeistert",
-          "begeistert"
         ],
         "examples": [
           {
@@ -24128,11 +21048,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "entdecken",
-          "entdecken",
-          "entdecken"
-        ],
         "examples": [
           {
             "de": "Wir haben eine tolle Hütte entdeckt.",
@@ -24161,11 +21076,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "über etwas informieren",
-          "über etwas informieren",
-          "über etwas informieren"
         ],
         "examples": [
           {
@@ -24196,11 +21106,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "bewerten",
-          "bewerten",
-          "bewerten"
-        ],
         "examples": [
           {
             "de": "Ich würde die Hütte mit zehn Sternen bewerten.",
@@ -24230,11 +21135,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "keine Angst haben",
-          "keine Angst haben",
-          "keine Angst haben"
-        ],
         "examples": [
           {
             "de": "Du musst keine Angst haben.",
@@ -24263,11 +21163,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "ausrutschen",
-          "ausrutschen",
-          "ausrutschen"
         ],
         "examples": [
           {
@@ -24302,11 +21197,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Vermieter / die Vermieterin",
-          "Vermieter / die Vermieterin",
-          "Vermieter"
-        ],
         "examples": [
           {
             "de": "Die Vermieterin schreibt einen Brief.",
@@ -24335,11 +21225,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "jemandem einen Brief schreiben",
-          "jemandem einen Brief schreiben",
-          "einen"
         ],
         "examples": [
           {
@@ -24370,11 +21255,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "gemütlich",
-          "gemütlich",
-          "gemütlich"
-        ],
         "examples": [
           {
             "de": "Die Schneehütte ist sehr gemütlich.",
@@ -24403,11 +21283,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Winterdienst",
-          "Winterdienst",
-          "Winterdienst"
         ],
         "examples": [
           {
@@ -24438,11 +21313,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Tiefschnee",
-          "Tiefschnee",
-          "Tiefschnee"
-        ],
         "examples": [
           {
             "de": "Im Tiefschnee landet man weich.",
@@ -24471,11 +21341,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "eine Menge",
-          "Menge",
-          "Menge"
         ],
         "examples": [
           {
@@ -24506,11 +21371,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "Bescheid sagen",
-          "Bescheid sagen",
-          "Bescheid sagen"
-        ],
         "examples": [
           {
             "de": "Sag mir bitte Bescheid.",
@@ -24540,11 +21400,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sowohl … als auch",
-          "sowohl … als auch",
-          "sowohl"
-        ],
         "examples": [
           {
             "de": "Man kann sowohl essen als auch trinken.",
@@ -24573,11 +21428,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Brief",
-          "Brief",
-          "Brief"
         ],
         "examples": [
           {
@@ -24612,11 +21462,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Schutzengel",
-          "Schutzengel",
-          "Schutzengel"
-        ],
         "examples": [
           {
             "de": "Mina hatte einen Schutzengel.",
@@ -24645,11 +21490,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Bild",
-          "Bild",
-          "Bild"
         ],
         "examples": [
           {
@@ -24684,11 +21524,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "jemandem aus einem Brief vorlesen",
-          "jemandem aus einem Brief vorlesen",
-          "jemandem aus einem Brief vorlesen"
-        ],
         "examples": [
           {
             "de": "Rafa liest Magda aus einem Brief vor.",
@@ -24718,11 +21553,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "entweder … oder",
-          "entweder … oder",
-          "entweder"
-        ],
         "examples": [
           {
             "de": "Wir fahren entweder mit dem Bus oder mit dem Zug.",
@@ -24751,11 +21581,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Lust haben",
-          "Lust haben",
-          "Lust haben"
         ],
         "examples": [
           {
@@ -24790,14 +21615,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l34-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-33."
+    }
   },
   {
     "id": 35,
     "code": "Set 35",
     "title": "Wortschatz Set 35",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -24819,11 +21651,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "denn",
-          "denn",
-          "denn"
         ],
         "examples": [
           {
@@ -24854,11 +21681,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "steil / kurvig",
-          "steil / kurvig",
-          "steil"
-        ],
         "examples": [
           {
             "de": "Der Berg ist sehr steil.",
@@ -24887,11 +21709,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich über etwas freuen",
-          "sich über etwas freuen",
-          "sich über etwas freuen"
         ],
         "examples": [
           {
@@ -24922,11 +21739,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "zwar …, aber",
-          "zwar …, aber",
-          "zwar"
-        ],
         "examples": [
           {
             "de": "Die Rodelbahn ist zwar lang, aber nicht steil.",
@@ -24955,11 +21767,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "ausleihen",
-          "ausleihen",
-          "ausleihen"
         ],
         "examples": [
           {
@@ -24990,11 +21797,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "in jedem Fall",
-          "in jedem Fall",
-          "in jedem Fall"
-        ],
         "examples": [
           {
             "de": "In jedem Fall bekommen Sie Getränke.",
@@ -25023,11 +21825,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "weg sein",
-          "weg sein",
-          "weg"
         ],
         "examples": [
           {
@@ -25062,11 +21859,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "zusätzlich",
-          "zusätzlich",
-          "zusätzlich"
-        ],
         "examples": [
           {
             "de": "Zusätzlich bekommen Sie eine Entschädigung.",
@@ -25095,11 +21887,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "landen",
-          "landen",
-          "landen"
         ],
         "examples": [
           {
@@ -25130,11 +21917,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Winterausflug",
-          "Winterausflug",
-          "Winterausflug"
-        ],
         "examples": [
           {
             "de": "Wir machen einen Winterausflug.",
@@ -25163,11 +21945,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Gate",
-          "Gate",
-          "Gate"
         ],
         "examples": [
           {
@@ -25198,11 +21975,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Schneehütte",
-          "Schneehütte",
-          "Schneehütte"
-        ],
         "examples": [
           {
             "de": "In der Schneehütte kann man etwas essen.",
@@ -25231,11 +22003,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Pilot / die Pilotin",
-          "Pilot / die Pilotin",
-          "Pilot"
         ],
         "examples": [
           {
@@ -25266,11 +22033,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "plötzlich",
-          "plötzlich",
-          "plötzlich"
-        ],
         "examples": [
           {
             "de": "Der Rucksack war plötzlich weg.",
@@ -25299,11 +22061,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Rodelbahn",
-          "Rodelbahn",
-          "Rodelbahn"
         ],
         "examples": [
           {
@@ -25334,11 +22091,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Gepäckausgabe",
-          "Gepäckausgabe",
-          "Gepäckausgabe"
-        ],
         "examples": [
           {
             "de": "Die Koffer kommen an der Gepäckausgabe an.",
@@ -25367,11 +22119,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Skiurlaub",
-          "Skiurlaub",
-          "Skiurlaub"
         ],
         "examples": [
           {
@@ -25402,11 +22149,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "rodeln / Schlitten fahren",
-          "rodeln / Schlitten fahren",
-          "rodeln"
-        ],
         "examples": [
           {
             "de": "Die Kinder rodeln im Schnee.",
@@ -25435,11 +22177,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "viel zu …",
-          "viel zu …",
-          "viel"
         ],
         "examples": [
           {
@@ -25470,11 +22207,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Handgepäck",
-          "Handgepäck",
-          "Handgepäck"
-        ],
         "examples": [
           {
             "de": "Das Handgepäck darf nicht zu schwer sein.",
@@ -25504,14 +22236,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l35-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-34."
+    }
   },
   {
     "id": 36,
     "code": "Set 36",
     "title": "Wortschatz Set 36",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -25533,11 +22272,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "egal",
-          "egal",
-          "egal"
         ],
         "examples": [
           {
@@ -25568,11 +22302,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Passagier / die Passagierin",
-          "Passagier / die Passagierin",
-          "Passagier"
-        ],
         "examples": [
           {
             "de": "Alle Passagiere müssen einchecken.",
@@ -25601,11 +22330,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "hinauffahren / hinunterfahren",
-          "hinauffahren / hinunterfahren",
-          "hinauffahren / hinunterfahren"
         ],
         "examples": [
           {
@@ -25636,11 +22360,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "beziehungsweise (bzw.)",
-          "beziehungsweise (bzw.)",
-          "beziehungsweise (bzw.)"
-        ],
         "examples": [
           {
             "de": "Zwei bzw. drei Stunden Wartezeit sind nötig.",
@@ -25669,11 +22388,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Schlitten",
-          "Schlitten",
-          "Schlitten"
         ],
         "examples": [
           {
@@ -25704,11 +22418,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Geschäftstermin",
-          "Geschäftstermin",
-          "Geschäftstermin"
-        ],
         "examples": [
           {
             "de": "Ich habe morgen einen Geschäftstermin.",
@@ -25737,11 +22446,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "verpassen",
-          "verpassen",
-          "verpassen"
         ],
         "examples": [
           {
@@ -25772,11 +22476,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "starten",
-          "starten",
-          "starten"
-        ],
         "examples": [
           {
             "de": "Das Flugzeug startet um 10 Uhr.",
@@ -25805,11 +22504,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das technische Problem",
-          "technische Problem",
-          "technische"
         ],
         "examples": [
           {
@@ -25840,11 +22534,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Lift",
-          "Lift",
-          "Lift"
-        ],
         "examples": [
           {
             "de": "Mit dem Lift fährt man den Berg hinauf.",
@@ -25873,11 +22562,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "folgen",
-          "folgen",
-          "folgen"
         ],
         "examples": [
           {
@@ -25908,11 +22592,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "in der Regel",
-          "in der Regel",
-          "in der Regel"
-        ],
         "examples": [
           {
             "de": "Die Airline erstattet in der Regel die Kosten.",
@@ -25941,11 +22620,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "billig / billiger",
-          "billig / billiger",
-          "billig"
         ],
         "examples": [
           {
@@ -25980,11 +22654,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Fluggastrecht",
-          "Fluggastrecht",
-          "Fluggastrecht"
-        ],
         "examples": [
           {
             "de": "Informieren Sie sich über Ihre Fluggastrechte.",
@@ -26013,11 +22682,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Anspruch auf etwas haben",
-          "Anspruch auf etwas haben",
-          "haben"
         ],
         "examples": [
           {
@@ -26048,11 +22712,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "Gepäck aufgeben",
-          "Gepäck aufgeben",
-          "Gepäck aufgeben"
-        ],
         "examples": [
           {
             "de": "Wo kann ich mein Gepäck aufgeben?",
@@ -26081,11 +22740,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Titel",
-          "Titel",
-          "Titel"
         ],
         "examples": [
           {
@@ -26116,11 +22770,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Flugbegleiter / die Flugbegleiterin",
-          "Flugbegleiter / die Flugbegleiterin",
-          "Flugbegleiter"
-        ],
         "examples": [
           {
             "de": "Die Flugbegleiter begrüßen die Passagiere.",
@@ -26149,11 +22798,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "unabhängig von",
-          "unabhängig von",
-          "unabhängig"
         ],
         "examples": [
           {
@@ -26184,11 +22828,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Versorgungsleistung",
-          "Versorgungsleistung",
-          "Versorgungsleistung"
-        ],
         "examples": [
           {
             "de": "Essen und Getränke gehören zu den Versorgungsleistungen.",
@@ -26218,14 +22857,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l36-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-35."
+    }
   },
   {
     "id": 37,
     "code": "Set 37",
     "title": "Wortschatz Set 37",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -26247,11 +22893,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "weiterreisen",
-          "weiterreisen",
-          "weiterreisen"
         ],
         "examples": [
           {
@@ -26282,11 +22923,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "etwas geltend machen",
-          "etwas geltend machen",
-          "machen"
-        ],
         "examples": [
           {
             "de": "Sie können eine Entschädigung geltend machen.",
@@ -26315,11 +22951,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Flugbuchung",
-          "Flugbuchung",
-          "Flugbuchung"
         ],
         "examples": [
           {
@@ -26350,11 +22981,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Reisetasche",
-          "Reisetasche",
-          "Reisetasche"
-        ],
         "examples": [
           {
             "de": "Das ist die Reisetasche meiner Frau.",
@@ -26383,11 +23009,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Durchsage",
-          "Durchsage",
-          "Durchsage"
         ],
         "examples": [
           {
@@ -26418,11 +23039,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "zu etwas führen",
-          "zu etwas führen",
-          "zu etwas führen"
-        ],
         "examples": [
           {
             "de": "Der Streik führt zu Flugausfällen.",
@@ -26451,11 +23067,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Erstattung",
-          "Erstattung",
-          "Erstattung"
         ],
         "examples": [
           {
@@ -26486,11 +23097,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Entschädigung",
-          "Entschädigung",
-          "Entschädigung"
-        ],
         "examples": [
           {
             "de": "Sie erhält eine finanzielle Entschädigung.",
@@ -26519,11 +23125,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "ausfallen",
-          "ausfallen",
-          "ausfallen"
         ],
         "examples": [
           {
@@ -26554,11 +23155,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "von etwas abhängen",
-          "von etwas abhängen",
-          "von etwas abhängen"
-        ],
         "examples": [
           {
             "de": "Das hängt vom Grund ab.",
@@ -26587,11 +23183,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Ersatzbeförderung",
-          "Ersatzbeförderung",
-          "Ersatzbeförderung"
         ],
         "examples": [
           {
@@ -26622,11 +23213,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "für etwas bezahlen",
-          "für etwas bezahlen",
-          "für etwas bezahlen"
-        ],
         "examples": [
           {
             "de": "Sie hat für das Gepäck bezahlt.",
@@ -26655,11 +23241,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Flugausfall",
-          "Flugausfall",
-          "Flugausfall"
         ],
         "examples": [
           {
@@ -26690,11 +23271,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Roman",
-          "Roman",
-          "Roman"
-        ],
         "examples": [
           {
             "de": "Im Urlaub habe ich einen Roman gelesen.",
@@ -26723,11 +23299,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "außergewöhnliche Umstände",
-          "außergewöhnliche Umstände",
-          "außergewöhnliche"
         ],
         "examples": [
           {
@@ -26758,11 +23329,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Unfall",
-          "Unfall",
-          "Unfall"
-        ],
         "examples": [
           {
             "de": "Wegen eines Unfalls gibt es Stau.",
@@ -26791,11 +23357,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Streik",
-          "Streik",
-          "Streik"
         ],
         "examples": [
           {
@@ -26826,11 +23387,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich beruhigen",
-          "sich beruhigen",
-          "beruhigen"
-        ],
         "examples": [
           {
             "de": "Die Fluggäste beruhigen sich.",
@@ -26859,11 +23415,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Gewitter",
-          "Gewitter",
-          "Gewitter"
         ],
         "examples": [
           {
@@ -26894,11 +23445,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "ärgerlich",
-          "ärgerlich",
-          "ärgerlich"
-        ],
         "examples": [
           {
             "de": "Die lange Wartezeit ist ärgerlich.",
@@ -26928,14 +23474,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l37-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-36."
+    }
   },
   {
     "id": 38,
     "code": "Set 38",
     "title": "Wortschatz Set 38",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -26957,11 +23510,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Stau",
-          "Stau",
-          "Stau"
         ],
         "examples": [
           {
@@ -26992,11 +23540,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich bereitmachen",
-          "sich bereitmachen",
-          "sich bereitmachen"
-        ],
         "examples": [
           {
             "de": "Er macht sich zum Einsteigen bereit.",
@@ -27025,11 +23568,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "damit",
-          "damit",
-          "damit"
         ],
         "examples": [
           {
@@ -27064,11 +23602,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "Wer …, (der) …",
-          "Wer …, (der) …",
-          "Wer"
-        ],
         "examples": [
           {
             "de": "Wer mit dem Flugzeug reist, muss einchecken.",
@@ -27097,11 +23630,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "unregelmäßig",
-          "unregelmäßig",
-          "unregelmäßig"
         ],
         "examples": [
           {
@@ -27132,11 +23660,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "reisen",
-          "reisen",
-          "reisen"
-        ],
         "examples": [
           {
             "de": "Ich reise gern mit dem Zug.",
@@ -27165,11 +23688,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Hinflug",
-          "Hinflug",
-          "Hinflug"
         ],
         "examples": [
           {
@@ -27200,11 +23718,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Verspätung",
-          "Verspätung",
-          "Verspätung"
-        ],
         "examples": [
           {
             "de": "Der Flug hat zwei Stunden Verspätung.",
@@ -27233,11 +23746,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Was passiert mit …?",
-          "Was passiert mit …?",
-          "Was"
         ],
         "examples": [
           {
@@ -27268,11 +23776,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "verspätet",
-          "verspätet",
-          "verspätet"
-        ],
         "examples": [
           {
             "de": "Der Flug ist verspätet.",
@@ -27301,11 +23804,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "einchecken",
-          "einchecken",
-          "einchecken"
         ],
         "examples": [
           {
@@ -27336,11 +23834,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich ärgern",
-          "sich ärgern",
-          "sich ärgern"
-        ],
         "examples": [
           {
             "de": "Wir haben uns über die Verspätung geärgert.",
@@ -27369,11 +23862,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "genau schauen",
-          "genau schauen",
-          "genau schauen"
         ],
         "examples": [
           {
@@ -27404,11 +23892,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "verteilen",
-          "verteilen",
-          "verteilen"
-        ],
         "examples": [
           {
             "de": "Die Mitarbeiterin verteilt Gutscheine.",
@@ -27437,11 +23920,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Koffer",
-          "Koffer",
-          "Koffer"
         ],
         "examples": [
           {
@@ -27472,11 +23950,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "dabei sein",
-          "dabei sein",
-          "dabei"
-        ],
         "examples": [
           {
             "de": "Die Kinder sind auch dabei.",
@@ -27505,11 +23978,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Maschinenraum",
-          "Maschinenraum",
-          "Maschinenraum"
         ],
         "examples": [
           {
@@ -27540,11 +24008,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Gutschein",
-          "Gutschein",
-          "Gutschein"
-        ],
         "examples": [
           {
             "de": "Wir haben einen Gutschein bekommen.",
@@ -27573,11 +24036,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "einsteigen",
-          "einsteigen",
-          "einsteigen"
         ],
         "examples": [
           {
@@ -27608,11 +24066,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die technische Kontrolle",
-          "technische Kontrolle",
-          "technische Kontrolle"
-        ],
         "examples": [
           {
             "de": "Das Flugzeug braucht eine technische Kontrolle.",
@@ -27642,14 +24095,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l38-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-37."
+    }
   },
   {
     "id": 39,
     "code": "Set 39",
     "title": "Wortschatz Set 39",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -27671,11 +24131,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "streng",
-          "streng",
-          "streng"
         ],
         "examples": [
           {
@@ -27706,11 +24161,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Vorspeise",
-          "Vorspeise",
-          "Vorspeise"
-        ],
         "examples": [
           {
             "de": "Als Vorspeise nehme ich eine Suppe.",
@@ -27739,11 +24189,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Abflugzeit",
-          "Abflugzeit",
-          "Abflugzeit"
         ],
         "examples": [
           {
@@ -27774,11 +24219,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Check-in-Schalter",
-          "Check-in-Schalter",
-          "Check-in-Schalter"
-        ],
         "examples": [
           {
             "de": "Wir warten am Check-in-Schalter.",
@@ -27807,11 +24247,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Trennung",
-          "Trennung",
-          "Trennung"
         ],
         "examples": [
           {
@@ -27842,11 +24277,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "völlig",
-          "völlig",
-          "völlig"
-        ],
         "examples": [
           {
             "de": "Das ist völlig normal.",
@@ -27875,11 +24305,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "aus etwas bestehen",
-          "aus etwas bestehen",
-          "aus etwas bestehen"
         ],
         "examples": [
           {
@@ -27910,11 +24335,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Flug",
-          "Flug",
-          "Flug"
-        ],
         "examples": [
           {
             "de": "Der Flug nach Hamburg startet morgen.",
@@ -27943,11 +24363,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Gang",
-          "Gang",
-          "Gang"
         ],
         "examples": [
           {
@@ -27978,11 +24393,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Nebel",
-          "Nebel",
-          "Nebel"
-        ],
         "examples": [
           {
             "de": "Heute Morgen gibt es starken Nebel.",
@@ -28011,11 +24421,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Nachtisch",
-          "Nachtisch",
-          "Nachtisch"
         ],
         "examples": [
           {
@@ -28046,11 +24451,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Verschiebung",
-          "Verschiebung",
-          "Verschiebung"
-        ],
         "examples": [
           {
             "de": "Die Verschiebung des Flugs wurde bestätigt.",
@@ -28079,11 +24479,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "etwas falsch machen",
-          "etwas falsch machen",
-          "etwas falsch machen"
         ],
         "examples": [
           {
@@ -28114,11 +24509,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich verschieben",
-          "sich verschieben",
-          "sich verschieben"
-        ],
         "examples": [
           {
             "de": "Der Termin verschiebt sich um eine Woche.",
@@ -28148,11 +24538,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "wegen",
-          "wegen",
-          "wegen"
-        ],
         "examples": [
           {
             "de": "Wegen des Nebels startet das Flugzeug später.",
@@ -28181,11 +24566,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "während",
-          "während",
-          "während"
         ],
         "examples": [
           {
@@ -28224,11 +24604,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Pauschalangebot",
-          "Pauschalangebot",
-          "Pauschalangebot"
-        ],
         "examples": [
           {
             "de": "Das Hotel bietet ein günstiges Pauschalangebot an.",
@@ -28257,11 +24632,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Regel",
-          "Regel",
-          "Regel"
         ],
         "examples": [
           {
@@ -28292,11 +24662,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "beruflich",
-          "beruflich",
-          "beruflich"
-        ],
         "examples": [
           {
             "de": "Wir haben nur beruflichen Kontakt.",
@@ -28325,11 +24690,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "möglich",
-          "möglich",
-          "möglich"
         ],
         "examples": [
           {
@@ -28360,14 +24720,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l39-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-38."
+    }
   },
   {
     "id": 40,
     "code": "Set 40",
     "title": "Wortschatz Set 40",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -28389,11 +24756,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Wartezeit",
-          "Wartezeit",
-          "Wartezeit"
         ],
         "examples": [
           {
@@ -28424,11 +24786,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Abendessen",
-          "Abendessen",
-          "Abendessen"
-        ],
         "examples": [
           {
             "de": "Beim Abendessen trinken wir Wasser.",
@@ -28457,11 +24814,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "verreisen",
-          "verreisen",
-          "verreisen"
         ],
         "examples": [
           {
@@ -28492,11 +24844,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "beachten",
-          "beachten",
-          "beachten"
-        ],
         "examples": [
           {
             "de": "Bitte beachten Sie die Regeln.",
@@ -28525,11 +24872,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "zunächst",
-          "zunächst",
-          "zunächst"
         ],
         "examples": [
           {
@@ -28560,11 +24902,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "zu Besuch sein",
-          "zu Besuch sein",
-          "zu"
-        ],
         "examples": [
           {
             "de": "Wir sind bei Freunden zu Besuch.",
@@ -28594,11 +24931,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "genehmigen",
-          "genehmigen",
-          "genehmigen"
-        ],
         "examples": [
           {
             "de": "Der Leiter muss die Ausnahme genehmigen.",
@@ -28627,11 +24959,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "abgeben",
-          "abgeben",
-          "abgeben"
         ],
         "examples": [
           {
@@ -28666,11 +24993,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Miete",
-          "Miete",
-          "Miete"
-        ],
         "examples": [
           {
             "de": "Wie viel Miete zahlst du?",
@@ -28699,11 +25021,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "abziehen",
-          "abziehen",
-          "abziehen"
         ],
         "examples": [
           {
@@ -28734,11 +25051,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "räumen",
-          "räumen",
-          "räumen"
-        ],
         "examples": [
           {
             "de": "Die Gäste müssen das Zimmer räumen.",
@@ -28768,11 +25080,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "dazugehören",
-          "dazugehören",
-          "dazugehören"
-        ],
         "examples": [
           {
             "de": "Frühstück gehört zum Preis dazu.",
@@ -28801,11 +25108,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "mit jemandem über etwas sprechen",
-          "mit jemandem über etwas sprechen",
-          "sprechen"
         ],
         "examples": [
           {
@@ -28840,11 +25142,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "gestatten",
-          "gestatten",
-          "gestatten"
-        ],
         "examples": [
           {
             "de": "Tiere sind hier nicht gestattet.",
@@ -28873,11 +25170,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "Müll trennen",
-          "Müll trennen",
-          "trennen"
         ],
         "examples": [
           {
@@ -28908,11 +25200,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "etwas in Ordnung halten",
-          "etwas in Ordnung halten",
-          "halten"
-        ],
         "examples": [
           {
             "de": "Bitte halten Sie den Raum in Ordnung.",
@@ -28941,11 +25228,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Aufenthalt",
-          "Aufenthalt",
-          "Aufenthalt"
         ],
         "examples": [
           {
@@ -28976,11 +25258,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "mit etwas sparsam umgehen",
-          "mit etwas sparsam umgehen",
-          "mit etwas sparsam umgehen"
-        ],
         "examples": [
           {
             "de": "Gehen Sie bitte sparsam mit Wasser um.",
@@ -29009,11 +25286,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Abreise",
-          "Abreise",
-          "Abreise"
         ],
         "examples": [
           {
@@ -29044,11 +25316,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "Rücksicht auf jemanden nehmen",
-          "Rücksicht auf jemanden nehmen",
-          "Rücksicht auf jemanden nehmen"
-        ],
         "examples": [
           {
             "de": "Bitte nehmen Sie Rücksicht auf andere Gäste.",
@@ -29078,14 +25345,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l40-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-39."
+    }
   },
   {
     "id": 41,
     "code": "Set 41",
     "title": "Wortschatz Set 41",
     "subtitle": "20 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -29107,11 +25381,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Gehalt",
-          "Gehalt",
-          "Gehalt"
         ],
         "examples": [
           {
@@ -29142,11 +25411,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Gesprächspartner / die Gesprächspartnerin",
-          "Gesprächspartner / die Gesprächspartnerin",
-          "Gesprächspartner"
-        ],
         "examples": [
           {
             "de": "Ich kenne meinen Gesprächspartner gut.",
@@ -29176,11 +25440,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "irgendwo",
-          "irgendwo",
-          "irgendwo"
-        ],
         "examples": [
           {
             "de": "Ich habe den Schlüssel irgendwo hingelegt.",
@@ -29209,11 +25468,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "ablegen",
-          "ablegen",
-          "ablegen"
         ],
         "examples": [
           {
@@ -29248,11 +25502,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Ausnahme",
-          "Ausnahme",
-          "Ausnahme"
-        ],
         "examples": [
           {
             "de": "Das ist eine Ausnahme.",
@@ -29281,11 +25530,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "um Mithilfe bitten",
-          "um Mithilfe bitten",
-          "bitten"
         ],
         "examples": [
           {
@@ -29316,11 +25560,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "jemanden nach etwas fragen",
-          "jemanden nach etwas fragen",
-          "jemanden nach etwas fragen"
-        ],
         "examples": [
           {
             "de": "Er fragte die Leute nach ihrem Gehalt.",
@@ -29349,11 +25588,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "grundsätzlich",
-          "grundsätzlich",
-          "grundsätzlich"
         ],
         "examples": [
           {
@@ -29384,11 +25618,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "sich einer Sache verpflichten",
-          "sich einer Sache verpflichten",
-          "sich einer Sache verpflichten"
-        ],
         "examples": [
           {
             "de": "Die Jugendherbergen haben sich dem Umweltschutz verpflichtet.",
@@ -29417,11 +25646,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Schuhe ausziehen",
-          "Schuhe ausziehen",
-          "Schuhe ausziehen"
         ],
         "examples": [
           {
@@ -29452,11 +25676,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "mitbringen",
-          "mitbringen",
-          "mitbringen"
-        ],
         "examples": [
           {
             "de": "Bitte bringen Sie Bettwäsche mit.",
@@ -29485,11 +25704,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "für etwas vorgesehen sein",
-          "für etwas vorgesehen sein",
-          "vorgesehen"
         ],
         "examples": [
           {
@@ -29520,11 +25734,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "benutzen",
-          "benutzen",
-          "benutzen"
-        ],
         "examples": [
           {
             "de": "Darf ich dieses Bett benutzen?",
@@ -29553,11 +25762,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "zubereiten",
-          "zubereiten",
-          "zubereiten"
         ],
         "examples": [
           {
@@ -29588,11 +25792,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "erlaubt sein",
-          "erlaubt sein",
-          "erlaubt"
-        ],
         "examples": [
           {
             "de": "Grillen ist hier erlaubt.",
@@ -29621,11 +25820,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich befinden",
-          "sich befinden",
-          "befinden"
         ],
         "examples": [
           {
@@ -29656,11 +25850,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "jemanden des Hauses verweisen",
-          "jemanden des Hauses verweisen",
-          "jemanden des Hauses verweisen"
-        ],
         "examples": [
           {
             "de": "Der Leiter verwies den Gast des Hauses.",
@@ -29689,11 +25878,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Bettwäsche",
-          "Bettwäsche",
-          "Bettwäsche"
         ],
         "examples": [
           {
@@ -29724,11 +25908,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Raucherplatz",
-          "Raucherplatz",
-          "Raucherplatz"
-        ],
         "examples": [
           {
             "de": "Auf dem Außengelände gibt es Raucherplätze.",
@@ -29757,11 +25936,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "alkoholisiert",
-          "alkoholisiert",
-          "alkoholisiert"
         ],
         "examples": [
           {
@@ -29792,14 +25966,21 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l41-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-40."
+    }
   },
   {
     "id": 42,
     "code": "Set 42",
     "title": "Wortschatz Set 42",
     "subtitle": "19 entries from Wortschatz.md",
-    "pathTitle": "Learn, review, listen, and type the words from your glossary.",
+    "pathTitle": "Learn, review, and listen to the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
     "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
@@ -29821,11 +26002,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "weder … noch",
-          "weder … noch",
-          "weder"
         ],
         "examples": [
           {
@@ -29856,11 +26032,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "untersagen",
-          "untersagen",
-          "untersagen"
-        ],
         "examples": [
           {
             "de": "Das Rauchen ist hier untersagt.",
@@ -29889,11 +26060,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "die Ankunftszeit",
-          "Ankunftszeit",
-          "Ankunftszeit"
         ],
         "examples": [
           {
@@ -29924,11 +26090,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Außengelände",
-          "Außengelände",
-          "Außengelände"
-        ],
         "examples": [
           {
             "de": "Auf dem Außengelände darf geraucht werden.",
@@ -29957,11 +26118,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "grillen",
-          "grillen",
-          "grillen"
         ],
         "examples": [
           {
@@ -29992,11 +26148,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "das Gelände",
-          "Gelände",
-          "Gelände"
-        ],
         "examples": [
           {
             "de": "Rauchen ist auf dem Gelände verboten.",
@@ -30025,11 +26176,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Schlafraum",
-          "Schlafraum",
-          "Schlafraum"
         ],
         "examples": [
           {
@@ -30060,11 +26206,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "aus … Gründen",
-          "aus … Gründen",
-          "Gründen"
-        ],
         "examples": [
           {
             "de": "Aus hygienischen Gründen ist das nicht erlaubt.",
@@ -30093,11 +26234,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Schlüssel",
-          "Schlüssel",
-          "Schlüssel"
         ],
         "examples": [
           {
@@ -30128,11 +26264,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Speise",
-          "Speise",
-          "Speise"
-        ],
         "examples": [
           {
             "de": "Warme Speisen gibt es ab 12 Uhr.",
@@ -30161,11 +26292,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "das Lagerfeuer",
-          "Lagerfeuer",
-          "Lagerfeuer"
         ],
         "examples": [
           {
@@ -30196,11 +26322,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "der Leiter / die Leiterin",
-          "Leiter / die Leiterin",
-          "Leiter"
-        ],
         "examples": [
           {
             "de": "Sprechen Sie bitte mit dem Leiter.",
@@ -30229,11 +26350,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "der Konsum",
-          "Konsum",
-          "Konsum"
         ],
         "examples": [
           {
@@ -30264,11 +26380,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "die Jugendherberge (JH)",
-          "Jugendherberge (JH)",
-          "Jugendherberge"
-        ],
         "examples": [
           {
             "de": "Wir übernachten in einer Jugendherberge.",
@@ -30297,11 +26408,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "schließen",
-          "schließen",
-          "schließen"
         ],
         "examples": [
           {
@@ -30332,11 +26438,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "vereinbaren",
-          "vereinbaren",
-          "vereinbaren"
-        ],
         "examples": [
           {
             "de": "Ich habe einen Termin mit dem Arzt vereinbart.",
@@ -30365,11 +26466,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "ausgeben",
-          "ausgeben",
-          "ausgeben"
         ],
         "examples": [
           {
@@ -30404,11 +26500,6 @@
           "nächstes Wochenende",
           "Geburtstag haben"
         ],
-        "typeAnswers": [
-          "eintreffen",
-          "eintreffen",
-          "eintreffen"
-        ],
         "examples": [
           {
             "de": "Die Gäste treffen um 18 Uhr ein.",
@@ -30437,11 +26528,6 @@
           "ehemalig",
           "nächstes Wochenende",
           "Geburtstag haben"
-        ],
-        "typeAnswers": [
-          "sich anmelden",
-          "sich anmelden",
-          "sich anmelden"
         ],
         "examples": [
           {
@@ -30472,7 +26558,14 @@
       }
     ],
     "workbook": [],
-    "grammar": null
+    "grammar": null,
+    "review": {
+      "id": "l42-review",
+      "icon": "R",
+      "title": "Previous-set review",
+      "fa": "9 words",
+      "subtitle": "30 exercises using only words from sets 1-41."
+    }
   }
 ];
 
