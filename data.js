@@ -10,7 +10,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "ehemalig",
@@ -709,215 +709,43 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l1-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nIch will ____ ausziehen.",
-            "options": [
-              "nicht",
-              "habe",
-              "Entscheidung",
-              "lege"
-            ],
-            "answer": "nicht",
-            "answers": [
-              "nicht"
-            ],
-            "note": "How to read the structures: The following labels are used throughout the file:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nAm 25.9. habe ich die Kündigung erhalten.",
-            "options": [
-              "Main clauses: verb in position 2",
-              "Inversion after linking adverbs",
-              "Subordinate clauses: verb at the end",
-              "How to read the structures"
-            ],
-            "answer": "How to read the structures",
-            "answers": [
-              "How to read the structures"
-            ],
-            "note": "How to read the structures: The following labels are used throughout the file:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: How to read the structures",
-            "options": [
-              "Am 25.9. habe ich die Kündigung erhalten.",
-              "Ich lege gegen die Kündigung Widerspruch ein.",
-              "Die Entscheidung muss noch einmal geprüft werden.",
-              "Ich will nicht ausziehen."
-            ],
-            "answer": "Die Entscheidung muss noch einmal geprüft werden.",
-            "answers": [
-              "Die Entscheidung muss noch einmal geprüft werden."
-            ],
-            "note": "How to read the structures: The following labels are used throughout the file:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nIch ____ gegen die Kündigung Widerspruch ein.",
-            "answer": "lege",
-            "answers": [
-              "lege"
-            ],
-            "note": "How to read the structures: The following labels are used throughout the file:",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Ich kündige hiermit den Mietvertrag.",
-              "Ich hiermit kündige den Mietvertrag.",
-              "Ich hiermit den Mietvertrag. kündige",
-              "Ich kündige kündige hiermit den Mietvertrag."
-            ],
-            "answer": "Ich kündige hiermit den Mietvertrag.",
-            "answers": [
-              "Ich kündige hiermit den Mietvertrag."
-            ],
-            "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ kündige ich den Mietvertrag.",
-            "options": [
-              "nicht",
-              "habe",
-              "Entscheidung",
-              "Hiermit"
-            ],
-            "answer": "Hiermit",
-            "answers": [
-              "Hiermit"
-            ],
-            "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nAm 25. September habe ich die Kündigung erhalten.",
-            "options": [
-              "Inversion after linking adverbs",
-              "Subordinate clauses: verb at the end",
-              "Main clauses: verb in position 2",
-              "How to read the structures"
-            ],
-            "answer": "Main clauses: verb in position 2",
-            "answers": [
-              "Main clauses: verb in position 2"
-            ],
-            "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Main clauses: verb in position 2",
-            "options": [
-              "Die Entscheidung muss noch einmal geprüft werden.",
-              "Zum Schluss habe ich noch eine Frage zu Ihrem Freizeitprogramm.",
-              "Ich will nicht ausziehen.",
-              "Am 25.9. habe ich die Kündigung erhalten."
-            ],
-            "answer": "Zum Schluss habe ich noch eine Frage zu Ihrem Freizeitprogramm.",
-            "answers": [
-              "Zum Schluss habe ich noch eine Frage zu Ihrem Freizeitprogramm."
-            ],
-            "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nIch will ____ ausziehen.",
-            "answer": "nicht",
-            "answers": [
-              "nicht"
-            ],
-            "note": "How to read the structures: The following labels are used throughout the file:",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Am 25.9. ich habe die Kündigung erhalten.",
-              "Am 25.9. ich die Kündigung erhalten. habe",
-              "Am 25.9. habe habe ich die Kündigung erhalten.",
-              "Am 25.9. habe ich die Kündigung erhalten."
-            ],
-            "answer": "Am 25.9. habe ich die Kündigung erhalten.",
-            "answers": [
-              "Am 25.9. habe ich die Kündigung erhalten."
-            ],
-            "note": "How to read the structures: The following labels are used throughout the file:",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
+    "workbook": [],
     "grammar": {
-      "id": "l1-grammar",
+      "id": "l1-b1-grammar",
       "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
+      "title": "weil / dass / wenn / obwohl / ob",
+      "fa": "3 examples",
+      "subtitle": "Learn the B1 pattern through three varied examples.",
       "placeholder": "Type the missing German form",
       "teach": [
         {
-          "title": "Core rule: How to read the structures",
-          "body": "The following labels are used throughout the file:",
-          "example": "Ich will nicht ausziehen.",
+          "title": "weil and dass",
+          "body": "These conjunctions introduce a subordinate clause, so the conjugated verb moves to the end.",
+          "example": "Ich glaube, dass Amir heute fehlt, weil er einen Arzttermin hat.",
           "emphasis": [
-            "nicht"
+            "dass",
+            "weil",
+            "hat"
           ]
         },
         {
-          "title": "Word order: Main clauses: verb in position 2",
-          "body": "In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
-          "example": "Ich kündige hiermit den Mietvertrag.",
+          "title": "wenn",
+          "body": "Use wenn for a condition or for an event that happens repeatedly; the verb stands at the end of the clause.",
+          "example": "Wenn das Wetter morgen besser ist, fahren wir mit dem Fahrrad zur Arbeit.",
           "emphasis": [
-            "kündige"
+            "Wenn",
+            "ist"
           ]
         },
         {
-          "title": "Usage: How to read the structures",
-          "body": "German sentences often have a verb bracket. The conjugated verb is near the beginning, while an infinitive, participle, or separable prefix is at the end.",
-          "example": "Am 25.9. habe ich die Kündigung erhalten.",
+          "title": "obwohl and ob",
+          "body": "Obwohl expresses contrast, while ob introduces an indirect yes-or-no question. Both send the verb to the end.",
+          "example": "Obwohl ich noch nicht weiß, ob ich am Freitag frei habe, plane ich die Reise.",
           "emphasis": [
+            "Obwohl",
+            "weiß",
+            "ob",
             "habe"
-          ]
-        },
-        {
-          "title": "Contrast: Main clauses: verb in position 2",
-          "body": "“Position 1” means one sentence element, not necessarily one word:",
-          "example": "Hiermit kündige ich den Mietvertrag.",
-          "emphasis": [
-            "Hiermit"
-          ]
-        },
-        {
-          "title": "Final check: How to read the structures",
-          "body": "When checking word order, first find the conjugated verb. Then ask whether the clause is a main clause or a subordinate clause.",
-          "example": "Die Entscheidung muss noch einmal geprüft werden.",
-          "emphasis": [
-            "Entscheidung"
           ]
         }
       ],
@@ -932,7 +760,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "sich-mit-jemandem-verstehen",
@@ -1635,215 +1463,42 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l2-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ will ich nicht ausziehen.",
-            "options": [
-              "Trotzdem",
-              "zu",
-              "um",
-              "Arbeit"
-            ],
-            "answer": "Trotzdem",
-            "answers": [
-              "Trotzdem"
-            ],
-            "note": "Inversion after linking adverbs: Adverbs such as trotzdem, deshalb, darum and außerdem can occupy position 1. The conjugated verb then comes before the subject.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nDeshalb ist es wichtig, den Schnee zu räumen.",
-            "options": [
-              "Subordinate clauses: verb at the end",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Inversion after linking adverbs"
-            ],
-            "answer": "Inversion after linking adverbs",
-            "answers": [
-              "Inversion after linking adverbs"
-            ],
-            "note": "Inversion after linking adverbs: Adverbs such as trotzdem, deshalb, darum and außerdem can occupy position 1. The conjugated verb then comes before the subject.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Inversion after linking adverbs",
-            "options": [
-              "Deshalb ist es wichtig, den Schnee zu räumen.",
-              "Die Arbeit interessiert mich, und deshalb würde ich gern mehr darüber wissen.",
-              "Darum bitten wir Sie um Mithilfe.",
-              "Trotzdem will ich nicht ausziehen."
-            ],
-            "answer": "Darum bitten wir Sie um Mithilfe.",
-            "answers": [
-              "Darum bitten wir Sie um Mithilfe."
-            ],
-            "note": "Inversion after linking adverbs: Adverbs such as trotzdem, deshalb, darum and außerdem can occupy position 1. The conjugated verb then comes before the subject.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nDie ____ interessiert mich, und deshalb würde ich gern mehr darüber wissen.",
-            "answer": "Arbeit",
-            "answers": [
-              "Arbeit"
-            ],
-            "note": "Inversion after linking adverbs: Adverbs such as trotzdem, deshalb, darum and außerdem can occupy position 1. The conjugated verb then comes before the subject.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Ich hoffe, dass wir bald eine warme Wohnung haben.",
-              "Ich hoffe, wir dass bald eine warme Wohnung haben.",
-              "Ich hoffe, wir bald eine warme Wohnung haben. dass",
-              "Ich hoffe, dass dass wir bald eine warme Wohnung haben."
-            ],
-            "answer": "Ich hoffe, dass wir bald eine warme Wohnung haben.",
-            "answers": [
-              "Ich hoffe, dass wir bald eine warme Wohnung haben."
-            ],
-            "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nDer Flug ist verspätet, ____ es ein Gewitter gibt.",
-            "options": [
-              "Trotzdem",
-              "zu",
-              "um",
-              "weil"
-            ],
-            "answer": "weil",
-            "answers": [
-              "weil"
-            ],
-            "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nDa ich seit sieben Jahren hier lebe, beträgt die Frist sechs Monate.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Subordinate clauses: verb at the end",
-              "Inversion after linking adverbs"
-            ],
-            "answer": "Subordinate clauses: verb at the end",
-            "answers": [
-              "Subordinate clauses: verb at the end"
-            ],
-            "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Subordinate clauses: verb at the end",
-            "options": [
-              "Darum bitten wir Sie um Mithilfe.",
-              "Da das Schuljahr im Juni endet, könnte ich am 1. Juli in Frankfurt sein.",
-              "Trotzdem will ich nicht ausziehen.",
-              "Deshalb ist es wichtig, den Schnee zu räumen."
-            ],
-            "answer": "Da das Schuljahr im Juni endet, könnte ich am 1. Juli in Frankfurt sein.",
-            "answers": [
-              "Da das Schuljahr im Juni endet, könnte ich am 1. Juli in Frankfurt sein."
-            ],
-            "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nIch ____ hiermit den Mietvertrag.",
-            "answer": "kündige",
-            "answers": [
-              "kündige"
-            ],
-            "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "kündige Hiermit ich den Mietvertrag.",
-              "kündige ich den Mietvertrag. Hiermit",
-              "Hiermit Hiermit kündige ich den Mietvertrag.",
-              "Hiermit kündige ich den Mietvertrag."
-            ],
-            "answer": "Hiermit kündige ich den Mietvertrag.",
-            "answers": [
-              "Hiermit kündige ich den Mietvertrag."
-            ],
-            "note": "Main clauses: verb in position 2: In a normal statement, the conjugated verb occupies the second position. The first position may contain the subject or another element.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
+    "workbook": [],
     "grammar": {
-      "id": "l2-grammar",
+      "id": "l2-b1-grammar",
       "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
+      "title": "deshalb / trotzdem",
+      "fa": "3 examples",
+      "subtitle": "Learn the B1 pattern through three varied examples.",
       "placeholder": "Type the missing German form",
       "teach": [
         {
-          "title": "Core rule: Inversion after linking adverbs",
-          "body": "Adverbs such as trotzdem, deshalb, darum and außerdem can occupy position 1. The conjugated verb then comes before the subject.",
-          "example": "Trotzdem will ich nicht ausziehen.",
+          "title": "deshalb: result",
+          "body": "Deshalb introduces a consequence. It occupies position one, so the conjugated verb follows immediately.",
+          "example": "Der Bus ist ausgefallen; deshalb bin ich zu Fuß zur Arbeit gegangen.",
           "emphasis": [
-            "Trotzdem"
+            "deshalb",
+            "bin"
           ]
         },
         {
-          "title": "Word order: Subordinate clauses: verb at the end",
-          "body": "Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
-          "example": "Ich hoffe, dass wir bald eine warme Wohnung haben.",
+          "title": "trotzdem: contrast",
+          "body": "Trotzdem shows that the second action happens despite the first fact. The verb remains in position two.",
+          "example": "Es hat den ganzen Nachmittag geregnet; trotzdem fand das Konzert draußen statt.",
           "emphasis": [
-            "dass"
+            "trotzdem",
+            "fand"
           ]
         },
         {
-          "title": "Usage: Inversion after linking adverbs",
-          "body": "After und, deshalb can still occupy position 1 of the new main clause. The conjugated verb therefore comes before the subject:",
-          "example": "Deshalb ist es wichtig, den Schnee zu räumen.",
+          "title": "Connecting an argument",
+          "body": "Use deshalb for a logical result and trotzdem for an unexpected result when explaining an opinion or decision.",
+          "example": "Mina hatte wenig Zeit. Trotzdem half sie uns, und deshalb waren wir früher fertig.",
           "emphasis": [
-            "zu"
-          ]
-        },
-        {
-          "title": "Contrast: Subordinate clauses: verb at the end",
-          "body": "In etwas gut finden, es can stand in advance for the following content",
-          "example": "Der Flug ist verspätet, weil es ein Gewitter gibt.",
-          "emphasis": [
-            "weil"
-          ]
-        },
-        {
-          "title": "Final check: Inversion after linking adverbs",
-          "body": "Adverbs such as trotzdem, deshalb, darum and außerdem can occupy position 1. The conjugated verb then comes before the subject.",
-          "example": "Darum bitten wir Sie um Mithilfe.",
-          "emphasis": [
-            "um"
+            "Trotzdem",
+            "half",
+            "deshalb",
+            "waren"
           ]
         }
       ],
@@ -1858,7 +1513,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "der-stadtteil",
@@ -2557,215 +2212,40 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l3-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ ich gestern nach Hause gekommen bin, war mein Portemonnaie weg.",
-            "options": [
-              "Als",
-              "nach",
-              "Hause",
-              "dass"
-            ],
-            "answer": "Als",
-            "answers": [
-              "Als"
-            ],
-            "note": "Temporal als versus wenn: Both can mean “when,” but they are used in different situations.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nAls ich ein Kind war, lebte ich in einer kleinen Stadt.",
-            "options": [
-              "nach Hause versus zu Hause",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Temporal als versus wenn"
-            ],
-            "answer": "Temporal als versus wenn",
-            "answers": [
-              "Temporal als versus wenn"
-            ],
-            "note": "Temporal als versus wenn: Both can mean “when,” but they are used in different situations.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Temporal als versus wenn",
-            "options": [
-              "Als ich ein Kind war, lebte ich in einer kleinen Stadt.",
-              "[Als ich gestern nach Hause gekommen bin], war mein Portemonnaie weg.",
-              "Teresa konnte schon etwas Englisch, als sie mit dem Internetkurs begann.",
-              "Als ich gestern nach Hause gekommen bin, war mein Portemonnaie weg."
-            ],
-            "answer": "Teresa konnte schon etwas Englisch, als sie mit dem Internetkurs begann.",
-            "answers": [
-              "Teresa konnte schon etwas Englisch, als sie mit dem Internetkurs begann."
-            ],
-            "note": "Temporal als versus wenn: Both can mean “when,” but they are used in different situations.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n[____ ich gestern nach Hause gekommen bin], war mein Portemonnaie weg.",
-            "answer": "Als",
-            "answers": [
-              "Als"
-            ],
-            "note": "Temporal als versus wenn: Both can mean “when,” but they are used in different situations.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Ich bin nach Hause gekommen. movement → perfect with sein",
-              "Ich bin Hause nach gekommen. movement → perfect with sein",
-              "Ich bin Hause gekommen. movement → perfect with sein nach",
-              "Ich bin nach nach Hause gekommen. movement → perfect with sein"
-            ],
-            "answer": "Ich bin nach Hause gekommen. movement → perfect with sein",
-            "answers": [
-              "Ich bin nach Hause gekommen. movement → perfect with sein"
-            ],
-            "note": "nach Hause versus zu Hause: Use nach Hause for movement toward home and zu Hause for location at home.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nIch war zu ____. location/state",
-            "options": [
-              "Als",
-              "als",
-              "nach",
-              "Hause"
-            ],
-            "answer": "Hause",
-            "answers": [
-              "Hause"
-            ],
-            "note": "nach Hause versus zu Hause: Use nach Hause for movement toward home and zu Hause for location at home.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nIch hoffe, dass wir bald eine warme Wohnung haben.",
-            "options": [
-              "nach Hause versus zu Hause",
-              "How to read the structures",
-              "Subordinate clauses: verb at the end",
-              "Temporal als versus wenn"
-            ],
-            "answer": "Subordinate clauses: verb at the end",
-            "answers": [
-              "Subordinate clauses: verb at the end"
-            ],
-            "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Subordinate clauses: verb at the end",
-            "options": [
-              "Teresa konnte schon etwas Englisch, als sie mit dem Internetkurs begann.",
-              "Der Flug ist verspätet, weil es ein Gewitter gibt.",
-              "Als ich gestern nach Hause gekommen bin, war mein Portemonnaie weg.",
-              "Als ich ein Kind war, lebte ich in einer kleinen Stadt."
-            ],
-            "answer": "Der Flug ist verspätet, weil es ein Gewitter gibt.",
-            "answers": [
-              "Der Flug ist verspätet, weil es ein Gewitter gibt."
-            ],
-            "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nDa ich ____ sieben Jahren hier lebe, beträgt die Frist sechs Monate.",
-            "answer": "seit",
-            "answers": [
-              "seit"
-            ],
-            "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Da das im Schuljahr Juni endet, könnte ich am 1. Juli in Frankfurt sein.",
-              "Da das im Juni endet, könnte ich am 1. Juli in Frankfurt sein. Schuljahr",
-              "Da das Schuljahr Schuljahr im Juni endet, könnte ich am 1. Juli in Frankfurt sein.",
-              "Da das Schuljahr im Juni endet, könnte ich am 1. Juli in Frankfurt sein."
-            ],
-            "answer": "Da das Schuljahr im Juni endet, könnte ich am 1. Juli in Frankfurt sein.",
-            "answers": [
-              "Da das Schuljahr im Juni endet, könnte ich am 1. Juli in Frankfurt sein."
-            ],
-            "note": "Subordinate clauses: verb at the end: Conjunctions such as dass, weil, da, wenn, obwohl, ob and damit send the conjugated verb to the end.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
+    "workbook": [],
     "grammar": {
-      "id": "l3-grammar",
+      "id": "l3-b1-grammar",
       "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
+      "title": "Konjunktiv II: würde, könnte, wäre, hätte",
+      "fa": "3 examples",
+      "subtitle": "Learn the B1 pattern through three varied examples.",
       "placeholder": "Type the missing German form",
       "teach": [
         {
-          "title": "Core rule: Temporal als versus wenn",
-          "body": "Both can mean “when,” but they are used in different situations.",
-          "example": "Als ich gestern nach Hause gekommen bin, war mein Portemonnaie weg.",
+          "title": "würde for advice and wishes",
+          "body": "Use würde plus infinitive to make suggestions, describe wishes, or speak about an unreal situation.",
+          "example": "An deiner Stelle würde ich mich früher für den Sprachkurs anmelden.",
           "emphasis": [
-            "Als"
+            "würde",
+            "anmelden"
           ]
         },
         {
-          "title": "Word order: nach Hause versus zu Hause",
-          "body": "Use nach Hause for movement toward home and zu Hause for location at home.",
-          "example": "Ich bin nach Hause gekommen. movement → perfect with sein",
+          "title": "könnte for polite possibilities",
+          "body": "Könnte makes requests and suggestions sound polite and less direct.",
+          "example": "Könnten Sie mir bitte erklären, welche Unterlagen noch fehlen?",
           "emphasis": [
-            "nach"
+            "Könnten",
+            "erklären"
           ]
         },
         {
-          "title": "Usage: Temporal als versus wenn",
-          "body": "Use als for something that happened once, or for one specific period, in the past.",
-          "example": "Als ich ein Kind war, lebte ich in einer kleinen Stadt.",
+          "title": "wäre and hätte",
+          "body": "Use wäre and hätte for unreal conditions involving sein and haben.",
+          "example": "Wenn ich mehr Zeit hätte, wäre ich gern ehrenamtlich tätig.",
           "emphasis": [
-            "Als"
-          ]
-        },
-        {
-          "title": "Contrast: nach Hause versus zu Hause",
-          "body": "Hause is capitalized in both fixed expressions.",
-          "example": "Ich war zu Hause. location/state",
-          "emphasis": [
-            "Hause"
-          ]
-        },
-        {
-          "title": "Final check: Temporal als versus wenn",
-          "body": "In the last example, wenn means “whenever/every time that”: each successful sale leads to a commission. The subordinate-clause verb goes to the end:",
-          "example": "Teresa konnte schon etwas Englisch, als sie mit dem Internetkurs begann.",
-          "emphasis": [
-            "als"
+            "hätte",
+            "wäre"
           ]
         }
       ],
@@ -2780,7 +2260,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "mit-jemandem-unzufrieden-sein",
@@ -3479,215 +2959,40 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l4-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nDer Flug ist verspätet, ____ es ein Gewitter gibt.",
-            "options": [
-              "weil",
-              "denn",
-              "Obwohl",
-              "Trotzdem"
-            ],
-            "answer": "weil",
-            "answers": [
-              "weil"
-            ],
-            "note": "denn versus weil: Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nDer Flug ist verspätet, denn es gibt ein Gewitter.",
-            "options": [
-              "obwohl versus trotzdem",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "denn versus weil"
-            ],
-            "answer": "denn versus weil",
-            "answers": [
-              "denn versus weil"
-            ],
-            "note": "denn versus weil: Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: obwohl versus trotzdem",
-            "options": [
-              "Der Flug ist verspätet, denn es gibt ein Gewitter.",
-              "Andreas hatte wenig Zeit. Trotzdem gab er Simon gute Tipps.",
-              "Obwohl Andreas wenig Zeit hatte, gab er Simon gute Tipps.",
-              "Der Flug ist verspätet, weil es ein Gewitter gibt."
-            ],
-            "answer": "Obwohl Andreas wenig Zeit hatte, gab er Simon gute Tipps.",
-            "answers": [
-              "Obwohl Andreas wenig Zeit hatte, gab er Simon gute Tipps."
-            ],
-            "note": "obwohl versus trotzdem: obwohl introduces a subordinate clause with the verb at the end. trotzdem begins a new main clause and is followed by the conjugated verb.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nAndreas hatte wenig Zeit. ____ gab er Simon gute Tipps.",
-            "answer": "Trotzdem",
-            "answers": [
-              "Trotzdem"
-            ],
-            "note": "obwohl versus trotzdem: obwohl introduces a subordinate clause with the verb at the end. trotzdem begins a new main clause and is followed by the conjugated verb.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "obwohl sie manchmal etwas anstrengend sein können",
-              "sie obwohl manchmal etwas anstrengend sein können",
-              "sie manchmal etwas anstrengend sein können obwohl",
-              "obwohl obwohl sie manchmal etwas anstrengend sein können"
-            ],
-            "answer": "obwohl sie manchmal etwas anstrengend sein können",
-            "answers": [
-              "obwohl sie manchmal etwas anstrengend sein können"
-            ],
-            "note": "obwohl versus trotzdem: obwohl introduces a subordinate clause with the verb at the end. trotzdem begins a new main clause and is followed by the conjugated verb.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ + modal",
-            "options": [
-              "weil",
-              "denn",
-              "Obwohl",
-              "infinitive"
-            ],
-            "answer": "infinitive",
-            "answers": [
-              "infinitive"
-            ],
-            "note": "obwohl versus trotzdem: obwohl introduces a subordinate clause with the verb at the end. trotzdem begins a new main clause and is followed by the conjugated verb.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nIch bin nach Hause gekommen. movement → perfect with sein",
-            "options": [
-              "obwohl versus trotzdem",
-              "How to read the structures",
-              "nach Hause versus zu Hause",
-              "denn versus weil"
-            ],
-            "answer": "nach Hause versus zu Hause",
-            "answers": [
-              "nach Hause versus zu Hause"
-            ],
-            "note": "nach Hause versus zu Hause: Use nach Hause for movement toward home and zu Hause for location at home.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: nach Hause versus zu Hause",
-            "options": [
-              "Obwohl Andreas wenig Zeit hatte, gab er Simon gute Tipps.",
-              "Ich war zu Hause. location/state",
-              "Der Flug ist verspätet, weil es ein Gewitter gibt.",
-              "Der Flug ist verspätet, denn es gibt ein Gewitter."
-            ],
-            "answer": "Ich war zu Hause. location/state",
-            "answers": [
-              "Ich war zu Hause. location/state"
-            ],
-            "note": "nach Hause versus zu Hause: Use nach Hause for movement toward home and zu Hause for location at home.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nDer Flug ist verspätet, ____ es ein Gewitter gibt.",
-            "answer": "weil",
-            "answers": [
-              "weil"
-            ],
-            "note": "denn versus weil: Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Der Flug ist verspätet, es denn gibt ein Gewitter.",
-              "Der Flug ist verspätet, es gibt ein Gewitter. denn",
-              "Der Flug ist verspätet, denn denn es gibt ein Gewitter.",
-              "Der Flug ist verspätet, denn es gibt ein Gewitter."
-            ],
-            "answer": "Der Flug ist verspätet, denn es gibt ein Gewitter.",
-            "answers": [
-              "Der Flug ist verspätet, denn es gibt ein Gewitter."
-            ],
-            "note": "denn versus weil: Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
+    "workbook": [],
     "grammar": {
-      "id": "l4-grammar",
+      "id": "l4-b1-grammar",
       "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
+      "title": "um … zu / damit",
+      "fa": "3 examples",
+      "subtitle": "Learn the B1 pattern through three varied examples.",
       "placeholder": "Type the missing German form",
       "teach": [
         {
-          "title": "Core rule: denn versus weil",
-          "body": "Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
-          "example": "Der Flug ist verspätet, weil es ein Gewitter gibt.",
+          "title": "um … zu with one subject",
+          "body": "Use um … zu when the main clause and the purpose clause have the same subject.",
+          "example": "Ich fahre jeden Morgen früher los, um nicht im Stau zu stehen.",
           "emphasis": [
-            "weil"
+            "um",
+            "zu"
           ]
         },
         {
-          "title": "Word order: obwohl versus trotzdem",
-          "body": "obwohl introduces a subordinate clause with the verb at the end. trotzdem begins a new main clause and is followed by the conjugated verb.",
-          "example": "Obwohl Andreas wenig Zeit hatte, gab er Simon gute Tipps.",
+          "title": "damit with different subjects",
+          "body": "Use damit when the purpose clause has its own subject; its conjugated verb moves to the end.",
+          "example": "Die Lehrerin spricht langsam, damit alle Teilnehmenden die Aufgabe verstehen.",
           "emphasis": [
-            "Obwohl"
+            "damit",
+            "verstehen"
           ]
         },
         {
-          "title": "Usage: denn versus weil",
-          "body": "Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
-          "example": "Der Flug ist verspätet, denn es gibt ein Gewitter.",
+          "title": "Choosing the purpose form",
+          "body": "Check whether the subject changes: same subject means um … zu, while a new subject requires damit.",
+          "example": "Wir schließen das Fenster, damit die Nachbarn nicht durch den Lärm gestört werden.",
           "emphasis": [
-            "denn"
-          ]
-        },
-        {
-          "title": "Contrast: obwohl versus trotzdem",
-          "body": "With a modal verb in an obwohl clause, the lexical infinitive comes before the conjugated modal at the end:",
-          "example": "Andreas hatte wenig Zeit. Trotzdem gab er Simon gute Tipps.",
-          "emphasis": [
-            "Trotzdem"
-          ]
-        },
-        {
-          "title": "Final check: denn versus weil",
-          "body": "Both mean “because.” weil introduces a subordinate clause; denn connects two main clauses and keeps normal word order.",
-          "example": "Der Flug ist verspätet, weil es ein Gewitter gibt.",
-          "emphasis": [
-            "weil"
+            "damit",
+            "werden"
           ]
         }
       ],
@@ -3702,7 +3007,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "miteinander",
@@ -4401,215 +3706,41 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l5-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nEs ____, aber wir gehen spazieren. main clause + main clause",
-            "options": [
-              "regnet",
-              "obwohl",
-              "Kinderprogramm",
-              "Deshalb"
-            ],
-            "answer": "regnet",
-            "answers": [
-              "regnet"
-            ],
-            "note": "Connector map: The connector determines the sentence structure that follows it.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nWir gehen spazieren, obwohl es regnet. conjunction + ... + V1",
-            "options": [
-              "Ellipsis with auch",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Connector map"
-            ],
-            "answer": "Connector map",
-            "answers": [
-              "Connector map"
-            ],
-            "note": "Connector map: The connector determines the sentence structure that follows it.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Connector map",
-            "options": [
-              "Wir gehen spazieren, obwohl es regnet. conjunction + ... + V1",
-              "Deshalb müssen wir den Hund mitnehmen.",
-              "Das Kinderprogramm ist wichtig, da wir zwei Kinder haben.",
-              "Es regnet, aber wir gehen spazieren. main clause + main clause"
-            ],
-            "answer": "Das Kinderprogramm ist wichtig, da wir zwei Kinder haben.",
-            "answers": [
-              "Das Kinderprogramm ist wichtig, da wir zwei Kinder haben."
-            ],
-            "note": "Connector map: The connector determines the sentence structure that follows it.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ müssen wir den Hund mitnehmen.",
-            "answer": "Deshalb",
-            "answers": [
-              "Deshalb"
-            ],
-            "note": "Connector map: The connector determines the sentence structure that follows it.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Der Chef und die Kollegen sind sehr nett, die Kunden auch.",
-              "Der Chef und die Kollegen sind sehr nett, die auch. Kunden",
-              "Der Chef und die Kollegen sind sehr nett, die Kunden auch. auch.",
-              "werden"
-            ],
-            "answer": "Der Chef und die Kollegen sind sehr nett, die Kunden auch.",
-            "answers": [
-              "Der Chef und die Kollegen sind sehr nett, die Kunden auch."
-            ],
-            "note": "Ellipsis with auch: When a repeated predicate is obvious, German can leave it out. This is called an ellipsis.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\ndie Kunden sind ____ sehr nett",
-            "options": [
-              "regnet",
-              "obwohl",
-              "Kinderprogramm",
-              "auch"
-            ],
-            "answer": "auch",
-            "answers": [
-              "auch"
-            ],
-            "note": "Ellipsis with auch: When a repeated predicate is obvious, German can leave it out. This is called an ellipsis.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nUnd schließlich noch eine letzte Frage.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Ellipsis with auch",
-              "Connector map"
-            ],
-            "answer": "Ellipsis with auch",
-            "answers": [
-              "Ellipsis with auch"
-            ],
-            "note": "Ellipsis with auch: When a repeated predicate is obvious, German can leave it out. This is called an ellipsis.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Ellipsis with auch",
-            "options": [
-              "Das Kinderprogramm ist wichtig, da wir zwei Kinder haben.",
-              "Jetzt liege ich hier und (ich) muss Tabletten nehmen.",
-              "Es regnet, aber wir gehen spazieren. main clause + main clause",
-              "Wir gehen spazieren, obwohl es regnet. conjunction + ... + V1"
-            ],
-            "answer": "Jetzt liege ich hier und (ich) muss Tabletten nehmen.",
-            "answers": [
-              "Jetzt liege ich hier und (ich) muss Tabletten nehmen."
-            ],
-            "note": "Ellipsis with auch: When a repeated predicate is obvious, German can leave it out. This is called an ellipsis.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ Andreas wenig Zeit hatte, gab er Simon gute Tipps.",
-            "answer": "Obwohl",
-            "answers": [
-              "Obwohl"
-            ],
-            "note": "obwohl versus trotzdem: obwohl introduces a subordinate clause with the verb at the end. trotzdem begins a new main clause and is followed by the conjugated verb.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Andreas hatte wenig Zeit. gab Trotzdem er Simon gute Tipps.",
-              "Andreas hatte wenig Zeit. gab er Simon gute Tipps. Trotzdem",
-              "Andreas hatte wenig Zeit. Trotzdem Trotzdem gab er Simon gute Tipps.",
-              "Andreas hatte wenig Zeit. Trotzdem gab er Simon gute Tipps."
-            ],
-            "answer": "Andreas hatte wenig Zeit. Trotzdem gab er Simon gute Tipps.",
-            "answers": [
-              "Andreas hatte wenig Zeit. Trotzdem gab er Simon gute Tipps."
-            ],
-            "note": "obwohl versus trotzdem: obwohl introduces a subordinate clause with the verb at the end. trotzdem begins a new main clause and is followed by the conjugated verb.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
+    "workbook": [],
     "grammar": {
-      "id": "l5-grammar",
+      "id": "l5-b1-grammar",
       "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
+      "title": "Relativsätze",
+      "fa": "3 examples",
+      "subtitle": "Learn the B1 pattern through three varied examples.",
       "placeholder": "Type the missing German form",
       "teach": [
         {
-          "title": "Core rule: Connector map",
-          "body": "The connector determines the sentence structure that follows it.",
-          "example": "Es regnet, aber wir gehen spazieren. main clause + main clause",
+          "title": "Relative pronoun as subject",
+          "body": "The relative pronoun agrees with the noun in gender and number; its case depends on its role inside the relative clause.",
+          "example": "Die Kollegin, die neben mir arbeitet, kommt aus der Schweiz.",
           "emphasis": [
-            "regnet"
+            "die",
+            "arbeitet"
           ]
         },
         {
-          "title": "Word order: Ellipsis with auch",
-          "body": "When a repeated predicate is obvious, German can leave it out. This is called an ellipsis.",
-          "example": "Der Chef und die Kollegen sind sehr nett, die Kunden auch.",
+          "title": "Accusative and dative forms",
+          "body": "Use den for a masculine accusative object and dem or der when the relative pronoun is dative.",
+          "example": "Der Kunde, dem ich gestern geholfen habe, hat sich heute bedankt.",
           "emphasis": [
-            "auch"
+            "dem",
+            "habe"
           ]
         },
         {
-          "title": "Usage: Connector map",
-          "body": "Compare the three patterns:",
-          "example": "Wir gehen spazieren, obwohl es regnet. conjunction + ... + V1",
+          "title": "Relative clause with a preposition",
+          "body": "A required preposition stands directly before the relative pronoun, and the verb remains at the end.",
+          "example": "Das ist die Firma, bei der ich mich letzte Woche beworben habe.",
           "emphasis": [
-            "obwohl"
-          ]
-        },
-        {
-          "title": "Contrast: Ellipsis with auch",
-          "body": "The short phrase die Kunden auch is complete in meaning because the omitted words are supplied by the first clause. This is especially common in conversation.",
-          "example": "die Kunden sind auch sehr nett",
-          "emphasis": [
-            "auch"
-          ]
-        },
-        {
-          "title": "Final check: Connector map",
-          "body": "da and weil both give a reason and send the verb to the end. In formal writing, da often presents the reason as known or background information:",
-          "example": "Das Kinderprogramm ist wichtig, da wir zwei Kinder haben.",
-          "emphasis": [
-            "Kinderprogramm"
+            "bei",
+            "der",
+            "habe"
           ]
         }
       ],
@@ -4624,7 +3755,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "nach-fuenf-monaten",
@@ -5323,215 +4454,41 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l6-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nMeinen Sie wirklich, ____ die Kinder genug lernen?",
-            "options": [
-              "dass",
-              "Lernen",
-              "man",
-              "nicht"
-            ],
-            "answer": "dass",
-            "answers": [
-              "dass"
-            ],
-            "note": "Direct questions: German has two basic direct-question structures.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nLernen die Kinder in dieser Woche genug?",
-            "options": [
-              "Indirect questions",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Direct questions"
-            ],
-            "answer": "Direct questions",
-            "answers": [
-              "Direct questions"
-            ],
-            "note": "Direct questions: German has two basic direct-question structures.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Direct questions",
-            "options": [
-              "Lernen die Kinder in dieser Woche genug?",
-              "Kann man Widerspruch einlegen?",
-              "Meinen Sie wirklich, dass ...?",
-              "Meinen Sie wirklich, dass die Kinder genug lernen?"
-            ],
-            "answer": "Meinen Sie wirklich, dass ...?",
-            "answers": [
-              "Meinen Sie wirklich, dass ...?"
-            ],
-            "note": "Direct questions: German has two basic direct-question structures.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nKann ____ Widerspruch einlegen?",
-            "answer": "man",
-            "answers": [
-              "man"
-            ],
-            "note": "Direct questions: German has two basic direct-question structures.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Ich weiß nicht, wie viel Miete er zahlt.",
-              "Ich weiß wie nicht, viel Miete er zahlt.",
-              "Ich weiß wie viel Miete er zahlt. nicht,",
-              "Ich weiß nicht, nicht, wie viel Miete er zahlt."
-            ],
-            "answer": "Ich weiß nicht, wie viel Miete er zahlt.",
-            "answers": [
-              "Ich weiß nicht, wie viel Miete er zahlt."
-            ],
-            "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ teilen Sie mir mit, welcher Termin Ihnen passt.",
-            "options": [
-              "dass",
-              "Lernen",
-              "man",
-              "Bitte"
-            ],
-            "answer": "Bitte",
-            "answers": [
-              "Bitte"
-            ],
-            "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nSie fragt, ob der Antrag geprüft wird.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Indirect questions",
-              "Direct questions"
-            ],
-            "answer": "Indirect questions",
-            "answers": [
-              "Indirect questions"
-            ],
-            "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Indirect questions",
-            "options": [
-              "Meinen Sie wirklich, dass ...?",
-              "Sag mir bitte, ob du dich an irgendetwas erinnern kannst.",
-              "Meinen Sie wirklich, dass die Kinder genug lernen?",
-              "Lernen die Kinder in dieser Woche genug?"
-            ],
-            "answer": "Sag mir bitte, ob du dich an irgendetwas erinnern kannst.",
-            "answers": [
-              "Sag mir bitte, ob du dich an irgendetwas erinnern kannst."
-            ],
-            "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nDer Chef und die Kollegen sind sehr nett, die Kunden ____.",
-            "answer": "auch",
-            "answers": [
-              "auch"
-            ],
-            "note": "Ellipsis with auch: When a repeated predicate is obvious, German can leave it out. This is called an ellipsis.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "die Kunden sind sehr auch nett",
-              "die Kunden sind sehr nett auch",
-              "die Kunden sind auch auch sehr nett",
-              "die Kunden sind auch sehr nett"
-            ],
-            "answer": "die Kunden sind auch sehr nett",
-            "answers": [
-              "die Kunden sind auch sehr nett"
-            ],
-            "note": "Ellipsis with auch: When a repeated predicate is obvious, German can leave it out. This is called an ellipsis.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
+    "workbook": [],
     "grammar": {
-      "id": "l6-grammar",
+      "id": "l6-b1-grammar",
       "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
+      "title": "Verben mit Präpositionen",
+      "fa": "3 examples",
+      "subtitle": "Learn the B1 pattern through three varied examples.",
       "placeholder": "Type the missing German form",
       "teach": [
         {
-          "title": "Core rule: Direct questions",
-          "body": "German has two basic direct-question structures.",
-          "example": "Meinen Sie wirklich, dass die Kinder genug lernen?",
+          "title": "für plus accusative",
+          "body": "Learn the verb together with its fixed preposition and case, for example sich interessieren für plus accusative.",
+          "example": "Meine Schwester interessiert sich seit Kurzem für nachhaltige Architektur.",
           "emphasis": [
-            "dass"
+            "interessiert",
+            "für"
           ]
         },
         {
-          "title": "Word order: Indirect questions",
-          "body": "Indirect questions use a question word or ob; the conjugated verb goes to the end.",
-          "example": "Ich weiß nicht, wie viel Miete er zahlt.",
+          "title": "auf plus accusative",
+          "body": "Warten auf and sich freuen auf take the accusative when they refer to a person or future event.",
+          "example": "Wir warten noch auf die Bestätigung der Ausländerbehörde.",
           "emphasis": [
-            "nicht"
+            "warten",
+            "auf"
           ]
         },
         {
-          "title": "Usage: Direct questions",
-          "body": "The conjugated verb comes first because there is no question word.",
-          "example": "Lernen die Kinder in dieser Woche genug?",
+          "title": "an plus dative",
+          "body": "Teilnehmen an takes the dative; ask woran for things and an wem for people.",
+          "example": "Nächsten Monat nehme ich an einem beruflichen Seminar teil.",
           "emphasis": [
-            "Lernen"
-          ]
-        },
-        {
-          "title": "Contrast: Indirect questions",
-          "body": "Use a question word when the direct question has one:",
-          "example": "Bitte teilen Sie mir mit, welcher Termin Ihnen passt.",
-          "emphasis": [
-            "Bitte"
-          ]
-        },
-        {
-          "title": "Final check: Direct questions",
-          "body": "The question word occupies position 1, the conjugated verb position 2, and the subject normally follows.",
-          "example": "Meinen Sie wirklich, dass ...?",
-          "emphasis": [
-            "dass"
+            "an",
+            "einem",
+            "teil"
           ]
         }
       ],
@@ -5546,7 +4503,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "der-internetkurs",
@@ -6257,215 +5214,41 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l7-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nLeute, die ____ nicht gut kennt, fragt man nicht nach ihrem Gehalt.",
-            "options": [
-              "man",
-              "Einrichtungen",
-              "Wohnung",
-              "Leute"
-            ],
-            "answer": "man",
-            "answers": [
-              "man"
-            ],
-            "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nDie Einrichtungen, die Sie genutzt haben, müssen sauber sein.",
-            "options": [
-              "General statements with man and wer",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Relative clauses"
-            ],
-            "answer": "Relative clauses",
-            "answers": [
-              "Relative clauses"
-            ],
-            "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Relative clauses",
-            "options": [
-              "Die Einrichtungen, die Sie genutzt haben, müssen sauber sein.",
-              "die Leute, die ...",
-              "Die Wohnung, in der ich lebe, ist teuer.",
-              "Leute, die man nicht gut kennt, fragt man nicht nach ihrem Gehalt."
-            ],
-            "answer": "Die Wohnung, in der ich lebe, ist teuer.",
-            "answers": [
-              "Die Wohnung, in der ich lebe, ist teuer."
-            ],
-            "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\ndie ____, die ...",
-            "answer": "Leute",
-            "answers": [
-              "Leute"
-            ],
-            "note": "Relative clauses: A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "In Deutschland spricht man normalerweise nicht über sein Gehalt.",
-              "In Deutschland spricht normalerweise man nicht über sein Gehalt.",
-              "In Deutschland spricht normalerweise nicht über sein Gehalt. man",
-              "In Deutschland spricht man man normalerweise nicht über sein Gehalt."
-            ],
-            "answer": "In Deutschland spricht man normalerweise nicht über sein Gehalt.",
-            "answers": [
-              "In Deutschland spricht man normalerweise nicht über sein Gehalt."
-            ],
-            "note": "General statements with man and wer: man means “one/people/you” in general. wer can introduce a general condition.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ mit einem Flugzeug reist, muss einchecken.",
-            "options": [
-              "man",
-              "Einrichtungen",
-              "Wohnung",
-              "Wer"
-            ],
-            "answer": "Wer",
-            "answers": [
-              "Wer"
-            ],
-            "note": "General statements with man and wer: man means “one/people/you” in general. wer can introduce a general condition.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nman spricht, man muss, man kann, man ist",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "General statements with man and wer",
-              "Relative clauses"
-            ],
-            "answer": "General statements with man and wer",
-            "answers": [
-              "General statements with man and wer"
-            ],
-            "note": "General statements with man and wer: man means “one/people/you” in general. wer can introduce a general condition.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: General statements with man and wer",
-            "options": [
-              "Die Wohnung, in der ich lebe, ist teuer.",
-              "Man sollte seinen Vermieter informieren.",
-              "Leute, die man nicht gut kennt, fragt man nicht nach ihrem Gehalt.",
-              "Die Einrichtungen, die Sie genutzt haben, müssen sauber sein."
-            ],
-            "answer": "Man sollte seinen Vermieter informieren.",
-            "answers": [
-              "Man sollte seinen Vermieter informieren."
-            ],
-            "note": "General statements with man and wer: man means “one/people/you” in general. wer can introduce a general condition.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nIch weiß ____, wie viel Miete er zahlt.",
-            "answer": "nicht",
-            "answers": [
-              "nicht"
-            ],
-            "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "teilen Bitte Sie mir mit, welcher Termin Ihnen passt.",
-              "teilen Sie mir mit, welcher Termin Ihnen passt. Bitte",
-              "Bitte Bitte teilen Sie mir mit, welcher Termin Ihnen passt.",
-              "Bitte teilen Sie mir mit, welcher Termin Ihnen passt."
-            ],
-            "answer": "Bitte teilen Sie mir mit, welcher Termin Ihnen passt.",
-            "answers": [
-              "Bitte teilen Sie mir mit, welcher Termin Ihnen passt."
-            ],
-            "note": "Indirect questions: Indirect questions use a question word or ob; the conjugated verb goes to the end.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
+    "workbook": [],
     "grammar": {
-      "id": "l7-grammar",
+      "id": "l7-b1-grammar",
       "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
+      "title": "Akkusativ / Dativ",
+      "fa": "3 examples",
+      "subtitle": "Learn the B1 pattern through three varied examples.",
       "placeholder": "Type the missing German form",
       "teach": [
         {
-          "title": "Core rule: Relative clauses",
-          "body": "A relative clause describes a noun. The relative pronoun agrees with that noun in gender and number, but its case depends on its role in the relative clause. The verb goes to the end.",
-          "example": "Leute, die man nicht gut kennt, fragt man nicht nach ihrem Gehalt.",
+          "title": "Direct and indirect objects",
+          "body": "The receiver is usually dative and the thing being transferred is accusative.",
+          "example": "Ich schicke meiner Kollegin die aktualisierte Datei noch heute.",
           "emphasis": [
-            "man"
+            "meiner",
+            "die"
           ]
         },
         {
-          "title": "Word order: General statements with man and wer",
-          "body": "man means “one/people/you” in general. wer can introduce a general condition.",
-          "example": "In Deutschland spricht man normalerweise nicht über sein Gehalt.",
+          "title": "Dative verbs",
+          "body": "Some common verbs, including helfen, danken, gefallen, gehören, and antworten, require a dative object.",
+          "example": "Der Berater hat dem neuen Mitarbeiter bei der Anmeldung geholfen.",
           "emphasis": [
-            "man"
+            "dem",
+            "geholfen"
           ]
         },
         {
-          "title": "Usage: Relative clauses",
-          "body": "The relative pronoun receives:",
-          "example": "Die Einrichtungen, die Sie genutzt haben, müssen sauber sein.",
+          "title": "Case after fixed prepositions",
+          "body": "Prepositions such as mit always take dative, while ohne always takes accusative.",
+          "example": "Ohne meinen Ausweis kann ich mit dem Sachbearbeiter keinen Vertrag abschließen.",
           "emphasis": [
-            "Einrichtungen"
-          ]
-        },
-        {
-          "title": "Contrast: General statements with man and wer",
-          "body": "man always uses a third-person singular verb:",
-          "example": "Wer mit einem Flugzeug reist, muss einchecken.",
-          "emphasis": [
-            "Wer"
-          ]
-        },
-        {
-          "title": "Final check: Relative clauses",
-          "body": "In the Kundin example, the relative pronoun is not the thing sold. It represents the recipient:",
-          "example": "Die Wohnung, in der ich lebe, ist teuer.",
-          "emphasis": [
-            "Wohnung"
+            "meinen",
+            "mit",
+            "dem"
           ]
         }
       ],
@@ -6480,7 +5263,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "kompliziert",
@@ -7183,215 +5966,42 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l8-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\ndie ____ nominative/accusative",
-            "options": [
-              "Kündigung",
-              "gegen",
-              "wegen",
-              "man"
-            ],
-            "answer": "Kündigung",
-            "answers": [
-              "Kündigung"
-            ],
-            "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nder Kündigung widersprechen dative",
-            "options": [
-              "Causal wegen + Genitiv",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Case overview"
-            ],
-            "answer": "Case overview",
-            "answers": [
-              "Case overview"
-            ],
-            "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Case overview",
-            "options": [
-              "der Kündigung widersprechen dative",
-              "wegen der Kündigung genitive after wegen",
-              "gegen die Kündigung accusative after gegen",
-              "die Kündigung nominative/accusative"
-            ],
-            "answer": "gegen die Kündigung accusative after gegen",
-            "answers": [
-              "gegen die Kündigung accusative after gegen"
-            ],
-            "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ der Kündigung genitive after wegen",
-            "answer": "wegen",
-            "answers": [
-              "wegen"
-            ],
-            "note": "Case overview: Cases show the function of a noun phrase in a sentence.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "wegen des Regens",
-              "des wegen Regens",
-              "des Regens wegen",
-              "wegen wegen des Regens"
-            ],
-            "answer": "wegen des Regens",
-            "answers": [
-              "wegen des Regens"
-            ],
-            "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ des starken Nebels",
-            "options": [
-              "Kündigung",
-              "gegen",
-              "man",
-              "wegen"
-            ],
-            "answer": "wegen",
-            "answers": [
-              "wegen"
-            ],
-            "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nwegen des Streiks",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Causal wegen + Genitiv",
-              "Case overview"
-            ],
-            "answer": "Causal wegen + Genitiv",
-            "answers": [
-              "Causal wegen + Genitiv"
-            ],
-            "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Causal wegen + Genitiv",
-            "options": [
-              "gegen die Kündigung accusative after gegen",
-              "wegen einer technischen Kontrolle",
-              "die Kündigung nominative/accusative",
-              "der Kündigung widersprechen dative"
-            ],
-            "answer": "wegen einer technischen Kontrolle",
-            "answers": [
-              "wegen einer technischen Kontrolle"
-            ],
-            "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nIn Deutschland spricht ____ normalerweise nicht über sein Gehalt.",
-            "answer": "man",
-            "answers": [
-              "man"
-            ],
-            "note": "General statements with man and wer: man means “one/people/you” in general. wer can introduce a general condition.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "mit Wer einem Flugzeug reist, muss einchecken.",
-              "mit einem Flugzeug reist, muss einchecken. Wer",
-              "Wer Wer mit einem Flugzeug reist, muss einchecken.",
-              "Wer mit einem Flugzeug reist, muss einchecken."
-            ],
-            "answer": "Wer mit einem Flugzeug reist, muss einchecken.",
-            "answers": [
-              "Wer mit einem Flugzeug reist, muss einchecken."
-            ],
-            "note": "General statements with man and wer: man means “one/people/you” in general. wer can introduce a general condition.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
+    "workbook": [],
     "grammar": {
-      "id": "l8-grammar",
+      "id": "l8-b1-grammar",
       "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
+      "title": "Perfekt + Präteritum von sein, haben, Modalverben",
+      "fa": "3 examples",
+      "subtitle": "Learn the B1 pattern through three varied examples.",
       "placeholder": "Type the missing German form",
       "teach": [
         {
-          "title": "Core rule: Case overview",
-          "body": "Cases show the function of a noun phrase in a sentence.",
-          "example": "die Kündigung nominative/accusative",
+          "title": "Perfekt for spoken past",
+          "body": "In conversation, use haben or sein plus a past participle for most completed past events.",
+          "example": "Wir sind am Samstag umgezogen und haben alle Möbel selbst getragen.",
           "emphasis": [
-            "Kündigung"
+            "sind",
+            "umgezogen",
+            "haben",
+            "getragen"
           ]
         },
         {
-          "title": "Word order: Causal wegen + Genitiv",
-          "body": "wegen normally takes the genitive in standard written German.",
-          "example": "wegen des Regens",
+          "title": "war and hatte",
+          "body": "Sein and haben are commonly used in the Präteritum, even in everyday speech.",
+          "example": "Früher hatte ich einen längeren Arbeitsweg, aber mein altes Büro war ruhiger.",
           "emphasis": [
-            "wegen"
+            "hatte",
+            "war"
           ]
         },
         {
-          "title": "Usage: Case overview",
-          "body": "One noun can appear in different cases depending on the construction:",
-          "example": "der Kündigung widersprechen dative",
+          "title": "Modal verbs in Präteritum",
+          "body": "Modal verbs are usually simpler and more natural in the Präteritum: konnte, musste, wollte, durfte, sollte.",
+          "example": "Wegen des Streiks musste ich zu Hause bleiben und konnte nicht zur Arbeit fahren.",
           "emphasis": [
-            "Kündigung"
-          ]
-        },
-        {
-          "title": "Contrast: Causal wegen + Genitiv",
-          "body": "It can replace a weil clause:",
-          "example": "wegen des starken Nebels",
-          "emphasis": [
-            "wegen"
-          ]
-        },
-        {
-          "title": "Final check: Case overview",
-          "body": "Cases show the function of a noun phrase in a sentence.",
-          "example": "gegen die Kündigung accusative after gegen",
-          "emphasis": [
-            "gegen"
+            "musste",
+            "konnte"
           ]
         }
       ],
@@ -7406,7 +6016,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "das-interview",
@@ -8109,215 +6719,42 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l9-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\ndie ____ meiner Frau",
-            "options": [
-              "Reisetasche",
-              "Passagiere",
-              "schönste",
-              "Haus"
-            ],
-            "answer": "Reisetasche",
-            "answers": [
-              "Reisetasche"
-            ],
-            "note": "Genitive possession: The genitive expresses possession or a close relationship. Masculine and neuter nouns usually add -s or -es.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\ndie Passagiere des Fluges",
-            "options": [
-              "Dative verbs and expressions",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Genitive possession"
-            ],
-            "answer": "Genitive possession",
-            "answers": [
-              "Genitive possession"
-            ],
-            "note": "Genitive possession: The genitive expresses possession or a close relationship. Masculine and neuter nouns usually add -s or -es.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Genitive possession",
-            "options": [
-              "die Passagiere des Fluges",
-              "der schönste Tag des Sommers",
-              "die schönste Zeit des Jahres",
-              "die Reisetasche meiner Frau"
-            ],
-            "answer": "die schönste Zeit des Jahres",
-            "answers": [
-              "die schönste Zeit des Jahres"
-            ],
-            "note": "Genitive possession: The genitive expresses possession or a close relationship. Masculine and neuter nouns usually add -s or -es.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nder ____ Tag des Sommers",
-            "answer": "schönste",
-            "answers": [
-              "schönste"
-            ],
-            "note": "Genitive possession: The genitive expresses possession or a close relationship. Masculine and neuter nouns usually add -s or -es.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Das Haus gehört der Vermieterin.",
-              "Das gehört Haus der Vermieterin.",
-              "Das gehört der Vermieterin. Haus",
-              "Das Haus Haus gehört der Vermieterin."
-            ],
-            "answer": "Das Haus gehört der Vermieterin.",
-            "answers": [
-              "Das Haus gehört der Vermieterin."
-            ],
-            "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ Kündigung widerspreche ich.",
-            "options": [
-              "Reisetasche",
-              "Passagiere",
-              "schönste",
-              "Dieser"
-            ],
-            "answer": "Dieser",
-            "answers": [
-              "Dieser"
-            ],
-            "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nDer Termin passt mir.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Dative verbs and expressions",
-              "Genitive possession"
-            ],
-            "answer": "Dative verbs and expressions",
-            "answers": [
-              "Dative verbs and expressions"
-            ],
-            "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Dative verbs and expressions",
-            "options": [
-              "die schönste Zeit des Jahres",
-              "Ich stimme Ihnen zu.",
-              "die Reisetasche meiner Frau",
-              "die Passagiere des Fluges"
-            ],
-            "answer": "Ich stimme Ihnen zu.",
-            "answers": [
-              "Ich stimme Ihnen zu."
-            ],
-            "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ des Regens",
-            "answer": "wegen",
-            "answers": [
-              "wegen"
-            ],
-            "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "des wegen starken Nebels",
-              "des starken Nebels wegen",
-              "wegen wegen des starken Nebels",
-              "wegen des starken Nebels"
-            ],
-            "answer": "wegen des starken Nebels",
-            "answers": [
-              "wegen des starken Nebels"
-            ],
-            "note": "Causal wegen + Genitiv: wegen normally takes the genitive in standard written German.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
+    "workbook": [],
     "grammar": {
-      "id": "l9-grammar",
+      "id": "l9-b1-grammar",
       "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
+      "title": "Wechselpräpositionen",
+      "fa": "3 examples",
+      "subtitle": "Learn the B1 pattern through three varied examples.",
       "placeholder": "Type the missing German form",
       "teach": [
         {
-          "title": "Core rule: Genitive possession",
-          "body": "The genitive expresses possession or a close relationship. Masculine and neuter nouns usually add -s or -es.",
-          "example": "die Reisetasche meiner Frau",
+          "title": "Wohin? takes accusative",
+          "body": "Use accusative after an, auf, hinter, in, neben, über, unter, vor, and zwischen when the action changes location.",
+          "example": "Ich stelle die Pflanzen im Winter vor das große Wohnzimmerfenster.",
           "emphasis": [
-            "Reisetasche"
+            "vor",
+            "das"
           ]
         },
         {
-          "title": "Word order: Dative verbs and expressions",
-          "body": "Some verbs take a dative object rather than an accusative object.",
-          "example": "Das Haus gehört der Vermieterin.",
+          "title": "Wo? takes dative",
+          "body": "Use dative with the same prepositions when describing a fixed position or location.",
+          "example": "Die Pflanzen stehen jetzt vor dem großen Wohnzimmerfenster.",
           "emphasis": [
-            "Haus"
+            "vor",
+            "dem"
           ]
         },
         {
-          "title": "Usage: Genitive possession",
-          "body": "The genitive can also express a whole from which a part is taken. In die Hälfte aller Lehrer, die Hälfte is the head of the phrase and aller Lehrer means “of all teachers.”",
-          "example": "die Passagiere des Fluges",
+          "title": "Movement versus position",
+          "body": "The choice depends on meaning, not only on the verb: ask whether something changes place or remains in one location.",
+          "example": "Nach dem Meeting hänge ich den Plan an die Wand; später hängt er an der Wand.",
           "emphasis": [
-            "Passagiere"
-          ]
-        },
-        {
-          "title": "Contrast: Dative verbs and expressions",
-          "body": "Do not choose the case only from the English translation. Learn the German verb together with its case:",
-          "example": "Dieser Kündigung widerspreche ich.",
-          "emphasis": [
-            "Dieser"
-          ]
-        },
-        {
-          "title": "Final check: Genitive possession",
-          "body": "In der Besuch der Insel Hiddensee, the second noun phrase specifies what is",
-          "example": "die schönste Zeit des Jahres",
-          "emphasis": [
-            "schönste"
+            "an",
+            "die",
+            "an",
+            "der"
           ]
         }
       ],
@@ -8332,7 +6769,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "der-schauspieler-die-schauspielerin",
@@ -9031,215 +7468,44 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l10-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ erzählt Andreas eine Geschichte.",
-            "options": [
-              "Simon",
-              "Bitte",
-              "an",
-              "Rechtsanwältin"
-            ],
-            "answer": "Simon",
-            "answers": [
-              "Simon"
-            ],
-            "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nBitte geben Sie mir die Schlüssel zurück.",
-            "options": [
-              "Verbs with fixed prepositions",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "A dative person and an accusative thing"
-            ],
-            "answer": "A dative person and an accusative thing",
-            "answers": [
-              "A dative person and an accusative thing"
-            ],
-            "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: A dative person and an accusative thing",
-            "options": [
-              "Bitte geben Sie mir die Schlüssel zurück.",
-              "Die Rechtsanwältin gibt den Mietern Tipps.",
-              "Ich biete Ihnen einen Termin an.",
-              "Simon erzählt Andreas eine Geschichte."
-            ],
-            "answer": "Ich biete Ihnen einen Termin an.",
-            "answers": [
-              "Ich biete Ihnen einen Termin an."
-            ],
-            "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nDie ____ gibt den Mietern Tipps.",
-            "answer": "Rechtsanwältin",
-            "answers": [
-              "Rechtsanwältin"
-            ],
-            "note": "A dative person and an accusative thing: With many verbs, the recipient is dative and the thing is accusative.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "von + Dativ erzählen: Simon erzählt Andreas von seinem Freund.",
-              "von + erzählen: Dativ Simon erzählt Andreas von seinem Freund.",
-              "von + erzählen: Simon erzählt Andreas von seinem Freund. Dativ",
-              "von + Dativ Dativ erzählen: Simon erzählt Andreas von seinem Freund."
-            ],
-            "answer": "von + Dativ erzählen: Simon erzählt Andreas von seinem Freund.",
-            "answers": [
-              "von + Dativ erzählen: Simon erzählt Andreas von seinem Freund."
-            ],
-            "note": "Verbs with fixed prepositions: The preposition determines the case.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nmit + Dativ einverstanden sein: Ich bin mit der Entscheidung ____ einverstanden.",
-            "options": [
-              "Simon",
-              "Bitte",
-              "an",
-              "nicht"
-            ],
-            "answer": "nicht",
-            "answers": [
-              "nicht"
-            ],
-            "note": "Verbs with fixed prepositions: The preposition determines the case.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\ngegen + Akkusativ Widerspruch einlegen: Sie legt gegen die Kündigung Widerspruch ein.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Verbs with fixed prepositions",
-              "A dative person and an accusative thing"
-            ],
-            "answer": "Verbs with fixed prepositions",
-            "answers": [
-              "Verbs with fixed prepositions"
-            ],
-            "note": "Verbs with fixed prepositions: The preposition determines the case.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Verbs with fixed prepositions",
-            "options": [
-              "Ich biete Ihnen einen Termin an.",
-              "gegen + Akkusativ klagen: Der Mieter klagt gegen den Vermieter.",
-              "Simon erzählt Andreas eine Geschichte.",
-              "Bitte geben Sie mir die Schlüssel zurück."
-            ],
-            "answer": "gegen + Akkusativ klagen: Der Mieter klagt gegen den Vermieter.",
-            "answers": [
-              "gegen + Akkusativ klagen: Der Mieter klagt gegen den Vermieter."
-            ],
-            "note": "Verbs with fixed prepositions: The preposition determines the case.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nDas ____ gehört der Vermieterin.",
-            "answer": "Haus",
-            "answers": [
-              "Haus"
-            ],
-            "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Kündigung Dieser widerspreche ich.",
-              "Kündigung widerspreche ich. Dieser",
-              "Dieser Dieser Kündigung widerspreche ich.",
-              "Dieser Kündigung widerspreche ich."
-            ],
-            "answer": "Dieser Kündigung widerspreche ich.",
-            "answers": [
-              "Dieser Kündigung widerspreche ich."
-            ],
-            "note": "Dative verbs and expressions: Some verbs take a dative object rather than an accusative object.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
+    "workbook": [],
     "grammar": {
-      "id": "l10-grammar",
+      "id": "l10-b1-grammar",
       "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
+      "title": "Adjektivdeklination",
+      "fa": "3 examples",
+      "subtitle": "Learn the B1 pattern through three varied examples.",
       "placeholder": "Type the missing German form",
       "teach": [
         {
-          "title": "Core rule: A dative person and an accusative thing",
-          "body": "With many verbs, the recipient is dative and the thing is accusative.",
-          "example": "Simon erzählt Andreas eine Geschichte.",
+          "title": "After a definite article",
+          "body": "After der, die, das and similar determiners, the adjective usually takes -e or -en because the article shows the case.",
+          "example": "Der neue Kollege arbeitet seit Montag in unserer technischen Abteilung.",
           "emphasis": [
-            "Simon"
+            "Der",
+            "neue",
+            "technischen"
           ]
         },
         {
-          "title": "Word order: Verbs with fixed prepositions",
-          "body": "The preposition determines the case.",
-          "example": "von + Dativ erzählen: Simon erzählt Andreas von seinem Freund.",
+          "title": "After an indefinite article",
+          "body": "After ein, eine, kein, or a possessive determiner, the adjective supplies any ending not shown clearly by the article.",
+          "example": "Wir suchen eine zuverlässige Person für ein internationales Projekt.",
           "emphasis": [
-            "Dativ"
+            "eine",
+            "zuverlässige",
+            "ein",
+            "internationales"
           ]
         },
         {
-          "title": "Usage: A dative person and an accusative thing",
-          "body": "Pronouns usually come before noun objects:",
-          "example": "Bitte geben Sie mir die Schlüssel zurück.",
+          "title": "Without an article",
+          "body": "Without an article, the adjective carries a strong ending that signals gender, number, and case.",
+          "example": "Frisches Brot und heißer Kaffee gehören für viele Menschen zu einem guten Frühstück.",
           "emphasis": [
-            "Bitte"
-          ]
-        },
-        {
-          "title": "Contrast: Verbs with fixed prepositions",
-          "body": "Learn these as complete units, not as isolated verbs. The preposition and case are part of the expression:",
-          "example": "mit + Dativ einverstanden sein: Ich bin mit der Entscheidung nicht einverstanden.",
-          "emphasis": [
-            "nicht"
-          ]
-        },
-        {
-          "title": "Final check: A dative person and an accusative thing",
-          "body": "The key idea is stable even when word order changes: the recipient remains dative and the thing remains accusative.",
-          "example": "Ich biete Ihnen einen Termin an.",
-          "emphasis": [
-            "an"
+            "Frisches",
+            "heißer",
+            "guten"
           ]
         }
       ],
@@ -9254,7 +7520,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "sich-etwas-aufteilen",
@@ -9961,220 +8227,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l11-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\naus + ____: aus hygienischen Gründen, aus beruflichen Gründen, aus gesundheitlichen Gründen",
-            "options": [
-              "Dativ",
-              "über",
-              "Angebot",
-              "damit"
-            ],
-            "answer": "Dativ",
-            "answers": [
-              "Dativ"
-            ],
-            "note": "Common preposition patterns: Further patterns from the room descriptions:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nmit + Dativ: mit dem Leiter, mit einer Rechnung, mit der Serviceabteilung telefonieren, mit der Lehre beginnen",
-            "options": [
-              "Pronominal adverbs: da(r) + preposition",
-              "Paired conjunctions",
-              "How to read the structures",
-              "Common preposition patterns"
-            ],
-            "answer": "Common preposition patterns",
-            "answers": [
-              "Common preposition patterns"
-            ],
-            "note": "Common preposition patterns: Further patterns from the room descriptions:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Common preposition patterns",
-            "options": [
-              "mit + Dativ: mit dem Leiter, mit einer Rechnung, mit der Serviceabteilung telefonieren, mit der Lehre beginnen",
-              "bei + Dativ: beim Amt, beim Elternabend, bei einem Möbelhaus (beim = bei dem)",
-              "von + Dativ: von der Airline, vom Arbeitgeber (vom = von dem)",
-              "aus + Dativ: aus hygienischen Gründen, aus beruflichen Gründen, aus gesundheitlichen Gründen"
-            ],
-            "answer": "von + Dativ: von der Airline, vom Arbeitgeber (vom = von dem)",
-            "answers": [
-              "von + Dativ: von der Airline, vom Arbeitgeber (vom = von dem)"
-            ],
-            "note": "Common preposition patterns: Further patterns from the room descriptions:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nbei + ____: beim Amt, beim Elternabend, bei einem Möbelhaus (beim = bei dem)",
-            "answer": "Dativ",
-            "answers": [
-              "Dativ"
-            ],
-            "note": "Common preposition patterns: Further patterns from the room descriptions:",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "über die Arbeit → darüber",
-              "die über Arbeit → darüber",
-              "die Arbeit → darüber über",
-              "über über die Arbeit → darüber"
-            ],
-            "answer": "über die Arbeit → darüber",
-            "answers": [
-              "über die Arbeit → darüber"
-            ],
-            "note": "Pronominal adverbs: da(r) + preposition: When a prepositional expression refers to a thing or idea, German often replaces it with da(r) + preposition.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nfür das ____ → dafür",
-            "options": [
-              "Dativ",
-              "über",
-              "damit",
-              "Angebot"
-            ],
-            "answer": "Angebot",
-            "answers": [
-              "Angebot"
-            ],
-            "note": "Pronominal adverbs: da(r) + preposition: When a prepositional expression refers to a thing or idea, German often replaces it with da(r) + preposition.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nmit dem Problem → damit",
-            "options": [
-              "Paired conjunctions",
-              "How to read the structures",
-              "Pronominal adverbs: da(r) + preposition",
-              "Common preposition patterns"
-            ],
-            "answer": "Pronominal adverbs: da(r) + preposition",
-            "answers": [
-              "Pronominal adverbs: da(r) + preposition"
-            ],
-            "note": "Pronominal adverbs: da(r) + preposition: When a prepositional expression refers to a thing or idea, German often replaces it with da(r) + preposition.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Pronominal adverbs: da(r) + preposition",
-            "options": [
-              "von + Dativ: von der Airline, vom Arbeitgeber (vom = von dem)",
-              "Die Arbeit interessiert mich. Ich möchte mehr darüber wissen.",
-              "aus + Dativ: aus hygienischen Gründen, aus beruflichen Gründen, aus gesundheitlichen Gründen",
-              "mit + Dativ: mit dem Leiter, mit einer Rechnung, mit der Serviceabteilung telefonieren, mit der Lehre beginnen"
-            ],
-            "answer": "Die Arbeit interessiert mich. Ich möchte mehr darüber wissen.",
-            "answers": [
-              "Die Arbeit interessiert mich. Ich möchte mehr darüber wissen."
-            ],
-            "note": "Pronominal adverbs: da(r) + preposition: When a prepositional expression refers to a thing or idea, German often replaces it with da(r) + preposition.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ … noch: Speisen dürfen weder zubereitet noch gegessen werden.",
-            "answer": "weder",
-            "answers": [
-              "weder"
-            ],
-            "note": "Paired conjunctions: These conjunctions connect equivalent words, phrases, or clauses.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "sowohl … auch: als Man kann sowohl essen als auch Schlitten ausleihen.",
-              "sowohl … auch: Man kann sowohl essen als auch Schlitten ausleihen. als",
-              "sowohl … als als auch: Man kann sowohl essen als auch Schlitten ausleihen.",
-              "sowohl … als auch: Man kann sowohl essen als auch Schlitten ausleihen."
-            ],
-            "answer": "sowohl … als auch: Man kann sowohl essen als auch Schlitten ausleihen.",
-            "answers": [
-              "sowohl … als auch: Man kann sowohl essen als auch Schlitten ausleihen."
-            ],
-            "note": "Paired conjunctions: These conjunctions connect equivalent words, phrases, or clauses.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l11-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 3 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Common preposition patterns",
-          "body": "Further patterns from the room descriptions:",
-          "example": "aus + Dativ: aus hygienischen Gründen, aus beruflichen Gründen, aus gesundheitlichen Gründen",
-          "emphasis": [
-            "Dativ"
-          ]
-        },
-        {
-          "title": "Word order: Pronominal adverbs: da(r) + preposition",
-          "body": "When a prepositional expression refers to a thing or idea, German often replaces it with da(r) + preposition.",
-          "example": "über die Arbeit → darüber",
-          "emphasis": [
-            "über"
-          ]
-        },
-        {
-          "title": "Usage: Paired conjunctions",
-          "body": "These conjunctions connect equivalent words, phrases, or clauses.",
-          "example": "weder … noch: Speisen dürfen weder zubereitet noch gegessen werden.",
-          "emphasis": [
-            "weder"
-          ]
-        },
-        {
-          "title": "Contrast: Common preposition patterns",
-          "body": "Use von + Dativ for the starting point and zu + Dativ for the destination:",
-          "example": "mit + Dativ: mit dem Leiter, mit einer Rechnung, mit der Serviceabteilung telefonieren, mit der Lehre beginnen",
-          "emphasis": [
-            "Dativ"
-          ]
-        },
-        {
-          "title": "Final check: Pronominal adverbs: da(r) + preposition",
-          "body": "Add -r- before a preposition beginning with a vowel: darüber, daran, darauf.",
-          "example": "für das Angebot → dafür",
-          "emphasis": [
-            "Angebot"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 12,
@@ -10184,7 +8238,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "das-taschengeld",
@@ -10899,220 +8953,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l12-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nEs ist wichtig, den Schnee ____ räumen.",
-            "options": [
-              "zu",
-              "habe",
-              "Purpose",
-              "um"
-            ],
-            "answer": "zu",
-            "answers": [
-              "zu"
-            ],
-            "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nIch habe keine Zeit, dreimal am Tag Schnee zu fegen.",
-            "options": [
-              "Purpose with um … zu",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "zu + Infinitiv"
-            ],
-            "answer": "zu + Infinitiv",
-            "answers": [
-              "zu + Infinitiv"
-            ],
-            "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: zu + Infinitiv",
-            "options": [
-              "Ich habe keine Zeit, dreimal am Tag Schnee zu fegen.",
-              "Ich habe keine Lust, so früh aufzustehen.",
-              "Die Mieter sind verpflichtet, den Gehweg zu streuen.",
-              "Es ist wichtig, den Schnee zu räumen."
-            ],
-            "answer": "Die Mieter sind verpflichtet, den Gehweg zu streuen.",
-            "answers": [
-              "Die Mieter sind verpflichtet, den Gehweg zu streuen."
-            ],
-            "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nIch ____ keine Lust, so früh aufzustehen.",
-            "answer": "habe",
-            "answers": [
-              "habe"
-            ],
-            "note": "zu + Infinitiv: An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Main clause Purpose clause",
-              "Main clause clause Purpose",
-              "Main clause Purpose Purpose clause",
-              "werden"
-            ],
-            "answer": "Main clause Purpose clause",
-            "answers": [
-              "Main clause Purpose clause"
-            ],
-            "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nWir nutzen die Klassenkasse, ____ den Ausflug zu bezahlen.",
-            "options": [
-              "zu",
-              "habe",
-              "Purpose",
-              "um"
-            ],
-            "answer": "um",
-            "answers": [
-              "um"
-            ],
-            "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nWir treffen uns um 7:30 Uhr, um pünktlich loszufahren.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Purpose with um … zu",
-              "zu + Infinitiv"
-            ],
-            "answer": "Purpose with um … zu",
-            "answers": [
-              "Purpose with um … zu"
-            ],
-            "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Purpose with um … zu",
-            "options": [
-              "Die Mieter sind verpflichtet, den Gehweg zu streuen.",
-              "Was machen Sie mit den Kindern, um ihnen das zu vermitteln?",
-              "Es ist wichtig, den Schnee zu räumen.",
-              "Ich habe keine Zeit, dreimal am Tag Schnee zu fegen."
-            ],
-            "answer": "Was machen Sie mit den Kindern, um ihnen das zu vermitteln?",
-            "answers": [
-              "Was machen Sie mit den Kindern, um ihnen das zu vermitteln?"
-            ],
-            "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ … noch: Speisen dürfen weder zubereitet noch gegessen werden.",
-            "answer": "weder",
-            "answers": [
-              "weder"
-            ],
-            "note": "Paired conjunctions: These conjunctions connect equivalent words, phrases, or clauses.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "sowohl … auch: als Man kann sowohl essen als auch Schlitten ausleihen.",
-              "sowohl … auch: Man kann sowohl essen als auch Schlitten ausleihen. als",
-              "sowohl … als als auch: Man kann sowohl essen als auch Schlitten ausleihen.",
-              "sowohl … als auch: Man kann sowohl essen als auch Schlitten ausleihen."
-            ],
-            "answer": "sowohl … als auch: Man kann sowohl essen als auch Schlitten ausleihen.",
-            "answers": [
-              "sowohl … als auch: Man kann sowohl essen als auch Schlitten ausleihen."
-            ],
-            "note": "Paired conjunctions: These conjunctions connect equivalent words, phrases, or clauses.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l12-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: zu + Infinitiv",
-          "body": "An infinitive clause with zu often follows an adjective, noun, or verb. It normally has the same subject as the main clause.",
-          "example": "Es ist wichtig, den Schnee zu räumen.",
-          "emphasis": [
-            "zu"
-          ]
-        },
-        {
-          "title": "Word order: Purpose with um … zu",
-          "body": "um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
-          "example": "Main clause Purpose clause",
-          "emphasis": [
-            "Purpose"
-          ]
-        },
-        {
-          "title": "Usage: zu + Infinitiv",
-          "body": "With separable verbs, zu goes between the prefix and the verb:",
-          "example": "Ich habe keine Zeit, dreimal am Tag Schnee zu fegen.",
-          "emphasis": [
-            "zu"
-          ]
-        },
-        {
-          "title": "Contrast: Purpose with um … zu",
-          "body": "With a separable verb, zu goes between the prefix and verb stem:",
-          "example": "Wir nutzen die Klassenkasse, um den Ausflug zu bezahlen.",
-          "emphasis": [
-            "um"
-          ]
-        },
-        {
-          "title": "Final check: zu + Infinitiv",
-          "body": "In es ist wichtig, ... zu ..., es is an impersonal placeholder and the",
-          "example": "Die Mieter sind verpflichtet, den Gehweg zu streuen.",
-          "emphasis": [
-            "zu"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 13,
@@ -11122,7 +8964,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "der-prospekt",
@@ -11841,220 +9683,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l13-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nWir können leben, ____ unsere Umwelt zu schädigen.",
-            "options": [
-              "ohne",
-              "Anstatt",
-              "anstatt",
-              "Purpose"
-            ],
-            "answer": "ohne",
-            "answers": [
-              "ohne"
-            ],
-            "note": "ohne … zu + Infinitiv: ohne … zu means “without doing something.” As with um … zu, the understood subject of the infinitive clause is normally the same as the subject of the main clause.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nWir geben Ihnen den Wochenplan, ohne zu sehr ins Detail zu gehen.",
-            "options": [
-              "anstatt … zu + Infinitiv",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "ohne … zu + Infinitiv"
-            ],
-            "answer": "ohne … zu + Infinitiv",
-            "answers": [
-              "ohne … zu + Infinitiv"
-            ],
-            "note": "ohne … zu + Infinitiv: ohne … zu means “without doing something.” As with um … zu, the understood subject of the infinitive clause is normally the same as the subject of the main clause.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: ohne … zu + Infinitiv",
-            "options": [
-              "Wir geben Ihnen den Wochenplan, ohne zu sehr ins Detail zu gehen.",
-              "ohne die Umwelt zu schädigen",
-              "Man kann Wasser verbrauchen, ohne es zu sehr zu verschmutzen.",
-              "Wir können leben, ohne unsere Umwelt zu schädigen."
-            ],
-            "answer": "Man kann Wasser verbrauchen, ohne es zu sehr zu verschmutzen.",
-            "answers": [
-              "Man kann Wasser verbrauchen, ohne es zu sehr zu verschmutzen."
-            ],
-            "note": "ohne … zu + Infinitiv: ohne … zu means “without doing something.” As with um … zu, the understood subject of the infinitive clause is normally the same as the subject of the main clause.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ die Umwelt zu schädigen",
-            "answer": "ohne",
-            "answers": [
-              "ohne"
-            ],
-            "note": "ohne … zu + Infinitiv: ohne … zu means “without doing something.” As with um … zu, the understood subject of the infinitive clause is normally the same as the subject of the main clause.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Anstatt uns nur hilflos zu fühlen, sollten wir unseren Alltag verändern.",
-              "uns Anstatt nur hilflos zu fühlen, sollten wir unseren Alltag verändern.",
-              "uns nur hilflos zu fühlen, sollten wir unseren Alltag verändern. Anstatt",
-              "Anstatt Anstatt uns nur hilflos zu fühlen, sollten wir unseren Alltag verändern."
-            ],
-            "answer": "Anstatt uns nur hilflos zu fühlen, sollten wir unseren Alltag verändern.",
-            "answers": [
-              "Anstatt uns nur hilflos zu fühlen, sollten wir unseren Alltag verändern."
-            ],
-            "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ uns nur hilflos zu fühlen",
-            "options": [
-              "ohne",
-              "Purpose",
-              "um",
-              "anstatt"
-            ],
-            "answer": "anstatt",
-            "answers": [
-              "anstatt"
-            ],
-            "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\n[Anstatt uns nur hilflos zu fühlen], sollten wir unseren Alltag verändern.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "anstatt … zu + Infinitiv",
-              "ohne … zu + Infinitiv"
-            ],
-            "answer": "anstatt … zu + Infinitiv",
-            "answers": [
-              "anstatt … zu + Infinitiv"
-            ],
-            "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: anstatt … zu + Infinitiv",
-            "options": [
-              "Man kann Wasser verbrauchen, ohne es zu sehr zu verschmutzen.",
-              "Anstatt dass die Politik handelt, müssen die Bürger alles selbst machen.",
-              "Wir können leben, ohne unsere Umwelt zu schädigen.",
-              "Wir geben Ihnen den Wochenplan, ohne zu sehr ins Detail zu gehen."
-            ],
-            "answer": "Anstatt dass die Politik handelt, müssen die Bürger alles selbst machen.",
-            "answers": [
-              "Anstatt dass die Politik handelt, müssen die Bürger alles selbst machen."
-            ],
-            "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nMain clause ____ clause",
-            "answer": "Purpose",
-            "answers": [
-              "Purpose"
-            ],
-            "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Wir nutzen die Klassenkasse, den um Ausflug zu bezahlen.",
-              "Wir nutzen die Klassenkasse, den Ausflug zu bezahlen. um",
-              "Wir nutzen die Klassenkasse, um um den Ausflug zu bezahlen.",
-              "Wir nutzen die Klassenkasse, um den Ausflug zu bezahlen."
-            ],
-            "answer": "Wir nutzen die Klassenkasse, um den Ausflug zu bezahlen.",
-            "answers": [
-              "Wir nutzen die Klassenkasse, um den Ausflug zu bezahlen."
-            ],
-            "note": "Purpose with um … zu: um … zu + Infinitiv answers the question why? / for what purpose? The subject of the main clause and the understood subject of the infinitive clause must normally be the same.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l13-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: ohne … zu + Infinitiv",
-          "body": "ohne … zu means “without doing something.” As with um … zu, the understood subject of the infinitive clause is normally the same as the subject of the main clause.",
-          "example": "Wir können leben, ohne unsere Umwelt zu schädigen.",
-          "emphasis": [
-            "ohne"
-          ]
-        },
-        {
-          "title": "Word order: anstatt … zu + Infinitiv",
-          "body": "anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
-          "example": "Anstatt uns nur hilflos zu fühlen, sollten wir unseren Alltag verändern.",
-          "emphasis": [
-            "Anstatt"
-          ]
-        },
-        {
-          "title": "Usage: ohne … zu + Infinitiv",
-          "body": "When two infinitives are coordinated, each can carry its own zu:",
-          "example": "Wir geben Ihnen den Wochenplan, ohne zu sehr ins Detail zu gehen.",
-          "emphasis": [
-            "ohne"
-          ]
-        },
-        {
-          "title": "Contrast: anstatt … zu + Infinitiv",
-          "body": "When the infinitive clause comes first, it occupies position 1. The conjugated main-clause verb therefore follows the comma:",
-          "example": "anstatt uns nur hilflos zu fühlen",
-          "emphasis": [
-            "anstatt"
-          ]
-        },
-        {
-          "title": "Final check: ohne … zu + Infinitiv",
-          "body": "Use ohne dass when the clauses have different explicit subjects:",
-          "example": "Man kann Wasser verbrauchen, ohne es zu sehr zu verschmutzen.",
-          "emphasis": [
-            "ohne"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 14,
@@ -12064,7 +9694,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "der-schwimmkurs",
@@ -12771,220 +10401,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l14-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nbitten, etwas ____ tun: Ich bitte Sie, den Antrag zu prüfen.",
-            "options": [
-              "zu",
-              "an",
-              "Man",
-              "kann"
-            ],
-            "answer": "zu",
-            "answers": [
-              "zu"
-            ],
-            "note": "Verbs followed by an infinitive clause: An infinitive clause can also explain a noun. A comma separates it from the noun phrase:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nversprechen, etwas zu tun: Sie hat versprochen, einen Handwerker anzurufen.",
-            "options": [
-              "Modal verbs without zu",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Verbs followed by an infinitive clause"
-            ],
-            "answer": "Verbs followed by an infinitive clause",
-            "answers": [
-              "Verbs followed by an infinitive clause"
-            ],
-            "note": "Verbs followed by an infinitive clause: An infinitive clause can also explain a noun. A comma separates it from the noun phrase:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Verbs followed by an infinitive clause",
-            "options": [
-              "versprechen, etwas zu tun: Sie hat versprochen, einen Handwerker anzurufen.",
-              "anfangen, etwas zu tun: Es fängt an zu schneien.",
-              "daran denken, etwas zu tun: Denk daran, den Gehweg zu streuen.",
-              "bitten, etwas zu tun: Ich bitte Sie, den Antrag zu prüfen."
-            ],
-            "answer": "daran denken, etwas zu tun: Denk daran, den Gehweg zu streuen.",
-            "answers": [
-              "daran denken, etwas zu tun: Denk daran, den Gehweg zu streuen."
-            ],
-            "note": "Verbs followed by an infinitive clause: An infinitive clause can also explain a noun. A comma separates it from the noun phrase:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nanfangen, etwas zu tun: Es fängt ____ zu schneien.",
-            "answer": "an",
-            "answers": [
-              "an"
-            ],
-            "note": "Verbs followed by an infinitive clause: An infinitive clause can also explain a noun. A comma separates it from the noun phrase:",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Man muss die Frist beachten.",
-              "muss Man die Frist beachten.",
-              "muss die Frist beachten. Man",
-              "Man Man muss die Frist beachten."
-            ],
-            "answer": "Man muss die Frist beachten.",
-            "answers": [
-              "Man muss die Frist beachten."
-            ],
-            "note": "Modal verbs without zu: After a modal verb, the second verb is an infinitive without zu and goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nSie ____ Widerspruch einlegen.",
-            "options": [
-              "zu",
-              "an",
-              "Man",
-              "kann"
-            ],
-            "answer": "kann",
-            "answers": [
-              "kann"
-            ],
-            "note": "Modal verbs without zu: After a modal verb, the second verb is an infinitive without zu and goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nSimon will einen Rechtsanwalt anrufen.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Modal verbs without zu",
-              "Verbs followed by an infinitive clause"
-            ],
-            "answer": "Modal verbs without zu",
-            "answers": [
-              "Modal verbs without zu"
-            ],
-            "note": "Modal verbs without zu: After a modal verb, the second verb is an infinitive without zu and goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Modal verbs without zu",
-            "options": [
-              "daran denken, etwas zu tun: Denk daran, den Gehweg zu streuen.",
-              "Man darf hier nicht rauchen.",
-              "bitten, etwas zu tun: Ich bitte Sie, den Antrag zu prüfen.",
-              "versprechen, etwas zu tun: Sie hat versprochen, einen Handwerker anzurufen."
-            ],
-            "answer": "Man darf hier nicht rauchen.",
-            "answers": [
-              "Man darf hier nicht rauchen."
-            ],
-            "note": "Modal verbs without zu: After a modal verb, the second verb is an infinitive without zu and goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ uns nur hilflos zu fühlen, sollten wir unseren Alltag verändern.",
-            "answer": "Anstatt",
-            "answers": [
-              "Anstatt"
-            ],
-            "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "uns anstatt nur hilflos zu fühlen",
-              "uns nur hilflos zu fühlen anstatt",
-              "anstatt anstatt uns nur hilflos zu fühlen",
-              "anstatt uns nur hilflos zu fühlen"
-            ],
-            "answer": "anstatt uns nur hilflos zu fühlen",
-            "answers": [
-              "anstatt uns nur hilflos zu fühlen"
-            ],
-            "note": "anstatt … zu + Infinitiv: anstatt … zu or the shorter statt … zu means “instead of doing something.” The subject of the main clause and the understood subject of the infinitive clause are normally the same.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l14-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Verbs followed by an infinitive clause",
-          "body": "Common controlling patterns:",
-          "example": "bitten, etwas zu tun: Ich bitte Sie, den Antrag zu prüfen.",
-          "emphasis": [
-            "zu"
-          ]
-        },
-        {
-          "title": "Word order: Modal verbs without zu",
-          "body": "After a modal verb, the second verb is an infinitive without zu and goes to the end.",
-          "example": "Man muss die Frist beachten.",
-          "emphasis": [
-            "Man"
-          ]
-        },
-        {
-          "title": "Usage: Verbs followed by an infinitive clause",
-          "body": "An infinitive clause can also explain a noun. A comma separates it from the noun phrase:",
-          "example": "versprechen, etwas zu tun: Sie hat versprochen, einen Handwerker anzurufen.",
-          "emphasis": [
-            "zu"
-          ]
-        },
-        {
-          "title": "Contrast: Modal verbs without zu",
-          "body": "müssen nicht means “do not have to”; it expresses a lack of necessity. It is different from nicht dürfen, which means “must not” or “are not allowed to”:",
-          "example": "Sie kann Widerspruch einlegen.",
-          "emphasis": [
-            "kann"
-          ]
-        },
-        {
-          "title": "Final check: Verbs followed by an infinitive clause",
-          "body": "Common controlling patterns:",
-          "example": "daran denken, etwas zu tun: Denk daran, den Gehweg zu streuen.",
-          "emphasis": [
-            "zu"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 15,
@@ -12994,7 +10412,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "sonst",
@@ -13705,220 +11123,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l15-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nIch ____ die Heizung reparieren.",
-            "options": [
-              "lasse",
-              "lassen",
-              "Mieterin",
-              "arranger"
-            ],
-            "answer": "lasse",
-            "answers": [
-              "lasse"
-            ],
-            "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nIch bitte Sie, die Heizung reparieren zu lassen.",
-            "options": [
-              "Separable verbs",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "lassen + Infinitiv"
-            ],
-            "answer": "lassen + Infinitiv",
-            "answers": [
-              "lassen + Infinitiv"
-            ],
-            "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: lassen + Infinitiv",
-            "options": [
-              "Ich bitte Sie, die Heizung reparieren zu lassen.",
-              "arranger action by a tradesperson",
-              "Die Mieterin lässt die Heizung reparieren.",
-              "Ich lasse die Heizung reparieren."
-            ],
-            "answer": "Die Mieterin lässt die Heizung reparieren.",
-            "answers": [
-              "Die Mieterin lässt die Heizung reparieren."
-            ],
-            "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ action by a tradesperson",
-            "answer": "arranger",
-            "answers": [
-              "arranger"
-            ],
-            "note": "lassen + Infinitiv: lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "ausziehen: Ich ziehe aus. / Ich bin ausgezogen.",
-              "Ich ausziehen: ziehe aus. / Ich bin ausgezogen.",
-              "Ich ziehe aus. / Ich bin ausgezogen. ausziehen:",
-              "ausziehen: ausziehen: Ich ziehe aus. / Ich bin ausgezogen."
-            ],
-            "answer": "ausziehen: Ich ziehe aus. / Ich bin ausgezogen.",
-            "answers": [
-              "ausziehen: Ich ziehe aus. / Ich bin ausgezogen."
-            ],
-            "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\numziehen: Ich ziehe nach Stuttgart ____. / Ich bin umgezogen.",
-            "options": [
-              "lasse",
-              "lassen",
-              "Mieterin",
-              "um"
-            ],
-            "answer": "um",
-            "answers": [
-              "um"
-            ],
-            "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nzurückgeben: Ich gebe den Schlüssel zurück. / Ich habe ihn zurückgegeben.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Separable verbs",
-              "lassen + Infinitiv"
-            ],
-            "answer": "Separable verbs",
-            "answers": [
-              "Separable verbs"
-            ],
-            "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Separable verbs",
-            "options": [
-              "Die Mieterin lässt die Heizung reparieren.",
-              "mitteilen: Ich teile Ihnen den Termin mit. / Ich habe ihn mitgeteilt.",
-              "Ich lasse die Heizung reparieren.",
-              "Ich bitte Sie, die Heizung reparieren zu lassen."
-            ],
-            "answer": "mitteilen: Ich teile Ihnen den Termin mit. / Ich habe ihn mitgeteilt.",
-            "answers": [
-              "mitteilen: Ich teile Ihnen den Termin mit. / Ich habe ihn mitgeteilt."
-            ],
-            "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ muss die Frist beachten.",
-            "answer": "Man",
-            "answers": [
-              "Man"
-            ],
-            "note": "Modal verbs without zu: After a modal verb, the second verb is an infinitive without zu and goes to the end.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Sie Widerspruch kann einlegen.",
-              "Sie Widerspruch einlegen. kann",
-              "Sie kann kann Widerspruch einlegen.",
-              "Sie kann Widerspruch einlegen."
-            ],
-            "answer": "Sie kann Widerspruch einlegen.",
-            "answers": [
-              "Sie kann Widerspruch einlegen."
-            ],
-            "note": "Modal verbs without zu: After a modal verb, the second verb is an infinitive without zu and goes to the end.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l15-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: lassen + Infinitiv",
-          "body": "lassen can mean arranging for another person to do something. The second verb has no zu directly after lassen.",
-          "example": "Ich lasse die Heizung reparieren.",
-          "emphasis": [
-            "lasse"
-          ]
-        },
-        {
-          "title": "Word order: Separable verbs",
-          "body": "The prefix separates in a main clause and joins the participle in the perfect.",
-          "example": "ausziehen: Ich ziehe aus. / Ich bin ausgezogen.",
-          "emphasis": [
-            "ausziehen"
-          ]
-        },
-        {
-          "title": "Usage: lassen + Infinitiv",
-          "body": "The person arranging the action is not necessarily the person doing it:",
-          "example": "Ich bitte Sie, die Heizung reparieren zu lassen.",
-          "emphasis": [
-            "lassen"
-          ]
-        },
-        {
-          "title": "Contrast: Separable verbs",
-          "body": "The prefix is stressed in speech: AUSziehen, ANrufen, ZURÜCKgeben.",
-          "example": "umziehen: Ich ziehe nach Stuttgart um. / Ich bin umgezogen.",
-          "emphasis": [
-            "um"
-          ]
-        },
-        {
-          "title": "Final check: lassen + Infinitiv",
-          "body": "In the perfect, lassen uses a double infinitive in this meaning:",
-          "example": "Die Mieterin lässt die Heizung reparieren.",
-          "emphasis": [
-            "Mieterin"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 16,
@@ -13928,7 +11134,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "ankommen",
@@ -14631,220 +11837,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l16-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ → hat besprochen",
-            "options": [
-              "besprechen",
-              "erkennen",
-              "versprechen",
-              "enthalten"
-            ],
-            "answer": "besprechen",
-            "answers": [
-              "besprechen"
-            ],
-            "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nerkennen → hat erkannt",
-            "options": [
-              "Perfect tense",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Inseparable verbs"
-            ],
-            "answer": "Inseparable verbs",
-            "answers": [
-              "Inseparable verbs"
-            ],
-            "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Inseparable verbs",
-            "options": [
-              "erkennen → hat erkannt",
-              "enthalten → hat enthalten",
-              "versprechen → hat versprochen",
-              "besprechen → hat besprochen"
-            ],
-            "answer": "versprechen → hat versprochen",
-            "answers": [
-              "versprechen → hat versprochen"
-            ],
-            "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ → hat enthalten",
-            "answer": "enthalten",
-            "answers": [
-              "enthalten"
-            ],
-            "note": "Inseparable verbs: Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Die Mannschaft hat fünf Tore geschossen.",
-              "Die hat Mannschaft fünf Tore geschossen.",
-              "Die hat fünf Tore geschossen. Mannschaft",
-              "Die Mannschaft Mannschaft hat fünf Tore geschossen."
-            ],
-            "answer": "Die Mannschaft hat fünf Tore geschossen.",
-            "answers": [
-              "Die Mannschaft hat fünf Tore geschossen."
-            ],
-            "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nDie ____ hat Gutscheine verteilt.",
-            "options": [
-              "besprechen",
-              "erkennen",
-              "versprechen",
-              "Airline"
-            ],
-            "answer": "Airline",
-            "answers": [
-              "Airline"
-            ],
-            "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nWir sind nach Stuttgart umgezogen.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Perfect tense",
-              "Inseparable verbs"
-            ],
-            "answer": "Perfect tense",
-            "answers": [
-              "Perfect tense"
-            ],
-            "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Perfect tense",
-            "options": [
-              "versprechen → hat versprochen",
-              "Die Gruppe hat aufgehört.",
-              "besprechen → hat besprochen",
-              "erkennen → hat erkannt"
-            ],
-            "answer": "Die Gruppe hat aufgehört.",
-            "answers": [
-              "Die Gruppe hat aufgehört."
-            ],
-            "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____: Ich ziehe aus. / Ich bin ausgezogen.",
-            "answer": "ausziehen",
-            "answers": [
-              "ausziehen"
-            ],
-            "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Ich umziehen: ziehe nach Stuttgart um. / Ich bin umgezogen.",
-              "Ich ziehe nach Stuttgart um. / Ich bin umgezogen. umziehen:",
-              "umziehen: umziehen: Ich ziehe nach Stuttgart um. / Ich bin umgezogen.",
-              "umziehen: Ich ziehe nach Stuttgart um. / Ich bin umgezogen."
-            ],
-            "answer": "umziehen: Ich ziehe nach Stuttgart um. / Ich bin umgezogen.",
-            "answers": [
-              "umziehen: Ich ziehe nach Stuttgart um. / Ich bin umgezogen."
-            ],
-            "note": "Separable verbs: The prefix separates in a main clause and joins the participle in the perfect.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l16-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Inseparable verbs",
-          "body": "Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
-          "example": "besprechen → hat besprochen",
-          "emphasis": [
-            "besprechen"
-          ]
-        },
-        {
-          "title": "Word order: Perfect tense",
-          "body": "The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
-          "example": "Die Mannschaft hat fünf Tore geschossen.",
-          "emphasis": [
-            "Mannschaft"
-          ]
-        },
-        {
-          "title": "Usage: Inseparable verbs",
-          "body": "These prefixes are normally unstressed. Another important group without ge- is verbs ending in -ieren:",
-          "example": "erkennen → hat erkannt",
-          "emphasis": [
-            "erkennen"
-          ]
-        },
-        {
-          "title": "Contrast: Perfect tense",
-          "body": "Movement or change-of-state verbs often use sein:",
-          "example": "Die Airline hat Gutscheine verteilt.",
-          "emphasis": [
-            "Airline"
-          ]
-        },
-        {
-          "title": "Final check: Inseparable verbs",
-          "body": "Verbs beginning with prefixes such as be-, er-, ver- and ent- normally do not use ge- in the past participle.",
-          "example": "versprechen → hat versprochen",
-          "emphasis": [
-            "versprechen"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 17,
@@ -14854,7 +11848,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "von-frueher",
@@ -15569,220 +12563,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l17-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ / war + Partizip II",
-            "options": [
-              "hatte",
-              "past",
-              "Nachdem",
-              "Mannschaft"
-            ],
-            "answer": "hatte",
-            "answers": [
-              "hatte"
-            ],
-            "note": "Past perfect: Plusquamperfekt: The Plusquamperfekt describes an action that was already complete before another past action. It is the German equivalent of “had done.”",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\n1. Ich hatte bezahlt. earlier past",
-            "options": [
-              "Simple past of haben and sein",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Past perfect: Plusquamperfekt"
-            ],
-            "answer": "Past perfect: Plusquamperfekt",
-            "answers": [
-              "Past perfect: Plusquamperfekt"
-            ],
-            "note": "Past perfect: Plusquamperfekt: The Plusquamperfekt describes an action that was already complete before another past action. It is the German equivalent of “had done.”",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Past perfect: Plusquamperfekt",
-            "options": [
-              "1. Ich hatte bezahlt. earlier past",
-              "Nachdem ich bezahlt hatte, habe ich das Portemonnaie eingesteckt.",
-              "2. Ich habe das Portemonnaie eingesteckt. later past",
-              "hatte / war + Partizip II"
-            ],
-            "answer": "2. Ich habe das Portemonnaie eingesteckt. later past",
-            "answers": [
-              "2. Ich habe das Portemonnaie eingesteckt. later past"
-            ],
-            "note": "Past perfect: Plusquamperfekt: The Plusquamperfekt describes an action that was already complete before another past action. It is the German equivalent of “had done.”",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ ich bezahlt hatte, habe ich das Portemonnaie eingesteckt.",
-            "answer": "Nachdem",
-            "answers": [
-              "Nachdem"
-            ],
-            "note": "Past perfect: Plusquamperfekt: The Plusquamperfekt describes an action that was already complete before another past action. It is the German equivalent of “had done.”",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Die Mannschaft hat fünf Tore geschossen.",
-              "Die hat Mannschaft fünf Tore geschossen.",
-              "Die hat fünf Tore geschossen. Mannschaft",
-              "Die Mannschaft Mannschaft hat fünf Tore geschossen."
-            ],
-            "answer": "Die Mannschaft hat fünf Tore geschossen.",
-            "answers": [
-              "Die Mannschaft hat fünf Tore geschossen."
-            ],
-            "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nDie ____ hat Gutscheine verteilt.",
-            "options": [
-              "hatte",
-              "past",
-              "Nachdem",
-              "Airline"
-            ],
-            "answer": "Airline",
-            "answers": [
-              "Airline"
-            ],
-            "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nWir sind nach Stuttgart umgezogen.",
-            "options": [
-              "Past perfect: Plusquamperfekt",
-              "How to read the structures",
-              "Perfect tense",
-              "Simple past of haben and sein"
-            ],
-            "answer": "Perfect tense",
-            "answers": [
-              "Perfect tense"
-            ],
-            "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Perfect tense",
-            "options": [
-              "2. Ich habe das Portemonnaie eingesteckt. later past",
-              "Die Gruppe hat aufgehört.",
-              "hatte / war + Partizip II",
-              "1. Ich hatte bezahlt. earlier past"
-            ],
-            "answer": "Die Gruppe hat aufgehört.",
-            "answers": [
-              "Die Gruppe hat aufgehört."
-            ],
-            "note": "Perfect tense: The perfect uses haben/sein + Partizip II. The participle normally goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ / war + Partizip II",
-            "answer": "hatte",
-            "answers": [
-              "hatte"
-            ],
-            "note": "Past perfect: Plusquamperfekt: The Plusquamperfekt describes an action that was already complete before another past action. It is the German equivalent of “had done.”",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "1. Ich hatte bezahlt. past earlier",
-              "1. Ich hatte bezahlt. earlier past past",
-              "werden",
-              "1. Ich hatte bezahlt. earlier past"
-            ],
-            "answer": "1. Ich hatte bezahlt. earlier past",
-            "answers": [
-              "1. Ich hatte bezahlt. earlier past"
-            ],
-            "note": "Past perfect: Plusquamperfekt: The Plusquamperfekt describes an action that was already complete before another past action. It is the German equivalent of “had done.”",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l17-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Simple past of haben and sein",
-          "body": "The simple-past forms of haben and sein are common in both writing and",
-          "example": "Simple past of haben and sein",
-          "emphasis": [
-            "Simple"
-          ]
-        },
-        {
-          "title": "Word order: Past perfect: Plusquamperfekt",
-          "body": "The Plusquamperfekt describes an action that was already complete before another past action. It is the German equivalent of “had done.”",
-          "example": "hatte / war + Partizip II",
-          "emphasis": [
-            "hatte"
-          ]
-        },
-        {
-          "title": "Usage: Simple past of haben and sein",
-          "body": "speech because they are short and frequent.",
-          "example": "Simple past of haben and sein",
-          "emphasis": [
-            "Simple"
-          ]
-        },
-        {
-          "title": "Contrast: Past perfect: Plusquamperfekt",
-          "body": "nachdem introduces the earlier event and sends the conjugated auxiliary to the end:",
-          "example": "1. Ich hatte bezahlt. earlier past",
-          "emphasis": [
-            "past"
-          ]
-        },
-        {
-          "title": "Final check: Simple past of haben and sein",
-          "body": "The simple-past forms of haben and sein are common in both writing and",
-          "example": "Simple past of haben and sein",
-          "emphasis": [
-            "Simple"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 18,
@@ -15792,7 +12574,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "die-papiere",
@@ -16499,220 +13281,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l18-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nJemand ____ mein Portemonnaie genommen haben.",
-            "options": [
-              "könnte",
-              "II",
-              "hätte",
-              "wäre"
-            ],
-            "answer": "könnte",
-            "answers": [
-              "könnte"
-            ],
-            "note": "Past speculation: könnte … haben/sein: To say that something might or could have happened, use Konjunktiv II könnte with a perfect infinitive.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nEr könnte gegangen sein.",
-            "options": [
-              "Past Konjunktiv II: hätte/wäre + Partizip II",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Past speculation: könnte … haben/sein"
-            ],
-            "answer": "Past speculation: könnte … haben/sein",
-            "answers": [
-              "Past speculation: könnte … haben/sein"
-            ],
-            "note": "Past speculation: könnte … haben/sein: To say that something might or could have happened, use Konjunktiv II könnte with a perfect infinitive.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Past speculation: könnte … haben/sein",
-            "options": [
-              "Er könnte gegangen sein.",
-              "participle + haben + könnte",
-              "Denkst du, dass einer von ihnen das Portemonnaie genommen haben könnte?",
-              "Jemand könnte mein Portemonnaie genommen haben."
-            ],
-            "answer": "Denkst du, dass einer von ihnen das Portemonnaie genommen haben könnte?",
-            "answers": [
-              "Denkst du, dass einer von ihnen das Portemonnaie genommen haben könnte?"
-            ],
-            "note": "Past speculation: könnte … haben/sein: To say that something might or could have happened, use Konjunktiv II könnte with a perfect infinitive.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nparticiple + haben + ____",
-            "answer": "könnte",
-            "answers": [
-              "könnte"
-            ],
-            "note": "Past speculation: könnte … haben/sein: To say that something might or could have happened, use Konjunktiv II könnte with a perfect infinitive.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "haben-verb: hätte + Partizip II",
-              "haben-verb: hätte + II Partizip",
-              "haben-verb: hätte + Partizip II II",
-              "werden"
-            ],
-            "answer": "haben-verb: hätte + Partizip II",
-            "answers": [
-              "haben-verb: hätte + Partizip II"
-            ],
-            "note": "Past Konjunktiv II: hätte/wäre + Partizip II: Use the past Konjunktiv II for an unreal, unexpected, or imagined past situation. It is formed with hätte or wäre plus the past participle.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nIch ____ das nie gedacht.",
-            "options": [
-              "könnte",
-              "II",
-              "wäre",
-              "hätte"
-            ],
-            "answer": "hätte",
-            "answers": [
-              "hätte"
-            ],
-            "note": "Past Konjunktiv II: hätte/wäre + Partizip II: Use the past Konjunktiv II for an unreal, unexpected, or imagined past situation. It is formed with hätte or wäre plus the past participle.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nsein-verb: wäre + Partizip II",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Past Konjunktiv II: hätte/wäre + Partizip II",
-              "Past speculation: könnte … haben/sein"
-            ],
-            "answer": "Past Konjunktiv II: hätte/wäre + Partizip II",
-            "answers": [
-              "Past Konjunktiv II: hätte/wäre + Partizip II"
-            ],
-            "note": "Past Konjunktiv II: hätte/wäre + Partizip II: Use the past Konjunktiv II for an unreal, unexpected, or imagined past situation. It is formed with hätte or wäre plus the past participle.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Past Konjunktiv II: hätte/wäre + Partizip II",
-            "options": [
-              "Denkst du, dass einer von ihnen das Portemonnaie genommen haben könnte?",
-              "Ich wäre früher gekommen.",
-              "Jemand könnte mein Portemonnaie genommen haben.",
-              "Er könnte gegangen sein."
-            ],
-            "answer": "Ich wäre früher gekommen.",
-            "answers": [
-              "Ich wäre früher gekommen."
-            ],
-            "note": "Past Konjunktiv II: hätte/wäre + Partizip II: Use the past Konjunktiv II for an unreal, unexpected, or imagined past situation. It is formed with hätte or wäre plus the past participle.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ / war + Partizip II",
-            "answer": "hatte",
-            "answers": [
-              "hatte"
-            ],
-            "note": "Past perfect: Plusquamperfekt: The Plusquamperfekt describes an action that was already complete before another past action. It is the German equivalent of “had done.”",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "1. Ich hatte bezahlt. past earlier",
-              "1. Ich hatte bezahlt. earlier past past",
-              "werden",
-              "1. Ich hatte bezahlt. earlier past"
-            ],
-            "answer": "1. Ich hatte bezahlt. earlier past",
-            "answers": [
-              "1. Ich hatte bezahlt. earlier past"
-            ],
-            "note": "Past perfect: Plusquamperfekt: The Plusquamperfekt describes an action that was already complete before another past action. It is the German equivalent of “had done.”",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l18-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Past speculation: könnte … haben/sein",
-          "body": "To say that something might or could have happened, use Konjunktiv II könnte with a perfect infinitive.",
-          "example": "Jemand könnte mein Portemonnaie genommen haben.",
-          "emphasis": [
-            "könnte"
-          ]
-        },
-        {
-          "title": "Word order: Past Konjunktiv II: hätte/wäre + Partizip II",
-          "body": "Use the past Konjunktiv II for an unreal, unexpected, or imagined past situation. It is formed with hätte or wäre plus the past participle.",
-          "example": "haben-verb: hätte + Partizip II",
-          "emphasis": [
-            "II"
-          ]
-        },
-        {
-          "title": "Usage: Past speculation: könnte … haben/sein",
-          "body": "In a dass clause, the complete verb group moves to the end and the finite modal comes last:",
-          "example": "Er könnte gegangen sein.",
-          "emphasis": [
-            "könnte"
-          ]
-        },
-        {
-          "title": "Contrast: Past Konjunktiv II: hätte/wäre + Partizip II",
-          "body": "In this example, hätte nie gedacht expresses strong surprise about the present situation:",
-          "example": "Ich hätte das nie gedacht.",
-          "emphasis": [
-            "hätte"
-          ]
-        },
-        {
-          "title": "Final check: Past speculation: könnte … haben/sein",
-          "body": "This expresses uncertainty, not a confirmed fact.",
-          "example": "Denkst du, dass einer von ihnen das Portemonnaie genommen haben könnte?",
-          "emphasis": [
-            "könnte"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 19,
@@ -16722,7 +13292,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "die-luft",
@@ -17429,220 +13999,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l19-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nIch ____ noch zum Fundbüro gehen.",
-            "options": [
-              "werde",
-              "intention",
-              "prediction",
-              "future"
-            ],
-            "answer": "werde",
-            "answers": [
-              "werde"
-            ],
-            "note": "Future I: werden + Infinitiv: Futur I is formed with a conjugated form of werden and an infinitive at the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nan intention: Ich werde noch zum Fundbüro gehen.",
-            "options": [
-              "seit + Dativ with the present tense",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Future I: werden + Infinitiv"
-            ],
-            "answer": "Future I: werden + Infinitiv",
-            "answers": [
-              "Future I: werden + Infinitiv"
-            ],
-            "note": "Future I: werden + Infinitiv: Futur I is formed with a conjugated form of werden and an infinitive at the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Future I: werden + Infinitiv",
-            "options": [
-              "an intention: Ich werde noch zum Fundbüro gehen.",
-              "a future development: Es wird noch einige Zeit dauern.",
-              "a prediction: Vielleicht wird jemand das Portemonnaie finden.",
-              "Ich werde noch zum Fundbüro gehen."
-            ],
-            "answer": "a prediction: Vielleicht wird jemand das Portemonnaie finden.",
-            "answers": [
-              "a prediction: Vielleicht wird jemand das Portemonnaie finden."
-            ],
-            "note": "Future I: werden + Infinitiv: Futur I is formed with a conjugated form of werden and an infinitive at the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\na ____ development: Es wird noch einige Zeit dauern.",
-            "answer": "future",
-            "answers": [
-              "future"
-            ],
-            "note": "Future I: werden + Infinitiv: Futur I is formed with a conjugated form of werden and an infinitive at the end.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Ich lebe seit sieben Jahren in dieser Wohnung.",
-              "Ich lebe sieben seit Jahren in dieser Wohnung.",
-              "Ich lebe sieben Jahren in dieser Wohnung. seit",
-              "Ich lebe seit seit sieben Jahren in dieser Wohnung."
-            ],
-            "answer": "Ich lebe seit sieben Jahren in dieser Wohnung.",
-            "answers": [
-              "Ich lebe seit sieben Jahren in dieser Wohnung."
-            ],
-            "note": "seit + Dativ with the present tense: German uses the present tense for a situation that started in the past and still continues.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ Montag bin ich krank.",
-            "options": [
-              "werde",
-              "intention",
-              "prediction",
-              "Seit"
-            ],
-            "answer": "Seit",
-            "answers": [
-              "Seit"
-            ],
-            "note": "seit + Dativ with the present tense: German uses the present tense for a situation that started in the past and still continues.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nIch arbeite seit drei Wochen als Verkäuferin.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "seit + Dativ with the present tense",
-              "Future I: werden + Infinitiv"
-            ],
-            "answer": "seit + Dativ with the present tense",
-            "answers": [
-              "seit + Dativ with the present tense"
-            ],
-            "note": "seit + Dativ with the present tense: German uses the present tense for a situation that started in the past and still continues.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: seit + Dativ with the present tense",
-            "options": [
-              "a prediction: Vielleicht wird jemand das Portemonnaie finden.",
-              "present starting point/duration → still true now",
-              "Ich werde noch zum Fundbüro gehen.",
-              "an intention: Ich werde noch zum Fundbüro gehen."
-            ],
-            "answer": "present starting point/duration → still true now",
-            "answers": [
-              "present starting point/duration → still true now"
-            ],
-            "note": "seit + Dativ with the present tense: German uses the present tense for a situation that started in the past and still continues.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nhaben-verb: hätte + Partizip ____",
-            "answer": "II",
-            "answers": [
-              "II"
-            ],
-            "note": "Past Konjunktiv II: hätte/wäre + Partizip II: Use the past Konjunktiv II for an unreal, unexpected, or imagined past situation. It is formed with hätte or wäre plus the past participle.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Ich das hätte nie gedacht.",
-              "Ich das nie gedacht. hätte",
-              "Ich hätte hätte das nie gedacht.",
-              "Ich hätte das nie gedacht."
-            ],
-            "answer": "Ich hätte das nie gedacht.",
-            "answers": [
-              "Ich hätte das nie gedacht."
-            ],
-            "note": "Past Konjunktiv II: hätte/wäre + Partizip II: Use the past Konjunktiv II for an unreal, unexpected, or imagined past situation. It is formed with hätte or wäre plus the past participle.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l19-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Future I: werden + Infinitiv",
-          "body": "Futur I is formed with a conjugated form of werden and an infinitive at the end.",
-          "example": "Ich werde noch zum Fundbüro gehen.",
-          "emphasis": [
-            "werde"
-          ]
-        },
-        {
-          "title": "Word order: seit + Dativ with the present tense",
-          "body": "German uses the present tense for a situation that started in the past and still continues.",
-          "example": "Ich lebe seit sieben Jahren in dieser Wohnung.",
-          "emphasis": [
-            "seit"
-          ]
-        },
-        {
-          "title": "Usage: Future I: werden + Infinitiv",
-          "body": "Futur I can express:",
-          "example": "an intention: Ich werde noch zum Fundbüro gehen.",
-          "emphasis": [
-            "intention"
-          ]
-        },
-        {
-          "title": "Contrast: seit + Dativ with the present tense",
-          "body": "English often uses “have/has been + -ing,” but German normally uses the present tense when the activity still continues:",
-          "example": "Seit Montag bin ich krank.",
-          "emphasis": [
-            "Seit"
-          ]
-        },
-        {
-          "title": "Final check: Future I: werden + Infinitiv",
-          "body": "German often uses the present tense for scheduled or clear future events, but Futur I emphasizes intention or prediction:",
-          "example": "a prediction: Vielleicht wird jemand das Portemonnaie finden.",
-          "emphasis": [
-            "prediction"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 20,
@@ -17652,7 +14010,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "umweltschaedlich",
@@ -18363,220 +14721,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l20-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nDer ____ wird abgelehnt.",
-            "options": [
-              "Antrag",
-              "Eine",
-              "werden",
-              "Rauchen"
-            ],
-            "answer": "Antrag",
-            "answers": [
-              "Antrag"
-            ],
-            "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nEine neue Entscheidung wird getroffen.",
-            "options": [
-              "State passive and result adjectives",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Process passive: werden + Partizip II"
-            ],
-            "answer": "Process passive: werden + Partizip II",
-            "answers": [
-              "Process passive: werden + Partizip II"
-            ],
-            "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Process passive: werden + Partizip II",
-            "options": [
-              "Eine neue Entscheidung wird getroffen.",
-              "Die Lehrer werden auf die Probleme vorbereitet.",
-              "Bonbons werden ins Publikum geworfen.",
-              "Der Antrag wird abgelehnt."
-            ],
-            "answer": "Bonbons werden ins Publikum geworfen.",
-            "answers": [
-              "Bonbons werden ins Publikum geworfen."
-            ],
-            "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nDie Lehrer ____ auf die Probleme vorbereitet.",
-            "answer": "werden",
-            "answers": [
-              "werden"
-            ],
-            "note": "Process passive: werden + Partizip II: The process passive focuses on an action rather than the person performing it.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Das Rauchen ist untersagt.",
-              "Das ist Rauchen untersagt.",
-              "Das ist untersagt. Rauchen",
-              "Das Rauchen Rauchen ist untersagt."
-            ],
-            "answer": "Das Rauchen ist untersagt.",
-            "answers": [
-              "Das Rauchen ist untersagt."
-            ],
-            "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nTiere sind ____ gestattet.",
-            "options": [
-              "Antrag",
-              "Eine",
-              "werden",
-              "nicht"
-            ],
-            "answer": "nicht",
-            "answers": [
-              "nicht"
-            ],
-            "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nGrillen ist nur auf bestimmten Plätzen erlaubt.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "State passive and result adjectives",
-              "Process passive: werden + Partizip II"
-            ],
-            "answer": "State passive and result adjectives",
-            "answers": [
-              "State passive and result adjectives"
-            ],
-            "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: State passive and result adjectives",
-            "options": [
-              "Bonbons werden ins Publikum geworfen.",
-              "Der Gehweg muss bis 7 Uhr geräumt sein.",
-              "Der Antrag wird abgelehnt.",
-              "Eine neue Entscheidung wird getroffen."
-            ],
-            "answer": "Der Gehweg muss bis 7 Uhr geräumt sein.",
-            "answers": [
-              "Der Gehweg muss bis 7 Uhr geräumt sein."
-            ],
-            "note": "State passive and result adjectives: sein + Partizip II/adjective describes a state or result.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nIch lebe ____ sieben Jahren in dieser Wohnung.",
-            "answer": "seit",
-            "answers": [
-              "seit"
-            ],
-            "note": "seit + Dativ with the present tense: German uses the present tense for a situation that started in the past and still continues.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Montag Seit bin ich krank.",
-              "Montag bin ich krank. Seit",
-              "Seit Seit Montag bin ich krank.",
-              "Seit Montag bin ich krank."
-            ],
-            "answer": "Seit Montag bin ich krank.",
-            "answers": [
-              "Seit Montag bin ich krank."
-            ],
-            "note": "seit + Dativ with the present tense: German uses the present tense for a situation that started in the past and still continues.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l20-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Process passive: werden + Partizip II",
-          "body": "The process passive focuses on an action rather than the person performing it.",
-          "example": "Der Antrag wird abgelehnt.",
-          "emphasis": [
-            "Antrag"
-          ]
-        },
-        {
-          "title": "Word order: State passive and result adjectives",
-          "body": "sein + Partizip II/adjective describes a state or result.",
-          "example": "Das Rauchen ist untersagt.",
-          "emphasis": [
-            "Rauchen"
-          ]
-        },
-        {
-          "title": "Usage: Process passive: werden + Partizip II",
-          "body": "The verb pattern is jemanden auf etwas (Akkusativ) vorbereiten. In the passive, the active accusative person becomes the nominative subject, while auf + Akkusativ remains unchanged:",
-          "example": "Eine neue Entscheidung wird getroffen.",
-          "emphasis": [
-            "Eine"
-          ]
-        },
-        {
-          "title": "Contrast: State passive and result adjectives",
-          "body": "Opening hours commonly use haben + geöffnet, with geöffnet functioning as an adjective that describes the establishment's state:",
-          "example": "Tiere sind nicht gestattet.",
-          "emphasis": [
-            "nicht"
-          ]
-        },
-        {
-          "title": "Final check: Process passive: werden + Partizip II",
-          "body": "With a modal verb, use modal + Partizip II + werden:",
-          "example": "Bonbons werden ins Publikum geworfen.",
-          "emphasis": [
-            "werden"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 21,
@@ -18586,7 +14732,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "verschmutzen",
@@ -19289,220 +15435,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l21-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____: Jemand schenkt mir ein Rennrad.",
-            "options": [
-              "Active",
-              "Recipient",
-              "geschenkt",
-              "auxiliary"
-            ],
-            "answer": "Active",
-            "answers": [
-              "Active"
-            ],
-            "note": "Recipient construction: etwas geschenkt bekommen: bekommen + Partizip II focuses on the recipient of an action. It is especially common with verbs such as schenken, schicken, zeigen, and erklären.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nRecipient: Ich bekomme ein Rennrad geschenkt.",
-            "options": [
-              "Reflexive verbs",
-              "Imperatives and polite requests",
-              "How to read the structures",
-              "Recipient construction: etwas geschenkt bekommen"
-            ],
-            "answer": "Recipient construction: etwas geschenkt bekommen",
-            "answers": [
-              "Recipient construction: etwas geschenkt bekommen"
-            ],
-            "note": "Recipient construction: etwas geschenkt bekommen: bekommen + Partizip II focuses on the recipient of an action. It is especially common with verbs such as schenken, schicken, zeigen, and erklären.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Recipient construction: etwas geschenkt bekommen",
-            "options": [
-              "Recipient: Ich bekomme ein Rennrad geschenkt.",
-              "auxiliary verb group",
-              "Ich habe zu Weihnachten ein neues Rennrad geschenkt bekommen.",
-              "Active: Jemand schenkt mir ein Rennrad."
-            ],
-            "answer": "Ich habe zu Weihnachten ein neues Rennrad geschenkt bekommen.",
-            "answers": [
-              "Ich habe zu Weihnachten ein neues Rennrad geschenkt bekommen."
-            ],
-            "note": "Recipient construction: etwas geschenkt bekommen: bekommen + Partizip II focuses on the recipient of an action. It is especially common with verbs such as schenken, schicken, zeigen, and erklären.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ verb group",
-            "answer": "auxiliary",
-            "answers": [
-              "auxiliary"
-            ],
-            "note": "Recipient construction: etwas geschenkt bekommen: bekommen + Partizip II focuses on the recipient of an action. It is especially common with verbs such as schenken, schicken, zeigen, and erklären.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Ich verkleide mich.",
-              "Ich mich. verkleide",
-              "Ich verkleide verkleide mich.",
-              "werden"
-            ],
-            "answer": "Ich verkleide mich.",
-            "answers": [
-              "Ich verkleide mich."
-            ],
-            "note": "Reflexive verbs: The reflexive pronoun changes with the subject.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nDu ____ dich.",
-            "options": [
-              "Active",
-              "Recipient",
-              "geschenkt",
-              "ärgerst"
-            ],
-            "answer": "ärgerst",
-            "answers": [
-              "ärgerst"
-            ],
-            "note": "Reflexive verbs: The reflexive pronoun changes with the subject.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nIch langweile mich.",
-            "options": [
-              "Imperatives and polite requests",
-              "How to read the structures",
-              "Reflexive verbs",
-              "Recipient construction: etwas geschenkt bekommen"
-            ],
-            "answer": "Reflexive verbs",
-            "answers": [
-              "Reflexive verbs"
-            ],
-            "note": "Reflexive verbs: The reflexive pronoun changes with the subject.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Reflexive verbs",
-            "options": [
-              "Ich habe zu Weihnachten ein neues Rennrad geschenkt bekommen.",
-              "Die Fluggäste beruhigen sich.",
-              "Active: Jemand schenkt mir ein Rennrad.",
-              "Recipient: Ich bekomme ein Rennrad geschenkt."
-            ],
-            "answer": "Die Fluggäste beruhigen sich.",
-            "answers": [
-              "Die Fluggäste beruhigen sich."
-            ],
-            "note": "Reflexive verbs: The reflexive pronoun changes with the subject.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ mich!",
-            "answer": "Besuch",
-            "answers": [
-              "Besuch"
-            ],
-            "note": "Imperatives and polite requests: German has different imperative forms for du, ihr, and formal Sie.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "mich! Besuche",
-              "Besuche Besuche mich!",
-              "werden",
-              "Besuche mich!"
-            ],
-            "answer": "Besuche mich!",
-            "answers": [
-              "Besuche mich!"
-            ],
-            "note": "Imperatives and polite requests: German has different imperative forms for du, ihr, and formal Sie.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l21-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 3 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Recipient construction: etwas geschenkt bekommen",
-          "body": "bekommen + Partizip II focuses on the recipient of an action. It is especially common with verbs such as schenken, schicken, zeigen, and erklären.",
-          "example": "Active: Jemand schenkt mir ein Rennrad.",
-          "emphasis": [
-            "Active"
-          ]
-        },
-        {
-          "title": "Word order: Reflexive verbs",
-          "body": "The reflexive pronoun changes with the subject.",
-          "example": "Ich verkleide mich.",
-          "emphasis": [
-            "verkleide"
-          ]
-        },
-        {
-          "title": "Usage: Imperatives and polite requests",
-          "body": "German has different imperative forms for du, ihr, and formal Sie.",
-          "example": "Besuch mich!",
-          "emphasis": [
-            "Besuch"
-          ]
-        },
-        {
-          "title": "Contrast: Recipient construction: etwas geschenkt bekommen",
-          "body": "The gift remains an accusative object:",
-          "example": "Recipient: Ich bekomme ein Rennrad geschenkt.",
-          "emphasis": [
-            "Recipient"
-          ]
-        },
-        {
-          "title": "Final check: Reflexive verbs",
-          "body": "Use the accusative reflexive pronoun when there is no other accusative object:",
-          "example": "Du ärgerst dich.",
-          "emphasis": [
-            "ärgerst"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 22,
@@ -19512,7 +15446,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "einladen",
@@ -20215,220 +16149,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l22-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ pünktlich an der Schule sein.",
-            "options": [
-              "Bitte",
-              "Seien",
-              "Warme",
-              "Nehmen"
-            ],
-            "answer": "Bitte",
-            "answers": [
-              "Bitte"
-            ],
-            "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\n= Seien Sie bitte pünktlich an der Schule.",
-            "options": [
-              "sollte for advice",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Infinitive instructions in schedules and notices"
-            ],
-            "answer": "Infinitive instructions in schedules and notices",
-            "answers": [
-              "Infinitive instructions in schedules and notices"
-            ],
-            "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Infinitive instructions in schedules and notices",
-            "options": [
-              "= Seien Sie bitte pünktlich an der Schule.",
-              "= Nehmen Sie warme Kleidung und ein Picknick mit.",
-              "Warme Kleidung und Picknick mitnehmen.",
-              "Bitte pünktlich an der Schule sein."
-            ],
-            "answer": "Warme Kleidung und Picknick mitnehmen.",
-            "answers": [
-              "Warme Kleidung und Picknick mitnehmen."
-            ],
-            "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n= ____ Sie warme Kleidung und ein Picknick mit.",
-            "answer": "Nehmen",
-            "answers": [
-              "Nehmen"
-            ],
-            "note": "Infinitive instructions in schedules and notices: Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Man sollte einen Rechtsanwalt fragen.",
-              "Man einen sollte Rechtsanwalt fragen.",
-              "Man einen Rechtsanwalt fragen. sollte",
-              "Man sollte sollte einen Rechtsanwalt fragen."
-            ],
-            "answer": "Man sollte einen Rechtsanwalt fragen.",
-            "answers": [
-              "Man sollte einen Rechtsanwalt fragen."
-            ],
-            "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nEin schriftlicher Widerspruch ____ diese Informationen enthalten.",
-            "options": [
-              "Bitte",
-              "Seien",
-              "Warme",
-              "sollte"
-            ],
-            "answer": "sollte",
-            "answers": [
-              "sollte"
-            ],
-            "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nDie Ware sollte spätestens Ende Juni bei mir sein.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "sollte for advice",
-              "Infinitive instructions in schedules and notices"
-            ],
-            "answer": "sollte for advice",
-            "answers": [
-              "sollte for advice"
-            ],
-            "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: sollte for advice",
-            "options": [
-              "Warme Kleidung und Picknick mitnehmen.",
-              "Der Handwerker sollte am Montag kommen.",
-              "Bitte pünktlich an der Schule sein.",
-              "= Seien Sie bitte pünktlich an der Schule."
-            ],
-            "answer": "Der Handwerker sollte am Montag kommen.",
-            "answers": [
-              "Der Handwerker sollte am Montag kommen."
-            ],
-            "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ mich!",
-            "answer": "Besuch",
-            "answers": [
-              "Besuch"
-            ],
-            "note": "Imperatives and polite requests: German has different imperative forms for du, ihr, and formal Sie.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "mich! Besuche",
-              "Besuche Besuche mich!",
-              "werden",
-              "Besuche mich!"
-            ],
-            "answer": "Besuche mich!",
-            "answers": [
-              "Besuche mich!"
-            ],
-            "note": "Imperatives and polite requests: German has different imperative forms for du, ihr, and formal Sie.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l22-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Infinitive instructions in schedules and notices",
-          "body": "Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
-          "example": "Bitte pünktlich an der Schule sein.",
-          "emphasis": [
-            "Bitte"
-          ]
-        },
-        {
-          "title": "Word order: sollte for advice",
-          "body": "sollte often expresses a recommendation rather than a strict obligation.",
-          "example": "Man sollte einen Rechtsanwalt fragen.",
-          "emphasis": [
-            "sollte"
-          ]
-        },
-        {
-          "title": "Usage: Infinitive instructions in schedules and notices",
-          "body": "This style is concise and impersonal. Separable verbs remain joined in the infinitive:",
-          "example": "= Seien Sie bitte pünktlich an der Schule.",
-          "emphasis": [
-            "Seien"
-          ]
-        },
-        {
-          "title": "Contrast: sollte for advice",
-          "body": "In a past context, sollte can mean “was supposed to” or “was expected to.”",
-          "example": "Ein schriftlicher Widerspruch sollte diese Informationen enthalten.",
-          "emphasis": [
-            "sollte"
-          ]
-        },
-        {
-          "title": "Final check: Infinitive instructions in schedules and notices",
-          "body": "Schedules, signs, recipes, and short written instructions often use the bare infinitive instead of a complete imperative sentence. The subject is understood from context.",
-          "example": "Warme Kleidung und Picknick mitnehmen.",
-          "emphasis": [
-            "Warme"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 23,
@@ -20438,7 +16160,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "spass-haben",
@@ -21153,220 +16875,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l23-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ Vermieterin müssen Sie die Kündigungsfrist beachten.",
-            "options": [
-              "Als",
-              "angemeldete",
-              "schriftlicher",
-              "ärztliches"
-            ],
-            "answer": "Als",
-            "answers": [
-              "Als"
-            ],
-            "note": "als for a role or function: als describes the role in which someone acts.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nEr arbeitet als Rechtsanwalt.",
-            "options": [
-              "Adjective endings",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "als for a role or function"
-            ],
-            "answer": "als for a role or function",
-            "answers": [
-              "als for a role or function"
-            ],
-            "note": "als for a role or function: als describes the role in which someone acts.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: als for a role or function",
-            "options": [
-              "Er arbeitet als Rechtsanwalt.",
-              "Der Verein hatte Frauen als Mitglieder.",
-              "Sie arbeitet als Verkäuferin.",
-              "Als Vermieterin müssen Sie die Kündigungsfrist beachten."
-            ],
-            "answer": "Sie arbeitet als Verkäuferin.",
-            "answers": [
-              "Sie arbeitet als Verkäuferin."
-            ],
-            "note": "als for a role or function: als describes the role in which someone acts.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nDer Verein hatte Frauen ____ Mitglieder.",
-            "answer": "als",
-            "answers": [
-              "als"
-            ],
-            "note": "als for a role or function: als describes the role in which someone acts.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "angemeldete Gäste",
-              "Gäste angemeldete",
-              "angemeldete angemeldete Gäste",
-              "werden"
-            ],
-            "answer": "angemeldete Gäste",
-            "answers": [
-              "angemeldete Gäste"
-            ],
-            "note": "Adjective endings: The adjective ending depends on gender, case, number, and the preceding article.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nein ____ Widerspruch",
-            "options": [
-              "Als",
-              "als",
-              "angemeldete",
-              "schriftlicher"
-            ],
-            "answer": "schriftlicher",
-            "answers": [
-              "schriftlicher"
-            ],
-            "note": "Adjective endings: The adjective ending depends on gender, case, number, and the preceding article.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nein ärztliches Gutachten",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Adjective endings",
-              "als for a role or function"
-            ],
-            "answer": "Adjective endings",
-            "answers": [
-              "Adjective endings"
-            ],
-            "note": "Adjective endings: The adjective ending depends on gender, case, number, and the preceding article.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Adjective endings",
-            "options": [
-              "Sie arbeitet als Verkäuferin.",
-              "ein neues Rennrad",
-              "Als Vermieterin müssen Sie die Kündigungsfrist beachten.",
-              "Er arbeitet als Rechtsanwalt."
-            ],
-            "answer": "ein neues Rennrad",
-            "answers": [
-              "ein neues Rennrad"
-            ],
-            "note": "Adjective endings: The adjective ending depends on gender, case, number, and the preceding article.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nMan ____ einen Rechtsanwalt fragen.",
-            "answer": "sollte",
-            "answers": [
-              "sollte"
-            ],
-            "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Ein schriftlicher Widerspruch diese sollte Informationen enthalten.",
-              "Ein schriftlicher Widerspruch diese Informationen enthalten. sollte",
-              "Ein schriftlicher Widerspruch sollte sollte diese Informationen enthalten.",
-              "Ein schriftlicher Widerspruch sollte diese Informationen enthalten."
-            ],
-            "answer": "Ein schriftlicher Widerspruch sollte diese Informationen enthalten.",
-            "answers": [
-              "Ein schriftlicher Widerspruch sollte diese Informationen enthalten."
-            ],
-            "note": "sollte for advice: sollte often expresses a recommendation rather than a strict obligation.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l23-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: als for a role or function",
-          "body": "als describes the role in which someone acts.",
-          "example": "Als Vermieterin müssen Sie die Kündigungsfrist beachten.",
-          "emphasis": [
-            "Als"
-          ]
-        },
-        {
-          "title": "Word order: Adjective endings",
-          "body": "The adjective ending depends on gender, case, number, and the preceding article.",
-          "example": "angemeldete Gäste",
-          "emphasis": [
-            "angemeldete"
-          ]
-        },
-        {
-          "title": "Usage: als for a role or function",
-          "body": "After als in this meaning, the role normally appears without an article:",
-          "example": "Er arbeitet als Rechtsanwalt.",
-          "emphasis": [
-            "als"
-          ]
-        },
-        {
-          "title": "Contrast: Adjective endings",
-          "body": "An ordinal number before a noun behaves like an adjective. After the contracted",
-          "example": "ein schriftlicher Widerspruch",
-          "emphasis": [
-            "schriftlicher"
-          ]
-        },
-        {
-          "title": "Final check: als for a role or function",
-          "body": "als describes the role in which someone acts.",
-          "example": "Sie arbeitet als Verkäuferin.",
-          "emphasis": [
-            "als"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 24,
@@ -21376,7 +16886,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "das-gericht",
@@ -22083,220 +17593,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l24-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nWir ____ uns theoretisch und praktisch mit dem Thema.",
-            "options": [
-              "beschäftigen",
-              "how",
-              "kommt",
-              "pünktlicher"
-            ],
-            "answer": "beschäftigen",
-            "answers": [
-              "beschäftigen"
-            ],
-            "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nhow? how?",
-            "options": [
-              "Adjectival nouns",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Adjectives used adverbially"
-            ],
-            "answer": "Adjectives used adverbially",
-            "answers": [
-              "Adjectives used adverbially"
-            ],
-            "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Adjectives used adverbially",
-            "options": [
-              "how? how?",
-              "ein pünktlicher Zug",
-              "Der Zug kommt pünktlich.",
-              "Wir beschäftigen uns theoretisch und praktisch mit dem Thema."
-            ],
-            "answer": "Der Zug kommt pünktlich.",
-            "answers": [
-              "Der Zug kommt pünktlich."
-            ],
-            "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nein ____ Zug",
-            "answer": "pünktlicher",
-            "answers": [
-              "pünktlicher"
-            ],
-            "note": "Adjectives used adverbially: German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "der Erwachsene / die Erwachsene",
-              "der / Erwachsene die Erwachsene",
-              "der / die Erwachsene Erwachsene",
-              "der Erwachsene Erwachsene / die Erwachsene"
-            ],
-            "answer": "der Erwachsene / die Erwachsene",
-            "answers": [
-              "der Erwachsene / die Erwachsene"
-            ],
-            "note": "Adjectival nouns: Some adjectives are used as nouns and retain adjective endings.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\ndie ____",
-            "options": [
-              "beschäftigen",
-              "how",
-              "kommt",
-              "Erwachsenen"
-            ],
-            "answer": "Erwachsenen",
-            "answers": [
-              "Erwachsenen"
-            ],
-            "note": "Adjectival nouns: Some adjectives are used as nouns and retain adjective endings.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nKinder und Erwachsene feiern zusammen.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Adjectival nouns",
-              "Adjectives used adverbially"
-            ],
-            "answer": "Adjectival nouns",
-            "answers": [
-              "Adjectival nouns"
-            ],
-            "note": "Adjectival nouns: Some adjectives are used as nouns and retain adjective endings.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Adjectival nouns",
-            "options": [
-              "Der Zug kommt pünktlich.",
-              "im Freien",
-              "Wir beschäftigen uns theoretisch und praktisch mit dem Thema.",
-              "how? how?"
-            ],
-            "answer": "im Freien",
-            "answers": [
-              "im Freien"
-            ],
-            "note": "Adjectival nouns: Some adjectives are used as nouns and retain adjective endings.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ Gäste",
-            "answer": "angemeldete",
-            "answers": [
-              "angemeldete"
-            ],
-            "note": "Adjective endings: The adjective ending depends on gender, case, number, and the preceding article.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "ein Widerspruch schriftlicher",
-              "ein schriftlicher schriftlicher Widerspruch",
-              "werden",
-              "ein schriftlicher Widerspruch"
-            ],
-            "answer": "ein schriftlicher Widerspruch",
-            "answers": [
-              "ein schriftlicher Widerspruch"
-            ],
-            "note": "Adjective endings: The adjective ending depends on gender, case, number, and the preceding article.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l24-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Adjectives used adverbially",
-          "body": "German adjectives used to describe a verb do not receive adjective endings. Their basic form is used.",
-          "example": "Wir beschäftigen uns theoretisch und praktisch mit dem Thema.",
-          "emphasis": [
-            "beschäftigen"
-          ]
-        },
-        {
-          "title": "Word order: Adjectival nouns",
-          "body": "Some adjectives are used as nouns and retain adjective endings.",
-          "example": "der Erwachsene / die Erwachsene",
-          "emphasis": [
-            "Erwachsene"
-          ]
-        },
-        {
-          "title": "Usage: Adjectives used adverbially",
-          "body": "Compare this with an adjective before a noun:",
-          "example": "how? how?",
-          "emphasis": [
-            "how"
-          ]
-        },
-        {
-          "title": "Contrast: Adjectival nouns",
-          "body": "In Internetkurse sind nicht für jeden das Richtige, jeden is an accusative",
-          "example": "die Erwachsenen",
-          "emphasis": [
-            "Erwachsenen"
-          ]
-        },
-        {
-          "title": "Final check: Adjectives used adverbially",
-          "body": "Other examples from the course:",
-          "example": "Der Zug kommt pünktlich.",
-          "emphasis": [
-            "kommt"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 25,
@@ -22306,7 +17604,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "bereits",
@@ -23017,220 +18315,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l25-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\ndas ____",
-            "options": [
-              "Rauchen",
-              "Grillen",
-              "Schneeräumen",
-              "Fliegen"
-            ],
-            "answer": "Rauchen",
-            "answers": [
-              "Rauchen"
-            ],
-            "note": "Nominalized infinitives: An infinitive used as a noun is capitalized and is always neuter.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\ndas Grillen",
-            "options": [
-              "Nouns ending in -ung",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Nominalized infinitives"
-            ],
-            "answer": "Nominalized infinitives",
-            "answers": [
-              "Nominalized infinitives"
-            ],
-            "note": "Nominalized infinitives: An infinitive used as a noun is capitalized and is always neuter.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Nominalized infinitives",
-            "options": [
-              "das Grillen",
-              "das Fliegen",
-              "das Schneeräumen",
-              "das Rauchen"
-            ],
-            "answer": "das Schneeräumen",
-            "answers": [
-              "das Schneeräumen"
-            ],
-            "note": "Nominalized infinitives: An infinitive used as a noun is capitalized and is always neuter.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\ndas ____",
-            "answer": "Fliegen",
-            "answers": [
-              "Fliegen"
-            ],
-            "note": "Nominalized infinitives: An infinitive used as a noun is capitalized and is always neuter.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "trennen → die Trennung",
-              "→ trennen die Trennung",
-              "→ die Trennung trennen",
-              "trennen trennen → die Trennung"
-            ],
-            "answer": "trennen → die Trennung",
-            "answers": [
-              "trennen → die Trennung"
-            ],
-            "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ → die Vermeidung",
-            "options": [
-              "Rauchen",
-              "Grillen",
-              "Schneeräumen",
-              "vermeiden"
-            ],
-            "answer": "vermeiden",
-            "answers": [
-              "vermeiden"
-            ],
-            "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nentscheiden → die Entscheidung",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Nouns ending in -ung",
-              "Nominalized infinitives"
-            ],
-            "answer": "Nouns ending in -ung",
-            "answers": [
-              "Nouns ending in -ung"
-            ],
-            "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Nouns ending in -ung",
-            "options": [
-              "das Schneeräumen",
-              "kündigen → die Kündigung",
-              "das Rauchen",
-              "das Grillen"
-            ],
-            "answer": "kündigen → die Kündigung",
-            "answers": [
-              "kündigen → die Kündigung"
-            ],
-            "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nder ____ / die Erwachsene",
-            "answer": "Erwachsene",
-            "answers": [
-              "Erwachsene"
-            ],
-            "note": "Adjectival nouns: Some adjectives are used as nouns and retain adjective endings.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Erwachsenen die",
-              "die Erwachsenen Erwachsenen",
-              "werden",
-              "die Erwachsenen"
-            ],
-            "answer": "die Erwachsenen",
-            "answers": [
-              "die Erwachsenen"
-            ],
-            "note": "Adjectival nouns: Some adjectives are used as nouns and retain adjective endings.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l25-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Nominalized infinitives",
-          "body": "An infinitive used as a noun is capitalized and is always neuter.",
-          "example": "das Rauchen",
-          "emphasis": [
-            "Rauchen"
-          ]
-        },
-        {
-          "title": "Word order: Nouns ending in -ung",
-          "body": "Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
-          "example": "trennen → die Trennung",
-          "emphasis": [
-            "trennen"
-          ]
-        },
-        {
-          "title": "Usage: Nominalized infinitives",
-          "body": "The nominalized infinitive is grammatically singular, so it takes a singular verb:",
-          "example": "das Grillen",
-          "emphasis": [
-            "Grillen"
-          ]
-        },
-        {
-          "title": "Contrast: Nouns ending in -ung",
-          "body": "Their plurals, when commonly used, normally end in -en:",
-          "example": "vermeiden → die Vermeidung",
-          "emphasis": [
-            "vermeiden"
-          ]
-        },
-        {
-          "title": "Final check: Nominalized infinitives",
-          "body": "The nominalized infinitive remains capitalized after a contraction:",
-          "example": "das Schneeräumen",
-          "emphasis": [
-            "Schneeräumen"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 26,
@@ -23240,7 +18326,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "das-aerztliche-gutachten",
@@ -23939,220 +19025,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l26-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ = totally",
-            "options": [
-              "total",
-              "ziemlich",
-              "etwas",
-              "nicht"
-            ],
-            "answer": "total",
-            "answers": [
-              "total"
-            ],
-            "note": "Degree and intensity: Use viel with an uncountable singular noun and viele with a countable plural noun.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nziemlich = quite",
-            "options": [
-              "Negation with nicht and kein",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Degree and intensity"
-            ],
-            "answer": "Degree and intensity",
-            "answers": [
-              "Degree and intensity"
-            ],
-            "note": "Degree and intensity: Use viel with an uncountable singular noun and viele with a countable plural noun.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Degree and intensity",
-            "options": [
-              "ziemlich = quite",
-              "nicht besonders = not particularly",
-              "etwas = somewhat",
-              "total = totally"
-            ],
-            "answer": "etwas = somewhat",
-            "answers": [
-              "etwas = somewhat"
-            ],
-            "note": "Degree and intensity: Use viel with an uncountable singular noun and viele with a countable plural noun.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ besonders = not particularly",
-            "answer": "nicht",
-            "answers": [
-              "nicht"
-            ],
-            "note": "Degree and intensity: Use viel with an uncountable singular noun and viele with a countable plural noun.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Er ist kein Rechtsanwalt.",
-              "Er ist Rechtsanwalt. kein",
-              "Er ist kein kein Rechtsanwalt.",
-              "werden"
-            ],
-            "answer": "Er ist kein Rechtsanwalt.",
-            "answers": [
-              "Er ist kein Rechtsanwalt."
-            ],
-            "note": "Negation with nicht and kein: Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nEs wird ____ Schlüssel ausgegeben.",
-            "options": [
-              "total",
-              "ziemlich",
-              "etwas",
-              "kein"
-            ],
-            "answer": "kein",
-            "answers": [
-              "kein"
-            ],
-            "note": "Negation with nicht and kein: Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nIch habe keine Zeit.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Negation with nicht and kein",
-              "Degree and intensity"
-            ],
-            "answer": "Negation with nicht and kein",
-            "answers": [
-              "Negation with nicht and kein"
-            ],
-            "note": "Negation with nicht and kein: Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Negation with nicht and kein",
-            "options": [
-              "etwas = somewhat",
-              "Sie hat keine Zeit für die Hausarbeit.",
-              "total = totally",
-              "ziemlich = quite"
-            ],
-            "answer": "Sie hat keine Zeit für die Hausarbeit.",
-            "answers": [
-              "Sie hat keine Zeit für die Hausarbeit."
-            ],
-            "note": "Negation with nicht and kein: Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ → die Trennung",
-            "answer": "trennen",
-            "answers": [
-              "trennen"
-            ],
-            "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "→ vermeiden die Vermeidung",
-              "→ die Vermeidung vermeiden",
-              "vermeiden vermeiden → die Vermeidung",
-              "vermeiden → die Vermeidung"
-            ],
-            "answer": "vermeiden → die Vermeidung",
-            "answers": [
-              "vermeiden → die Vermeidung"
-            ],
-            "note": "Nouns ending in -ung: Many abstract nouns are formed from verbs with the suffix -ung. These nouns are always feminine.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l26-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Degree and intensity",
-          "body": "Use viel with an uncountable singular noun and viele with a countable plural noun.",
-          "example": "total = totally",
-          "emphasis": [
-            "total"
-          ]
-        },
-        {
-          "title": "Word order: Negation with nicht and kein",
-          "body": "Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
-          "example": "Er ist kein Rechtsanwalt.",
-          "emphasis": [
-            "kein"
-          ]
-        },
-        {
-          "title": "Usage: Degree and intensity",
-          "body": "After a form of viel-, an adjective normally takes an ending:",
-          "example": "ziemlich = quite",
-          "emphasis": [
-            "ziemlich"
-          ]
-        },
-        {
-          "title": "Contrast: Negation with nicht and kein",
-          "body": "The pattern Zeit für etwas haben uses für + Akkusativ:",
-          "example": "Es wird kein Schlüssel ausgegeben.",
-          "emphasis": [
-            "kein"
-          ]
-        },
-        {
-          "title": "Final check: Degree and intensity",
-          "body": "Use viel with an uncountable singular noun and viele with a countable plural noun.",
-          "example": "etwas = somewhat",
-          "emphasis": [
-            "etwas"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 27,
@@ -24162,7 +19036,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "ein-tor-schiessen",
@@ -24861,220 +19735,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l27-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ von ihnen",
-            "options": [
-              "einer",
-              "one",
-              "von",
-              "doch"
-            ],
-            "answer": "einer",
-            "answers": [
-              "einer"
-            ],
-            "note": "einer von ihnen: one of them: Use einer/eine/eines + von + Dativ to select one person or thing from a group.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\none of them",
-            "options": [
-              "The word doch",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "einer von ihnen: one of them"
-            ],
-            "answer": "einer von ihnen: one of them",
-            "answers": [
-              "einer von ihnen: one of them"
-            ],
-            "note": "einer von ihnen: one of them: Use einer/eine/eines + von + Dativ to select one person or thing from a group.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: einer von ihnen: one of them",
-            "options": [
-              "one of them",
-              "ihnen is the dative plural pronoun required by von.",
-              "einer is nominative masculine because it is the subject and refers to one of the men.",
-              "einer von ihnen"
-            ],
-            "answer": "einer is nominative masculine because it is the subject and refers to one of the men.",
-            "answers": [
-              "einer is nominative masculine because it is the subject and refers to one of the men."
-            ],
-            "note": "einer von ihnen: one of them: Use einer/eine/eines + von + Dativ to select one person or thing from a group.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nihnen is the dative plural pronoun required by ____.",
-            "answer": "von",
-            "answers": [
-              "von"
-            ],
-            "note": "einer von ihnen: one of them: Use einer/eine/eines + von + Dativ to select one person or thing from a group.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Die Rechnung war doch richtig.",
-              "Die Rechnung war richtig. doch",
-              "Die Rechnung war doch doch richtig.",
-              "werden"
-            ],
-            "answer": "Die Rechnung war doch richtig.",
-            "answers": [
-              "Die Rechnung war doch richtig."
-            ],
-            "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nDie Party ist ____ später geworden.",
-            "options": [
-              "einer",
-              "one",
-              "von",
-              "doch"
-            ],
-            "answer": "doch",
-            "answers": [
-              "doch"
-            ],
-            "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nSprich doch mit dem Vermieter.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "The word doch",
-              "einer von ihnen: one of them"
-            ],
-            "answer": "The word doch",
-            "answers": [
-              "The word doch"
-            ],
-            "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Negation with nicht and kein",
-            "options": [
-              "einer is nominative masculine because it is the subject and refers to one of the men.",
-              "Er ist kein Rechtsanwalt.",
-              "einer von ihnen",
-              "one of them"
-            ],
-            "answer": "Er ist kein Rechtsanwalt.",
-            "answers": [
-              "Er ist kein Rechtsanwalt."
-            ],
-            "note": "Negation with nicht and kein: Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nEs wird ____ Schlüssel ausgegeben.",
-            "answer": "kein",
-            "answers": [
-              "kein"
-            ],
-            "note": "Negation with nicht and kein: Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Ich keine habe Zeit.",
-              "Ich keine Zeit. habe",
-              "Ich habe habe keine Zeit.",
-              "Ich habe keine Zeit."
-            ],
-            "answer": "Ich habe keine Zeit.",
-            "answers": [
-              "Ich habe keine Zeit."
-            ],
-            "note": "Negation with nicht and kein: Use kein to negate an indefinite noun or a noun without an article. It receives the same endings as ein.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l27-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: einer von ihnen: one of them",
-          "body": "Use einer/eine/eines + von + Dativ to select one person or thing from a group.",
-          "example": "einer von ihnen",
-          "emphasis": [
-            "einer"
-          ]
-        },
-        {
-          "title": "Word order: The word doch",
-          "body": "doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
-          "example": "Die Rechnung war doch richtig.",
-          "emphasis": [
-            "doch"
-          ]
-        },
-        {
-          "title": "Usage: einer von ihnen: one of them",
-          "body": "The form of ein- changes with gender and case:",
-          "example": "one of them",
-          "emphasis": [
-            "one"
-          ]
-        },
-        {
-          "title": "Contrast: The word doch",
-          "body": "In requests, doch can make a suggestion sound more conversational:",
-          "example": "Die Party ist doch später geworden.",
-          "emphasis": [
-            "doch"
-          ]
-        },
-        {
-          "title": "Final check: einer von ihnen: one of them",
-          "body": "Use einer/eine/eines + von + Dativ to select one person or thing from a group.",
-          "example": "einer is nominative masculine because it is the subject and refers to one of the men.",
-          "emphasis": [
-            "einer"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 28,
@@ -25084,7 +19746,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "lass-uns",
@@ -25791,220 +20453,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l28-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nUm solche Ausflüge zu bezahlen, haben wir ____ die Klassenkasse.",
-            "options": [
-              "ja",
-              "haben",
-              "meisten",
-              "besten"
-            ],
-            "answer": "ja",
-            "answers": [
-              "ja"
-            ],
-            "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nDas ist ja klar.",
-            "options": [
-              "Comparative and superlative adverbs",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "The conversational particle ja"
-            ],
-            "answer": "The conversational particle ja",
-            "answers": [
-              "The conversational particle ja"
-            ],
-            "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: The conversational particle ja",
-            "options": [
-              "Das ist ja klar.",
-              "Wir haben ja die Klassenkasse. reminder of shared/obvious information",
-              "Wir haben die Klassenkasse. neutral information",
-              "Um solche Ausflüge zu bezahlen, haben wir ja die Klassenkasse."
-            ],
-            "answer": "Wir haben die Klassenkasse. neutral information",
-            "answers": [
-              "Wir haben die Klassenkasse. neutral information"
-            ],
-            "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nWir haben ____ die Klassenkasse. reminder of shared/obvious information",
-            "answer": "ja",
-            "answers": [
-              "ja"
-            ],
-            "note": "The conversational particle ja: Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "am meisten: Am meisten nervt mich der Müll.",
-              "am Am meisten: meisten nervt mich der Müll.",
-              "am Am meisten nervt mich der Müll. meisten:",
-              "am meisten: meisten: Am meisten nervt mich der Müll."
-            ],
-            "answer": "am meisten: Am meisten nervt mich der Müll.",
-            "answers": [
-              "am meisten: Am meisten nervt mich der Müll."
-            ],
-            "note": "Comparative and superlative adverbs: Use mehr ... als for “more ... than.” The nouns after mehr may appear",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nam ____: Welcher Termin passt Ihnen am besten?",
-            "options": [
-              "ja",
-              "haben",
-              "meisten",
-              "besten"
-            ],
-            "answer": "besten",
-            "answers": [
-              "besten"
-            ],
-            "note": "Comparative and superlative adverbs: Use mehr ... als for “more ... than.” The nouns after mehr may appear",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nnoch kälter: Im Kinderzimmer ist es noch kälter.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Comparative and superlative adverbs",
-              "The conversational particle ja"
-            ],
-            "answer": "Comparative and superlative adverbs",
-            "answers": [
-              "Comparative and superlative adverbs"
-            ],
-            "note": "Comparative and superlative adverbs: Use mehr ... als for “more ... than.” The nouns after mehr may appear",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Comparative and superlative adverbs",
-            "options": [
-              "Wir haben die Klassenkasse. neutral information",
-              "leicht → leichter: In Ganztagsschulen ist der Unterricht leichter.",
-              "Um solche Ausflüge zu bezahlen, haben wir ja die Klassenkasse.",
-              "Das ist ja klar."
-            ],
-            "answer": "leicht → leichter: In Ganztagsschulen ist der Unterricht leichter.",
-            "answers": [
-              "leicht → leichter: In Ganztagsschulen ist der Unterricht leichter."
-            ],
-            "note": "Comparative and superlative adverbs: Use mehr ... als for “more ... than.” The nouns after mehr may appear",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nDie Rechnung war ____ richtig.",
-            "answer": "doch",
-            "answers": [
-              "doch"
-            ],
-            "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Die Party ist später doch geworden.",
-              "Die Party ist später geworden. doch",
-              "Die Party ist doch doch später geworden.",
-              "Die Party ist doch später geworden."
-            ],
-            "answer": "Die Party ist doch später geworden.",
-            "answers": [
-              "Die Party ist doch später geworden."
-            ],
-            "note": "The word doch: doch has several uses. In the course examples it often means “after all” and corrects an earlier assumption.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l28-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: The conversational particle ja",
-          "body": "Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
-          "example": "Um solche Ausflüge zu bezahlen, haben wir ja die Klassenkasse.",
-          "emphasis": [
-            "ja"
-          ]
-        },
-        {
-          "title": "Word order: Comparative and superlative adverbs",
-          "body": "Use mehr ... als for “more ... than.” The nouns after mehr may appear",
-          "example": "am meisten: Am meisten nervt mich der Müll.",
-          "emphasis": [
-            "meisten"
-          ]
-        },
-        {
-          "title": "Usage: The conversational particle ja",
-          "body": "Removing ja does not change the factual content, but it removes the speaker’s assumption that the listener already knows or should recognize the point:",
-          "example": "Das ist ja klar.",
-          "emphasis": [
-            "ja"
-          ]
-        },
-        {
-          "title": "Contrast: Comparative and superlative adverbs",
-          "body": "Do not use wie for an unequal comparison in standard German:",
-          "example": "am besten: Welcher Termin passt Ihnen am besten?",
-          "emphasis": [
-            "besten"
-          ]
-        },
-        {
-          "title": "Final check: The conversational particle ja",
-          "body": "Inside a statement, unstressed ja often does not mean a direct “yes.” It signals that the information is known, obvious, or shared by the speakers. Depending on context, English may use “after all,” “as you know,” or no separate word.",
-          "example": "Wir haben die Klassenkasse. neutral information",
-          "emphasis": [
-            "haben"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 29,
@@ -26014,7 +20464,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "finden-dass",
@@ -26733,220 +21183,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l29-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nDie Verkleidung ist ____ gut, dass man Nasrin nicht erkennt.",
-            "options": [
-              "so",
-              "Es",
-              "meisten",
-              "besten"
-            ],
-            "answer": "so",
-            "answers": [
-              "so"
-            ],
-            "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nEs schneit so stark, dass man leicht ausrutschen kann.",
-            "options": [
-              "es kann sein, dass …",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "so …, dass …"
-            ],
-            "answer": "so …, dass …",
-            "answers": [
-              "so …, dass …"
-            ],
-            "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: so …, dass …",
-            "options": [
-              "Es schneit so stark, dass man leicht ausrutschen kann.",
-              "so gut dass man sie nicht erkennt",
-              "so + adjective/adverb + dass + consequence",
-              "Die Verkleidung ist so gut, dass man Nasrin nicht erkennt."
-            ],
-            "answer": "so + adjective/adverb + dass + consequence",
-            "answers": [
-              "so + adjective/adverb + dass + consequence"
-            ],
-            "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ gut dass man sie nicht erkennt",
-            "answer": "so",
-            "answers": [
-              "so"
-            ],
-            "note": "so …, dass …: This structure expresses a consequence. The verb in the dass clause goes to the end.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Es kann sein, dass eine neue Entscheidung getroffen wird.",
-              "kann Es sein, dass eine neue Entscheidung getroffen wird.",
-              "kann sein, dass eine neue Entscheidung getroffen wird. Es",
-              "Es Es kann sein, dass eine neue Entscheidung getroffen wird."
-            ],
-            "answer": "Es kann sein, dass eine neue Entscheidung getroffen wird.",
-            "answers": [
-              "Es kann sein, dass eine neue Entscheidung getroffen wird."
-            ],
-            "note": "es kann sein, dass …: This structure expresses possibility.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ kann sein, dass die Rechnung richtig ist.",
-            "options": [
-              "so",
-              "meisten",
-              "besten",
-              "Es"
-            ],
-            "answer": "Es",
-            "answers": [
-              "Es"
-            ],
-            "note": "es kann sein, dass …: This structure expresses possibility.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nam meisten: Am meisten nervt mich der Müll.",
-            "options": [
-              "es kann sein, dass …",
-              "How to read the structures",
-              "Comparative and superlative adverbs",
-              "so …, dass …"
-            ],
-            "answer": "Comparative and superlative adverbs",
-            "answers": [
-              "Comparative and superlative adverbs"
-            ],
-            "note": "Comparative and superlative adverbs: Use mehr ... als for “more ... than.” The nouns after mehr may appear",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Comparative and superlative adverbs",
-            "options": [
-              "so + adjective/adverb + dass + consequence",
-              "am besten: Welcher Termin passt Ihnen am besten?",
-              "Die Verkleidung ist so gut, dass man Nasrin nicht erkennt.",
-              "Es schneit so stark, dass man leicht ausrutschen kann."
-            ],
-            "answer": "am besten: Welcher Termin passt Ihnen am besten?",
-            "answers": [
-              "am besten: Welcher Termin passt Ihnen am besten?"
-            ],
-            "note": "Comparative and superlative adverbs: Use mehr ... als for “more ... than.” The nouns after mehr may appear",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ kälter: Im Kinderzimmer ist es noch kälter.",
-            "answer": "noch",
-            "answers": [
-              "noch"
-            ],
-            "note": "Comparative and superlative adverbs: Use mehr ... als for “more ... than.” The nouns after mehr may appear",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "→ leicht leichter: In Ganztagsschulen ist der Unterricht leichter.",
-              "→ leichter: In Ganztagsschulen ist der Unterricht leichter. leicht",
-              "leicht leicht → leichter: In Ganztagsschulen ist der Unterricht leichter.",
-              "leicht → leichter: In Ganztagsschulen ist der Unterricht leichter."
-            ],
-            "answer": "leicht → leichter: In Ganztagsschulen ist der Unterricht leichter.",
-            "answers": [
-              "leicht → leichter: In Ganztagsschulen ist der Unterricht leichter."
-            ],
-            "note": "Comparative and superlative adverbs: Use mehr ... als for “more ... than.” The nouns after mehr may appear",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l29-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: so …, dass …",
-          "body": "This structure expresses a consequence. The verb in the dass clause goes to the end.",
-          "example": "Die Verkleidung ist so gut, dass man Nasrin nicht erkennt.",
-          "emphasis": [
-            "so"
-          ]
-        },
-        {
-          "title": "Word order: es kann sein, dass …",
-          "body": "This structure expresses possibility.",
-          "example": "Es kann sein, dass eine neue Entscheidung getroffen wird.",
-          "emphasis": [
-            "Es"
-          ]
-        },
-        {
-          "title": "Usage: so …, dass …",
-          "body": "This structure expresses a consequence. The verb in the dass clause goes to the end.",
-          "example": "Es schneit so stark, dass man leicht ausrutschen kann.",
-          "emphasis": [
-            "so"
-          ]
-        },
-        {
-          "title": "Contrast: es kann sein, dass …",
-          "body": "This structure expresses possibility.",
-          "example": "Es kann sein, dass die Rechnung richtig ist.",
-          "emphasis": [
-            "Es"
-          ]
-        },
-        {
-          "title": "Final check: so …, dass …",
-          "body": "This structure expresses a consequence. The verb in the dass clause goes to the end.",
-          "example": "so + adjective/adverb + dass + consequence",
-          "emphasis": [
-            "so"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 30,
@@ -26956,7 +21194,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "jemanden-besser-kennenlernen",
@@ -27675,220 +21913,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l30-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ lehnt den Antrag ab.",
-            "options": [
-              "Man",
-              "Antrag",
-              "passive",
-              "Hiermit"
-            ],
-            "answer": "Man",
-            "answers": [
-              "Man"
-            ],
-            "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nDer Antrag wird abgelehnt.",
-            "options": [
-              "Formal letter patterns",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Passive alternatives with man"
-            ],
-            "answer": "Passive alternatives with man",
-            "answers": [
-              "Passive alternatives with man"
-            ],
-            "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Passive alternatives with man",
-            "options": [
-              "Der Antrag wird abgelehnt.",
-              "passive: Der Antrag wird beim Amt geprüft.",
-              "man: Beim Amt prüft man den Antrag.",
-              "Man lehnt den Antrag ab."
-            ],
-            "answer": "man: Beim Amt prüft man den Antrag.",
-            "answers": [
-              "man: Beim Amt prüft man den Antrag."
-            ],
-            "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____: Der Antrag wird beim Amt geprüft.",
-            "answer": "passive",
-            "answers": [
-              "passive"
-            ],
-            "note": "Passive alternatives with man: The same idea can often be expressed impersonally with man or with the passive.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Hiermit kündige ich …",
-              "kündige Hiermit ich …",
-              "kündige ich … Hiermit",
-              "Hiermit Hiermit kündige ich …"
-            ],
-            "answer": "Hiermit kündige ich …",
-            "answers": [
-              "Hiermit kündige ich …"
-            ],
-            "note": "Formal letter patterns: In a formal inquiry, possessive forms referring to the recipient are capitalized:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ diese Entscheidung lege ich Widerspruch ein.",
-            "options": [
-              "Man",
-              "Antrag",
-              "man",
-              "Gegen"
-            ],
-            "answer": "Gegen",
-            "answers": [
-              "Gegen"
-            ],
-            "note": "Formal letter patterns: In a formal inquiry, possessive forms referring to the recipient are capitalized:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nDieser Kündigung widerspreche ich hiermit.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Formal letter patterns",
-              "Passive alternatives with man"
-            ],
-            "answer": "Formal letter patterns",
-            "answers": [
-              "Formal letter patterns"
-            ],
-            "note": "Formal letter patterns: In a formal inquiry, possessive forms referring to the recipient are capitalized:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Formal letter patterns",
-            "options": [
-              "man: Beim Amt prüft man den Antrag.",
-              "Bitte bestätigen Sie mir schriftlich, dass …",
-              "Man lehnt den Antrag ab.",
-              "Der Antrag wird abgelehnt."
-            ],
-            "answer": "Bitte bestätigen Sie mir schriftlich, dass …",
-            "answers": [
-              "Bitte bestätigen Sie mir schriftlich, dass …"
-            ],
-            "note": "Formal letter patterns: In a formal inquiry, possessive forms referring to the recipient are capitalized:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ kann sein, dass eine neue Entscheidung getroffen wird.",
-            "answer": "Es",
-            "answers": [
-              "Es"
-            ],
-            "note": "es kann sein, dass …: This structure expresses possibility.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "kann Es sein, dass die Rechnung richtig ist.",
-              "kann sein, dass die Rechnung richtig ist. Es",
-              "Es Es kann sein, dass die Rechnung richtig ist.",
-              "Es kann sein, dass die Rechnung richtig ist."
-            ],
-            "answer": "Es kann sein, dass die Rechnung richtig ist.",
-            "answers": [
-              "Es kann sein, dass die Rechnung richtig ist."
-            ],
-            "note": "es kann sein, dass …: This structure expresses possibility.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l30-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Passive alternatives with man",
-          "body": "The same idea can often be expressed impersonally with man or with the passive.",
-          "example": "Man lehnt den Antrag ab.",
-          "emphasis": [
-            "Man"
-          ]
-        },
-        {
-          "title": "Word order: Formal letter patterns",
-          "body": "In a formal inquiry, possessive forms referring to the recipient are capitalized:",
-          "example": "Hiermit kündige ich …",
-          "emphasis": [
-            "Hiermit"
-          ]
-        },
-        {
-          "title": "Usage: Passive alternatives with man",
-          "body": "Use man when a general human actor matters. Use the passive when the action or result is more important than the actor.",
-          "example": "Der Antrag wird abgelehnt.",
-          "emphasis": [
-            "Antrag"
-          ]
-        },
-        {
-          "title": "Contrast: Formal letter patterns",
-          "body": "The request with hätte gern sounds courteous and less direct than Ich will Informationen.",
-          "example": "Gegen diese Entscheidung lege ich Widerspruch ein.",
-          "emphasis": [
-            "Gegen"
-          ]
-        },
-        {
-          "title": "Final check: Passive alternatives with man",
-          "body": "The impersonal passive with es is common when reporting information and the speaker is unimportant:",
-          "example": "man: Beim Amt prüft man den Antrag.",
-          "emphasis": [
-            "man"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 31,
@@ -27898,7 +21924,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "eigentlich",
@@ -28609,220 +22635,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l31-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ = in dem",
-            "options": [
-              "im",
-              "am",
-              "beim",
-              "vom"
-            ],
-            "answer": "im",
-            "answers": [
-              "im"
-            ],
-            "note": "Useful contractions: The contraction is normally preferred when the article is not emphasized:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nam = an dem",
-            "options": [
-              "Word order with dates and deadlines",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Useful contractions"
-            ],
-            "answer": "Useful contractions",
-            "answers": [
-              "Useful contractions"
-            ],
-            "note": "Useful contractions: The contraction is normally preferred when the article is not emphasized:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Useful contractions",
-            "options": [
-              "am = an dem",
-              "vom = von dem",
-              "beim = bei dem",
-              "im = in dem"
-            ],
-            "answer": "beim = bei dem",
-            "answers": [
-              "beim = bei dem"
-            ],
-            "note": "Useful contractions: The contraction is normally preferred when the article is not emphasized:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ = von dem",
-            "answer": "vom",
-            "answers": [
-              "vom"
-            ],
-            "note": "Useful contractions: The contraction is normally preferred when the article is not emphasized:",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "am 25. September",
-              "am September 25.",
-              "am 25. September September",
-              "werden"
-            ],
-            "answer": "am 25. September",
-            "answers": [
-              "am 25. September"
-            ],
-            "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ 18:00 Uhr",
-            "options": [
-              "im",
-              "am",
-              "beim",
-              "bis"
-            ],
-            "answer": "bis",
-            "answers": [
-              "bis"
-            ],
-            "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nvor 07:00 Uhr",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Word order with dates and deadlines",
-              "Useful contractions"
-            ],
-            "answer": "Word order with dates and deadlines",
-            "answers": [
-              "Word order with dates and deadlines"
-            ],
-            "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Word order with dates and deadlines",
-            "options": [
-              "beim = bei dem",
-              "fristgerecht zum 30. Juni",
-              "im = in dem",
-              "am = an dem"
-            ],
-            "answer": "fristgerecht zum 30. Juni",
-            "answers": [
-              "fristgerecht zum 30. Juni"
-            ],
-            "note": "Word order with dates and deadlines: Written dates with a period represent ordinal numbers:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ kündige ich …",
-            "answer": "Hiermit",
-            "answers": [
-              "Hiermit"
-            ],
-            "note": "Formal letter patterns: In a formal inquiry, possessive forms referring to the recipient are capitalized:",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "diese Gegen Entscheidung lege ich Widerspruch ein.",
-              "diese Entscheidung lege ich Widerspruch ein. Gegen",
-              "Gegen Gegen diese Entscheidung lege ich Widerspruch ein.",
-              "Gegen diese Entscheidung lege ich Widerspruch ein."
-            ],
-            "answer": "Gegen diese Entscheidung lege ich Widerspruch ein.",
-            "answers": [
-              "Gegen diese Entscheidung lege ich Widerspruch ein."
-            ],
-            "note": "Formal letter patterns: In a formal inquiry, possessive forms referring to the recipient are capitalized:",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l31-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Useful contractions",
-          "body": "The contraction is normally preferred when the article is not emphasized:",
-          "example": "im = in dem",
-          "emphasis": [
-            "im"
-          ]
-        },
-        {
-          "title": "Word order: Word order with dates and deadlines",
-          "body": "Written dates with a period represent ordinal numbers:",
-          "example": "am 25. September",
-          "emphasis": [
-            "September"
-          ]
-        },
-        {
-          "title": "Usage: Useful contractions",
-          "body": "The contraction is normally preferred when the article is not emphasized:",
-          "example": "am = an dem",
-          "emphasis": [
-            "am"
-          ]
-        },
-        {
-          "title": "Contrast: Word order with dates and deadlines",
-          "body": "Use am for the date on which something happens. Use zum with a termination date or deadline:",
-          "example": "bis 18:00 Uhr",
-          "emphasis": [
-            "bis"
-          ]
-        },
-        {
-          "title": "Final check: Useful contractions",
-          "body": "The contraction is normally preferred when the article is not emphasized:",
-          "example": "beim = bei dem",
-          "emphasis": [
-            "beim"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 32,
@@ -28832,7 +22646,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "das-festnetz",
@@ -29535,220 +23349,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l32-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nab + ____: ab zwei Stunden Verspätung",
-            "options": [
-              "Dativ",
-              "Oktober",
-              "nach",
-              "German"
-            ],
-            "answer": "Dativ",
-            "answers": [
-              "Dativ"
-            ],
-            "note": "Temporal prepositions: Some time expressions use the accusative without a preposition:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nbis: bis 18:00 Uhr, bis zum 31. Oktober",
-            "options": [
-              "Prices and decimal commas",
-              "Changes in time and replacement",
-              "How to read the structures",
-              "Temporal prepositions"
-            ],
-            "answer": "Temporal prepositions",
-            "answers": [
-              "Temporal prepositions"
-            ],
-            "note": "Temporal prepositions: Some time expressions use the accusative without a preposition:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Temporal prepositions",
-            "options": [
-              "bis: bis 18:00 Uhr, bis zum 31. Oktober",
-              "nach + Dativ: nach vorheriger Vereinbarung",
-              "vor + Dativ: vor 07:00 Uhr, vor dem Haus; vor zwei Wochen = two weeks ago",
-              "ab + Dativ: ab zwei Stunden Verspätung"
-            ],
-            "answer": "vor + Dativ: vor 07:00 Uhr, vor dem Haus; vor zwei Wochen = two weeks ago",
-            "answers": [
-              "vor + Dativ: vor 07:00 Uhr, vor dem Haus; vor zwei Wochen = two weeks ago"
-            ],
-            "note": "Temporal prepositions: Some time expressions use the accusative without a preposition:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ + Dativ: nach vorheriger Vereinbarung",
-            "answer": "nach",
-            "answers": [
-              "nach"
-            ],
-            "note": "Temporal prepositions: Some time expressions use the accusative without a preposition:",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "German: 29,50 Euro",
-              "29,50 German: Euro",
-              "29,50 Euro German:",
-              "German: German: 29,50 Euro"
-            ],
-            "answer": "German: 29,50 Euro",
-            "answers": [
-              "German: 29,50 Euro"
-            ],
-            "note": "Prices and decimal commas: German writes a decimal comma where English normally uses a decimal point:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____: 29.50 euros",
-            "options": [
-              "Dativ",
-              "Oktober",
-              "nach",
-              "English"
-            ],
-            "answer": "English",
-            "answers": [
-              "English"
-            ],
-            "note": "Prices and decimal commas: German writes a decimal comma where English normally uses a decimal point:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nGerman: 1,94 Euro",
-            "options": [
-              "Changes in time and replacement",
-              "How to read the structures",
-              "Prices and decimal commas",
-              "Temporal prepositions"
-            ],
-            "answer": "Prices and decimal commas",
-            "answers": [
-              "Prices and decimal commas"
-            ],
-            "note": "Prices and decimal commas: German writes a decimal comma where English normally uses a decimal point:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Prices and decimal commas",
-            "options": [
-              "vor + Dativ: vor 07:00 Uhr, vor dem Haus; vor zwei Wochen = two weeks ago",
-              "English: 1.94 euros",
-              "ab + Dativ: ab zwei Stunden Verspätung",
-              "bis: bis 18:00 Uhr, bis zum 31. Oktober"
-            ],
-            "answer": "English: 1.94 euros",
-            "answers": [
-              "English: 1.94 euros"
-            ],
-            "note": "Prices and decimal commas: German writes a decimal comma where English normally uses a decimal point:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nsich ____ eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden.",
-            "answer": "um",
-            "answers": [
-              "um"
-            ],
-            "note": "Changes in time and replacement: Changes in time and replacement",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "auf etwas einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben.",
-              "auf einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben. etwas",
-              "etwas etwas auf einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben.",
-              "etwas auf einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben."
-            ],
-            "answer": "etwas auf einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben.",
-            "answers": [
-              "etwas auf einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben."
-            ],
-            "note": "Changes in time and replacement: Changes in time and replacement",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l32-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 3 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Temporal prepositions",
-          "body": "Some time expressions use the accusative without a preposition:",
-          "example": "ab + Dativ: ab zwei Stunden Verspätung",
-          "emphasis": [
-            "Dativ"
-          ]
-        },
-        {
-          "title": "Word order: Prices and decimal commas",
-          "body": "German writes a decimal comma where English normally uses a decimal point:",
-          "example": "German: 29,50 Euro",
-          "emphasis": [
-            "German"
-          ]
-        },
-        {
-          "title": "Usage: Changes in time and replacement",
-          "body": "Changes in time and replacement",
-          "example": "sich um eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden.",
-          "emphasis": [
-            "um"
-          ]
-        },
-        {
-          "title": "Contrast: Temporal prepositions",
-          "body": "von Anfang an means “from the beginning onward”:",
-          "example": "bis: bis 18:00 Uhr, bis zum 31. Oktober",
-          "emphasis": [
-            "Oktober"
-          ]
-        },
-        {
-          "title": "Final check: Prices and decimal commas",
-          "body": "Euro normally remains unchanged after a number. The usual neutral word order",
-          "example": "English: 29.50 euros",
-          "emphasis": [
-            "English"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 33,
@@ -29758,7 +23360,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "sich-verletzen",
@@ -30461,220 +24063,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l33-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nIch ____ mir die Wand an.",
-            "options": [
-              "sehe",
-              "sich",
-              "Stark",
-              "um"
-            ],
-            "answer": "sehe",
-            "answers": [
-              "sehe"
-            ],
-            "note": "sich etwas ansehen: The reflexive pronoun is dative when the verb also has an accusative object.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nKann der Handwerker sich das ansehen?",
-            "options": [
-              "Formal jemanden einer Sache verweisen",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "sich etwas ansehen"
-            ],
-            "answer": "sich etwas ansehen",
-            "answers": [
-              "sich etwas ansehen"
-            ],
-            "note": "sich etwas ansehen: The reflexive pronoun is dative when the verb also has an accusative object.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Formal jemanden einer Sache verweisen",
-            "options": [
-              "Kann der Handwerker sich das ansehen?",
-              "sich um eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden.",
-              "Stark alkoholisierte Gäste können des Hauses verwiesen werden.",
-              "Ich sehe mir die Wand an."
-            ],
-            "answer": "Stark alkoholisierte Gäste können des Hauses verwiesen werden.",
-            "answers": [
-              "Stark alkoholisierte Gäste können des Hauses verwiesen werden."
-            ],
-            "note": "Formal jemanden einer Sache verweisen: The expression jemanden des Hauses verweisen uses an accusative person and a genitive place. It means to expel someone from the building.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nsich ____ eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden.",
-            "answer": "um",
-            "answers": [
-              "um"
-            ],
-            "note": "Changes in time and replacement: Changes in time and replacement",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "etwas auf einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben.",
-              "auf etwas einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben.",
-              "auf einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben. etwas",
-              "etwas etwas auf einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben."
-            ],
-            "answer": "etwas auf einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben.",
-            "answers": [
-              "etwas auf einen Zeitpunkt verschieben: Der Flug wird auf den nächsten Tag verschoben."
-            ],
-            "note": "Changes in time and replacement: Changes in time and replacement",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ durch etwas ersetzen: Wir ersetzen den Besen durch einen neuen.",
-            "options": [
-              "sehe",
-              "sich",
-              "Stark",
-              "etwas"
-            ],
-            "answer": "etwas",
-            "answers": [
-              "etwas"
-            ],
-            "note": "Changes in time and replacement: Changes in time and replacement",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nIch sehe mir die Wand an.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "sich etwas ansehen",
-              "Formal jemanden einer Sache verweisen"
-            ],
-            "answer": "sich etwas ansehen",
-            "answers": [
-              "sich etwas ansehen"
-            ],
-            "note": "sich etwas ansehen: The reflexive pronoun is dative when the verb also has an accusative object.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: sich etwas ansehen",
-            "options": [
-              "sich um eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden.",
-              "Kann der Handwerker sich das ansehen?",
-              "Ich sehe mir die Wand an.",
-              "Stark alkoholisierte Gäste können des Hauses verwiesen werden."
-            ],
-            "answer": "Kann der Handwerker sich das ansehen?",
-            "answers": [
-              "Kann der Handwerker sich das ansehen?"
-            ],
-            "note": "sich etwas ansehen: The reflexive pronoun is dative when the verb also has an accusative object.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ alkoholisierte Gäste können des Hauses verwiesen werden.",
-            "answer": "Stark",
-            "answers": [
-              "Stark"
-            ],
-            "note": "Formal jemanden einer Sache verweisen: The expression jemanden des Hauses verweisen uses an accusative person and a genitive place. It means to expel someone from the building.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "sich eine um Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden.",
-              "sich eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden. um",
-              "sich um um eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden.",
-              "sich um eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden."
-            ],
-            "answer": "sich um eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden.",
-            "answers": [
-              "sich um eine Zeitspanne verschieben: Der Abflug verschiebt sich um drei Stunden."
-            ],
-            "note": "Changes in time and replacement: Changes in time and replacement",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l33-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: sich etwas ansehen",
-          "body": "The reflexive pronoun is dative when the verb also has an accusative object.",
-          "example": "Ich sehe mir die Wand an.",
-          "emphasis": [
-            "sehe"
-          ]
-        },
-        {
-          "title": "Word order: Formal jemanden einer Sache verweisen",
-          "body": "The expression jemanden des Hauses verweisen uses an accusative person and a genitive place. It means to expel someone from the building.",
-          "example": "Stark alkoholisierte Gäste können des Hauses verwiesen werden.",
-          "emphasis": [
-            "Stark"
-          ]
-        },
-        {
-          "title": "Usage: sich etwas ansehen",
-          "body": "The reflexive pronoun is dative when the verb also has an accusative object.",
-          "example": "Kann der Handwerker sich das ansehen?",
-          "emphasis": [
-            "sich"
-          ]
-        },
-        {
-          "title": "Contrast: Formal jemanden einer Sache verweisen",
-          "body": "The expression jemanden des Hauses verweisen uses an accusative person and a genitive place. It means to expel someone from the building.",
-          "example": "Stark alkoholisierte Gäste können des Hauses verwiesen werden.",
-          "emphasis": [
-            "Stark"
-          ]
-        },
-        {
-          "title": "Final check: sich etwas ansehen",
-          "body": "The reflexive pronoun is dative when the verb also has an accusative object.",
-          "example": "Ich sehe mir die Wand an.",
-          "emphasis": [
-            "sehe"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 34,
@@ -30684,7 +24074,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "begeistert",
@@ -31399,220 +24789,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l34-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\ndie ____ erhalten",
-            "options": [
-              "Kündigung",
-              "gegen",
-              "wegen",
-              "schützen"
-            ],
-            "answer": "Kündigung",
-            "answers": [
-              "Kündigung"
-            ],
-            "note": "Common case contrasts from the examples: Common case contrasts from the examples",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nder Kündigung widersprechen",
-            "options": [
-              "Verb–noun collocations",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Common case contrasts from the examples"
-            ],
-            "answer": "Common case contrasts from the examples",
-            "answers": [
-              "Common case contrasts from the examples"
-            ],
-            "note": "Common case contrasts from the examples: Common case contrasts from the examples",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Common case contrasts from the examples",
-            "options": [
-              "der Kündigung widersprechen",
-              "wegen der Kündigung",
-              "gegen die Kündigung Widerspruch einlegen",
-              "die Kündigung erhalten"
-            ],
-            "answer": "gegen die Kündigung Widerspruch einlegen",
-            "answers": [
-              "gegen die Kündigung Widerspruch einlegen"
-            ],
-            "note": "Common case contrasts from the examples: Common case contrasts from the examples",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ der Kündigung",
-            "answer": "wegen",
-            "answers": [
-              "wegen"
-            ],
-            "note": "Common case contrasts from the examples: Common case contrasts from the examples",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Wir schützen die Umwelt.",
-              "Wir die schützen Umwelt.",
-              "Wir die Umwelt. schützen",
-              "Wir schützen schützen die Umwelt."
-            ],
-            "answer": "Wir schützen die Umwelt.",
-            "answers": [
-              "Wir schützen die Umwelt."
-            ],
-            "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nDas ____ verschmutzt die Umwelt.",
-            "options": [
-              "Kündigung",
-              "gegen",
-              "wegen",
-              "Flugzeug"
-            ],
-            "answer": "Flugzeug",
-            "answers": [
-              "Flugzeug"
-            ],
-            "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nWir sollten Energie sparen.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Verb–noun collocations",
-              "Common case contrasts from the examples"
-            ],
-            "answer": "Verb–noun collocations",
-            "answers": [
-              "Verb–noun collocations"
-            ],
-            "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Verb–noun collocations",
-            "options": [
-              "gegen die Kündigung Widerspruch einlegen",
-              "Die Schule veranstaltet eine Projektwoche.",
-              "die Kündigung erhalten",
-              "der Kündigung widersprechen"
-            ],
-            "answer": "Die Schule veranstaltet eine Projektwoche.",
-            "answers": [
-              "Die Schule veranstaltet eine Projektwoche."
-            ],
-            "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ alkoholisierte Gäste können des Hauses verwiesen werden.",
-            "answer": "Stark",
-            "answers": [
-              "Stark"
-            ],
-            "note": "Formal jemanden einer Sache verweisen: The expression jemanden des Hauses verweisen uses an accusative person and a genitive place. It means to expel someone from the building.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "die erhalten Kündigung",
-              "die Kündigung Kündigung erhalten",
-              "werden",
-              "die Kündigung erhalten"
-            ],
-            "answer": "die Kündigung erhalten",
-            "answers": [
-              "die Kündigung erhalten"
-            ],
-            "note": "Common case contrasts from the examples: Common case contrasts from the examples",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l34-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Common case contrasts from the examples",
-          "body": "Common case contrasts from the examples",
-          "example": "die Kündigung erhalten",
-          "emphasis": [
-            "Kündigung"
-          ]
-        },
-        {
-          "title": "Word order: Verb–noun collocations",
-          "body": "A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
-          "example": "Wir schützen die Umwelt.",
-          "emphasis": [
-            "schützen"
-          ]
-        },
-        {
-          "title": "Usage: Common case contrasts from the examples",
-          "body": "Common case contrasts from the examples",
-          "example": "der Kündigung widersprechen",
-          "emphasis": [
-            "Kündigung"
-          ]
-        },
-        {
-          "title": "Contrast: Verb–noun collocations",
-          "body": "All highlighted nouns are accusative objects. Gender affects the visible article:",
-          "example": "Das Flugzeug verschmutzt die Umwelt.",
-          "emphasis": [
-            "Flugzeug"
-          ]
-        },
-        {
-          "title": "Final check: Common case contrasts from the examples",
-          "body": "Common case contrasts from the examples",
-          "example": "gegen die Kündigung Widerspruch einlegen",
-          "emphasis": [
-            "gegen"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 35,
@@ -31622,7 +24800,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "denn",
@@ -32325,220 +25503,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l35-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nWir ____ die Umwelt.",
-            "options": [
-              "schützen",
-              "Flugzeug",
-              "sollten",
-              "Schule"
-            ],
-            "answer": "schützen",
-            "answers": [
-              "schützen"
-            ],
-            "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nDas Flugzeug verschmutzt die Umwelt.",
-            "options": [
-              "Common corrections from the lessons",
-              "Sentence-building checklist",
-              "How to read the structures",
-              "Verb–noun collocations"
-            ],
-            "answer": "Verb–noun collocations",
-            "answers": [
-              "Verb–noun collocations"
-            ],
-            "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Verb–noun collocations",
-            "options": [
-              "Das Flugzeug verschmutzt die Umwelt.",
-              "Die Schule veranstaltet eine Projektwoche.",
-              "Wir sollten Energie sparen.",
-              "Wir schützen die Umwelt."
-            ],
-            "answer": "Wir sollten Energie sparen.",
-            "answers": [
-              "Wir sollten Energie sparen."
-            ],
-            "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nDie ____ veranstaltet eine Projektwoche.",
-            "answer": "Schule",
-            "answers": [
-              "Schule"
-            ],
-            "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Wir schützen die Umwelt.",
-              "Wir die schützen Umwelt.",
-              "Wir die Umwelt. schützen",
-              "Wir schützen schützen die Umwelt."
-            ],
-            "answer": "Wir schützen die Umwelt.",
-            "answers": [
-              "Wir schützen die Umwelt."
-            ],
-            "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nDas ____ verschmutzt die Umwelt.",
-            "options": [
-              "schützen",
-              "sollten",
-              "Schule",
-              "Flugzeug"
-            ],
-            "answer": "Flugzeug",
-            "answers": [
-              "Flugzeug"
-            ],
-            "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nWir sollten Energie sparen.",
-            "options": [
-              "Sentence-building checklist",
-              "How to read the structures",
-              "Verb–noun collocations",
-              "Common corrections from the lessons"
-            ],
-            "answer": "Verb–noun collocations",
-            "answers": [
-              "Verb–noun collocations"
-            ],
-            "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Verb–noun collocations",
-            "options": [
-              "Wir sollten Energie sparen.",
-              "Die Schule veranstaltet eine Projektwoche.",
-              "Wir schützen die Umwelt.",
-              "Das Flugzeug verschmutzt die Umwelt."
-            ],
-            "answer": "Die Schule veranstaltet eine Projektwoche.",
-            "answers": [
-              "Die Schule veranstaltet eine Projektwoche."
-            ],
-            "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nWir ____ die Umwelt.",
-            "answer": "schützen",
-            "answers": [
-              "schützen"
-            ],
-            "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Das verschmutzt Flugzeug die Umwelt.",
-              "Das verschmutzt die Umwelt. Flugzeug",
-              "Das Flugzeug Flugzeug verschmutzt die Umwelt.",
-              "Das Flugzeug verschmutzt die Umwelt."
-            ],
-            "answer": "Das Flugzeug verschmutzt die Umwelt.",
-            "answers": [
-              "Das Flugzeug verschmutzt die Umwelt."
-            ],
-            "note": "Verb–noun collocations: A sentence can be grammatically well formed but still sound wrong because the verb and noun do not naturally belong together. These common combinations should be learned as complete units.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l35-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Common corrections from the lessons",
-          "body": "Common corrections from the lessons",
-          "example": "Common corrections from the lessons",
-          "emphasis": [
-            "Common"
-          ]
-        },
-        {
-          "title": "Word order: Sentence-building checklist",
-          "body": "Use this order when checking a new sentence:",
-          "example": "Sentence-building checklist",
-          "emphasis": [
-            "Sentence"
-          ]
-        },
-        {
-          "title": "Usage: Common corrections from the lessons",
-          "body": "Common corrections from the lessons",
-          "example": "Common corrections from the lessons",
-          "emphasis": [
-            "Common"
-          ]
-        },
-        {
-          "title": "Contrast: Sentence-building checklist",
-          "body": "4. Check the verb pattern. Does it require dative, accusative, a preposition, or zu?",
-          "example": "Sentence-building checklist",
-          "emphasis": [
-            "Sentence"
-          ]
-        },
-        {
-          "title": "Final check: Common corrections from the lessons",
-          "body": "Common corrections from the lessons",
-          "example": "Common corrections from the lessons",
-          "emphasis": [
-            "Common"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 36,
@@ -32548,7 +25514,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "egal",
@@ -33251,220 +26217,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l36-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ | ich | sehr gerne | hier | wohne,",
-            "options": [
-              "Obwohl",
-              "muss",
-              "wohne",
-              "Lernen"
-            ],
-            "answer": "Obwohl",
-            "answers": [
-              "Obwohl"
-            ],
-            "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nmuss | ich | leider | ausziehen.",
-            "options": [
-              "Compound nouns",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "One sentence analyzed completely"
-            ],
-            "answer": "One sentence analyzed completely",
-            "answers": [
-              "One sentence analyzed completely"
-            ],
-            "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: One sentence analyzed completely",
-            "options": [
-              "muss | ich | leider | ausziehen.",
-              "wohne therefore goes to the end of that clause.",
-              "obwohl introduces a contrast and creates a subordinate clause.",
-              "Obwohl | ich | sehr gerne | hier | wohne,"
-            ],
-            "answer": "obwohl introduces a contrast and creates a subordinate clause.",
-            "answers": [
-              "obwohl introduces a contrast and creates a subordinate clause."
-            ],
-            "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ therefore goes to the end of that clause.",
-            "answer": "wohne",
-            "answers": [
-              "wohne"
-            ],
-            "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Lernen + das Ziel = das Lernziel",
-              "+ Lernen das Ziel = das Lernziel",
-              "+ das Ziel = das Lernziel Lernen",
-              "Lernen Lernen + das Ziel = das Lernziel"
-            ],
-            "answer": "Lernen + das Ziel = das Lernziel",
-            "answers": [
-              "Lernen + das Ziel = das Lernziel"
-            ],
-            "note": "Compound nouns: German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ noun determines: das",
-            "options": [
-              "Obwohl",
-              "muss",
-              "obwohl",
-              "final"
-            ],
-            "answer": "final",
-            "answers": [
-              "final"
-            ],
-            "note": "Compound nouns: German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\ndas Lernziel → die Lernziele",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Compound nouns",
-              "One sentence analyzed completely"
-            ],
-            "answer": "Compound nouns",
-            "answers": [
-              "Compound nouns"
-            ],
-            "note": "Compound nouns: German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Compound nouns",
-            "options": [
-              "obwohl introduces a contrast and creates a subordinate clause.",
-              "plural follows Ziel → Ziele",
-              "Obwohl | ich | sehr gerne | hier | wohne,",
-              "muss | ich | leider | ausziehen."
-            ],
-            "answer": "plural follows Ziel → Ziele",
-            "answers": [
-              "plural follows Ziel → Ziele"
-            ],
-            "note": "Compound nouns: German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ | ich | sehr gerne | hier | wohne,",
-            "answer": "Obwohl",
-            "answers": [
-              "Obwohl"
-            ],
-            "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "| muss ich | leider | ausziehen.",
-              "| ich | leider | ausziehen. muss",
-              "muss muss | ich | leider | ausziehen.",
-              "muss | ich | leider | ausziehen."
-            ],
-            "answer": "muss | ich | leider | ausziehen.",
-            "answers": [
-              "muss | ich | leider | ausziehen."
-            ],
-            "note": "One sentence analyzed completely: > Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l36-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: One sentence analyzed completely",
-          "body": "> Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
-          "example": "Obwohl | ich | sehr gerne | hier | wohne,",
-          "emphasis": [
-            "Obwohl"
-          ]
-        },
-        {
-          "title": "Word order: Compound nouns",
-          "body": "German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
-          "example": "Lernen + das Ziel = das Lernziel",
-          "emphasis": [
-            "Lernen"
-          ]
-        },
-        {
-          "title": "Usage: One sentence analyzed completely",
-          "body": "> Gegen diese Entscheidung lege ich hiermit Widerspruch ein.",
-          "example": "muss | ich | leider | ausziehen.",
-          "emphasis": [
-            "muss"
-          ]
-        },
-        {
-          "title": "Contrast: Compound nouns",
-          "body": "More examples from the course:",
-          "example": "final noun determines: das",
-          "emphasis": [
-            "final"
-          ]
-        },
-        {
-          "title": "Final check: One sentence analyzed completely",
-          "body": "> Obwohl ich sehr gerne hier wohne, muss ich leider ausziehen.",
-          "example": "obwohl introduces a contrast and creates a subordinate clause.",
-          "emphasis": [
-            "obwohl"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 37,
@@ -33474,7 +26228,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "weiterreisen",
@@ -34173,220 +26927,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l37-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\ndie ____ + schädlich → umweltschädlich",
-            "options": [
-              "Umwelt",
-              "Umweltschutz",
-              "umweltschädlich",
-              "Lehrerin"
-            ],
-            "answer": "Umwelt",
-            "answers": [
-              "Umwelt"
-            ],
-            "note": "Compound adjectives: German can combine a noun with an adjective to create a more specific adjective.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\ndie Umwelt + freundlich → umweltfreundlich",
-            "options": [
-              "Verbs for teaching and explaining",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Compound adjectives"
-            ],
-            "answer": "Compound adjectives",
-            "answers": [
-              "Compound adjectives"
-            ],
-            "note": "Compound adjectives: German can combine a noun with an adjective to create a more specific adjective.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Compound adjectives",
-            "options": [
-              "die Umwelt + freundlich → umweltfreundlich",
-              "umweltschädlich",
-              "der Umweltschutz",
-              "die Umwelt + schädlich → umweltschädlich"
-            ],
-            "answer": "der Umweltschutz",
-            "answers": [
-              "der Umweltschutz"
-            ],
-            "note": "Compound adjectives: German can combine a noun with an adjective to create a more specific adjective.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____",
-            "answer": "umweltschädlich",
-            "answers": [
-              "umweltschädlich"
-            ],
-            "note": "Compound adjectives: German can combine a noun with an adjective to create a more specific adjective.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Die Lehrerin erklärt den Schülern den Klimawandel.",
-              "Die erklärt Lehrerin den Schülern den Klimawandel.",
-              "Die erklärt den Schülern den Klimawandel. Lehrerin",
-              "Die Lehrerin Lehrerin erklärt den Schülern den Klimawandel."
-            ],
-            "answer": "Die Lehrerin erklärt den Schülern den Klimawandel.",
-            "answers": [
-              "Die Lehrerin erklärt den Schülern den Klimawandel."
-            ],
-            "note": "Verbs for teaching and explaining: These verbs have similar meanings, but their object structures are different.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nDat: to ____? Akk: what?",
-            "options": [
-              "Umwelt",
-              "Umweltschutz",
-              "umweltschädlich",
-              "whom"
-            ],
-            "answer": "whom",
-            "answers": [
-              "whom"
-            ],
-            "note": "Verbs for teaching and explaining: These verbs have similar meanings, but their object structures are different.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nDie Lehrerin unterrichtet die Schüler.",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Verbs for teaching and explaining",
-              "Compound adjectives"
-            ],
-            "answer": "Verbs for teaching and explaining",
-            "answers": [
-              "Verbs for teaching and explaining"
-            ],
-            "note": "Verbs for teaching and explaining: These verbs have similar meanings, but their object structures are different.",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Verbs for teaching and explaining",
-            "options": [
-              "der Umweltschutz",
-              "Akk: whom?",
-              "die Umwelt + schädlich → umweltschädlich",
-              "die Umwelt + freundlich → umweltfreundlich"
-            ],
-            "answer": "Akk: whom?",
-            "answers": [
-              "Akk: whom?"
-            ],
-            "note": "Verbs for teaching and explaining: These verbs have similar meanings, but their object structures are different.",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ + das Ziel = das Lernziel",
-            "answer": "Lernen",
-            "answers": [
-              "Lernen"
-            ],
-            "note": "Compound nouns: German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "noun final determines: das",
-              "noun determines: das final",
-              "final final noun determines: das",
-              "final noun determines: das"
-            ],
-            "answer": "final noun determines: das",
-            "answers": [
-              "final noun determines: das"
-            ],
-            "note": "Compound nouns: German frequently combines two or more words into one noun. The final noun determines the gender, article, and plural of the complete compound.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l37-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Compound adjectives",
-          "body": "German can combine a noun with an adjective to create a more specific adjective.",
-          "example": "die Umwelt + schädlich → umweltschädlich",
-          "emphasis": [
-            "Umwelt"
-          ]
-        },
-        {
-          "title": "Word order: Verbs for teaching and explaining",
-          "body": "These verbs have similar meanings, but their object structures are different.",
-          "example": "Die Lehrerin erklärt den Schülern den Klimawandel.",
-          "emphasis": [
-            "Lehrerin"
-          ]
-        },
-        {
-          "title": "Usage: Compound adjectives",
-          "body": "Unlike nouns, adjectives are normally written with a lowercase first letter:",
-          "example": "die Umwelt + freundlich → umweltfreundlich",
-          "emphasis": [
-            "Umwelt"
-          ]
-        },
-        {
-          "title": "Contrast: Verbs for teaching and explaining",
-          "body": "unterrichten can be used in several ways:",
-          "example": "Dat: to whom? Akk: what?",
-          "emphasis": [
-            "whom"
-          ]
-        },
-        {
-          "title": "Final check: Compound adjectives",
-          "body": "Before a noun, the compound adjective receives a normal adjective ending:",
-          "example": "der Umweltschutz",
-          "emphasis": [
-            "Umweltschutz"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 38,
@@ -34396,7 +26938,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "der-stau",
@@ -35099,220 +27641,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l38-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nDie Hälfte aller Lehrer fühlt sich ____ gut.",
-            "options": [
-              "nicht",
-              "singular",
-              "Hälfte",
-              "Viele"
-            ],
-            "answer": "nicht",
-            "answers": [
-              "nicht"
-            ],
-            "note": "Agreement after quantity expressions: The finite verb normally agrees with the grammatical head of the subject. In die Hälfte aller Lehrer, the head noun Hälfte is singular, so the verb is singular even though Lehrer is plural:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nsingular head singular verb",
-            "options": [
-              "Dative plural after prepositions",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Agreement after quantity expressions"
-            ],
-            "answer": "Agreement after quantity expressions",
-            "answers": [
-              "Agreement after quantity expressions"
-            ],
-            "note": "Agreement after quantity expressions: The finite verb normally agrees with the grammatical head of the subject. In die Hälfte aller Lehrer, the head noun Hälfte is singular, so the verb is singular even though Lehrer is plural:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Agreement after quantity expressions",
-            "options": [
-              "singular head singular verb",
-              "Viele Lehrer sind unzufrieden.",
-              "Die Hälfte der Klasse ist krank.",
-              "Die Hälfte aller Lehrer fühlt sich nicht gut."
-            ],
-            "answer": "Die Hälfte der Klasse ist krank.",
-            "answers": [
-              "Die Hälfte der Klasse ist krank."
-            ],
-            "note": "Agreement after quantity expressions: The finite verb normally agrees with the grammatical head of the subject. In die Hälfte aller Lehrer, the head noun Hälfte is singular, so the verb is singular even though Lehrer is plural:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ Lehrer sind unzufrieden.",
-            "answer": "Viele",
-            "answers": [
-              "Viele"
-            ],
-            "note": "Agreement after quantity expressions: The finite verb normally agrees with the grammatical head of the subject. In die Hälfte aller Lehrer, the head noun Hälfte is singular, so the verb is singular even though Lehrer is plural:",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "mit den Eltern",
-              "mit Eltern den",
-              "mit den Eltern Eltern",
-              "werden"
-            ],
-            "answer": "mit den Eltern",
-            "answers": [
-              "mit den Eltern"
-            ],
-            "note": "Dative plural after prepositions: Plural nouns often add -n in the dative unless the plural already ends in -n or -s:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nin ____ Berufen",
-            "options": [
-              "nicht",
-              "singular",
-              "Hälfte",
-              "anderen"
-            ],
-            "answer": "anderen",
-            "answers": [
-              "anderen"
-            ],
-            "note": "Dative plural after prepositions: Plural nouns often add -n in the dative unless the plural already ends in -n or -s:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nin Ganztagsschulen",
-            "options": [
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Dative plural after prepositions",
-              "Agreement after quantity expressions"
-            ],
-            "answer": "Dative plural after prepositions",
-            "answers": [
-              "Dative plural after prepositions"
-            ],
-            "note": "Dative plural after prepositions: Plural nouns often add -n in the dative unless the plural already ends in -n or -s:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Dative plural after prepositions",
-            "options": [
-              "Die Hälfte der Klasse ist krank.",
-              "bei allen Tauschringen",
-              "Die Hälfte aller Lehrer fühlt sich nicht gut.",
-              "singular head singular verb"
-            ],
-            "answer": "bei allen Tauschringen",
-            "answers": [
-              "bei allen Tauschringen"
-            ],
-            "note": "Dative plural after prepositions: Plural nouns often add -n in the dative unless the plural already ends in -n or -s:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nDie ____ erklärt den Schülern den Klimawandel.",
-            "answer": "Lehrerin",
-            "answers": [
-              "Lehrerin"
-            ],
-            "note": "Verbs for teaching and explaining: These verbs have similar meanings, but their object structures are different.",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Dat: to Akk: whom? what?",
-              "Dat: to Akk: what? whom?",
-              "Dat: to whom? whom? Akk: what?",
-              "Dat: to whom? Akk: what?"
-            ],
-            "answer": "Dat: to whom? Akk: what?",
-            "answers": [
-              "Dat: to whom? Akk: what?"
-            ],
-            "note": "Verbs for teaching and explaining: These verbs have similar meanings, but their object structures are different.",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l38-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Agreement after quantity expressions",
-          "body": "The finite verb normally agrees with the grammatical head of the subject. In die Hälfte aller Lehrer, the head noun Hälfte is singular, so the verb is singular even though Lehrer is plural:",
-          "example": "Die Hälfte aller Lehrer fühlt sich nicht gut.",
-          "emphasis": [
-            "nicht"
-          ]
-        },
-        {
-          "title": "Word order: Dative plural after prepositions",
-          "body": "Plural nouns often add -n in the dative unless the plural already ends in -n or -s:",
-          "example": "mit den Eltern",
-          "emphasis": [
-            "Eltern"
-          ]
-        },
-        {
-          "title": "Usage: Agreement after quantity expressions",
-          "body": "The finite verb normally agrees with the grammatical head of the subject. In die Hälfte aller Lehrer, the head noun Hälfte is singular, so the verb is singular even though Lehrer is plural:",
-          "example": "singular head singular verb",
-          "emphasis": [
-            "singular"
-          ]
-        },
-        {
-          "title": "Contrast: Dative plural after prepositions",
-          "body": "The adjective after a dative plural determiner takes -en: in anderen Berufen.",
-          "example": "in anderen Berufen",
-          "emphasis": [
-            "anderen"
-          ]
-        },
-        {
-          "title": "Final check: Agreement after quantity expressions",
-          "body": "The finite verb normally agrees with the grammatical head of the subject. In die Hälfte aller Lehrer, the head noun Hälfte is singular, so the verb is singular even though Lehrer is plural:",
-          "example": "Die Hälfte der Klasse ist krank.",
-          "emphasis": [
-            "Hälfte"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 39,
@@ -35322,7 +27652,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-3-strengths.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "streng",
@@ -36029,220 +28359,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l39-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ mit + Dativ: Viele Lehrer sind mit den Eltern unzufrieden.",
-            "options": [
-              "unzufrieden",
-              "jemanden",
-              "zu",
-              "finde"
-            ],
-            "answer": "unzufrieden",
-            "answers": [
-              "unzufrieden"
-            ],
-            "note": "Fixed combinations in the teacher statements: Fixed combinations in the teacher statements",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\njemanden auf etwas + Akkusativ vorbereiten: Die Ausbildung bereitet Lehrer auf Probleme vor.",
-            "options": [
-              "finden with an evaluation",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Fixed combinations in the teacher statements"
-            ],
-            "answer": "Fixed combinations in the teacher statements",
-            "answers": [
-              "Fixed combinations in the teacher statements"
-            ],
-            "note": "Fixed combinations in the teacher statements: Fixed combinations in the teacher statements",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Fixed combinations in the teacher statements",
-            "options": [
-              "jemanden auf etwas + Akkusativ vorbereiten: Die Ausbildung bereitet Lehrer auf Probleme vor.",
-              "zu viele + plural: zu viele Aufgaben, zu viele Probleme",
-              "zu viel + uncountable singular: zu viel Arbeit, zu viel Stress",
-              "unzufrieden mit + Dativ: Viele Lehrer sind mit den Eltern unzufrieden."
-            ],
-            "answer": "zu viel + uncountable singular: zu viel Arbeit, zu viel Stress",
-            "answers": [
-              "zu viel + uncountable singular: zu viel Arbeit, zu viel Stress"
-            ],
-            "note": "Fixed combinations in the teacher statements: Fixed combinations in the teacher statements",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ viele + plural: zu viele Aufgaben, zu viele Probleme",
-            "answer": "zu",
-            "answers": [
-              "zu"
-            ],
-            "note": "Fixed combinations in the teacher statements: Fixed combinations in the teacher statements",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Ich finde die Idee gut.",
-              "Ich die finde Idee gut.",
-              "Ich die Idee gut. finde",
-              "Ich finde finde die Idee gut."
-            ],
-            "answer": "Ich finde die Idee gut.",
-            "answers": [
-              "Ich finde die Idee gut."
-            ],
-            "note": "finden with an evaluation: Besides a dass clause, finden can take an accusative object followed by an evaluation:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ Wulf findet Unterricht am Samstag keine schlechte Idee.",
-            "options": [
-              "unzufrieden",
-              "jemanden",
-              "zu",
-              "Frau"
-            ],
-            "answer": "Frau",
-            "answers": [
-              "Frau"
-            ],
-            "note": "finden with an evaluation: Besides a dass clause, finden can take an accusative object followed by an evaluation:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nmit den Eltern",
-            "options": [
-              "finden with an evaluation",
-              "How to read the structures",
-              "Dative plural after prepositions",
-              "Fixed combinations in the teacher statements"
-            ],
-            "answer": "Dative plural after prepositions",
-            "answers": [
-              "Dative plural after prepositions"
-            ],
-            "note": "Dative plural after prepositions: Plural nouns often add -n in the dative unless the plural already ends in -n or -s:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Dative plural after prepositions",
-            "options": [
-              "zu viel + uncountable singular: zu viel Arbeit, zu viel Stress",
-              "in anderen Berufen",
-              "unzufrieden mit + Dativ: Viele Lehrer sind mit den Eltern unzufrieden.",
-              "jemanden auf etwas + Akkusativ vorbereiten: Die Ausbildung bereitet Lehrer auf Probleme vor."
-            ],
-            "answer": "in anderen Berufen",
-            "answers": [
-              "in anderen Berufen"
-            ],
-            "note": "Dative plural after prepositions: Plural nouns often add -n in the dative unless the plural already ends in -n or -s:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nin ____",
-            "answer": "Ganztagsschulen",
-            "answers": [
-              "Ganztagsschulen"
-            ],
-            "note": "Dative plural after prepositions: Plural nouns often add -n in the dative unless the plural already ends in -n or -s:",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "bei Tauschringen allen",
-              "bei allen allen Tauschringen",
-              "werden",
-              "bei allen Tauschringen"
-            ],
-            "answer": "bei allen Tauschringen",
-            "answers": [
-              "bei allen Tauschringen"
-            ],
-            "note": "Dative plural after prepositions: Plural nouns often add -n in the dative unless the plural already ends in -n or -s:",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l39-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Fixed combinations in the teacher statements",
-          "body": "Fixed combinations in the teacher statements",
-          "example": "unzufrieden mit + Dativ: Viele Lehrer sind mit den Eltern unzufrieden.",
-          "emphasis": [
-            "unzufrieden"
-          ]
-        },
-        {
-          "title": "Word order: finden with an evaluation",
-          "body": "Besides a dass clause, finden can take an accusative object followed by an evaluation:",
-          "example": "Ich finde die Idee gut.",
-          "emphasis": [
-            "finde"
-          ]
-        },
-        {
-          "title": "Usage: Fixed combinations in the teacher statements",
-          "body": "Fixed combinations in the teacher statements",
-          "example": "jemanden auf etwas + Akkusativ vorbereiten: Die Ausbildung bereitet Lehrer auf Probleme vor.",
-          "emphasis": [
-            "jemanden"
-          ]
-        },
-        {
-          "title": "Contrast: finden with an evaluation",
-          "body": "In keine schlechte Idee, Idee is feminine accusative. After keine, the adjective therefore takes -e.",
-          "example": "Frau Wulf findet Unterricht am Samstag keine schlechte Idee.",
-          "emphasis": [
-            "Frau"
-          ]
-        },
-        {
-          "title": "Final check: Fixed combinations in the teacher statements",
-          "body": "Fixed combinations in the teacher statements",
-          "example": "zu viel + uncountable singular: zu viel Arbeit, zu viel Stress",
-          "emphasis": [
-            "zu"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 40,
@@ -36252,7 +28370,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-4-habits.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "die-wartezeit",
@@ -36959,220 +29077,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l40-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____, der beim Tauschring mitmacht, bekommt ein Formular.",
-            "options": [
-              "Jeder",
-              "singular",
-              "miteinander",
-              "Kontakt"
-            ],
-            "answer": "Jeder",
-            "answers": [
-              "Jeder"
-            ],
-            "note": "jeder with a relative clause: Jeder means “everyone” or “each person” and is grammatically masculine singular. A relative clause referring to it therefore uses singular der, and both finite verbs are singular:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nsingular verb singular verb",
-            "options": [
-              "Reciprocal expressions",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "jeder with a relative clause"
-            ],
-            "answer": "jeder with a relative clause",
-            "answers": [
-              "jeder with a relative clause"
-            ],
-            "note": "jeder with a relative clause: Jeder means “everyone” or “each person” and is grammatically masculine singular. A relative clause referring to it therefore uses singular der, and both finite verbs are singular:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Reciprocal expressions",
-            "options": [
-              "singular verb singular verb",
-              "Kontakt zueinander haben",
-              "miteinander tauschen",
-              "Jeder, der beim Tauschring mitmacht, bekommt ein Formular."
-            ],
-            "answer": "miteinander tauschen",
-            "answers": [
-              "miteinander tauschen"
-            ],
-            "note": "Reciprocal expressions: Reciprocal words describe an action or relationship between two or more people:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ zueinander haben",
-            "answer": "Kontakt",
-            "answers": [
-              "Kontakt"
-            ],
-            "note": "Reciprocal expressions: Reciprocal words describe an action or relationship between two or more people:",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "zusammenarbeiten",
-              "aber",
-              "deshalb",
-              "werden"
-            ],
-            "answer": "zusammenarbeiten",
-            "answers": [
-              "zusammenarbeiten"
-            ],
-            "note": "Reciprocal expressions: Reciprocal words describe an action or relationship between two or more people:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nDie ____ tauschen miteinander.",
-            "options": [
-              "Jeder",
-              "singular",
-              "miteinander",
-              "Mitglieder"
-            ],
-            "answer": "Mitglieder",
-            "answers": [
-              "Mitglieder"
-            ],
-            "note": "Reciprocal expressions: Reciprocal words describe an action or relationship between two or more people:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nIch finde die Idee gut.",
-            "options": [
-              "Reciprocal expressions",
-              "How to read the structures",
-              "finden with an evaluation",
-              "jeder with a relative clause"
-            ],
-            "answer": "finden with an evaluation",
-            "answers": [
-              "finden with an evaluation"
-            ],
-            "note": "finden with an evaluation: Besides a dass clause, finden can take an accusative object followed by an evaluation:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: finden with an evaluation",
-            "options": [
-              "miteinander tauschen",
-              "Frau Wulf findet Unterricht am Samstag keine schlechte Idee.",
-              "Jeder, der beim Tauschring mitmacht, bekommt ein Formular.",
-              "singular verb singular verb"
-            ],
-            "answer": "Frau Wulf findet Unterricht am Samstag keine schlechte Idee.",
-            "answers": [
-              "Frau Wulf findet Unterricht am Samstag keine schlechte Idee."
-            ],
-            "note": "finden with an evaluation: Besides a dass clause, finden can take an accusative object followed by an evaluation:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____, der beim Tauschring mitmacht, bekommt ein Formular.",
-            "answer": "Jeder",
-            "answers": [
-              "Jeder"
-            ],
-            "note": "jeder with a relative clause: Jeder means “everyone” or “each person” and is grammatically masculine singular. A relative clause referring to it therefore uses singular der, and both finite verbs are singular:",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "verb singular singular verb",
-              "verb singular verb singular",
-              "singular singular verb singular verb",
-              "singular verb singular verb"
-            ],
-            "answer": "singular verb singular verb",
-            "answers": [
-              "singular verb singular verb"
-            ],
-            "note": "jeder with a relative clause: Jeder means “everyone” or “each person” and is grammatically masculine singular. A relative clause referring to it therefore uses singular der, and both finite verbs are singular:",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l40-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: jeder with a relative clause",
-          "body": "Jeder means “everyone” or “each person” and is grammatically masculine singular. A relative clause referring to it therefore uses singular der, and both finite verbs are singular:",
-          "example": "Jeder, der beim Tauschring mitmacht, bekommt ein Formular.",
-          "emphasis": [
-            "Jeder"
-          ]
-        },
-        {
-          "title": "Word order: Reciprocal expressions",
-          "body": "Reciprocal words describe an action or relationship between two or more people:",
-          "example": "miteinander tauschen",
-          "emphasis": [
-            "miteinander"
-          ]
-        },
-        {
-          "title": "Usage: jeder with a relative clause",
-          "body": "The relative clause is inserted between commas. Inside it, the separable verb mitmachen appears together at the end because the relative clause is subordinate.",
-          "example": "singular verb singular verb",
-          "emphasis": [
-            "singular"
-          ]
-        },
-        {
-          "title": "Contrast: Reciprocal expressions",
-          "body": "Compare their structures:",
-          "example": "Kontakt zueinander haben",
-          "emphasis": [
-            "Kontakt"
-          ]
-        },
-        {
-          "title": "Final check: jeder with a relative clause",
-          "body": "Jeder means “everyone” or “each person” and is grammatically masculine singular. A relative clause referring to it therefore uses singular der, and both finite verbs are singular:",
-          "example": "Jeder, der beim Tauschring mitmacht, bekommt ein Formular.",
-          "emphasis": [
-            "Jeder"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 41,
@@ -37182,7 +29088,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-1-memories.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "das-gehalt",
@@ -37885,220 +29791,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l41-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nDer Tauschring arbeitet ____ lange mit anderen Gruppen zusammen.",
-            "options": [
-              "schon",
-              "with",
-              "jede",
-              "jeder"
-            ],
-            "answer": "schon",
-            "answers": [
-              "schon"
-            ],
-            "note": "Present tense with schon lange: German normally uses the present tense for an action that began in the past and is still continuing. English often uses the present perfect continuous:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nThe exchange circle has been working with other groups for a long time.",
-            "options": [
-              "jeder and alle",
-              "How to read the structures",
-              "Main clauses: verb in position 2",
-              "Present tense with schon lange"
-            ],
-            "answer": "Present tense with schon lange",
-            "answers": [
-              "Present tense with schon lange"
-            ],
-            "note": "Present tense with schon lange: German normally uses the present tense for an action that began in the past and is still continuing. English often uses the present perfect continuous:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: jeder and alle",
-            "options": [
-              "The exchange circle has been working with other groups for a long time.",
-              "jeder Teilnehmer",
-              "jede Arbeit",
-              "Der Tauschring arbeitet schon lange mit anderen Gruppen zusammen."
-            ],
-            "answer": "jede Arbeit",
-            "answers": [
-              "jede Arbeit"
-            ],
-            "note": "jeder and alle: jeder is singular and receives endings like the definite article, while alle is plural:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____ Teilnehmer",
-            "answer": "jeder",
-            "answers": [
-              "jeder"
-            ],
-            "note": "jeder and alle: jeder is singular and receives endings like the definite article, while alle is plural:",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "bei allen Tauschringen",
-              "bei Tauschringen allen",
-              "bei allen allen Tauschringen",
-              "werden"
-            ],
-            "answer": "bei allen Tauschringen",
-            "answers": [
-              "bei allen Tauschringen"
-            ],
-            "note": "jeder and alle: jeder is singular and receives endings like the definite article, while alle is plural:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ tauschen",
-            "options": [
-              "schon",
-              "with",
-              "jede",
-              "miteinander"
-            ],
-            "answer": "miteinander",
-            "answers": [
-              "miteinander"
-            ],
-            "note": "Reciprocal expressions: Reciprocal words describe an action or relationship between two or more people:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nKontakt zueinander haben",
-            "options": [
-              "jeder and alle",
-              "How to read the structures",
-              "Reciprocal expressions",
-              "Present tense with schon lange"
-            ],
-            "answer": "Reciprocal expressions",
-            "answers": [
-              "Reciprocal expressions"
-            ],
-            "note": "Reciprocal expressions: Reciprocal words describe an action or relationship between two or more people:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Reciprocal expressions",
-            "options": [
-              "jede Arbeit",
-              "zusammenarbeiten",
-              "Der Tauschring arbeitet schon lange mit anderen Gruppen zusammen.",
-              "The exchange circle has been working with other groups for a long time."
-            ],
-            "answer": "zusammenarbeiten",
-            "answers": [
-              "zusammenarbeiten"
-            ],
-            "note": "Reciprocal expressions: Reciprocal words describe an action or relationship between two or more people:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nDie ____ tauschen miteinander.",
-            "answer": "Mitglieder",
-            "answers": [
-              "Mitglieder"
-            ],
-            "note": "Reciprocal expressions: Reciprocal words describe an action or relationship between two or more people:",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Der Tauschring arbeitet lange schon mit anderen Gruppen zusammen.",
-              "Der Tauschring arbeitet lange mit anderen Gruppen zusammen. schon",
-              "Der Tauschring arbeitet schon schon lange mit anderen Gruppen zusammen.",
-              "Der Tauschring arbeitet schon lange mit anderen Gruppen zusammen."
-            ],
-            "answer": "Der Tauschring arbeitet schon lange mit anderen Gruppen zusammen.",
-            "answers": [
-              "Der Tauschring arbeitet schon lange mit anderen Gruppen zusammen."
-            ],
-            "note": "Present tense with schon lange: German normally uses the present tense for an action that began in the past and is still continuing. English often uses the present perfect continuous:",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l41-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 2 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Present tense with schon lange",
-          "body": "German normally uses the present tense for an action that began in the past and is still continuing. English often uses the present perfect continuous:",
-          "example": "Der Tauschring arbeitet schon lange mit anderen Gruppen zusammen.",
-          "emphasis": [
-            "schon"
-          ]
-        },
-        {
-          "title": "Word order: jeder and alle",
-          "body": "jeder is singular and receives endings like the definite article, while alle is plural:",
-          "example": "jede Arbeit",
-          "emphasis": [
-            "jede"
-          ]
-        },
-        {
-          "title": "Usage: Present tense with schon lange",
-          "body": "German normally uses the present tense for an action that began in the past and is still continuing. English often uses the present perfect continuous:",
-          "example": "The exchange circle has been working with other groups for a long time.",
-          "emphasis": [
-            "with"
-          ]
-        },
-        {
-          "title": "Contrast: jeder and alle",
-          "body": "In jede Arbeit hat den gleichen Wert, den gleichen Wert is masculine accusative. After the definite-article ending den, the adjective takes -en.",
-          "example": "jeder Teilnehmer",
-          "emphasis": [
-            "jeder"
-          ]
-        },
-        {
-          "title": "Final check: Present tense with schon lange",
-          "body": "German normally uses the present tense for an action that began in the past and is still continuing. English often uses the present perfect continuous:",
-          "example": "Der Tauschring arbeitet schon lange mit anderen Gruppen zusammen.",
-          "emphasis": [
-            "schon"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   },
   {
     "id": 42,
@@ -38108,7 +29802,7 @@
     "pathTitle": "Learn, review, listen, and type the words from your glossary.",
     "image": "assets/lektion-2-friendship.png",
     "imageAlt": "Abstract learning illustration",
-    "criteriaNote": "Sources: Wortschatz.md and Grammar.md. Entries and rules preserve their Markdown order.",
+    "criteriaNote": "Vocabulary comes from Wortschatz.md. Grammar follows the curated B1 syllabus.",
     "vocab": [
       {
         "id": "weder-noch",
@@ -38777,220 +30471,8 @@
         "subtitle": "Practice German vocabulary from your daily glossary."
       }
     ],
-    "workbook": [
-      {
-        "id": "l42-grammar-practice",
-        "icon": "P",
-        "title": "Grammar practice",
-        "fa": "10 exercises",
-        "subtitle": "Apply the rules with varied, contextual grammar tasks.",
-        "kind": "grammar-practice",
-        "reviewCount": 0,
-        "questions": [
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\nder ____ gegen das Rauchverbot",
-            "options": [
-              "Protest",
-              "durch",
-              "braucht",
-              "dass"
-            ],
-            "answer": "Protest",
-            "answers": [
-              "Protest"
-            ],
-            "note": "Structures in the smoking-ban statements: Both prepositions take the accusative, but their meanings differ:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\ndurch das Rauchverbot weniger verdienen",
-            "options": [
-              "Structures in the bicycle-courier statements",
-              "Informal reply to an invitation",
-              "How to read the structures",
-              "Structures in the smoking-ban statements"
-            ],
-            "answer": "Structures in the smoking-ban statements",
-            "answers": [
-              "Structures in the smoking-ban statements"
-            ],
-            "note": "Structures in the smoking-ban statements: Both prepositions take the accusative, but their meanings differ:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Structures in the smoking-ban statements",
-            "options": [
-              "durch das Rauchverbot weniger verdienen",
-              "with dass: Die Frau denkt, dass sich das Verhalten nicht geändert hat.",
-              "Es braucht einige Zeit, bis das Rauchverbot akzeptiert wird.",
-              "der Protest gegen das Rauchverbot"
-            ],
-            "answer": "Es braucht einige Zeit, bis das Rauchverbot akzeptiert wird.",
-            "answers": [
-              "Es braucht einige Zeit, bis das Rauchverbot akzeptiert wird."
-            ],
-            "note": "Structures in the smoking-ban statements: Both prepositions take the accusative, but their meanings differ:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\nwith ____: Die Frau denkt, dass sich das Verhalten nicht geändert hat.",
-            "answer": "dass",
-            "answers": [
-              "dass"
-            ],
-            "note": "Structures in the smoking-ban statements: Both prepositions take the accusative, but their meanings differ:",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "Fahrradkuriere sind schneller und billiger als andere Kurierdienste.",
-              "Fahrradkuriere sind schneller und billiger andere als Kurierdienste.",
-              "Fahrradkuriere sind schneller und billiger andere Kurierdienste. als",
-              "Fahrradkuriere sind schneller und billiger als als andere Kurierdienste."
-            ],
-            "answer": "Fahrradkuriere sind schneller und billiger als andere Kurierdienste.",
-            "answers": [
-              "Fahrradkuriere sind schneller und billiger als andere Kurierdienste."
-            ],
-            "note": "Structures in the bicycle-courier statements: Two comparatives can share one comparison phrase:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Complete the sentence according to the rule:\n____ mehr als 30 Stunden",
-            "options": [
-              "Protest",
-              "durch",
-              "braucht",
-              "nicht"
-            ],
-            "answer": "nicht",
-            "answers": [
-              "nicht"
-            ],
-            "note": "Structures in the bicycle-courier statements: Two comparatives can share one comparison phrase:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which rule explains this sentence?\nnicht mehr arbeiten",
-            "options": [
-              "Informal reply to an invitation",
-              "How to read the structures",
-              "Structures in the bicycle-courier statements",
-              "Structures in the smoking-ban statements"
-            ],
-            "answer": "Structures in the bicycle-courier statements",
-            "answers": [
-              "Structures in the bicycle-courier statements"
-            ],
-            "note": "Structures in the bicycle-courier statements: Two comparatives can share one comparison phrase:",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Choose the example that best demonstrates: Structures in the bicycle-courier statements",
-            "options": [
-              "Es braucht einige Zeit, bis das Rauchverbot akzeptiert wird.",
-              "Je mehr Stunden er arbeitet, desto mehr verdient er.",
-              "der Protest gegen das Rauchverbot",
-              "durch das Rauchverbot weniger verdienen"
-            ],
-            "answer": "Je mehr Stunden er arbeitet, desto mehr verdient er.",
-            "answers": [
-              "Je mehr Stunden er arbeitet, desto mehr verdient er."
-            ],
-            "note": "Structures in the bicycle-courier statements: Two comparatives can share one comparison phrase:",
-            "direction": "de"
-          },
-          {
-            "kind": "input",
-            "prompt": "Write the missing German form:\n____: *Ihre ehemalige Kollegin*",
-            "answer": "prompt",
-            "answers": [
-              "prompt"
-            ],
-            "note": "Informal reply to an invitation: The task instructions address the exam candidate formally with *Sie/Ihre*. The letter itself is addressed to Karolina, a former colleague, so an informal *du* letter is appropriate:",
-            "placeholder": "Type the missing form",
-            "direction": "de"
-          },
-          {
-            "kind": "choice",
-            "prompt": "Which sentence has the correct German structure?",
-            "options": [
-              "*Liebe letter: Karolina, vielen Dank für deine Einladung.*",
-              "*Liebe Karolina, vielen Dank für deine Einladung.* letter:",
-              "letter: letter: *Liebe Karolina, vielen Dank für deine Einladung.*",
-              "letter: *Liebe Karolina, vielen Dank für deine Einladung.*"
-            ],
-            "answer": "letter: *Liebe Karolina, vielen Dank für deine Einladung.*",
-            "answers": [
-              "letter: *Liebe Karolina, vielen Dank für deine Einladung.*"
-            ],
-            "note": "Informal reply to an invitation: The task instructions address the exam candidate formally with *Sie/Ihre*. The letter itself is addressed to Karolina, a former colleague, so an informal *du* letter is appropriate:",
-            "direction": "de"
-          }
-        ]
-      }
-    ],
-    "grammar": {
-      "id": "l42-grammar",
-      "icon": "G",
-      "title": "Grammar lesson",
-      "fa": "5 guided steps",
-      "subtitle": "Understand 3 connected rules through explanation and examples.",
-      "placeholder": "Type the missing German form",
-      "teach": [
-        {
-          "title": "Core rule: Structures in the smoking-ban statements",
-          "body": "Both prepositions take the accusative, but their meanings differ:",
-          "example": "der Protest gegen das Rauchverbot",
-          "emphasis": [
-            "Protest"
-          ]
-        },
-        {
-          "title": "Word order: Structures in the bicycle-courier statements",
-          "body": "Two comparatives can share one comparison phrase:",
-          "example": "Fahrradkuriere sind schneller und billiger als andere Kurierdienste.",
-          "emphasis": [
-            "als"
-          ]
-        },
-        {
-          "title": "Usage: Informal reply to an invitation",
-          "body": "The task instructions address the exam candidate formally with *Sie/Ihre*. The letter itself is addressed to Karolina, a former colleague, so an informal *du* letter is appropriate:",
-          "example": "prompt: *Ihre ehemalige Kollegin*",
-          "emphasis": [
-            "prompt"
-          ]
-        },
-        {
-          "title": "Contrast: Structures in the smoking-ban statements",
-          "body": "Here, gegen expresses opposition and durch expresses a cause.",
-          "example": "durch das Rauchverbot weniger verdienen",
-          "emphasis": [
-            "durch"
-          ]
-        },
-        {
-          "title": "Final check: Structures in the bicycle-courier statements",
-          "body": "Use als, not wie, for an unequal comparison.",
-          "example": "nicht mehr als 30 Stunden",
-          "emphasis": [
-            "nicht"
-          ]
-        }
-      ],
-      "questions": []
-    }
+    "workbook": [],
+    "grammar": null
   }
 ];
 

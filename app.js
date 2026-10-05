@@ -17,11 +17,14 @@
   const INITIAL_COMPLETED = Object.fromEntries(
     Array.from({ length: CHECKPOINT_LESSON }, (_, index) => index + 1).flatMap((lessonId) => [
       [`${lessonId}:l${lessonId}-g1`, { sessions: 1, best: 100, last: CHECKPOINT_TIME }],
-      [`${lessonId}:l${lessonId}-g2`, { sessions: 1, best: 100, last: CHECKPOINT_TIME }],
-      [`${lessonId}:l${lessonId}-grammar`, { sessions: 1, best: 100, last: CHECKPOINT_TIME }],
-      [`${lessonId}:l${lessonId}-grammar-practice`, { sessions: 1, best: 100, last: CHECKPOINT_TIME }]
+      [`${lessonId}:l${lessonId}-g2`, { sessions: 1, best: 100, last: CHECKPOINT_TIME }]
     ])
   );
+  const VALID_COMPLETION_KEYS = new Set(lessons.flatMap((entry) => [
+    ...entry.groups,
+    ...(entry.grammar ? [entry.grammar] : []),
+    ...(entry.workbook || [])
+  ].map((node) => `${entry.id}:${node.id}`)));
   const intervals = [0, 10 * 60e3, 24 * 60 * 60e3, 3 * 24 * 60 * 60e3, 7 * 24 * 60 * 60e3, 14 * 24 * 60 * 60e3];
 
   const $ = (selector) => document.querySelector(selector);
@@ -131,6 +134,9 @@
         if (completed[nodeId] && !completed[`1:${nodeId}`]) completed[`1:${nodeId}`] = completed[nodeId];
         delete completed[nodeId];
       });
+      const validCompleted = Object.fromEntries(
+        Object.entries(completed).filter(([key]) => VALID_COMPLETION_KEYS.has(key))
+      );
       return {
         ...structuredClone(defaultState), ...saved,
         daily: { ...defaultState.daily, ...(saved.daily || {}) },
@@ -139,7 +145,7 @@
         currentLesson: lessons.some((entry) => entry.id === saved.currentLesson)
           ? Math.max(saved.currentLesson, CHECKPOINT_LESSON + 1)
           : CHECKPOINT_LESSON + 1,
-        completed, words: saved.words || {}
+        completed: validCompleted, words: saved.words || {}
       };
     } catch (_) {
       return structuredClone(defaultState);
@@ -351,6 +357,7 @@
     if (!incoming || incoming.version !== 1) throw new Error("Unsupported progress data");
     const completed = { ...state.completed };
     Object.entries(incoming.completed || {}).forEach(([key, value]) => {
+      if (!VALID_COMPLETION_KEYS.has(key)) return;
       const local = completed[key] || { sessions: 0, best: 0, last: 0 };
       completed[key] = {
         sessions: Math.max(local.sessions || 0, value.sessions || 0),
@@ -526,11 +533,11 @@
       const progress = nodeProgress(node.id);
       const words = node.grammar || node.workbook ? [] : vocab.filter((item) => item.group === node.id);
       const workload = node.grammar
-        ? `${faNum(node.teach.length)} steps`
+        ? `${faNum(node.teach.length)} examples`
         : node.workbook
           ? `${faNum(node.questions.length)} exercises`
           : `${faNum(BASE_EXERCISES)} exercises`;
-      const readyNote = node.grammar ? "Guided explanation" : node.workbook ? "Grammar application" : index === 0 ? "Ready to start" : `${faNum(REVIEW_EXERCISES)} older reviews`;
+      const readyNote = node.grammar ? "Guided examples" : node.workbook ? "Grammar application" : index === 0 ? "Ready to start" : `${faNum(REVIEW_EXERCISES)} older reviews`;
       const article = document.createElement("article");
       article.className = `path-node${node.grammar ? " grammar" : ""}${node.workbook ? " workbook" : ""}${unlocked ? "" : " locked"}${progress ? " complete" : ""}`;
       article.setAttribute("role", "listitem");
@@ -691,7 +698,7 @@
     const rule = step.rule;
     els.stage.innerHTML = `
       <article class="grammar-teach">
-        <span class="teach-count">Point ${faNum(step.teachIndex)} of ${faNum(lesson.grammar.teach.length)}</span>
+        <span class="teach-count">Example ${faNum(step.teachIndex)} of ${faNum(lesson.grammar.teach.length)}</span>
         <div class="grammar-rule"><h3>${escapeHtml(rule.title)}</h3><p>${escapeHtml(rule.body)}</p></div>
         <div class="grammar-example" lang="de">${highlightRule(rule)}</div>
       </article>`;
