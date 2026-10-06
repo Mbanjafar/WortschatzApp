@@ -144,7 +144,7 @@
         streak: { ...defaultState.streak, ...(saved.streak || {}) },
         speech: { ...defaultState.speech, ...(saved.speech || {}) },
         currentLesson: lessons.some((entry) => entry.id === saved.currentLesson)
-          ? Math.max(saved.currentLesson, CHECKPOINT_LESSON + 1)
+          ? saved.currentLesson
           : CHECKPOINT_LESSON + 1,
         completed: validCompleted, words: saved.words || {}
       };
@@ -356,6 +356,7 @@
 
   function mergeProgress(incoming, { cloud = true } = {}) {
     if (!incoming || incoming.version !== 1) throw new Error("Unsupported progress data");
+    const incomingIsNewer = (incoming.updatedAt || 0) > (state.updatedAt || 0);
     const completed = { ...state.completed };
     Object.entries(incoming.completed || {}).forEach(([key, value]) => {
       if (!VALID_COMPLETION_KEYS.has(key)) return;
@@ -380,7 +381,9 @@
     state = {
       ...state,
       xp: Math.max(state.xp || 0, incoming.xp || 0),
-      currentLesson: Math.max(state.currentLesson || 1, incoming.currentLesson || 1),
+      currentLesson: incomingIsNewer && lessons.some((entry) => entry.id === incoming.currentLesson)
+        ? incoming.currentLesson
+        : state.currentLesson,
       updatedAt: Math.max(state.updatedAt || 0, incoming.updatedAt || 0),
       completed,
       words

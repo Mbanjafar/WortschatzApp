@@ -1,5 +1,5 @@
-const CACHE = "wortschatz-en-de-v16";
-const ASSETS = ["./", "./index.html", "./styles.css", "./data.js", "./app.js", "./icon.svg", "./icon-512.png", "./apple-touch-icon.png", "./manifest.webmanifest", "./assets/lektion-1-memories.png", "./assets/lektion-2-friendship.png", "./assets/lektion-3-strengths.png", "./assets/lektion-4-habits.png"];
+const CACHE = "wortschatz-en-de-v17";
+const ASSETS = ["./", "./index.html", "./styles.css?v=17", "./data.js?v=17", "./app.js?v=17", "./icon.svg?v=17", "./icon-512.png", "./apple-touch-icon.png?v=17", "./manifest.webmanifest?v=17", "./assets/lektion-1-memories.png", "./assets/lektion-2-friendship.png", "./assets/lektion-3-strengths.png", "./assets/lektion-4-habits.png"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
